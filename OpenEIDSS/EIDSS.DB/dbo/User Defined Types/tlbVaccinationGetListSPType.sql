@@ -1,0 +1,23 @@
+﻿CREATE TYPE [dbo].[tlbVaccinationGetListSPType] AS TABLE (
+    [idfVaccination]           BIGINT          NOT NULL,
+    [idfVetCase]               BIGINT          NULL,
+    [idfSpecies]               BIGINT          NULL,
+    [SpeciesTypeName]          NVARCHAR (200)  NULL,
+    [idfsVaccinationType]      BIGINT          NULL,
+    [VaccinationTypeName]      NVARCHAR (200)  NULL,
+    [idfsVaccinationRoute]     BIGINT          NULL,
+    [VaccinationRouteTypeName] NVARCHAR (200)  NULL,
+    [idfsDiagnosis]            BIGINT          NULL,
+    [DiagnosisTypeName]        NVARCHAR (200)  NULL,
+    [strIDC10]                 NVARCHAR (200)  NULL,
+    [strOIECode]               NVARCHAR (200)  NULL,
+    [datVaccinationDate]       DATETIME        NULL,
+    [strManufacturer]          NVARCHAR (200)  NULL,
+    [strLotNumber]             NVARCHAR (200)  NULL,
+    [intNumberVaccinated]      INT             NULL,
+    [strNote]                  NVARCHAR (2000) NULL,
+    [intRowStatus]             INT             NOT NULL,
+    [strMaintenanceFlag]       NVARCHAR (20)   NULL,
+    [RecordAction]             NCHAR (1)       NULL,
+    PRIMARY KEY CLUSTERED ([idfVaccination] ASC));
+

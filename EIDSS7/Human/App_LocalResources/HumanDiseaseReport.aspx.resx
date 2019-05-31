@@ -1,0 +1,2238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Dis_Age.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hpl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="btn_Back.Value" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Continue.Value" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btn_Return_to_Person_Record.Title" xml:space="preserve">
+    <value>Returns to the profile of the person</value>
+  </data>
+  <data name="btn_Return_to_Person_Record.InnerText" xml:space="preserve">
+    <value>Return to Person Record</value>
+  </data>
+  <data name="btn_Return_to_Search.Value" xml:space="preserve">
+    <value>Return to Person Search</value>
+  </data>
+  <data name="btn_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_OK.InnerText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="hdg_Person_Information.InnerText" xml:space="preserve">
+    <value>Person Information</value>
+  </data>
+  <data name="Hdg_Person_Address_and_Phone.InnerText" xml:space="preserve">
+    <value>Current Address</value>
+  </data> 
+  <data name="Hdg_Person_Employment_School_Information.InnerText" xml:space="preserve">
+    <value>Employment/School</value>
+  </data>
+  <data name="Hdg_Print_Barcodes" xml:space="preserve">
+    <value>Barcode Labels</value>
+  </data>
+  <data name="lbl_Classification.InnerText" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="Lbl_Person_Review_Date_Created.InnerText" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="lbl_Date_of_Diagnosis.InnerText" xml:space="preserve">
+    <value>Date of Disease</value>
+  </data>
+  <data name="lbl_Date_of_Last_Appearence.InnerText" xml:space="preserve">
+    <value>Date of Last Appearence</value>
+  </data>
+  <data name="Lbl_Person_Review_Date_Updated.InnerText" xml:space="preserve">
+    <value>Date Updated</value>
+  </data>
+  <data name="Lbl_Person_Review_Current_Address.InnerText" xml:space="preserve">
+    <value>Person's Current Address</value>
+  </data>
+  <data name="lbl_Person_Review_Other_Address.InnerText" xml:space="preserve">
+    <value>Person's Other Address</value>
+  </data>
+  <data name="Lbl_Person_Review_Other_Phone.InnerText" xml:space="preserve">
+    <value>Person's Other Phone</value>
+  </data>
+  <data name="Lbl_Person_Review_Patient_ID.InnerText" xml:space="preserve">
+    <value>Person ID</value>
+  </data>
+  <data name="lbl_Status.InnerText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="btn_Continue.Title" xml:space="preserve">
+    <value>Click here to proceed to the next step</value>
+  </data>
+  <data name="hdg_EIDSS_ID.InnerText" xml:space="preserve">
+    <value> Report ID#</value>
+  </data>
+  <data name="lbl_Disease.InnerText" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="btn_Return_to_Person_Record.Text" xml:space="preserve">
+    <value>Return to Person Record</value>
+  </data>
+  <data name="Lbl_Disease_Diagnosis.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Eidss_Legacy_ID.InnerText" xml:space="preserve">
+    <value>Legacy ID</value>
+  </data>
+  <data name="lbl_Page_Error.InnerText" xml:space="preserve">
+    <value>An Error occurred On this page. Please verify your information To resolve the issue.</value>
+  </data>
+  <data name="hdg_Case_Investigation_Contact_List.InnerText" xml:space="preserve">
+    <value>Case Investigation: Contact List</value>
+  </data>
+  <data name="hdg_Case_Investigation_Details.InnerText" xml:space="preserve">
+    <value>Case Investigation: Details</value>
+  </data>
+  <data name="hdg_Case_Investigation_Final_Outcome.InnerText" xml:space="preserve">
+    <value>Final Outcome</value>
+  </data>
+  <data name="hdg_Case_Investigation_Risk_Factors.InnerText" xml:space="preserve">
+    <value>Case Investigation: Risk Factors</value>
+  </data>
+  <data name="hdg_Clinical_Information_Antibiotics.InnerText" xml:space="preserve">
+    <value>Clinical Information: Antibiotics</value>
+  </data>
+  <data name="hdg_Clinical_Information_Facility_Details.InnerText" xml:space="preserve">
+    <value>Clinical Information: Facility Details</value>
+  </data>
+  <data name="hdg_Clinical_Information_Vaccines.InnerText" xml:space="preserve">
+    <value>Clinical Information: Vaccines</value>
+  </data>
+  <data name="hdg_Human_Disease_Report.InnerText" xml:space="preserve">
+    <value>Human Disease Report</value>
+  </data>  
+  <data name="Btn_Return_To_Disease_Report_Record.InnerText" xml:space="preserve">
+    <value>Return to Disease Report Record</value>
+  </data>
+  <data name="lbl_Add_Contact.InnerText" xml:space="preserve">
+    <value>Add Contact</value>
+  </data>
+  <data name="lbl_Antibiotic_Antiviral_Therapy_Administered.InnerText" xml:space="preserve">
+    <value>Antibiotic/Antiviral Therapy Administered?</value>
+  </data>
+  <data name="lbl_Antibiotic_Name.InnerText" xml:space="preserve">
+    <value>Antibiotic Name</value>
+  </data>
+  <data name="lbl_Antibiotic_Name" xml:space="preserve">
+    <value>Antibiotic Name</value>
+  </data>
+  <data name="Lbl_Disease_Report_Case_Classification.InnerText" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="lbl_Hospitalization.InnerText" xml:space="preserve">
+    <value>Hospitalization</value>
+  </data>
+  <data name="lbl_Comments.InnerText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lbl_Date_Antibiotic_First_Administered.InnerText" xml:space="preserve">
+    <value>Date Antibiotic First Administered</value>
+  </data>
+  <data name="lbl_Date_Antibiotic_First_Administered" xml:space="preserve">
+    <value>Date Antibiotic First Administered</value>
+  </data>
+  <data name="lbl_Date_Entered.InnerText" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="lbl_Date_First_Sought_Care.InnerText" xml:space="preserve">
+    <value>Date Patient Sought Care</value>
+  </data>
+  <data name="lbl_Date_Last_Updated.InnerText" xml:space="preserve">
+    <value>Date Last Updated</value>
+  </data>
+  <data name="lbl_Date_of_Classification.InnerText" xml:space="preserve">
+    <value>Date of Final Case Classification</value>
+  </data>
+  <data name="lbl_Date_of_Death.InnerText" xml:space="preserve">
+    <value>Date of Death</value>
+  </data>
+  <data name="lbl_Date_of_Discharge.InnerText" xml:space="preserve">
+    <value>Date of Discharge</value>
+  </data>
+  <data name="lbl_Date_of_Hospitalization.InnerText" xml:space="preserve">
+    <value>Date of Hospitalization</value>
+  </data>
+  <data name="lbl_Date_of_Potential_Exposure.InnerText" xml:space="preserve">
+    <value>Date of potential exposure</value>
+  </data>
+  <data name="lbl_Date_of_Vaccination.InnerText" xml:space="preserve">
+    <value>Date of Vaccination</value>
+  </data>
+  <data name="lbl_Date_of_Vaccination" xml:space="preserve">
+    <value>Date of Vaccination</value>
+  </data>
+  <data name="lbl_Exposure_Address_Type.InnerText" xml:space="preserve">
+    <value>Exposure Address Type</value>
+  </data>
+  <data name="lbl_Exposure_Location_Description.InnerText" xml:space="preserve">
+    <value>Exposure Location Description</value>
+  </data>
+  <data name="lbl_Human_Disease_Report_Saved_Successfully.InnerText" xml:space="preserve">
+    <value>Save Successful for Human Disease Report</value>
+  </data>
+  <data name="lbl_Cancel_Disease_Report.InnerText" xml:space="preserve">
+    <value>Cancel Disease Report</value>
+  </data>
+  <data name="lbl_Epidemiologist_Name.InnerText" xml:space="preserve">
+    <value>Epidemiologist Name</value>
+  </data>  
+  <data name="Btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Btn_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Btn_Yes.Value" xml:space="preserve">
+    <value>Yes</value>
+  </data>  
+  <data name="Btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="dis_Distance.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Foreign_Address_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Ground_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="lbl_Facility_First_Sought_Care.InnerText" xml:space="preserve">
+    <value>Facility Patient First Sought Care</value>
+  </data>
+  <data name="lbl_Final_Case_Classification.InnerText" xml:space="preserve">
+    <value>Final Case Classification</value>
+  </data>
+  <data name="lbl_Hospitalization.InnerText" xml:space="preserve">
+    <value>Hospitalization</value>
+  </data>
+  <data name="lbl_Hospital_Name.InnerText" xml:space="preserve">
+    <value>Hospital Name</value>
+  </data>
+  <data name="lbl_Initial_Case_Classification.InnerText" xml:space="preserve">
+    <value>Initial Case Classification</value>
+  </data>
+  <data name="lbl_Investigator_Name_Organization.InnerText" xml:space="preserve">
+    <value>Investigating Organization</value>
+  </data>
+  <data name="lbl_Location_of_Exposure_Known.InnerText" xml:space="preserve">
+    <value>Location of exposure known?</value>
+  </data>
+  <data name="lbl_NonNotifiable_Diagnosis.InnerText" xml:space="preserve">
+    <value>Non-Notifiable Diagnosis from Facility where patient first sought care</value>
+  </data>
+  <data name="lbl_Notification_Received_by.InnerText" xml:space="preserve">
+    <value>Notification Received by Facility</value>
+  </data>
+  <data name="lbl_Notification_Sent_by.InnerText" xml:space="preserve">
+    <value>Notification Sent by Facility</value>
+  </data>
+  <data name="lbl_Outbreak_ID.InnerText" xml:space="preserve">
+    <value>Outbreak ID</value>
+  </data>
+  <data name="lbl_Patient_Previously_Sought.InnerText" xml:space="preserve">
+    <value>Patient previously sought care for similar symptoms</value>
+  </data>
+  <data name="lbl_Place_of_Last_Contact" xml:space="preserve">
+    <value>Place of Last Contact</value>
+  </data>
+  <data name="lbl_Related_to_Outbreak.InnerText" xml:space="preserve">
+    <value>Is this case related to an outbreak?</value>
+  </data>
+  <data name="Lbl_Disease_Report_ID.InnerText" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="Lbl_Disease_Report_Report_Status.InnerText" xml:space="preserve">
+    <value>Report Status</value>
+  </data>
+  <data name="lbl_Specific_Vaccination.InnerText" xml:space="preserve">
+    <value>Was specific vaccination administered?</value>
+  </data>
+  <data name="lbl_Start_Date_of_Investigation.InnerText" xml:space="preserve">
+    <value>Start date of Investigation</value>
+  </data>
+  <data name="lbl_Status_of_Patient.InnerText" xml:space="preserve">
+    <value>Status of Patient at Time of Notification</value>
+  </data>
+  <data name="lbl_Vaccination_Name.InnerText" xml:space="preserve">
+    <value>Vaccination Name</value>
+  </data>
+  <data name="lbl_Vaccination_Name" xml:space="preserve">
+    <value>Vaccination Name</value>
+  </data>
+  <data name="lbl_Basis_of_Diagnosis.InnerText" xml:space="preserve">
+    <value>Basis of Diagnosis</value>
+  </data>
+  <data name="tab_Antibiotic_Vaccine_History.Text" xml:space="preserve">
+    <value>Antibiotic/Vaccine History</value>
+  </data>
+  <data name="tab_Case_Details.Text" xml:space="preserve">
+    <value>Case Details</value>
+  </data>
+  <data name="tab_Case_Investigation.Text" xml:space="preserve">
+    <value>Case Investigation</value>
+  </data>
+  <data name="tab_Contact_List.Text" xml:space="preserve">
+    <value>Contact List</value>
+  </data>
+  <data name="tab_Disease_Person_Information.Text" xml:space="preserve">
+    <value>Person Information</value>
+  </data>
+  <data name="tab_Disease_Notification.Text" xml:space="preserve">
+    <value>Disease Notification</value>
+  </data>
+  <data name="tab_Disease_Report_Review.Text" xml:space="preserve">
+    <value>Disease Report Review</value>
+  </data>
+  <data name="tab_Facility_Details.Text" xml:space="preserve">
+    <value>Facility Details</value>
+  </data>
+  <data name="tab_Final_Outcome.Text" xml:space="preserve">
+    <value>Final Outcome</value>
+  </data>
+  <data name="tab_Risk_Factors.Text" xml:space="preserve">
+    <value>Risk Factors</value>
+  </data>
+  <data name="tab_Samples.Text" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="tab_Symptoms.Text" xml:space="preserve">
+    <value>Symptoms</value>
+  </data>
+  <data name="btn_Add_Contact.InnerText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_Contact.Value" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="hdg_Clinical_Information_Symptoms.InnerText" xml:space="preserve">
+    <value>Clinical Information: Symptoms</value>
+  </data>
+  <data name="hdg_Contact_Information.InnerText" xml:space="preserve">
+    <value>Contact Information</value>
+  </data>
+  <data name="hdg_Disease_Report_Summary.InnerText" xml:space="preserve">
+    <value>Disease Report Summary</value>
+  </data>
+  <data name="hdg_Samples.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>  
+  <data name="lbl_Date_of_Notification.InnerText" xml:space="preserve">
+    <value>Date of Notification</value>
+  </data>
+  <data name="lbl_Date_of_Symptom_Onset.InnerText" xml:space="preserve">
+    <value>Date of Symptom Onset</value>
+  </data>
+  <data name="lbl_Dose.InnerText" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="lbl_Dose" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="lbl_Exact.Text" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="lbl_Foreign.InnerText" xml:space="preserve">
+    <value>Foreign</value>
+  </data>
+  <data name="lbl_List_of_Symptoms.InnerText" xml:space="preserve">
+    <value>List of Symptoms</value>
+  </data>
+  <data name="lbl_Outcome.InnerText" xml:space="preserve">
+    <value>Outcome</value>
+  </data>
+  <data name="lbl_Place_of_Last_Contact.InnerText" xml:space="preserve">
+    <value>Place of Last Contact</value>
+  </data>
+  <data name="lbl_Relative.Text" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="Lbl_Address.InnerText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbl_Direction.InnerText" xml:space="preserve">
+    <value>Direction (#.##°)</value>
+  </data>
+  <data name="lbl_Groud_Type.InnerText" xml:space="preserve">
+    <value>Ground Type</value>
+  </data>
+  <data name="lbl_Distance.InnerText" xml:space="preserve">
+    <value>Distance (#.## km)</value>
+  </data>
+  <data name="lbl_Personal_ID_Type.InnerText" xml:space="preserve">
+    <value>Personal ID Type</value>
+  </data>
+  <data name="Lbl_Person_ID.InnerText" xml:space="preserve">
+    <value>Person ID</value>
+  </data>
+  <data name="lbl_Female.Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="lbl_First_Name.InnerText" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="lbl_Last_Name.InnerText" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="lbl_Male.Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="lbl_Middle_Name.InnerText" xml:space="preserve">
+    <value>Middle Name</value>
+  </data>
+  <data name="Req_DOB.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Employers_Country_Code_and_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Employer_Foreign_Address.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Employer_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_First_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Gender.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Middle_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Occupation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Other_Location.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Passport_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Passport_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="tab_Clinical_Information.Text" xml:space="preserve">
+    <value>Clinical Information</value>
+  </data>
+  <data name="tab_Antibiotic_Vaccine_History.ToolTip" xml:space="preserve">
+    <value>Antibiotic/Vaccine History</value>
+  </data>
+  <data name="tab_Case_Details.ToolTip" xml:space="preserve">
+    <value>Case Details</value>
+  </data>
+  <data name="tab_Case_Investigation.ToolTip" xml:space="preserve">
+    <value>Case Investigation</value>
+  </data>
+  <data name="tab_Clinical_Information.ToolTip" xml:space="preserve">
+    <value>Clinical Information</value>
+  </data>
+  <data name="tab_Contact_List.ToolTip" xml:space="preserve">
+    <value>Contact List</value>
+  </data>
+  <data name="tab_Disease_Notification.ToolTip" xml:space="preserve">
+    <value>Disease Notification</value>
+  </data>
+  <data name="tab_Disease_Report_Review.ToolTip" xml:space="preserve">
+    <value>Disease Report Review</value>
+  </data>
+  <data name="tab_Facility_Details.ToolTip" xml:space="preserve">
+    <value>Facility Details</value>
+  </data>
+  <data name="tab_Final_Outcome.ToolTip" xml:space="preserve">
+    <value>Final Outcome</value>
+  </data>
+  <data name="tab_Risk_Factors.ToolTip" xml:space="preserve">
+    <value>Risk Factors</value>
+  </data>
+  <data name="tab_Samples.ToolTip" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="tab_Symptoms.ToolTip" xml:space="preserve">
+    <value>Symptoms</value>
+  </data>
+  <data name="btn_Return_to_Search.Text" xml:space="preserve">
+    <value>Return to Person Search</value>
+  </data>
+  <data name="Lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Date_of_Last_Appearence.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Last_Appearence_in_School.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Last_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Last_Appearence.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Last_Appearence.ErrorMessage" xml:space="preserve">
+    <value>Date of Last Appearance is required</value>
+  </data>
+  <data name="Val_Date_of_Last_Appearence.Text" xml:space="preserve">
+    <value>Date of Last Appearance is required</value>
+  </data>
+  <data name="Val_Date_of_Last_Appearence_in_School.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Last_Appearence_in_School.ErrorMessage" xml:space="preserve">
+    <value>Date of Last Appearance in school is required</value>
+  </data>
+  <data name="Val_Date_of_Last_Appearence_in_School.Text" xml:space="preserve">
+    <value>Date of Last Appearance in school is required</value>
+  </data>
+  <data name="Val_Disease_Notification_Not_Future_Diagnostic_Date" xml:space="preserve">
+  <value>Must be earlier than or same as current date. No future dates are allowed.</value>
+  </data>
+  <data name="Val_Disease_Notification_Diagnostic_Date_Prior_Or_Same_Notification_Date" xml:space="preserve">
+  <value>Must be prior to or same as Notification date.</value>
+  </data>
+  <data name="Val_Disease_Notification_Prior_Or_Same_Diagnosis_Date" xml:space="preserve">
+  <value>Must be before or same day as Date of Diagnosis. No future dates are allowed.</value>
+  </data>
+  <data name="Val_Disease_Notification_Syndromic Surveillance_Sent_By" xml:space="preserve">
+  <value>Required if the Disease is a Syndromic Surveillance condition.</value>
+  </data>
+  <data name="Val_Symptom_On_Set_Date" xml:space="preserve">
+  <value>Must be before or same day as Date of Diagnosis. No future dates are allowed.</value>
+  </data>
+  <data name="Val_Facility_First_Sought_Care_Date" xml:space="preserve">
+  <value>Must be on or after Symptom Onset, and prior to or on Date of Diagnosis. No future dates allowed.</value>
+  </data>
+  <data name="Val_Hospitalization_Date" xml:space="preserve">
+  <value>Must be after Symptom Onset date. No future dates allowed.</value>
+  </data>
+  <data name="Val_Hospitalization_Discharge_Date_Date" xml:space="preserve">
+  <value>Must be on or after Date of Hospitalization. No future dates allowed.</value>
+  </data>
+  <data name="Val_AntibioticVaccineHistory_First_Administered_Date" xml:space="preserve">
+  <value>Must be on or after Symptom Onset date. No future dates allowed.</value>
+  </data>
+  <data name="Val_Case_Investigation_Start_Date_of_Investigation" xml:space="preserve">
+  <value>Must be on or after Notification date. No future dates allowed.</value>
+  </data>
+  <data name="Val_Final_Outcome_Date_Of_Classification" xml:space="preserve">
+  <value>Must be the same or after Result Date. If no Result Date, then after Date of Diagnosis. No future dates allowed.</value>
+  </data>
+  <data name="Req_Age.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Diagnosis.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Notification.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Hospital_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Notification_Received_by.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Notification_Sent_by.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Other_Location.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Status_of_Patient.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Diagnosis.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Diagnosis.ErrorMessage" xml:space="preserve">
+    <value>Date of Disease is required</value>
+  </data>
+  <data name="Val_Date_of_Diagnosis.Text" xml:space="preserve">
+    <value>Date of Disease is required</value>
+  </data>
+  <data name="Val_Date_of_Notification.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Notification.ErrorMessage" xml:space="preserve">
+    <value>Date of Notification is required</value>
+  </data>
+  <data name="Val_Date_of_Notification.Text" xml:space="preserve">
+    <value>Date of Notification is required</value>
+  </data>
+  <data name="Val_Diagnosis.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Diagnosis.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Diagnosis.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Hospital_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Hospital_Name.ErrorMessage" xml:space="preserve">
+    <value>Hospital Name is required</value>
+  </data>
+  <data name="Val_Hospital_Name.Text" xml:space="preserve">
+    <value>Hospital Name is required</value>
+  </data>
+  <data name="Val_Notification_Received_by.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Notification_Received_by.ErrorMessage" xml:space="preserve">
+    <value>Notification Sent By is required</value>
+  </data>
+  <data name="Val_Notification_Received_by.Text" xml:space="preserve">
+    <value>Notification Sent By is required</value>
+  </data>
+  <data name="lbl_Notification_Received_By_Name.InnerText" xml:space="preserve">
+    <value>Notification Received By Name</value>
+  </data>
+  <data name="lbl_Notification_Sent_By_Name.InnerText" xml:space="preserve">
+    <value>Notification Sent By Name</value>
+  </data>
+  <data name="Val_Notification_Sent_by.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Notification_Sent_by.ErrorMessage" xml:space="preserve">
+    <value>Notification Sent By is required</value>
+  </data>
+  <data name="Val_Notification_Sent_by.Text" xml:space="preserve">
+    <value>Notification Sent By is required</value>
+  </data>
+  <data name="Val_Other_Location.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Other_Location.ErrorMessage" xml:space="preserve">
+    <value>Other Location is required</value>
+  </data>
+  <data name="Val_Other_Location.Text" xml:space="preserve">
+    <value>Other Location is required</value>
+  </data>
+  <data name="Val_Status_of_Patient.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Status_of_Patient.ErrorMessage" xml:space="preserve">
+    <value>Status of Patient is required</value>
+  </data>
+  <data name="Val_Status_of_Patient.Text" xml:space="preserve">
+    <value>Status of Patient is required</value>
+  </data>
+  <data name="lbl_Antibiotic_Vaccine_History_Comments.InnerText" xml:space="preserve">
+    <value>Additional Information/Comments</value>
+  </data>
+  <data name="lbl_Antibiotic_Vaccine_History_Comments.ToolTip" xml:space="preserve">
+    <value>Additional Information/Comments</value>
+  </data>
+  <data name="lbl_Facility_Name.InnerText" xml:space="preserve">
+    <value>Hospital Name</value>
+  </data>
+  <data name="lbl_Facility_Name.ToolTip" xml:space="preserve">
+    <value>Hospital Name</value>
+  </data>
+  <data name="Req_Antibiotic_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Antibiotic_Vaccine_History_Comments.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Symptom_Comments.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_Antibiotic_First_Administered.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_First_Sought_Care.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Classification.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Death.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Discharge.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Hospitalization.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Potential_Exposure.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Symptom_Onset.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_of_Vaccination.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Dose.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Exposure_Location_Description.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Facility_First_Sought_Care.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Facility_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Final_Case_Classification.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Initial_Case_Classification.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Investigator_Name_Organization.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_NonNotifiable_Diagnosis.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Outbreak_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Outcome.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Start_Date_of_Investigation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Vaccination_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Antibiotic_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Antibiotic_Name.ErrorMessage" xml:space="preserve">
+    <value>Antibiotic Name is required</value>
+  </data>
+  <data name="Val_Antibiotic_Name.Text" xml:space="preserve">
+    <value>Antibiotic Name is required</value>
+  </data>
+  <data name="Val_Antibiotic_Vaccine_History_Comments.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Antibiotic_Vaccine_History_Comments.ErrorMessage" xml:space="preserve">
+    <value>Comments are required</value>
+  </data>
+  <data name="Val_Antibiotic_Vaccine_History_Comments.Text" xml:space="preserve">
+    <value>Comments are required</value>
+  </data>
+  <data name="Val_Comments.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Comments.ErrorMessage" xml:space="preserve">
+    <value>Comments is required</value>
+  </data>
+  <data name="Val_Comments.Text" xml:space="preserve">
+    <value>Comments is required</value>
+  </data>
+  <data name="Val_Date_Antibiotic_First_Administered.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_Antibiotic_First_Administered.ErrorMessage" xml:space="preserve">
+    <value>Date Antibiotic First Administered is required</value>
+  </data>
+  <data name="Val_Date_Antibiotic_First_Administered.Text" xml:space="preserve">
+    <value>Date Antibiotic First Administered is required</value>
+  </data>
+  <data name="Val_Date_First_Sought_Care.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_First_Sought_Care.ErrorMessage" xml:space="preserve">
+    <value>Date First Sought Care is required</value>
+  </data>
+  <data name="Val_Date_First_Sought_Care.Text" xml:space="preserve">
+    <value>Date First Sought Care is required</value>
+  </data>
+  <data name="Val_Date_of_Classification.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Classification.ErrorMessage" xml:space="preserve">
+    <value>Date of Classification is required</value>
+  </data>
+  <data name="Val_Date_of_Classification.Text" xml:space="preserve">
+    <value>Date of Classification is required</value>
+  </data>
+  <data name="Val_Date_of_Death.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Death.ErrorMessage" xml:space="preserve">
+    <value>Date of Death is required</value>
+  </data>
+  <data name="Val_Date_of_Death.Text" xml:space="preserve">
+    <value>Date of Death is required</value>
+  </data>
+  <data name="Val_Date_of_Discharge.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Discharge.ErrorMessage" xml:space="preserve">
+    <value>Date of Discharge is required</value>
+  </data>
+  <data name="Val_Date_of_Discharge.Text" xml:space="preserve">
+    <value>Date of Discharge is required</value>
+  </data>
+  <data name="Val_Date_of_Hospitalization.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Hospitalization.ErrorMessage" xml:space="preserve">
+    <value>Date of Hospitalization is required</value>
+  </data>
+  <data name="Val_Date_of_Hospitalization.Text" xml:space="preserve">
+    <value>Date of Hospitalization is required</value>
+  </data>
+  <data name="Val_Date_of_Potential_Exposure.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Potential_Exposure.ErrorMessage" xml:space="preserve">
+    <value>Date of Potential Exposure</value>
+  </data>
+  <data name="Val_Date_of_Potential_Exposure.Text" xml:space="preserve">
+    <value>Date of Potential Exposure</value>
+  </data>
+  <data name="Val_Date_of_Symptom_Onset.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Symptom_Onset.ErrorMessage" xml:space="preserve">
+    <value>Date of Symptom Onset is required</value>
+  </data>
+  <data name="Val_Date_of_Symptom_Onset.Text" xml:space="preserve">
+    <value>Date of Symptom Onset is required</value>
+  </data>
+  <data name="Val_Date_of_Vaccination.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_of_Vaccination.ErrorMessage" xml:space="preserve">
+    <value>Date of Vaccination is required</value>
+  </data>
+  <data name="Val_Date_of_Vaccination.Text" xml:space="preserve">
+    <value>Date of Vaccination is required</value>
+  </data>
+  <data name="Val_Dose.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Dose.ErrorMessage" xml:space="preserve">
+    <value>Dose is required</value>
+  </data>
+  <data name="Val_Dose.Text" xml:space="preserve">
+    <value>Dose is required</value>
+  </data>
+  <data name="Val_Exposure_Location_Description.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Exposure_Location_Description.ErrorMessage" xml:space="preserve">
+    <value>Exposure Location Description is required</value>
+  </data>
+  <data name="Val_Exposure_Location_Description.Text" xml:space="preserve">
+    <value>Exposure Location Description is required</value>
+  </data>
+  <data name="Val_Facility_First_Sought_Care.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Facility_First_Sought_Care.ErrorMessage" xml:space="preserve">
+    <value>Faciilty First Sought Care is required</value>
+  </data>
+  <data name="Val_Facility_First_Sought_Care.Text" xml:space="preserve">
+    <value>Faciilty First Sought Care is required</value>
+  </data>
+  <data name="Val_Facility_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Facility_Name.ErrorMessage" xml:space="preserve">
+    <value>Facility Name is required</value>
+  </data>
+  <data name="Val_Facility_Name.Text" xml:space="preserve">
+    <value>Facility Name is required</value>
+  </data>
+  <data name="Val_Final_Case_Classification.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Final_Case_Classification.ErrorMessage" xml:space="preserve">
+    <value>Final Case Classification is required</value>
+  </data>
+  <data name="Val_Final_Case_Classification.Text" xml:space="preserve">
+    <value>Final Case Classification is required</value>
+  </data>
+  <data name="Val_Initial_Case_Classification.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Initial_Case_Classification.ErrorMessage" xml:space="preserve">
+    <value>Initial Case Classification is required</value>
+  </data>
+  <data name="Val_Initial_Case_Classification.Text" xml:space="preserve">
+    <value>Initial Case Classification is required</value>
+  </data>
+  <data name="Val_Investigator_Name_Organization.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Investigator_Name_Organization.ErrorMessage" xml:space="preserve">
+    <value>Investigator Name Organization is required</value>
+  </data>
+  <data name="Val_Investigator_Name_Organization.Text" xml:space="preserve">
+    <value>Investigator Name Organization is required</value>
+  </data>
+  <data name="Val_NonNotifiable_Diagnosis.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_NonNotifiable_Diagnosis.ErrorMessage" xml:space="preserve">
+    <value>NonNotifiable Disease is required</value>
+  </data>
+  <data name="Val_NonNotifiable_Diagnosis.Text" xml:space="preserve">
+    <value>NonNotifiable Disease is required</value>
+  </data>
+  <data name="Val_Outbreak_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Outbreak_ID.ErrorMessage" xml:space="preserve">
+    <value>Outbreak ID is required</value>
+  </data>
+  <data name="Val_Outbreak_ID.Text" xml:space="preserve">
+    <value>Outbreak ID is required</value>
+  </data>
+  <data name="Val_Outcome.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Outcome.ErrorMessage" xml:space="preserve">
+    <value>Outcome is required</value>
+  </data>
+  <data name="Val_Outcome.Text" xml:space="preserve">
+    <value>Outcome is required</value>
+  </data>
+  <data name="Val_Start_Date_of_Investigation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Start_Date_of_Investigation.ErrorMessage" xml:space="preserve">
+    <value>Start Date of Investigation is required</value>
+  </data>
+  <data name="Val_Start_Date_of_Investigation.Text" xml:space="preserve">
+    <value>Start Date of Investigation is required</value>
+  </data>
+  <data name="Val_Vaccination_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Name.ErrorMessage" xml:space="preserve">
+    <value>Vaccination Name is required</value>
+  </data>
+  <data name="Val_Vaccination_Name.Text" xml:space="preserve">
+    <value>Vaccination Name is required</value>
+  </data>
+  <data name="btn_Submit_Disease.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btn_Submit_Disease.ToolTip" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Dis_Add_Sample_Observation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Add_Sample_Test_Category.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Add_Sample_Test_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Antibiotic_Antiviral_Therapy_Administered.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Antibiotic_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Antibiotic_Vaccine_History_Comments.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Citizenship.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Country_Code_And_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Current_Address.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Date_Of_Birth.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Date_of_Last_Contact.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_First_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Foreign_Address.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Gender.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Last_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Middle_Initial.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Phone_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Contact_Information_Relation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_Antibiotic_First_Administered.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_First_Sought_Care.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Classification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Death.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Discharge.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Hospitalization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Last_Appearence.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Last_Appearence_in_School.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Notification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Potential_Exposure.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Symptom_Onset.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_of_Vaccination.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Eidss_Legacy_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Report_Case_Classification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Report_EIDSS_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Report_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Report_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease_Report_Report_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Dose.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Exposure_Address_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Exposure_Location_Description.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Facility_First_Sought_Care.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Facility_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Final_Case_Classification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Hospitalization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Hospital_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Initial_Case_Classification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Investigator_Name_Organization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Location_of_Exposure_Known.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_NonNotifiable_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Notification_Received_by.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Notification_Sent_by.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Outbreak_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Outcome.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Patient_Previously_Sought.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Related_to_Outbreak.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Info_Result_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Info_Test_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Info_Test_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Specific_Vaccination.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Start_Date_of_Investigation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Status_of_Patient.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Symptom_Comments.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Vaccination_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Add_Sample_Observation.Text" xml:space="preserve">
+    <value>Observation</value>
+  </data>
+  <data name="Lbl_Add_Sample_Observation.ToolTip" xml:space="preserve">
+    <value>Observation</value>
+  </data>
+  <data name="Lbl_Add_Sample_Test_Category.Text" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Lbl_Add_Sample_Test_Category.ToolTip" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Lbl_Add_Sample_Test_Status.Text" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Lbl_Add_Sample_Test_Status.ToolTip" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="lbl_Age.InnerText" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="lbl_Antiviral_Therapy.Text" xml:space="preserve">
+    <value>Antibiotic/Antiviral Therapy</value>
+  </data>
+  <data name="Lbl_Contact_Information_Citizenship.Text" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Lbl_Contact_Information_Citizenship.ToolTip" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Lbl_Contact_Information_Country_Code_And_Number.Text" xml:space="preserve">
+    <value>Country Code + Number</value>
+  </data>
+  <data name="Lbl_Contact_Information_Country_Code_And_Number.ToolTip" xml:space="preserve">
+    <value>Country Code + Number</value>
+  </data>
+  <data name="Lbl_Contact_Information_Current_Address.Text" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="Lbl_Contact_Information_Current_Address.ToolTip" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="Lbl_Contact_Information_Foreign_Address.Text" xml:space="preserve">
+    <value>Foreign Address</value>
+  </data>
+  <data name="Lbl_Contact_Information_Foreign_Address.ToolTip" xml:space="preserve">
+    <value>Foreign Address</value>
+  </data>
+  <data name="Lbl_Contact_Information_Date_Of_Birth.Text" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Lbl_Contact_Information_Date_Of_Birth.ToolTip" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Lbl_Contact_Information_Date_of_Last_Contact.InnerText" xml:space="preserve">
+    <value>Date of Last Contact</value>
+  </data>
+  <data name="Lbl_Contact_Information_Date_of_Last_Contact.ToolTip" xml:space="preserve">
+    <value>Date of Last Contact</value>
+  </data>
+  <data name="Lbl_Contact_Information_Employer_Phone.Text" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="Lbl_Contact_Information_Employer_Phone.ToolTip" xml:space="preserve">
+    <value>Employer Phone</value>
+  </data>
+  <data name="Lbl_Contact_Information_First_Name.Text" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="Lbl_Contact_Information_First_Name.ToolTip" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Lbl_Contact_Information_Foreign_Address.Text" xml:space="preserve">
+    <value>Foreign Address</value>
+  </data>
+  <data name="Lbl_Contact_Information_Foreign_Address.ToolTip" xml:space="preserve">
+    <value>Foreign Address</value>
+  </data>
+  <data name="Lbl_Contact_Information_Gender.Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Lbl_Contact_Information_Gender.ToolTip" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Lbl_Contact_Information_Last_Name.Text" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="Lbl_Contact_Information_Last_Name.ToolTip" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Lbl_Contact_Information_Middle_Initial.Text" xml:space="preserve">
+    <value>M.I.</value>
+  </data>
+  <data name="Lbl_Contact_Information_Middle_Initial.ToolTip" xml:space="preserve">
+    <value>Middle Name</value>
+  </data>
+  <data name="Lbl_Contact_Information_Phone_Type.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_Contact_Information_Phone_Type.ToolTip" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="Lbl_Contact_Information_Relation.Text" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="Lbl_Contact_Information_Relation.ToolTip" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="lbl_Date_of_Last_Appearence_in_School.InnerText" xml:space="preserve">
+    <value>Date of Last Appearance</value>
+  </data>
+  <data name="Lbl_Disease_Report_EIDSS_ID.InnerText" xml:space="preserve">
+    <value>Person ID</value>
+  </data>
+  <data name="Lbl_Disease_Report_Name.InnerText" xml:space="preserve">
+    <value>Person Name</value>
+  </data>
+  <data name="Lbl_Interpreted_Status_Rule_In.InnerText" xml:space="preserve">
+    <value>Rule In</value>
+  </data>
+  <data name="Lbl_Interpreted_Status_Rule_Out.InnerText" xml:space="preserve">
+    <value>Rule Out</value>
+  </data>
+  <data name="Lbl_Person_Review_Age.InnerText" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Lbl_Person_Review_Citizenship.InnerText" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Lbl_Person_Review_DOB.InnerText" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Lbl_Person_Review_Gender.InnerText" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Lbl_Person_Review_Name.InnerText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_Person_Review_Passport_Number.InnerText" xml:space="preserve">
+    <value>Passport Number</value>
+  </data>
+  <data name="Lbl_Person_Review_Personal_ID_Type.InnerText" xml:space="preserve">
+    <value>Personal ID Type</value>
+  </data>
+  <data name="Lbl_Personal_ID.InnerText" xml:space="preserve">
+    <value>Personal ID</value>
+  </data>
+  <data name="Lbl_Person_Review_Phone_Number.InnerText" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+  <data name="lbl_Citizenship.InnerText" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="lbl_DOB.InnerText" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Lbl_Gender.InnerText" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Lbl_House.InnerText" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="Lbl_Occupation.Text" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Lbl_Occupation.ToolTip" xml:space="preserve">
+    <value>Occupation</value>
+  </data>
+  <data name="Lbl_Other_Location.InnerText" xml:space="preserve">
+    <value>Other Location</value>
+  </data>
+  <data name="Lbl_Passport_Number.InnerText" xml:space="preserve">
+    <value>Passport Number</value>
+  </data>
+  <data name="Lbl_Another_Address.InnerText" xml:space="preserve">
+    <value>Is there another address where this person can reside?</value>
+  </data>
+  <data name="Lbl_Postal_Code.InnerText" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Lbl_Schools_Name.InnerText" xml:space="preserve">
+    <value>School's Name</value>
+  </data>
+  <data name="Lbl_Persons_Country_Code_and_Number.InnerText" xml:space="preserve">
+    <value>Country Code and Number</value>
+  </data>
+  <data name="Lbl_Persons_Phone_Number.InnerText" xml:space="preserve">
+    <value>Person's Phone Number</value>
+  </data>
+  <data name="Lbl_Persons_Phone_Type.InnerText" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="Lbl_Person_Another_Phone.InnerText" xml:space="preserve">
+    <value>Is there another phone number for the person?</value>
+  </data>
+  <data name="Lbl_Person_Country_Code_and_Number.InnerText" xml:space="preserve">
+    <value>Country Code and Number</value>
+  </data>
+  <data name="Lbl_Person_Other_Phone.InnerText" xml:space="preserve">
+    <value>Person's Other Phone Number</value>
+  </data>
+  <data name="Lbl_Schools_Phone_Number.InnerText" xml:space="preserve">
+    <value>School's Phone Number</value>
+  </data>
+  <data name="Lbl_School_Address.InnerText" xml:space="preserve">
+    <value>School Address</value>
+  </data>
+  <data name="Lbl_School_Country_Code_and_Number.InnerText" xml:space="preserve">
+    <value>Country Code and Number</value>
+  </data>
+  <data name="Lbl_School_Foreign_Address.Text" xml:space="preserve">
+    <value>School Foreign Address</value>
+  </data>
+  <data name="Lbl_School_Foreign_Address.ToolTip" xml:space="preserve">
+    <value>School Foreign Address</value>
+  </data>
+  <data name="Lbl_Street.InnerText" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Lbl_Suffix.InnerText" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="Lbl_Town_Village.InnerText" xml:space="preserve">
+    <value>Town/Village</value>
+  </data>
+  <data name="Lbl_Unknown.InnerText" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Lbl_Unknown.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="lbl_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Lbl_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Lbl_Sample_Info_Result_Date.Text" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Lbl_Sample_Info_Result_Date.ToolTip" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Lbl_Sample_Info_Test_Diagnosis.Text" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="Lbl_Sample_Info_Test_Diagnosis.ToolTip" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="Lbl_Sample_Info_Test_Name.Text" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Lbl_Sample_Info_Test_Name.ToolTip" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Req_Add_Sample_Observation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>  
+  <data name="Req_Add_Sample_Test_Category.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Add_Sample_Test_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Citizenship.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Country_Code_And_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Current_Address.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Foregn_Address.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Date_Of_Birth.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Date_of_Last_Contact.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_First_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Gender.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Last_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Middle_Initial.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Phone_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Contact_Information_Relation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Info_Result_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Info_Test_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Sample_Info_Test_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Add_Sample_Observation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Add_Sample_Observation.ErrorMessage" xml:space="preserve">
+    <value>Observation is required</value>
+  </data>
+  <data name="Val_Add_Sample_Observation.Text" xml:space="preserve">
+    <value>Observation is required</value>
+  </data>
+  <data name="Val_Add_Sample_Test_Category.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Add_Sample_Test_Category.ErrorMessage" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Add_Sample_Test_Category.Text" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Add_Sample_Test_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Add_Sample_Test_Status.ErrorMessage" xml:space="preserve">
+    <value>Test Status is required</value>
+  </data>
+  <data name="Val_Add_Sample_Test_Status.Text" xml:space="preserve">
+    <value>Test Status is required</value>
+  </data>
+  <data name="Val_Age.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Age.ErrorMessage" xml:space="preserve">
+    <value>Age is required</value>
+  </data>
+  <data name="Val_Age.Text" xml:space="preserve">
+    <value>Age is required</value>
+  </data>
+  <data name="Val_Contact_Information_Citizenship.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Citizenship.ErrorMessage" xml:space="preserve">
+    <value>Citizenship is  required</value>
+  </data>
+  <data name="Val_Contact_Information_Citizenship.Text" xml:space="preserve">
+    <value>Citizenship is  required</value>
+  </data>
+  <data name="Val_Contact_Information_Country_Code_And_Number.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Country_Code_And_Number.ErrorMessage" xml:space="preserve">
+    <value>Country Code and Number is required</value>
+  </data>
+  <data name="Val_Contact_Information_Country_Code_And_Number.Text" xml:space="preserve">
+    <value>Country Code and Number is required</value>
+  </data>
+  <data name="Val_Contact_Information_Date_Of_Birth.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Date_Of_Birth.ErrorMessage" xml:space="preserve">
+    <value>Date of Birth is required</value>
+  </data>
+  <data name="Val_Contact_Information_Date_Of_Birth.Text" xml:space="preserve">
+    <value>Date of Birth is required</value>
+  </data>
+  <data name="Val_Contact_Information_Date_of_Last_Contact.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Date_of_Last_Contact.ErrorMessage" xml:space="preserve">
+    <value>Date of Last Contact is  required</value>
+  </data>
+  <data name="Val_Contact_Information_Date_of_Last_Contact.Text" xml:space="preserve">
+    <value>Date of Last Contact is  required</value>
+  </data>
+  <data name="Val_Contact_Information_First_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_First_Name.ErrorMessage" xml:space="preserve">
+    <value>First Name is required</value>
+  </data>
+  <data name="Val_Contact_Information_First_Name.Text" xml:space="preserve">
+    <value>First Name is required</value>
+  </data>
+  <data name="Val_Contact_Information_Gender.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Gender.ErrorMessage" xml:space="preserve">
+    <value>Gender is required</value>
+  </data>
+  <data name="Val_Contact_Information_Gender.Text" xml:space="preserve">
+    <value>Gender is required</value>
+  </data>
+  <data name="Val_Contact_Information_Last_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Last_Name.ErrorMessage" xml:space="preserve">
+    <value>Last Name is required</value>
+  </data>
+  <data name="Val_Contact_Information_Last_Name.Text" xml:space="preserve">
+    <value>Last Name is required</value>
+  </data>
+  <data name="Val_Contact_Information_Middle_Initial.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Middle_Initial.ErrorMessage" xml:space="preserve">
+    <value>Middle Name is required</value>
+  </data>
+  <data name="Val_Contact_Information_Middle_Initial.Text" xml:space="preserve">
+    <value>Middle Name is required</value>
+  </data>
+  <data name="Val_Contact_Information_Phone_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Phone_Type.ErrorMessage" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="Val_Contact_Information_Phone_Type.Text" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="Val_Contact_Information_Relation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Relation.ErrorMessage" xml:space="preserve">
+    <value>Relation is required</value>
+  </data>
+  <data name="Val_Contact_Information_Relation.Text" xml:space="preserve">
+    <value>Relation is required</value>
+  </data>
+  <data name="Val_Sample_Info_Result_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Info_Result_Date.ErrorMessage" xml:space="preserve">
+    <value>Result Date is required</value>
+  </data>
+  <data name="Val_Sample_Info_Result_Date.Text" xml:space="preserve">
+    <value>Result Date is required</value>
+  </data>
+  <data name="Val_Sample_Info_Test_Diagnosis.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Info_Test_Diagnosis.ErrorMessage" xml:space="preserve">
+    <value>Test Disease is required</value>
+  </data>
+  <data name="Val_Sample_Info_Test_Diagnosis.Text" xml:space="preserve">
+    <value>Test Disease is required</value>
+  </data>
+  <data name="Val_Sample_Info_Test_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Info_Test_Name.ErrorMessage" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Sample_Info_Test_Name.Text" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Dis_Contact_Information_Place_of_Last_Contact.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Contact_Information_Place_of_Last_Contact.Text" xml:space="preserve">
+    <value>Place of Last Contact</value>
+  </data>
+  <data name="Lbl_Contact_Information_Place_of_Last_Contact.ToolTip" xml:space="preserve">
+    <value>Place of Last Contact</value>
+  </data>
+  <data name="Req_Contact_Information_Place_of_Last_Contact.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Place_of_Last_Contact.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Contact_Information_Place_of_Last_Contact.ErrorMessage" xml:space="preserve">
+    <value>Place of Last Contact is required</value>
+  </data>
+  <data name="Val_Contact_Information_Place_of_Last_Contact.Text" xml:space="preserve">
+    <value>Place of Last Contact is required</value>
+  </data>
+  <data name="Dis_Occupation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Page_Text_1" xml:space="preserve">
+    <value>Indicates required information</value>
+  </data>
+  <data name="Req_Occupation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Occupation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Occupation.ErrorMessage" xml:space="preserve">
+    <value>Occupation is required</value>
+  </data>
+  <data name="Val_Occupation.Text" xml:space="preserve">
+    <value>Occupation is required</value>
+  </data>
+  <data name="Hdg_Disease_Notification_Sub_Title.InnerText" xml:space="preserve">
+    <value>Disease Notification</value>
+  </data>
+  <data name="lbl_Diagnosis.Text" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="lbl_Diagnosis.ToolTip" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Val_DateRange.ErrorMessage" xml:space="preserve">
+    <value>Date must not be greater than today</value>
+  </data>
+  <data name="Val_DateRange.Text" xml:space="preserve">
+    <value>Date must not be greater than today</value>
+  </data>
+  <data name="Lbl_EIDSS_ID_Number.InnerText" xml:space="preserve">
+    <value>Report ID Number</value>
+  </data>
+  <data name="Lbl_Person_Review_Person_ID.InnerText" xml:space="preserve">
+    <value>Person ID</value>
+  </data>
+  <data name="Dis_Persons_Current_Location.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Persons_Phone_Number.Visible" xml:space="preserve">
+  <value>True</value>
+  </data>
+  <data name="Dis_Persons_Current_Location.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Persons_Phone_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Persons_Phone_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Person_Another_Phone.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Related_to_Outbreak.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Schools_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_School_Country_Code_and_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_School_Foreign_Address.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_Persons_Current_Location.InnerText" xml:space="preserve">
+    <value>Current Location of Patient</value>
+  </data>
+  <data name="Val_Persons_Current_Location.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Persons_Current_Location.ErrorMessage" xml:space="preserve">
+    <value>Person's Current Location is required</value>
+  </data>
+  <data name="Val_Persons_Current_Location.Text" xml:space="preserve">
+    <value>Person's Current Location is required</value>
+  </data>
+  <data name="lbl_Foreign.Text" xml:space="preserve">
+    <value>Foreign</value>
+  </data>
+  <data name="lbl_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>    
+  <data name="tab_Review.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="tab_Review.ToolTip" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="lbl_Unit_of_Measurement.InnerText" xml:space="preserve">
+    <value>Unit of Measurement</value>
+  </data>
+  <data name="btn_Return_to_Report_Search.InnerText" xml:space="preserve">
+    <value>Return to Report Search</value>
+  </data>
+  <data name="btn_Return_to_Report_Search.Text" xml:space="preserve">
+    <value>Return to Report Search</value>
+  </data>
+  <data name="Msg_Add_Update_Disease_Report_Error" xml:space="preserve">
+    <value>'Error Saving Report.'</value>
+  </data>
+  <data name="Msg_Add_Update_Disease_Report_Success" xml:space="preserve">
+    <value>'Report Saved Successfully.'</value>
+  </data>
+  <data name="lbl_Entered_By_Organization_Full_Name.InnerText" xml:space="preserve">
+    <value>Entered By Organization</value>
+  </data>
+  <data name="lbl_Related_To.InnerText" xml:space="preserve">
+    <value>Related To </value>
+  </data>
+  <data name="lbl_Person_Entered_By.InnerText" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="Val_Notification_Sent_by_Req_If_Syndomic.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Notification_Sent_by_Req_If_Syndomic.ErrorMessage" xml:space="preserve">
+    <value>Custom Validator Error Message</value>
+  </data>
+  <data name="Val_Notification_Sent_by_Req_If_Syndomic.Text" xml:space="preserve">
+    <value>Required if the Disease is a Syndromic Surveillance condition.</value>
+  </data>
+  <data name="Grd_Symptoms_Column_Heading_Checkbox_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Grd_Symptoms_Column_Heading_Checkbox_Unknown" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Grd_Symptoms_Column_Heading_Checkbox_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Grd_Symptoms_Column_Heading_idfSymptomName" xml:space="preserve">
+    <value>Symptom</value>
+  </data>
+  <data name="lbl_List_of_Symptoms.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="lbl_List_of_AntiviralTherapies.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="lbl_List_of_Vaccinations.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_idfsYNSpecimenCollected.visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Samples_Date_Received_Heading" xml:space="preserve">
+    <value>Date Received</value>
+  </data>
+  <data name="Grd_Samples_Employee_Heading" xml:space="preserve">
+    <value>Employee</value>
+  </data>
+  <data name="Grd_Samples_Lab_Name_Heading" xml:space="preserve">
+    <value>Laboratory</value>
+  </data>
+  <data name="Grd_Samples_Result_Date_Heading" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Grd_Samples_Result_Observation_Heading" xml:space="preserve">
+    <value>Result Observation</value>
+  </data>
+  <data name="Grd_Samples_Test_Category_Heading" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Grd_Samples_Test_Diagnosis_Heading" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="Grd_Samples_Test_Name_Heading" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Grd_Samples_Test_Status_Heading" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Grd_List_Empty_Data" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Hdg_Samples_Grid.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="lbl_idfsYNSpecimenCollected.innerText" xml:space="preserve">
+    <value>Samples Collected</value>
+  </data>
+  <data name="lbl_Samples_Date_Collected.InnerText" xml:space="preserve">
+    <value>Date Collected</value>
+  </data>
+  <data name="lbl_Samples_Lab_Sample_ID.innerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="lbl_Samples_Local_Sample_ID.InnerText" xml:space="preserve">
+    <value>Local Sample ID</value>
+  </data>
+  <data name="lbl_Samples_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="lbl_Samples_Sent_Date.InnerText" xml:space="preserve">
+    <value>Sent Date</value>
+  </data>
+  <data name="lbl_Samples_Sent_To.InnerText" xml:space="preserve">
+    <value>Sent To</value>
+  </data>
+  <data name="btn_Close.InnerText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btn_Delete_Sample_Test.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Save_Field_Test.InnerText" xml:space="preserve">
+    <value>Save Field Test</value>
+  </data>
+  <data name="btn_Contact_Modal_Save.Value" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btn_Contact_Modal_Save.InnerText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="hdg_Field_Test.InnerText" xml:space="preserve">
+    <value>Test Details</value>
+  </data>
+  <data name="lbl_Collection_Date.InnerText" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="lbl_Field_Sample_ID.InnerText" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="lbl_Local_Sample_ID.InnerText" xml:space="preserve">
+    <value>Local Sample ID: </value>
+  </data>
+  <data name="lbl_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID: </value>
+  </data>
+  <data name="lbl_Result_Date.InnerText" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="lbl_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="lbl_Sample_by.InnerText" xml:space="preserve">
+    <value>Collected By Officer </value>
+  </data>
+  <data name="lbl_Sample_by_Institution.InnerText" xml:space="preserve">
+    <value>Collected by Institution</value>
+  </data>
+  <data name="lbl_Tested_by.InnerText" xml:space="preserve">
+    <value>Tested by Person</value>
+  </data>
+  <data name="lbl_Tested_by_Institution.InnerText" xml:space="preserve">
+    <value>Tested by Institution</value>
+  </data>
+  <data name="lbl_Test_Category.InnerText" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="lbl_Test_Diagnosis.InnerText" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="lbl_Report_Type.InnerText" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="lbl_Related_Session_ID.InnerText" xml:space="preserve">
+    <value>Related Session ID</value>
+  </data>
+  <data name="lbl_Test_Name.InnerText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="lbl_Test_Result.InnerText" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="lbl_Test_Status.InnerText" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="lbl_Test_InterpretedStatus_RulesInOut.InnerText" xml:space="preserve">
+    <value>Rules In\Out</value>
+  </data>
+  <data name="lbl_Test_Interpreted_RulesInOutComments.InnerText" xml:space="preserve">
+    <value>Comments (Rules In\Out)</value>
+  </data>
+  <data name="lbl_Comments.InnerText" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lbl_Test_Date_Interpreted.InnerText" xml:space="preserve">
+    <value>Date Interpreted</value>
+  </data>
+  <data name="lbl_Test_Interpreted_By.InnerText" xml:space="preserve">
+    <value>Interpreted By</value>
+  </data>
+  <data name="lbl_Test_Validated.InnerText" xml:space="preserve">
+    <value>Validated (Y/N)</value>
+  </data>
+  <data name="lbl_Test_Validated.Text" xml:space="preserve">
+  <value>Validated (Y/N)</value>
+  </data>
+  <data name="lbl_Test_Filter_Test_Name_By_Disease.InnerText" xml:space="preserve">
+    <value>Filter Sample by Disease</value>
+  </data>
+  <data name="Lbl_Print_Barcode.Text" xml:space="preserve">
+    <value>Print Barcode</value>
+  </data>
+  <data name="lbl_Test_Filter_Test_Name_By_Disease.Text" xml:space="preserve">
+  <value>Filter Sample by Disease</value>
+  </data>
+  <data name="lbl_Test_ValidatedComments.InnerText" xml:space="preserve">
+    <value>Comments (Validated)</value>
+  </data>
+  <data name="lbl_Test_Date_Validated.InnerText" xml:space="preserve">
+    <value>Date Validated</value>
+  </data>
+  <data name="lbl_Test_Validated_By.InnerText" xml:space="preserve">
+    <value>Validated By</value>
+  </data>
+  <data name="lbl_Contacts_Person_Full_Name" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+   <data name="lbl_Contacts_Person_Full_Name.Text" xml:space="preserve">
+    <value>Contact Person</value>
+  </data>
+  <data name="lbl_Contacts_Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="lbl_Contacts_Date_Of_Last_Contact" xml:space="preserve">
+    <value>Date of Last Contact</value>
+  </data>
+  <data name="lbl_Contacts_Person_Contact_Type" xml:space="preserve">
+    <value>Relation</value>
+  </data>
+  <data name="lbl_Contacts_Place_Info" xml:space="preserve">
+    <value>Location of Last Contact</value>
+  </data>
+  <data name="lbl_Human_Disease_Report_Deleted_Successfully.InnerText" xml:space="preserve">
+    <value>Human Disease Report deleted successfully</value>
+  </data>
+  <data name="lbl_Human_Disease_Report_Unable_Delete_Child.InnerText" xml:space="preserve">
+    <value>Unable to delete this record as it contains dependent child objects.</value>
+  </data>
+  <data name="lbl_Remove_HDR.InnerText" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="btn_Add_Contact.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_New_Sample.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_New_Sample.ToolTip" xml:space="preserve">
+    <value>Add New Sample</value>
+  </data>
+  <data name="btn_Add_New_Test.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_New.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_New_Test.ToolTip" xml:space="preserve">
+    <value>Add New Test</value>
+  </data>
+  <data name="btn_Add_New.ToolTip" xml:space="preserve">
+    <value>Add New</value>
+  </data>
+  <data name="hdg_Sample_Detail_Modal.InnerText" xml:space="preserve">
+    <value>Sample Detail</value>
+  </data>
+  <data name="hdg_Tests_Tab.InnerText" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="lbl_idfsYNTestsCollected.InnerText" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="tab_Tests.Text" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="tab_Tests_Tab.ToolTip" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="lbl_Modal_Add_Sample_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="lbl_Modal_Add_Sample_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="lbl_New_Notifiable_Disease_Report_From_Changed_Disease.InnerText" xml:space="preserve">
+    <value>Do you want to create a new notifiable disease report with a changed Disease value for this person?</value>
+  </data>
+  <data name="btn_Modal_Add_Sample_Close.InnerText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btn_Modal_Add_Sample_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Disease_Report_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Modal_Print_Barcode.InnerText" xml:space="preserve">
+    <value>Print Barcode</value>
+  </data>
+  <data name="btn_Modal_Add_Sample_Save.InnerText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btn_Modal_Add_Test_Close.InnerText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btn_Modal_Add_Test_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Modal_Add_Test_Save.InnerText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+   <data name="btn__Save.InnerText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lbl_Modal_Add_Sample_Date_Collected.InnerText" xml:space="preserve">
+    <value>Date Collected</value>
+  </data>
+  <data name="lbl_Modal_Add_Sample_Date_Sent.InnerText" xml:space="preserve">
+    <value>Sent Date</value>
+  </data>
+  <data name="lbl_Modal_Add_Sample_Local_Sample_ID.InnerText" xml:space="preserve">
+    <value>Local Sample ID</value>
+  </data>
+  <data name="lbl_Modal_Add_Sample_Sent_To.InnerText" xml:space="preserve">
+    <value>Sent to Organization</value>
+  </data>
+  <data name="lbl_Result_Received_Date.InnerText" xml:space="preserve">
+    <value>Date Result Received</value>
+  </data>
+  <data name="lbl_Accession_Date.InnerText" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="lbl_Sample_Condition_Received.InnerText" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="btn_Contact_Modal_Save.InnerText" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="lbl_Tests_Date_Received" xml:space="preserve">
+    <value>Date Received</value>
+  </data>
+  <data name="lbl_Tests_Name" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="lbl_Tests_Status" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lbl_Case_Details_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Case Investigation tab.</value>
+  </data>
+  <data name="lbl_Clinical_Information_Antibiotics_Tab.Title" xml:space="preserve">
+    <value>Click here to go to Antibiotics/Vaccination History tab.</value>
+  </data>
+  <data name="lbl_Clinical_Information_Facility_Details_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Facility Details tab.</value>
+  </data>
+  <data name="lbl_Clinical_Information_Symptoms_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Symptoms tab.</value>
+  </data>
+  <data name="lbl_Contact_List_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Contacts List tab.</value>
+  </data>
+  <data name="lbl_Disease_Notification_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Disease Notification tab.</value>
+  </data>
+  <data name="lbl_Final_Outcome_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Final Outcome tab.</value>
+  </data>
+  <data name="lbl_lbl_Clinical_Information_Antibiotics_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Antibiotic Information tab.</value>
+  </data>
+  <data name="lbl_Risk_Factors_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Case Investigation: Risk Factors tab.</value>
+  </data>
+  <data name="lbl_Samples_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Samples tab.</value>
+  </data>
+  <data name="lbl_Tests_Tab.Title" xml:space="preserve">
+    <value>Click here to go the Tests tab.</value>
+  </data>
+</root>

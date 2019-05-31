@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Associated_Interpretations" xml:space="preserve">
+    <value>The lab test record has associated interpretation records. Please delete the interpretation records first.</value>
+  </data>
+  <data name="Associated_Lab_Test_Records" xml:space="preserve">
+    <value>The sample record has associated test records. Please delete the test records first.</value>
+  </data>
+  <data name="Associated_Penside_Tests" xml:space="preserve">
+    <value>The sample record has associated penside test records. Please delete the penside test records first.</value>
+  </data>
+  <data name="Associated_Records_To_Species" xml:space="preserve">
+    <value>The species record has associated records. Please delete the associated records first.</value>
+  </data>
+  <data name="Associated_Result_Summaries" xml:space="preserve">
+    <value>The test record has associated result summary records. Please delete the result summary records first.</value>
+  </data>
+  <data name="Associated_Sessions" xml:space="preserve">
+    <value>A veterinary disease report record is associated with this selection.</value>
+  </data>
+  <data name="Associated_Species_Records_Flock" xml:space="preserve">
+    <value>The flock record has associated species records. Please delete the species records first.</value>
+  </data>
+  <data name="Associated_Species_Records_Herd" xml:space="preserve">
+    <value>The herd record has associated species records. Please delete the species records first.</value>
+  </data>
+  <data name="Cancel_Add_Update_Confirm" xml:space="preserve">
+    <value>Are you sure you want to cancel all changes and leave this record?</value>
+  </data>
+  <data name="Cancel_Confirm" xml:space="preserve">
+    <value>Are you sure you want to cancel this selection?</value>
+  </data>
+  <data name="Cancel_Search_Confirm" xml:space="preserve">
+    <value>Are you sure you want to cancel the search?</value>
+  </data>
+  <data name="Cannot_Save" xml:space="preserve">
+    <value>An error occurred while saving.  If this continues, please contact the website's administrator.</value>
+  </data>
+  <data name="Confirm_Farm_Delete" xml:space="preserve">
+    <value>You are about to delete this Farm. Do you wish to continue?</value>
+  </data>
+  <data name="Confirm_Session_Delete" xml:space="preserve">
+    <value>You are about to delete this session. Do you wish to continue?</value>
+  </data>
+  <data name="Confirm_Species_Samples_Delete" xml:space="preserve">
+    <value>You are about to delete this Species Sample. Do you wish to continue?</value>
+  </data>
+  <data name="Duplicate_Record_Found" xml:space="preserve">
+    <value>Duplicate record(s) have been found: </value>
+  </data>
+  <data name="Duplicate_Record_Found_Closing_Question" xml:space="preserve">
+    <value>. Do you want to continue saving this record?</value>
+  </data>
+  <data name="Duplicate_Record_SubHeading" xml:space="preserve">
+    <value>Duplicate Record Found</value>
+  </data>
+  <data name="Duplicate_Species_Flock" xml:space="preserve">
+    <value>The species type selected has already been added to the selected flock.</value>
+  </data>
+  <data name="Duplicate_Species_Herd" xml:space="preserve">
+    <value>The species type selected has already been added to the selected herd.</value>
+  </data>
+  <data name="Error_Message_Text" xml:space="preserve">
+    <value>EIDSS Error Message</value>
+  </data>
+  <data name="Farm_Type_Unselected" xml:space="preserve">
+    <value>The farm record does not have a selected Farm Type (Avian or Livestock).  Please select the Farm Type on the Farm Information Section.</value>
+  </data>
+  <data name="Flock_Herd_Species" xml:space="preserve">
+    <value>There are no flocks / livestock associated with this farm. Do you wish to continue?</value>
+  </data>
+  <data name="Has_Child_Records_SubHeading" xml:space="preserve">
+    <value>Unable to Delete Record</value>
+  </data>
+  <data name="Invalid_DOB" xml:space="preserve">
+    <value>Date of birth is not valid.</value>
+  </data>
+  <data name="Search_Criteria_Required" xml:space="preserve">
+    <value>Please enter at least one search parameter.</value>
+  </data>
+  <data name="Unhandled_Exception" xml:space="preserve">
+    <value>An error occurred on this page. Please verify your information to resolve the issue.</value>
+  </data>
+  <data name="Validator_Section" xml:space="preserve">
+    <value>The validation error could not be determined.  Please contact the website's administrator for further assistance.</value>
+  </data>
+  <data name="Validator_Section_SubHeading" xml:space="preserve">
+    <value>Unable to Get Validator Section</value>
+  </data>
+  <data name="Warning_Message_Alert" xml:space="preserve">
+    <value>EIDSS Warning Message</value>
+  </data>
+  <data name="Confirm_Person_Delete" xml:space="preserve">
+    <value>You are about to delete this Person. Do you wish to continue?</value>
+  </data>
+  <data name="Confirm_Delete_Message" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="Cancel_Form_Confirm" xml:space="preserve">
+    <value>Do you want to cancel all changes and close this form?</value>
+  </data>
+  <data name="Confirm_Delete" xml:space="preserve">
+    <value>You are about to delete this {1}. Do you wish to continue?</value>
+  </data>
+  <data name="Field_Value_Pair_Found_No_Selection" xml:space="preserve">
+    <value>Field-value pair(s) found with no selection. All field-value pairs must contain a selected value to survive.</value>
+  </data>
+  <data name="Confirm_Merge_Record" xml:space="preserve">
+    <value>Do you want to merge record?</value>
+  </data>
+  <data name="Another_Object_Message" xml:space="preserve">
+    <value>Unable to delete this record as it is dependent on another object.</value>
+  </data>
+  <data name="Child_Objects_Message" xml:space="preserve">
+    <value>Unable to delete this record as it contains dependent child objects.</value>
+  </data>
+  <data name="Cannot_Select_Veterinary_Monitoring_Session_To_Campaign_Messgage" xml:space="preserve">
+    <value>Session’s {Disease, Species-Sample Type combination, Start Date} does not match the Campaign and cannot be selected.</value>
+  </data>
+  <data name="Cannot_Delete" xml:space="preserve">
+    <value>An error occurred while deleting.  If this continues, please contact the website's administrator.</value>
+  </data>
+  <data name="Confirm_Farm_Monitoring_Session_Address_Mismatch" xml:space="preserve">
+    <value>The Farm address does not match the Session location. Do you want to continue?</value>
+  </data>
+</root>

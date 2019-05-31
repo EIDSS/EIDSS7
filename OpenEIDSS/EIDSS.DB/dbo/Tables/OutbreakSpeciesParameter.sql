@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[OutbreakSpeciesParameter] (
+    [OutbreakSpeciesParameterUID] BIGINT           NOT NULL,
+    [idfOutbreak]                 BIGINT           NOT NULL,
+    [OutbreakSpeciesTypeID]       BIGINT           NULL,
+    [CaseMonitoringDuration]      INT              NULL,
+    [CaseMonitoringFrequency]     INT              NULL,
+    [ContactTracingDuration]      INT              NULL,
+    [ContactTracingFrequency]     INT              NULL,
+    [intRowStatus]                INT              CONSTRAINT [Def_OutbreakSpeciesParameter_intRowStatus] DEFAULT ((0)) NOT NULL,
+    [CaseQuestionaireTemplateID]  BIGINT           NULL,
+    [CaseMonitoringTemplateID]    BIGINT           NULL,
+    [ContactTracingTemplateID]    BIGINT           NULL,
+    [AuditCreateUser]             VARCHAR (100)    NOT NULL,
+    [AuditCreateDTM]              DATETIME         DEFAULT (getdate()) NOT NULL,
+    [AuditUpdateUser]             VARCHAR (100)    NULL,
+    [AuditUpdateDTM]              DATETIME         NULL,
+    [rowguid]                     UNIQUEIDENTIFIER CONSTRAINT [DF_OutbreakSpeciesParameter_rowguid] DEFAULT (newsequentialid()) ROWGUIDCOL NOT NULL,
+    [SourceSystemNameID]          BIGINT           NULL,
+    [SourceSystemKeyValue]        NVARCHAR (MAX)   NULL,
+    CONSTRAINT [XPKOutbreakSpeciesParameter] PRIMARY KEY CLUSTERED ([OutbreakSpeciesParameterUID] ASC),
+    CONSTRAINT [FK_outbreakSpeciesParameter_tlbOutbreak_OutbreakID] FOREIGN KEY ([idfOutbreak]) REFERENCES [dbo].[tlbOutbreak] ([idfOutbreak]),
+    CONSTRAINT [FK_OutbreakSpeciesParameter_trtBaseReference_SourceSystemNameID] FOREIGN KEY ([SourceSystemNameID]) REFERENCES [dbo].[trtBaseReference] ([idfsBaseReference]),
+    CONSTRAINT [FK_OutbreakSpeciesParm_FormTemplate_CaseMonitoringTemplateID] FOREIGN KEY ([CaseMonitoringTemplateID]) REFERENCES [dbo].[ffFormTemplate] ([idfsFormTemplate]),
+    CONSTRAINT [FK_OutbreakSpeciesParm_FormTemplate_CaseQuestionaireTemplateID] FOREIGN KEY ([CaseQuestionaireTemplateID]) REFERENCES [dbo].[ffFormTemplate] ([idfsFormTemplate]),
+    CONSTRAINT [FK_OutbreakSpeciesParm_FormTemplate_ContactTracingTemplateID] FOREIGN KEY ([ContactTracingTemplateID]) REFERENCES [dbo].[ffFormTemplate] ([idfsFormTemplate])
+);
+

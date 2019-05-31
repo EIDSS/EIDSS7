@@ -1,0 +1,124 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EIDSS", "EIDSS7\EIDSS.vbproj", "{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIDSS7Test", "EIDSS7Test\EIDSS7Test.csproj", "{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "EIDSSControlLibrary", "EIDSSControlLibrary\EIDSSControlLibrary.vbproj", "{3D720144-5E4B-4042-B67B-D376A6F81D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenEIDSS.Domain", "OpenEIDSS\OpenEIDSS.Domain\OpenEIDSS.Domain.csproj", "{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EIDSS.Client", "OpenEIDSS\EIDSS.Client\EIDSS.Client.csproj", "{07504D13-AAB9-47C4-983B-81391E2F44F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Beta|Any CPU = Beta|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Integration|Any CPU = Integration|Any CPU
+		Local|Any CPU = Local|Any CPU
+		QA|Any CPU = QA|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Beta|Any CPU.ActiveCfg = Release|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Beta|Any CPU.Build.0 = Release|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Local|Any CPU.Build.0 = Local|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.QA|Any CPU.Build.0 = QA|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Test|Any CPU.ActiveCfg = Local|Any CPU
+		{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}.Test|Any CPU.Build.0 = Local|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Beta|Any CPU.ActiveCfg = Beta|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Beta|Any CPU.Build.0 = Beta|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Integration|Any CPU.ActiveCfg = Integration|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Integration|Any CPU.Build.0 = Integration|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Local|Any CPU.Build.0 = Local|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.QA|Any CPU.ActiveCfg = QA|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.QA|Any CPU.Build.0 = QA|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Test|Any CPU.ActiveCfg = Local|Any CPU
+		{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}.Test|Any CPU.Build.0 = Local|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Beta|Any CPU.ActiveCfg = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Beta|Any CPU.Build.0 = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Integration|Any CPU.ActiveCfg = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Integration|Any CPU.Build.0 = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Local|Any CPU.Build.0 = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.QA|Any CPU.Build.0 = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{3D720144-5E4B-4042-B67B-D376A6F81D5B}.Test|Any CPU.Build.0 = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Beta|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Beta|Any CPU.Build.0 = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Integration|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Integration|Any CPU.Build.0 = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Local|Any CPU.Build.0 = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.QA|Any CPU.Build.0 = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}.Test|Any CPU.Build.0 = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Beta|Any CPU.ActiveCfg = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Beta|Any CPU.Build.0 = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Integration|Any CPU.ActiveCfg = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Integration|Any CPU.Build.0 = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Local|Any CPU.ActiveCfg = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Local|Any CPU.Build.0 = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.QA|Any CPU.ActiveCfg = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.QA|Any CPU.Build.0 = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{07504D13-AAB9-47C4-983B-81391E2F44F7}.Test|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07BD80C0-0BDA-4087-9FD1-EB677A026260}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.255.51.86:8080/tfs/eidss
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EIDSS7\\EIDSS.vbproj
+		SccProjectName1 = EIDSS7
+		SccLocalPath1 = EIDSS7
+		SccProjectUniqueName2 = EIDSS7Test\\EIDSS7Test.csproj
+		SccProjectName2 = EIDSS7Test
+		SccLocalPath2 = EIDSS7Test
+		SccProjectUniqueName3 = EIDSSControlLibrary\\EIDSSControlLibrary.vbproj
+		SccProjectName3 = EIDSSControlLibrary
+		SccLocalPath3 = EIDSSControlLibrary
+		SccProjectUniqueName4 = OpenEIDSS\\OpenEIDSS.Domain\\OpenEIDSS.Domain.csproj
+		SccProjectName4 = OpenEIDSS/OpenEIDSS.Domain
+		SccLocalPath4 = OpenEIDSS\\OpenEIDSS.Domain
+		SccProjectUniqueName5 = OpenEIDSS\\EIDSS.Client\\EIDSS.Client.csproj
+		SccProjectName5 = OpenEIDSS/EIDSS.Client
+		SccLocalPath5 = OpenEIDSS\\EIDSS.Client
+	EndGlobalSection
+EndGlobal

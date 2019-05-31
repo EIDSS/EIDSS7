@@ -1,0 +1,5 @@
+Zaisan Mole Vole Ellobius tancrei,10310001,1100, 1110
+Zanj Sun Squirrel Heliosciurus undulatus,1020002, 1101, 1111
+Yellow-necked Mouse Apodemus flavicollis,10410001,1102,1112
+Yellow Ground Squirrel Spermophilus fulvus,10310087,1103,1113
+Zimmer's Shrew Crocidura zimmeri, 108760012,1104,1114

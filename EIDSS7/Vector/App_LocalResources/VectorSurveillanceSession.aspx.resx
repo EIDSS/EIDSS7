@@ -1,0 +1,2145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Edit_Search.Text" xml:space="preserve">
+    <value>Edit Search</value>
+  </data>
+  <data name="btn_NextSection.Value" xml:space="preserve">
+    <value>Save and Review</value>
+  </data>
+  <data name="btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btn_Submit.InnerText" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="hdg_Collections.InnerText" xml:space="preserve">
+    <value>Collections</value>
+  </data>
+  <data name="hdg_List_of_Diseases.InnerText" xml:space="preserve">
+    <value>List of Diseases</value>
+  </data>
+  <data name="hdg_Location.InnerText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="hdg_Search.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="hdg_Search_Criteria.InnerText" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="hdg_Aggregate_Information.InnerText" xml:space="preserve">
+    <value>Aggregate Information</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session.InnerText" xml:space="preserve">
+    <value>Vector Surveillance Session</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session_Summary.InnerText" xml:space="preserve">
+    <value>Session Summary</value>
+  </data>
+  <data name="hpl_Detailed_Collection.Text" xml:space="preserve">
+    <value>Detailed Collection</value>
+  </data>
+  <data name="hpl_Summary_Collection.Text" xml:space="preserve">
+    <value>Summary Collection</value>
+  </data>
+  <data name="lbl_Close_Date.InnerText" xml:space="preserve">
+    <value>Close Date</value>
+  </data>
+  <data name="lbl_Collection_Date.InnerText" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="lbl_Collection_Efforts.InnerText" xml:space="preserve">
+    <value>Collection Efforts</value>
+  </data>
+  <data name="lbl_Data_Entry_Site.InnerText" xml:space="preserve">
+    <value>Data Entry Site</value>
+  </data>
+  <data name="lbl_Description.InnerText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lbl_Description_of_Location.InnerText" xml:space="preserve">
+    <value>Description of Location</value>
+  </data>
+  <data name="lbl_Diagnoses_Group.InnerText" xml:space="preserve">
+    <value>Diagnoses Group</value>
+  </data>
+  <data name="lbl_Different_Location_from_Session.InnerText" xml:space="preserve">
+    <value>Is this a different location from session?</value>
+  </data>
+  <data name="lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="lbl_End_Date.InnerText" xml:space="preserve">
+    <value>Session End Date</value>
+  </data>
+  <data name="lbl_Exact.InnerText" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="lbl_Field_Session_ID.InnerText" xml:space="preserve">
+    <value>Field Session ID</value>
+  </data>
+  <data name="lbl_From.InnerText" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lbl_Identification_Date.InnerText" xml:space="preserve">
+    <value>Identifying Date</value>
+  </data>
+  <data name="lbl_Identified_by_Office.InnerText" xml:space="preserve">
+    <value>Identified by Institution</value>
+  </data>
+  <data name="lbl_Identified_by_Person.InnerText" xml:space="preserve">
+    <value>Identified by</value>
+  </data>
+  <data name="lbl_Identified_Quantity.InnerText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="lbl_Identifying_Method.InnerText" xml:space="preserve">
+    <value>Identifying Method</value>
+  </data>
+  <data name="lbl_Latitude.InnerText" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="lbl_Location.InnerText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lbl_Longitude.InnerText" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="lbl_Number_of_Pools_Vectors.InnerText" xml:space="preserve">
+    <value>Number of Pools/Vectors</value>
+  </data>
+  <data name="lbl_Number_of_Positive_Pools_Vectors.InnerText" xml:space="preserve">
+    <value>Number of Positive Pools/Vectors</value>
+  </data>
+  <data name="lbl_Outbreak_ID.InnerText" xml:space="preserve">
+    <value>Outbreak ID</value>
+  </data>
+  <data name="lbl_Record_ID.InnerText" xml:space="preserve">
+    <value>Record ID</value>
+  </data>
+  <data name="lbl_Relative.InnerText" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="lbl_Session_ID.InnerText" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="lbl_Sex.InnerText" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="lbl_Species.InnerText" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="lbl_Start_Date.InnerText" xml:space="preserve">
+    <value>Session Start Date</value>
+  </data>
+  <data name="lbl_Start_Date_Range.InnerText" xml:space="preserve">
+    <value>Session Start Date Range</value>
+  </data>
+  <data name="lbl_Status.InnerText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lbl_To.InnerText" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lbl_Vector_Type.InnerText" xml:space="preserve">
+    <value>Vector Type</value>
+  </data>
+  <data name="hdg_Collection_Data.InnerText" xml:space="preserve">
+    <value>Collection Data</value>
+  </data>
+  <data name="hdg_Vector_Data.InnerText" xml:space="preserve">
+    <value>Vector Data</value>
+  </data>
+  <data name="hdg_Vector_Specific_Data.InnerText" xml:space="preserve">
+    <value>Vector Specific Data</value>
+  </data>
+  <data name="hpl_Field_Tests.InnerText" xml:space="preserve">
+    <value>Field Tests</value>
+  </data>
+  <data name="hpl_Lab_Tests.InnerText" xml:space="preserve">
+    <value>Laboratory Tests</value>
+  </data>
+  <data name="hpl_General_Data.InnerText" xml:space="preserve">
+    <value>General Data</value>
+  </data>
+  <data name="hpl_Review_Collection.InnerText" xml:space="preserve">
+    <value>Review Collection</value>
+  </data>
+  <data name="hpl_Samples.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="hpl_Vector_Specific_Data.InnerText" xml:space="preserve">
+    <value>Vector Specific Data</value>
+  </data>
+  <data name="lbl_Basis_of_Record.InnerText" xml:space="preserve">
+    <value>Basis of Record</value>
+  </data>
+  <data name="lbl_Hosts_Reference.InnerText" xml:space="preserve">
+    <value>Host Reference</value>
+  </data>
+  <data name="lbl_Collected_by_Institution.InnerText" xml:space="preserve">
+    <value>Collected by Institution</value>
+  </data>
+  <data name="lbl_Collected_by_Person.InnerText" xml:space="preserve">
+    <value>Collector</value>
+  </data>
+  <data name="lbl_Elevation.InnerText" xml:space="preserve">
+    <value>Elevation (m)</value>
+  </data>
+  <data name="lbl_Flea_Feeding_Status.InnerText" xml:space="preserve">
+    <value> Flea Feeding Status</value>
+  </data>
+  <data name="lbl_Flea_Life_Stage.InnerText" xml:space="preserve">
+    <value>Flea Life Stage</value>
+  </data>
+  <data name="lbl_GEO_Reference_Source.InnerText" xml:space="preserve">
+    <value>GEO Reference Source</value>
+  </data>
+  <data name="lbl_Mosquito_Feeding_Status.InnerText" xml:space="preserve">
+    <value>Mosquito Feeding Status</value>
+  </data>
+  <data name="lbl_Mosquito_Life_Stage.InnerText" xml:space="preserve">
+    <value>Mosquito Life Stage</value>
+  </data>
+  <data name="lbl_Sand_Fly_Feeding_Status.InnerText" xml:space="preserve">
+    <value>Sand Fly Feeding Status</value>
+  </data>
+  <data name="lbl_Sand_Fly_Life_Stage.InnerText" xml:space="preserve">
+    <value>Sand Fly Life Stage</value>
+  </data>
+  <data name="lbl_Surroundings.InnerText" xml:space="preserve">
+    <value>Surroundings</value>
+  </data>
+  <data name="lbl_Tick_Feeding_Status.InnerText" xml:space="preserve">
+    <value>Ticks Feeding Status</value>
+  </data>
+  <data name="lbl_Tick_Life_Stage.InnerText" xml:space="preserve">
+    <value>Ticks Life Stage</value>
+  </data>
+  <data name="lbl_Type_of_Address.InnerText" xml:space="preserve">
+    <value>Location Type</value>
+  </data>
+  <data name="lbl_Type_of_Address_Collection.InnerText" xml:space="preserve">
+    <value>Collection Location Type</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Clear.Value" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Ok.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="hdg_Collected_By.InnerText" xml:space="preserve">
+    <value>Collected by</value>
+  </data>
+  <data name="hdg_Condition_Received.InnerText" xml:space="preserve">
+    <value>Condition Received</value>
+  </data>
+  <data name="hdg_Field_Sample_ID.InnerText" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="hdg_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="hdg_Sample_Condition_Recieved.InnerText" xml:space="preserve">
+    <value>Sample Condition Recieved</value>
+  </data>
+  <data name="hdg_Result_Date.InnerText" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="hdg_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="hdg_Sent_To.InnerText" xml:space="preserve">
+    <value>Sent To</value>
+  </data>
+  <data name="hdg_Test_Category.InnerText" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="hdg_Test_Name.InnerText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="hdg_Test_By_Office.InnerText" xml:space="preserve">
+    <value>Tested By Office</value>
+  </data>
+  <data name="hdg_Test_Result.InnerText" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="hdg_Diagnosis.InnerText" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="hdg_Test_By_Person.InnerText" xml:space="preserve">
+    <value>Test By</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session_Search.InnerText" xml:space="preserve">
+    <value>Vector Surveillance Session Search</value>
+  </data>
+  <data name="lbl_Collection_Method.InnerText" xml:space="preserve">
+    <value>Collection Method</value>
+  </data>
+  <data name="lbl_Collection_Time.InnerText" xml:space="preserve">
+    <value>Collection Time</value>
+  </data>
+  <data name="lbl_Ectoparasites_Collected.InnerText" xml:space="preserve">
+    <value>Ectoparasites Collected</value>
+  </data>
+  <data name="lbl_Foreign.InnerText" xml:space="preserve">
+    <value>Foreign</value>
+  </data>
+  <data name="lbl_Quantity.InnerText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="btn_Save_and_Review.Value" xml:space="preserve">
+    <value>Save and Review</value>
+  </data>
+  <data name="lbl_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lbl_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Btn_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btn_Create_Vector_Surveillance.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Save_Review_Vector_Surveillance.Text" xml:space="preserve">
+    <value>Save and Review Vector Surveillance</value>
+  </data>
+  <data name="btn_New_Search.Text" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="lbl_Direction.InnerText" xml:space="preserve">
+    <value>Direction (#.##°)</value>
+  </data>
+  <data name="lbl_Distance.InnerText" xml:space="preserve">
+    <value>Distance (#.## km)</value>
+  </data>
+  <data name="lbl_Groud_Type.InnerText" xml:space="preserve">
+    <value>Ground Type</value>
+  </data>
+  <data name="Tab_Collection_Data.Text" xml:space="preserve">
+    <value>Collection Data</value>
+  </data>
+  <data name="Tab_Collection_Data.ToolTip" xml:space="preserve">
+    <value>Collection Data</value>
+  </data>
+  <data name="Tab_Review_Collection.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Review_Collection.ToolTip" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Samples.Text" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Tab_Samples.ToolTip" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Tab_Vector_Specific_Data.Text" xml:space="preserve">
+    <value>Vector Specific Data</value>
+  </data>
+  <data name="Tab_Vector_Specific_Data.ToolTip" xml:space="preserve">
+    <value>Vector Specific Data</value>
+  </data>
+  <data name="Tab_Field_Tests.Text" xml:space="preserve">
+    <value>Field Tests</value>
+  </data>
+  <data name="Tab_Field_Tests.ToolTip" xml:space="preserve">
+    <value>Field Tests</value>
+  </data>
+  <data name="Tab_Lab_Tests.Text" xml:space="preserve">
+    <value>Laboratory Tests</value>
+  </data>
+  <data name="Tab_Lab_Tests.ToolTip" xml:space="preserve">
+    <value>Laboratory Tests</value>
+  </data>
+  <data name="btn_Add_Detailed_Collection.Text" xml:space="preserve">
+    <value>Add Detailed Collection</value>
+  </data>
+  <data name="btn_Add_Summary_Collection.Text" xml:space="preserve">
+    <value>Add Summary Collection</value>
+  </data>
+  <data name="hdg_Detailed_Collections.InnerText" xml:space="preserve">
+    <value>Detailed Collections</value>
+  </data>
+  <data name="hdg_Aggregate_Collections.InnerText" xml:space="preserve">
+    <value>Aggregate Collections</value>
+  </data>
+  <data name="lbl_Address.InnerText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="lbl_Number_of_Pools_Vectors_Collected.InnerText" xml:space="preserve">
+    <value>Number of Pools/Vectors Collected</value>
+  </data>
+  <data name="lbl_Farm_Owner.InnerText" xml:space="preserve">
+    <value>Farm Owner</value>
+  </data>
+  <data name="lbl_Outbreak_Status.InnerText" xml:space="preserve">
+    <value>Outbreak Status</value>
+  </data>
+  <data name="lbl_Patient.InnerText" xml:space="preserve">
+    <value>Patient</value>
+  </data>
+  <data name="lbl_Rayon.InnerText" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="lbl_Region.InnerText" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="lbl_PoolVectorId.InnerText" xml:space="preserve">
+    <value>Pool/Vector ID</value>
+  </data>
+  <data name="lbl_FieldPoolVectorID.InnerText" xml:space="preserve">
+    <value>Field Pool/Vector ID</value>
+  </data>
+  <data name="hdg_Outbreak.InnerText" xml:space="preserve">
+    <value>Outbreak</value>
+  </data>
+  <data name="btn_Previous.Value" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="btn_Next.Value" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btn_SubmitContinue.Value" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btn_Add_New_Detailed_Collection.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_New_Aggregate_Collection.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_Vector.Text" xml:space="preserve">
+    <value>Add Vector</value>
+  </data>
+  <data name="btn_Return_to_Search.Text" xml:space="preserve">
+    <value>Return to Search</value>
+  </data>
+  <data name="lbl_Add_Field_Test.Value" xml:space="preserve">
+    <value>Add Field Test</value>
+  </data>
+  <data name="lbl_Add_Sample.Value" xml:space="preserve">
+    <value>Add Sample</value>
+  </data>
+  <data name="btn_Add_Field_Test.InnerText" xml:space="preserve">
+    <value>Add Field Test</value>
+  </data>
+  <data name="btn_Save_Field_Test.InnerText" xml:space="preserve">
+    <value>Save Field Test</value>
+  </data>
+  <data name="btn_Add_Field_Test.Value" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Add_Sample.Text" xml:space="preserve">
+    <value>Add Sample</value>
+  </data>
+  <data name="btn_Save_Sample.InnerText" xml:space="preserve">
+    <value>Save Sample</value>
+  </data>
+  <data name="btn_Add_Sample.Value" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Close.InnerText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="btn_Close.Value" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="hdg_Field_Test.InnerText" xml:space="preserve">
+    <value>Field Test</value>
+  </data>
+  <data name="hdg_Sample.InnerText" xml:space="preserve">
+    <value>Sample</value>
+  </data>
+  <data name="hdg_CopyDetailedCollection.InnerText" xml:space="preserve">
+    <value>Copy Detailed Collection</value>
+  </data>
+  <data name="lbl_Accession_Date.InnerText" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="lbl_Comment.InnerText" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="lbl_Field_Sample_ID.InnerText" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="lbl_Result_Date.InnerText" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="lbl_Sample_Condition_Received.InnerText" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="lbl_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="lbl_Tested_by.InnerText" xml:space="preserve">
+    <value>Tested By Person </value>
+  </data>
+  <data name="lbl_Tested_by_Institution.InnerText" xml:space="preserve">
+    <value>Tested by Institution</value>
+  </data>
+  <data name="lbl_Test_Category.InnerText" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="lbl_Test_Name.InnerText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="lbl_Test_Result.InnerText" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="lbl_Settlement.InnerText" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="lbl_Town_OR_Village.InnerText" xml:space="preserve">
+    <value>Town or Village</value>
+  </data>
+  <data name="lbl_Village.InnerText" xml:space="preserve">
+    <value>Village</value>
+  </data>
+  <data name="lbl_Town.InnerText" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="lbl_Town_Village.InnerText" xml:space="preserve">
+    <value>Town/Village</value>
+  </data>
+  <data name="dis_Collection_Effort.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Description.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Field_Session_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Outbreak_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Start_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Vector_Surveillance_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Close_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Start_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Collection_Effort.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Description.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Field_Session_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Outbreak_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Close_Date.ErrorMessage" xml:space="preserve">
+    <value>Close Date is required</value>
+  </data>
+  <data name="val_Close_Date.Text" xml:space="preserve">
+    <value>Close Date is required</value>
+  </data>
+  <data name="val_Close_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Collection_Effort.ErrorMessage" xml:space="preserve">
+    <value>Collection Effort is required</value>
+  </data>
+  <data name="val_Collection_Effort.Text" xml:space="preserve">
+    <value>Collection Effort is required</value>
+  </data>
+  <data name="val_Collection_Effort.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Description.ErrorMessage" xml:space="preserve">
+    <value>Description is required</value>
+  </data>
+  <data name="val_Description.Text" xml:space="preserve">
+    <value>Description is required</value>
+  </data>
+  <data name="val_Description.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Field_Session_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Session ID is required</value>
+  </data>
+  <data name="val_Field_Session_ID.Text" xml:space="preserve">
+    <value>Field Session ID is required</value>
+  </data>
+  <data name="val_Field_Session_ID.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Outbreak_ID.ErrorMessage" xml:space="preserve">
+    <value>Outbreak ID is required</value>
+  </data>
+  <data name="val_Outbreak_ID.Text" xml:space="preserve">
+    <value>Outbreak ID is required</value>
+  </data>
+  <data name="val_Outbreak_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Start_Date.ErrorMessage" xml:space="preserve">
+    <value>Start Date is required</value>
+  </data>
+  <data name="val_Start_Date.Text" xml:space="preserve">
+    <value>Start Date is required</value>
+  </data>
+  <data name="val_Vector_Surveillance_Status.ErrorMessage" xml:space="preserve">
+    <value>Vector Surveillance Status is required</value>
+  </data>
+  <data name="val_Vector_Surveillance_Status.Text" xml:space="preserve">
+    <value>Vector Surveillance Status is required</value>
+  </data>
+  <data name="dis_Country_Location_Desc.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Detailed_Location_Description.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Detailed_Surroundings.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Detailed_Vector_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Distance.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Foreign_Address_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Ground_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Country_Location_Desc.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Detailed_Location_Description.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Detailed_Surroundings.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Detailed_Vector_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Distance.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Foreign_Address_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Ground_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Country_Location_Desc.ErrorMessage" xml:space="preserve">
+    <value>Country Location Description is required</value>
+  </data>
+  <data name="val_Country_Location_Desc.Text" xml:space="preserve">
+    <value>Country Location Description is required</value>
+  </data>
+  <data name="val_Country_Location_Desc.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Detailed_Location_Description.ErrorMessage" xml:space="preserve">
+    <value>Location is required.</value>
+  </data>
+  <data name="val_Detailed_Location_Description.Text" xml:space="preserve">
+    <value>Location is required.</value>
+  </data>
+  <data name="val_Detailed_Location_Description.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Detailed_Surroundings.ErrorMessage" xml:space="preserve">
+    <value>Surroundings are required</value>
+  </data>
+  <data name="val_Detailed_Surroundings.Text" xml:space="preserve">
+    <value>Surroundings are required</value>
+  </data>
+  <data name="val_Detailed_Surroundings.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Detailed_Vector_Type.ErrorMessage" xml:space="preserve">
+    <value>Detailed Vector Type is required.</value>
+  </data>
+  <data name="val_Detailed_Vector_Type.Text" xml:space="preserve">
+    <value>Detailed Vector Type is required.</value>
+  </data>
+  <data name="val_Detailed_Vector_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Distance.ErrorMessage" xml:space="preserve">
+    <value>Distance is required</value>
+  </data>
+  <data name="val_Distance.Text" xml:space="preserve">
+    <value>Distance is required</value>
+  </data>
+  <data name="val_Distance.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Foreign_Address_Type.ErrorMessage" xml:space="preserve">
+    <value>Foreign Address is required</value>
+  </data>
+  <data name="val_Foreign_Address_Type.Text" xml:space="preserve">
+    <value>Foreign Address is required</value>
+  </data>
+  <data name="val_Foreign_Address_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Ground_Type.ErrorMessage" xml:space="preserve">
+    <value>Ground Type is required</value>
+  </data>
+  <data name="val_Ground_Type.Text" xml:space="preserve">
+    <value>Ground Type is required</value>
+  </data>
+  <data name="val_Ground_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Basis_of_Record.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Collected_By_Person.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Collection_Method.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Day_Period.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Detailed_Elevation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Ectoparasites_Collected.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_GEO_Reference_Source.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Basis_of_Record.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Host_Reference.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Collected_By_Person.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Collection_Method.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Day_Period.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Detailed_Elevation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Ectoparasites_Collected.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_GEO_Reference_Source.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Basis_of_Record.ErrorMessage" xml:space="preserve">
+    <value>Basis of Record is required</value>
+  </data>
+  <data name="val_Basis_of_Record.Text" xml:space="preserve">
+    <value>Basis of Record is required</value>
+  </data>
+  <data name="val_Basis_of_Record.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Collected_By_Office.ErrorMessage" xml:space="preserve">
+    <value>Collected by Office is required</value>
+  </data>
+  <data name="val_Collected_By_Office.Text" xml:space="preserve">
+    <value>Collected by Office is required</value>
+  </data>
+  <data name="val_Collected_By_Office.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Collected_By_Person.ErrorMessage" xml:space="preserve">
+    <value>Collected by Person is required</value>
+  </data>
+  <data name="val_Collected_By_Person.Text" xml:space="preserve">
+    <value>Collected by Person is required</value>
+  </data>
+  <data name="val_Collected_By_Person.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Collection_Date.ErrorMessage" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="val_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="val_Collection_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Collection_Method.ErrorMessage" xml:space="preserve">
+    <value>Collection Method is required</value>
+  </data>
+  <data name="val_Collection_Method.Text" xml:space="preserve">
+    <value>Collection Method is required</value>
+  </data>
+  <data name="val_Collection_Method.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Day_Period.ErrorMessage" xml:space="preserve">
+    <value>Day Period is required</value>
+  </data>
+  <data name="val_Day_Period.Text" xml:space="preserve">
+    <value>Day Period is required</value>
+  </data>
+  <data name="val_Day_Period.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Detailed_Elevation.ErrorMessage" xml:space="preserve">
+    <value>Elevation is required</value>
+  </data>
+  <data name="val_Detailed_Elevation.Text" xml:space="preserve">
+    <value>Elevation is required</value>
+  </data>
+  <data name="val_Detailed_Elevation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Ectoparasites_Collected.ErrorMessage" xml:space="preserve">
+    <value>Ectoparasites Collected is required</value>
+  </data>
+  <data name="val_Ectoparasites_Collected.Text" xml:space="preserve">
+    <value>Ectoparasites Collected is required</value>
+  </data>
+  <data name="val_Ectoparasites_Collected.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_GEO_Reference_Source.ErrorMessage" xml:space="preserve">
+    <value>Geo Reference Source is required</value>
+  </data>
+  <data name="val_GEO_Reference_Source.Text" xml:space="preserve">
+    <value>Geo Reference Source is required</value>
+  </data>
+  <data name="val_GEO_Reference_Source.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Flea_Feeding_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Flea_Life_Stage.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Identification_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Identified_by_Office.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Identified_by_Person.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Identifying_Method.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Mosquito_Feeding_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Mosquito_Life_Stage.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Quantity.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Body.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Ear.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Foot.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Production_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Tail.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Weight.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Sand_Fly_Feeding_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Sex.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Direction.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Ground_Distance.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Ground_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Location_Desc.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Pools_Vectors.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Sex.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Tick_Feeding_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Tick_Life_Stage.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Vector_SubType.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_Rodent_Body.InnerText" xml:space="preserve">
+    <value>Rodent Body (cm)</value>
+  </data>
+  <data name="lbl_Rodent_Ear.InnerText" xml:space="preserve">
+    <value>Rodent Ear(cm)</value>
+  </data>
+  <data name="lbl_Rodent_Foot.InnerText" xml:space="preserve">
+    <value>Rodent Foot (cm)</value>
+  </data>
+  <data name="lbl_Rodent_Production_Status.InnerText" xml:space="preserve">
+    <value>Rodent Production Status</value>
+  </data>
+  <data name="lbl_Rodent_Tail.InnerText" xml:space="preserve">
+    <value>Rodent Tail(cm)</value>
+  </data>
+  <data name="lbl_Rodent_Weight.InnerText" xml:space="preserve">
+    <value>Rodent Weight (g)</value>
+  </data>
+  <data name="req_Flea_Feeding_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Flea_Life_Stage.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Identification_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Identified_by_Office.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Identified_by_Person.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Identifying_Method.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Mosquito_Feeding_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Mosquito_Life_Stage.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Quantity.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Rodent_Body.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Rodent_Foot.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Rodent_Production_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Rodent_Tail.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Rodent_Weight.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Sand_Fly_Feeding_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Sex.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Aggregate_Direction.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Ground_Distance.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Ground_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Location_Desc.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Pools_Vectors.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Sex.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Vector_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Tick_Feeding_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Tick_Life_Stage.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Vector_SubType.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Flea_Feeding_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Flea_Feeding_Status.ErrorMessage" xml:space="preserve">
+    <value>Flea Feeding Status is required</value>
+  </data>
+  <data name="val_Flea_Feeding_Status.Text" xml:space="preserve">
+    <value>Flea Feeding Status is required</value>
+  </data>
+  <data name="val_Flea_Life_Stage.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Flea_Life_Stage.ErrorMessage" xml:space="preserve">
+    <value>Flea Life Stage is required</value>
+  </data>
+  <data name="val_Flea_Life_Stage.Text" xml:space="preserve">
+    <value>Flea Life Stage is required</value>
+  </data>
+  <data name="val_Identification_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Identification_Date.ErrorMessage" xml:space="preserve">
+    <value>Identification Date is required</value>
+  </data>
+  <data name="val_Identification_Date.Text" xml:space="preserve">
+    <value>Identification Date is required</value>
+  </data>
+  <data name="val_Identified_by_Office.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Identified_by_Office.ErrorMessage" xml:space="preserve">
+    <value>Identified by Institution is required</value>
+  </data>
+  <data name="val_Identified_by_Office.Text" xml:space="preserve">
+    <value>Identified by Institution is required</value>
+  </data>
+  <data name="val_Identified_by_Person.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Identified_by_Person.ErrorMessage" xml:space="preserve">
+    <value>Identified by is required</value>
+  </data>
+  <data name="val_Identified_by_Person.Text" xml:space="preserve">
+    <value>Identified by is required</value>
+  </data>
+  <data name="val_Identifying_Method.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Identifying_Method.ErrorMessage" xml:space="preserve">
+    <value>Identifying Method is required</value>
+  </data>
+  <data name="val_Identifying_Method.Text" xml:space="preserve">
+    <value>Identifying Method is required</value>
+  </data>
+  <data name="val_Mosquito_Feeding_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Mosquito_Feeding_Status.ErrorMessage" xml:space="preserve">
+    <value>Mosquito Feeding Status is required</value>
+  </data>
+  <data name="val_Mosquito_Feeding_Status.Text" xml:space="preserve">
+    <value>Mosquito Feeding Status is required</value>
+  </data>
+  <data name="val_Mosquito_Life_Stage.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Mosquito_Life_Stage.ErrorMessage" xml:space="preserve">
+    <value>Mosquito Life Stage is required</value>
+  </data>
+  <data name="val_Mosquito_Life_Stage.Text" xml:space="preserve">
+    <value>Mosquito Life Stage is required</value>
+  </data>
+  <data name="val_Quantity.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Quantity.ErrorMessage" xml:space="preserve">
+    <value>Quantity is required</value>
+  </data>
+  <data name="val_Quantity.Text" xml:space="preserve">
+    <value>Quantity is required</value>
+  </data>
+  <data name="val_Rodent_Body.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Body.ErrorMessage" xml:space="preserve">
+    <value>Rodent Body is required</value>
+  </data>
+  <data name="val_Rodent_Body.Text" xml:space="preserve">
+    <value>Rodent Body is required</value>
+  </data>
+  <data name="val_Rodent_Ear.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Ear.ErrorMessage" xml:space="preserve">
+    <value>Rodent Ear is required</value>
+  </data>
+  <data name="val_Rodent_Ear.Text" xml:space="preserve">
+    <value>Rodent Ear is required</value>
+  </data>
+  <data name="val_Rodent_Foot.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Foot.ErrorMessage" xml:space="preserve">
+    <value>Rodent Foot is required</value>
+  </data>
+  <data name="val_Rodent_Foot.Text" xml:space="preserve">
+    <value>Rodent Foot is required</value>
+  </data>
+  <data name="val_Rodent_Production_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Production_Status.ErrorMessage" xml:space="preserve">
+    <value>Rodent Production Status is required</value>
+  </data>
+  <data name="val_Rodent_Production_Status.Text" xml:space="preserve">
+    <value>Rodent Production Status is required</value>
+  </data>
+  <data name="val_Rodent_Tail.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Tail.ErrorMessage" xml:space="preserve">
+    <value>Rodent Tail is required</value>
+  </data>
+  <data name="val_Rodent_Tail.Text" xml:space="preserve">
+    <value>Rodent Tail is required</value>
+  </data>
+  <data name="val_Rodent_Weight.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Weight.ErrorMessage" xml:space="preserve">
+    <value>Rodent Weight is required</value>
+  </data>
+  <data name="val_Rodent_Weight.Text" xml:space="preserve">
+    <value>Rodent Weight is required</value>
+  </data>
+  <data name="val_Sand_Fly_Feeding_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Sand_Fly_Feeding_Status.ErrorMessage" xml:space="preserve">
+    <value>Sand Fly Feeding Status is required</value>
+  </data>
+  <data name="val_Sand_Fly_Feeding_Status.Text" xml:space="preserve">
+    <value>Sand Fly Feeding Status is required</value>
+  </data>
+  <data name="val_Aggregate_Collection_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Aggregate_Collection_Date.ErrorMesssage" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="val_Aggregate_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="val_Aggregate_Ground_Direction.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Ground_Direction.ErrorMessage" xml:space="preserve">
+    <value>Direction is required</value>
+  </data>
+  <data name="val_Aggregate_Ground_Direction.Text" xml:space="preserve">
+    <value>Direction is required</value>
+  </data>
+  <data name="val_Aggregate_Ground_Distance.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Ground_Distance.ErrorMessage" xml:space="preserve">
+    <value>Distance is required</value>
+  </data>
+  <data name="val_Aggregate_Ground_Distance.Text" xml:space="preserve">
+    <value>Distance is required</value>
+  </data>
+  <data name="val_Aggregate_Ground_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Ground_Type.ErrorMessage" xml:space="preserve">
+    <value>Ground Type is required</value>
+  </data>
+  <data name="val_Aggregate_Location_Desc.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Pools_Vectors.ErrorMessage" xml:space="preserve">
+    <value>Pool Vector is required</value>
+  </data>
+  <data name="val_Aggregate_Pools_Vectors.Text" xml:space="preserve">
+    <value>Pool Vector is required</value>
+  </data>
+  <data name="val_Aggregate_Sex.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Sex.ErrorMessage" xml:space="preserve">
+    <value>Sex is required</value>
+  </data>
+  <data name="val_Aggregate_Sex.Text" xml:space="preserve">
+    <value>Sex is required</value>
+  </data>
+  <data name="val_Aggregate_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="val_Aggregate_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="val_Aggregate_Vector_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Aggregate_Vector_Type.ErrorMessage" xml:space="preserve">
+    <value>Vector Type is required</value>
+  </data>
+  <data name="val_Aggregate_Vector_Type.Text" xml:space="preserve">
+    <value>Vector Type is required</value>
+  </data>
+  <data name="val_Tick_Feeding_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Tick_Feeding_Status.ErrorMessage" xml:space="preserve">
+    <value>Tick Feeding Status is required</value>
+  </data>
+  <data name="val_Tick_Feeding_Status.Text" xml:space="preserve">
+    <value>Tick Feeding Status is required</value>
+  </data>
+  <data name="val_Tick_Life_Stage.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Tick_Life_Stage.ErrorMessage" xml:space="preserve">
+    <value>Tick Life Stage is required</value>
+  </data>
+  <data name="val_Tick_Life_Stage.Text" xml:space="preserve">
+    <value>Tick Life Stage is required</value>
+  </data>
+  <data name="val_Vector_Sex.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Vector_Sex.ErrorMessage" xml:space="preserve">
+    <value>Sex is required</value>
+  </data>
+  <data name="val_Vector_Sex.Text" xml:space="preserve">
+    <value>Sex is required</value>
+  </data>
+  <data name="val_Vector_Sub_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Vector_Sub_Type.ErrorMessage" xml:space="preserve">
+    <value>Species are required</value>
+  </data>
+  <data name="val_Vector_Sub_Type.Text" xml:space="preserve">
+    <value>Species are required</value>
+  </data>
+  <data name="dis_Number_of_Positive_Pools_Vectors.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Sand_Fly_Life_State.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_Sent_to_Organization.InnerText" xml:space="preserve">
+    <value>Sent to Organization</value>
+  </data>
+  <data name="req_Number_of_Positive_Pools_Vectors.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Sand_Fly_Life_Stage.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Aggregate_Diagnosis.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="strBlankSearch.InnerText" xml:space="preserve">
+    <value>Please insert at least one search criteria</value>
+  </data>
+  <data name="val_Number_of_Positive_Pools_Vectors.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Number_of_Positive_Pools_Vectors.ErrorMessage" xml:space="preserve">
+    <value>Quantity is required</value>
+  </data>
+  <data name="val_Number_of_Positive_Pools_Vectors.Text" xml:space="preserve">
+    <value>Quanity is required</value>
+  </data>
+  <data name="val_Sand_Fly_Life_Stage.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Sand_Fly_Life_Stage.ErrorMessage" xml:space="preserve">
+    <value>Sand Fly Stage is required</value>
+  </data>
+  <data name="val_Sand_Fly_Life_Stage.Text" xml:space="preserve">
+    <value>Sand Fly Stage is required</value>
+  </data>
+  <data name="val_Aggregate_Diagnosis.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Aggregate_Diagnosis.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="val_Aggregate_Diagnosis.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="lbl_Required.InnerText" xml:space="preserve">
+    <value>Indicates required field</value>
+  </data>
+  <data name="val_EndDateFrom.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_EndDateFrom.ErrorMessage" xml:space="preserve">
+    <value>Close Date From must be the same or earlier than Close Date To</value>
+  </data>
+  <data name="val_EndDateFrom.Text" xml:space="preserve">
+    <value>Close Date From must be the same or earlier than Close Date To</value>
+  </data>
+  <data name="val_StartDateFrom.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_StartDateFrom.ErrorMessage" xml:space="preserve">
+    <value>Start Date From must be same or earlier than Start Date To</value>
+  </data>
+  <data name="val_StartDateFrom.Text" xml:space="preserve">
+    <value>Start Date From shall be same or earlier than Start Date To</value>
+  </data>
+  <data name="btn_Print.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="dis_Adipose_Body_Absent.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Adipose_Body_Fills_All.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Adipose_Body_Fills_Half.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Vector_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Average_Number_Embryo.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Embryo_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Female_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Female_with_Eggs_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Female_with_Eggs_Percent.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Index_Flea_Abundance.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Mosquito_Sella_Stage.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Percent_of_Occurrence.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Age_Group.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Rodent_Density.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Total_Flea_Density.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_Adipose_Body_Absent.InnerText" xml:space="preserve">
+    <value>Adipose body absent</value>
+  </data>
+  <data name="lbl_Adipose_Body_Fills_All.InnerText" xml:space="preserve">
+    <value>Adipose body fills all abdominal cavity</value>
+  </data>
+  <data name="lbl_Adipose_Body_Fills_Half.InnerText" xml:space="preserve">
+    <value>Adipose body fills half of abdominal cavity</value>
+  </data>
+  <data name="lbl_Average_Number_Embryo.InnerText" xml:space="preserve">
+    <value>Average number of embryo per female</value>
+  </data>
+  <data name="lbl_Embryo_Number.InnerText" xml:space="preserve">
+    <value>Embryo Number</value>
+  </data>
+  <data name="lbl_Female_Number.InnerText" xml:space="preserve">
+    <value>Female #</value>
+  </data>
+  <data name="lbl_Female_with_Eggs_Number.InnerText" xml:space="preserve">
+    <value>Female with eggs #</value>
+  </data>
+  <data name="lbl_Female_with_Eggs_Percent.InnerText" xml:space="preserve">
+    <value>Female with eggs %</value>
+  </data>
+  <data name="lbl_Index_Flea_Abundance.InnerText" xml:space="preserve">
+    <value>Index of flea abundance</value>
+  </data>
+  <data name="lbl_Mosquito_Sella_Stage.InnerText" xml:space="preserve">
+    <value>Mosquito Sella Stage</value>
+  </data>
+  <data name="lbl_Percent_of_Occurrence.InnerText" xml:space="preserve">
+    <value>Percent of Occurrence</value>
+  </data>
+  <data name="lbl_Rodent_Age_Group.InnerText" xml:space="preserve">
+    <value>Rodent Age Group</value>
+  </data>
+  <data name="lbl_Rodent_Density.InnerText" xml:space="preserve">
+    <value>Rodent Density</value>
+  </data>
+  <data name="lbl_Total_Flea_Density.InnerText" xml:space="preserve">
+    <value>Total density of fleas per 1 hectare</value>
+  </data>
+  <data name="req_Adipose_Body_Absent.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Adipose_Body_Fills_All.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Adipose_Body_Fills_Half.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Average_Number_Embryo.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Embryo_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Female_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Female_with_Eggs_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Female_with_Eggs_Percent.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Index_Flea_Abundance.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Mosquito_Sella_Stage.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Percent_of_Occurrence.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Rodent_Age_Group.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Rodent_Density.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Total_Flea_Density.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Adipose_Body_Absent.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Adipose_Body_Absent.ErrorMessage" xml:space="preserve">
+    <value>Adipose body absent is required</value>
+  </data>
+  <data name="val_Adipose_Body_Absent.Text" xml:space="preserve">
+    <value>Adipose body absent is required</value>
+  </data>
+  <data name="val_Adipose_Body_Fills_All.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Adipose_Body_Fills_All.ErrorMessage" xml:space="preserve">
+    <value>Adipose body fills all abdominal cavity is required</value>
+  </data>
+  <data name="val_Adipose_Body_Fills_All.Text" xml:space="preserve">
+    <value>Adipose body fills all abdominal cavity is required</value>
+  </data>
+  <data name="val_Adipose_Body_Fills_Half.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Adipose_Body_Fills_Half.ErrorMessage" xml:space="preserve">
+    <value>Adipose body fills half of abdominal cavity is required</value>
+  </data>
+  <data name="val_Adipose_Body_Fills_Half.Text" xml:space="preserve">
+    <value>Adipose body fills half of abdominal cavity is required</value>
+  </data>
+  <data name="val_Average_Number_Embryo.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Average_Number_Embryo.ErrorMessage" xml:space="preserve">
+    <value>Average number of embryo per female is required</value>
+  </data>
+  <data name="val_Average_Number_Embryo.Text" xml:space="preserve">
+    <value>Average number of embryo per female is required</value>
+  </data>
+  <data name="val_Embryo_Number.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Embryo_Number.ErrorMessage" xml:space="preserve">
+    <value>Embryo Number is required</value>
+  </data>
+  <data name="val_Embryo_Number.Text" xml:space="preserve">
+    <value>Embryo Number is required</value>
+  </data>
+  <data name="val_Female_Number.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Female_Number.ErrorMessage" xml:space="preserve">
+    <value>Female # is required</value>
+  </data>
+  <data name="val_Female_Number.Text" xml:space="preserve">
+    <value>Female # is required</value>
+  </data>
+  <data name="val_Female_with_Eggs_Number.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Female_with_Eggs_Number.ErrorMessage" xml:space="preserve">
+    <value>Female with eggs # is required</value>
+  </data>
+  <data name="val_Female_with_Eggs_Number.Text" xml:space="preserve">
+    <value>Female with eggs # is required</value>
+  </data>
+  <data name="val_Female_with_Eggs_Percent.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Female_with_Eggs_Percent.ErrorMessage" xml:space="preserve">
+    <value>Female with eggs % is required</value>
+  </data>
+  <data name="val_Female_with_Eggs_Percent.Text" xml:space="preserve">
+    <value>Female with eggs % is required</value>
+  </data>
+  <data name="val_Index_Flea_Abundance.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Index_Flea_Abundance.ErrorMessage" xml:space="preserve">
+    <value>Index of flea abundance is required</value>
+  </data>
+  <data name="val_Index_Flea_Abundance.Text" xml:space="preserve">
+    <value>Index of flea abundance is required</value>
+  </data>
+  <data name="val_Mosquito_Sella_Stage.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Mosquito_Sella_Stage.ErrorMessage" xml:space="preserve">
+    <value>Mosquito Sella Stage is required</value>
+  </data>
+  <data name="val_Mosquito_Sella_Stage.Text" xml:space="preserve">
+    <value>Mosquito Sella Stage is required</value>
+  </data>
+  <data name="val_Percent_of_Occurrence.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Percent_of_Occurrence.ErrorMessage" xml:space="preserve">
+    <value>Index of flea abundance is required</value>
+  </data>
+  <data name="val_Percent_of_Occurrence.Text" xml:space="preserve">
+    <value>Percent of occurrence is required</value>
+  </data>
+  <data name="val_Rodent_Age_Group.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Age_Group.ErrorMessage" xml:space="preserve">
+    <value>Rodent Age Group is required</value>
+  </data>
+  <data name="val_Rodent_Age_Group.Text" xml:space="preserve">
+    <value>Rodent Age Group is required</value>
+  </data>
+  <data name="val_Rodent_Density.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Rodent_Density.ErrorMessage" xml:space="preserve">
+    <value>Rodent Density is required</value>
+  </data>
+  <data name="val_Rodent_Density.Text" xml:space="preserve">
+    <value>Rodent Density is required</value>
+  </data>
+  <data name="val_Total_Flea_Density.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Total_Flea_Density.ErrorMessage" xml:space="preserve">
+    <value>Total density of fleas per 1 hectare is required</value>
+  </data>
+  <data name="val_Total_Flea_Density.Text" xml:space="preserve">
+    <value>Total density of fleas per 1 hectare is required</value>
+  </data>
+  <data name="btn_Copy_Detailed_Collection.InnerText" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="dis_Diseases.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Field_Work_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Vector_Types.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbl_Delete.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbl_Diseases.InnerText" xml:space="preserve">
+    <value>Diseases</value>
+  </data>
+  <data name="lbl_Field_Pool_Vector_ID.InnerText" xml:space="preserve">
+    <value>Field Pool/Vector ID</value>
+  </data>
+  <data name="lbl_Pool_Vector_ID.InnerText" xml:space="preserve">
+    <value>Pool/Vector ID</value>
+  </data>
+  <data name="lbl_Aggregate_Session_Summary_ID.InnerText" xml:space="preserve">
+    <value>Session Summary ID</value>
+  </data>
+  <data name="lbl_Select.InnerText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="lbl_Edit.InnerText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="lbl_Vector_Types.InnerText" xml:space="preserve">
+    <value>Vector Types</value>
+  </data>
+  <data name="req_Field_Work_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Tab_Vector_Data.Text" xml:space="preserve">
+    <value>Vector Data</value>
+  </data>
+  <data name="val_Field_Work_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Field_Work_Date.ErrorMessage" xml:space="preserve">
+    <value>Field Work Date is required</value>
+  </data>
+  <data name="val_Field_Work_Date.Text" xml:space="preserve">
+    <value>Field Work Date is required</value>
+  </data>
+  <data name="lbl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="lbl_Return_to_VectorSurveillanceSession.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lbl_Items.InnerText" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="btn_Add_Sample.InnerText" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Hdg_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Cancel Search</value>
+  </data>
+  <data name="Hdg_Cancel_Vector.InnerText" xml:space="preserve">
+    <value>Cancel Vector Surveillance</value>
+  </data>
+  <data name="Hpl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Btn_Return_To_Session_Record.InnerText" xml:space="preserve">
+    <value>Return to Vector Surveillance Session</value>
+  </data>
+  <data name="Btn_Return_To_Outbreak_Session_Record.InnerText" xml:space="preserve">
+    <value>Return to Outbreak Session</value>
+  </data>
+  <data name="lbl_Bad_Date.InnerText" xml:space="preserve">
+    <value>The From Date and To Date can not be a future date. Also the From Date must be before or the same as the To Date.</value>
+  </data>
+  <data name="lbl_Vector_Bad_Date.InnerText" xml:space="preserve">
+    <value>The Start Date and Close Date can not be a future date. Also the Start Date must be before or the same as the Closed Date when status is closed.</value>
+  </data>
+  <data name="lbl_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Do you want to cancel search?</value>
+  </data>
+  <data name="lbl_Cancel_Vector_Surveillance_Session.InnerText" xml:space="preserve">
+    <value>Do you want to cancel this Vector Surveillance Session or Search?</value>
+  </data>
+  <data name="Btn_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_DeleteDetailed.InnerText" xml:space="preserve">
+    <value>Delete this detailed?</value>
+  </data>
+  <data name="lbl_DeleteAggregate.InnerText" xml:space="preserve">
+    <value>Delete this aggregate?</value>
+  </data>
+  <data name="lbl_DeleteVector.InnerText" xml:space="preserve">
+    <value>Delete this vector surveillance session?</value>
+  </data>
+  <data name="lbl_DeleteSample.InnerText" xml:space="preserve">
+    <value>Delete this sample?</value>
+  </data>
+  <data name="lbl_DeleteFieldTest.InnerText" xml:space="preserve">
+    <value>Delete this fieldtest?</value>
+  </data>
+  <data name="btn_Select_Session.Tooltip" xml:space="preserve">
+    <value>Click here to select session.</value>
+  </data>
+  <data name="btn_Show_Search_Criteria.Title" xml:space="preserve">
+    <value>Click here to show/hide search criteria.</value>
+  </data>
+  <data name="lbl_Aggregate_Collection_Deleted.InnerText" xml:space="preserve">
+    <value>Aggregate Collection deleted successfully</value>
+  </data>
+  <data name="lbl_Aggregate_Collection_Validation_Error.InnerText" xml:space="preserve">
+    <value>Please first create Vector Surveillance Session record</value>
+  </data>
+  <data name="lbl_Collection_Data_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Collection Data tab.</value>
+  </data>
+  <data name="lbl_Detailed_Collection_Copied.InnerText" xml:space="preserve">
+    <value>Vector Detailed Collection Data copied sucessfully.</value>
+  </data>
+  <data name="lbl_Detailed_Collection_Deleted.InnerText" xml:space="preserve">
+    <value>Detailed Collection deleted successfully</value>
+  </data>
+  <data name="lbl_Detailed_Collection_Saved.InnerText" xml:space="preserve">
+    <value>Vector Detailed Collection Data saved sucessfully.</value>
+  </data>
+  <data name="lbl_Detailed_Collection_Validation_Error.InnerText" xml:space="preserve">
+    <value>Please first create Vector Surveillance Session record.</value>
+  </data>
+  <data name="lbl_Field_Tests_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Field Tests tab.</value>
+  </data>
+  <data name="lbl_Field_Test_Deleted_Successfully.InnerText" xml:space="preserve">
+    <value>Field test deleted successfully.</value>
+  </data>
+  <data name="lbl_Field_Test_Saved_Successfully.InnerText" xml:space="preserve">
+    <value>Field Test saved successfully.</value>
+  </data>
+  <data name="lbl_One_Search_Criterion.InnerText" xml:space="preserve">
+    <value>Please enter at least one search parameter.</value>
+  </data>
+  <data name="lbl_Page_Error.InnerText" xml:space="preserve">
+    <value>An Error occurred On this page. Please verify your information To resolve the issue.</value>
+  </data>
+  <data name="lbl_Sample_Deleted_Successfully.InnerText" xml:space="preserve">
+    <value>Sample deleted successfully</value>
+  </data>
+  <data name="lbl_Sample_Saved_Successfully.InnerText" xml:space="preserve">
+    <value>Sample saved successfully</value>
+  </data>
+  <data name="lbl_Sample_Saved_Validation_Error.InnerText" xml:space="preserve">
+    <value>Please first create Sample record.</value>
+  </data>
+  <data name="lbl_Sample_Save_Sample_Id_Validation_Error.InnerText" xml:space="preserve">
+    <value>Please enter in valid Field Sample ID</value>
+  </data>
+  <data name="lbl_Search_Instructions.InnerText" xml:space="preserve">
+    <value>Use the following fields to search for existing session. Please fill in all known fields.</value>
+  </data>
+  <data name="lbl_Summary_Collection_Saved.InnerText" xml:space="preserve">
+    <value>Summary collection saved successfully.</value>
+  </data>
+  <data name="lbl_Surveillance_Session_Saved.InnerText" xml:space="preserve">
+    <value>You have successfully created a Vector Surveillance Surveillance Session.</value>
+  </data>
+  <data name="lbl_Validate_For_Create_Vector_Surveillance_Description_Max_Length_Error.InnerText" xml:space="preserve">
+    <value>Please limit the Description and Description of Location parameters character length to 500 or less</value>
+  </data>
+  <data name="lbl_Validate_For_Create_Vector_Surveillance_Error.InnerText" xml:space="preserve">
+    <value>Please at least select status and start date parameters.</value>
+  </data>
+  <data name="lbl_Validate_For_Exact_Location_Error.InnerText" xml:space="preserve">
+    <value>Please select address region and rayon location parameters.</value>
+  </data>
+  <data name="lbl_Validate_For_Foreign_Location_Error.InnerText" xml:space="preserve">
+    <value>Please select address country location parameter.</value>
+  </data>
+  <data name="lbl_Validate_For_Relative_Location_Error.InnerText" xml:space="preserve">
+    <value>Please select address region, rayon, and town or village location parameters.</value>
+  </data>
+  <data name="lbl_Validate_For_Species_Error.InnerText" xml:space="preserve">
+    <value>Please select species parameter.</value>
+  </data>
+  <data name="lbl_Vector_Data_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Vector Data tab.</value>
+  </data>
+  <data name="lbl_Vector_Samples_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Vector Samples tab.</value>
+  </data>
+  <data name="lbl_Vector_Save_Validation_Error.InnerText" xml:space="preserve">
+    <value>Please first create Vector Data record.</value>
+  </data>
+  <data name="lbl_Vector_Specific_Data_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Vector Specific Data tab.</value>
+  </data>
+  <data name="lbl_Vector_Surveillance_Session_Deleted.InnerText" xml:space="preserve">
+    <value>Successful Deletion Of Vector Surveillance Session record.</value>
+  </data>
+  <data name="btn_Add_Disease.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Edit_Field_Test.Tooltip" xml:space="preserve">
+    <value>Click here to edit field test.</value>
+  </data>
+  <data name="btn_Edit_Sample.Tooltip" xml:space="preserve">
+    <value>Click here to edit sample.</value>
+  </data>
+  <data name="btn_OK.InnerText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_Vector_Edit.Tooltip" xml:space="preserve">
+    <value>Click here to edit vector surveillance session.</value>
+  </data>
+  <data name="lbl_End_Date_Range.InnerText" xml:space="preserve">
+    <value>Session Close Date Range</value>
+  </data>
+  <data name="val_EndDateFromStartDate.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_EndDateFromStartDate.ErrorMessage" xml:space="preserve">
+    <value>Close Date From must be same or later than Start Date From and Start Date To</value>
+  </data>
+  <data name="val_EndDateFromStartDate.Text" xml:space="preserve">
+    <value>Close Date From must be same or later than Start Date From and Start Date To</value>
+  </data>
+  <data name="val_EndDateTo.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_EndDateTo.ErrorMessage" xml:space="preserve">
+    <value>Close Date To must be same or later than Close Date From</value>
+  </data>
+  <data name="val_EndDateTo.Text" xml:space="preserve">
+    <value>Close Date To must be same or later than Close Date From</value>
+  </data>
+  <data name="val_StartDateTo.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_StartDateTo.ErrorMessage" xml:space="preserve">
+    <value>Start Date To must be same or later than Start Date From</value>
+  </data>
+  <data name="val_StartDateTo.Text" xml:space="preserve">
+    <value>Start Date To shall be same or later than Start Date From</value>
+  </data>
+  <data name="val_EndDateToStartDate.ErrorMessage" xml:space="preserve">
+    <value>Close Date To must be same or later than Start Date From and Start Date To</value>
+  </data>
+  <data name="val_EndDateToStartDate.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_EndDateToStartDateFrom.Text" xml:space="preserve">
+    <value>Close Date To must be same or later than Start Date From and Start Date To</value>
+  </data>
+  <data name="val_Search_Form_Fields.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Search_Form_Fields.ErrorMessage" xml:space="preserve">
+    <value>Please enter at least one search field.</value>
+  </data>
+  <data name="val_Search_Form_Fields.Text" xml:space="preserve">
+    <value>Please enter at least one search field.</value>
+  </data>
+  <data name="val_Search_Form_Fields_Future_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Search_Form_Fields_Future_Date.ErrorMessage" xml:space="preserve">
+    <value>Start date From or Start date To cannot be a greater than current date.</value>
+  </data>
+  <data name="val_Search_Form_Fields_Future_Date.Text" xml:space="preserve">
+    <value>Start date From or Start date To cannot be a greater than current date.</value>
+  </data>
+  <data name="btn_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="lbl_Cancel_Modal.Text" xml:space="preserve">
+    <value>Do you want to cancel {0}?</value>
+  </data>
+  <data name="lbl_Delete_Modal.Text" xml:space="preserve">
+    <value>Are you sure you want to delete {0} record {1}?</value>
+  </data>
+  <data name="val_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="val_Search_Results.Text" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="val_Vector_Surveillance_Summary.Text" xml:space="preserve">
+    <value>Vector Surveillance Summary</value>
+  </data>
+  <data name="val_Aggregate_Collection_Detail.Text" xml:space="preserve">
+    <value>Aggregate Collection Detail</value>
+  </data>
+  <data name="val_Detailed_Collection_Detail.Text" xml:space="preserve">
+    <value>Detailed Collection Detail</value>
+  </data>
+  <data name="btn_Add_Lab_Tests.InnerText" xml:space="preserve">
+    <value>Add Lab Test</value>
+  </data>
+  <data name="hdg_Amendment_History.InnerText" xml:space="preserve">
+    <value>Amendment History</value>
+  </data>
+  <data name="hdg_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="hdg_Field_Collection_Date.InnerText" xml:space="preserve">
+    <value>Field Collection Date</value>
+  </data>
+  <data name="hdg_Lab_Bar_Code.InnerText" xml:space="preserve">
+    <value>Bar Code</value>
+  </data>
+  <data name="hdg_Species.InnerText" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="hdg_Test.InnerText" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="hdg_Tested_By_Institution.InnerText" xml:space="preserve">
+    <value>Tested by Institution</value>
+  </data>
+  <data name="lbl_Lab_Tests_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Lab Sample tab.</value>
+  </data>
+  <data name="btn_Add_Lab_Tests.Value" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="lbl_Page_Delete.InnerText" xml:space="preserve">
+    <value>Unable to delete this record as it contains dependent child objects.</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session_Aggregate_Collection.InnerText" xml:space="preserve">
+    <value>Aggregate Collection</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session_Detailed_Collection.InnerText" xml:space="preserve">
+    <value>Detailed Collection</value>
+  </data>
+  <data name="val_Vector_Surveillance_Summary_Aggregate_Collection.Text" xml:space="preserve">
+    <value>Aggregate Collection</value>
+  </data>
+  <data name="val_Vector_Surveillance_Summary_Detailed_Collection.Text" xml:space="preserve">
+    <value>Detailed Collection</value>
+  </data>
+  <data name="btn_Close.Text" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="lbl_CollectionData.InnerText" xml:space="preserve">
+    <value>Collection Data</value>
+  </data>
+  <data name="lbl_FieldTests.InnerText" xml:space="preserve">
+    <value>Field Tests</value>
+  </data>
+  <data name="lbl_Samples.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="lbl_VectorData.InnerText" xml:space="preserve">
+    <value>Vector Data</value>
+  </data>
+  <data name="val_Session_Foriegn_Address.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Session_Foriegn_Address.ErrorMessage" xml:space="preserve">
+    <value>If “Foreign Address” is selected as Session Location Type then address is required.</value>
+  </data>
+  <data name="val_Session_Foriegn_Address.Text" xml:space="preserve">
+    <value>If “Foreign Address” is selected as Session Location Type then address is required.</value>
+  </data>
+  <data name="val_Session_Start_Future_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Session_Start_Future_Date.ErrorMessage" xml:space="preserve">
+    <value>Session Start date is required and cannot be a greater than current date.</value>
+  </data>
+  <data name="val_Session_Start_Future_Date.Text" xml:space="preserve">
+    <value>Session Start date is required and cannot be a greater than current date.</value>
+  </data>
+  <data name="val_Vector_Description.ErrorMessage" xml:space="preserve">
+    <value>Maximum 300 characters allowed.</value>
+  </data>
+  <data name="val_Vector_Description.Text" xml:space="preserve">
+    <value>Maximum 300 characters allowed.</value>
+  </data>
+  <data name="lbl_Page_Delete_Success.InnerText" xml:space="preserve">
+    <value>The record was successfully deleted.</value>
+  </data>
+</root>

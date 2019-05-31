@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Grd_Area_Heading" xml:space="preserve">
+    <value>Area</value>
+  </data>
+  <data name="Grd_Parameter_Heading" xml:space="preserve">
+    <value>Parameter</value>
+  </data>
+  <data name="Grd_Parameter_Type_Heading" xml:space="preserve">
+    <value>Parameter Type</value>
+  </data>
+  <data name="Grd_Start_Date_Heading" xml:space="preserve">
+    <value>Start Date for Period</value>
+  </data>
+  <data name="Grd_Statisical_Area_Type_Heading" xml:space="preserve">
+    <value>Statisical Area Type</value>
+  </data>
+  <data name="Grd_Statistical_Age_Group_Heading" xml:space="preserve">
+    <value>Statistical Age Group</value>
+  </data>
+  <data name="Grd_Statistical_Period_Type__Heading" xml:space="preserve">
+    <value>Statistical Period Type</value>
+  </data>
+  <data name="Grd_Value_Heading" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_New.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Dis_Country.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Rayon.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Region.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Settlement.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Start_Date_for_Period.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Statistical_Data_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Statistical_List.PagerSettings-FirstPageText" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Grd_Statistical_List.PagerSettings-LastPageText" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Grd_Statistical_List.PagerSettings-Mode" xml:space="preserve">
+    <value>NumericFirstLast</value>
+  </data>
+  <data name="Grd_Statistical_List.PagerSettings-PageButtonCount" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Hdg_Search.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_Country.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Lbl_Country.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Rayon.Text" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Lbl_Rayon.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Region.Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Lbl_Region.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Settlement.Text" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Lbl_Settlement.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Start_Date_for_Period.Text" xml:space="preserve">
+    <value>Start Date for Period</value>
+  </data>
+  <data name="Lbl_Start_Date_for_Period.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Start_Date_From.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_Start_Date_From.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Start_Date_To.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_Start_Date_To.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Statistical_Data_Type.Text" xml:space="preserve">
+    <value>Statistical Data Type</value>
+  </data>
+  <data name="Lbl_Statistical_Data_Type.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Val_Country.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Country.ErrorMessage" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="Val_Country.Text" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="Val_Rayon.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Rayon.ErrorMessage" xml:space="preserve">
+    <value>Rayon is required.</value>
+  </data>
+  <data name="Val_Rayon.Text" xml:space="preserve">
+    <value>Rayon is required.</value>
+  </data>
+  <data name="Val_Region.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Region.ErrorMessage" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="Val_Region.Text" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="Val_Settlement.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Settlement.ErrorMessage" xml:space="preserve">
+    <value>Settlement is required.</value>
+  </data>
+  <data name="Val_Settlement.Text" xml:space="preserve">
+    <value>Settlement is required.</value>
+  </data>
+  <data name="Val_Start_Date_From.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Start_Date_From.ErrorMessage" xml:space="preserve">
+    <value>Start Date for Period From is required.</value>
+  </data>
+  <data name="Val_Start_Date_From.Text" xml:space="preserve">
+    <value>Start Date for Period From is required.</value>
+  </data>
+  <data name="Val_Start_Date_To.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Start_Date_To.ErrorMessage" xml:space="preserve">
+    <value>Start Date for Period To is required.</value>
+  </data>
+  <data name="Val_Start_Date_To.Text" xml:space="preserve">
+    <value>Start Date for Period To is required.</value>
+  </data>
+  <data name="Val_Statistical_Data_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Statistical_Data_Type.ErrorMessage" xml:space="preserve">
+    <value>Statistical Data Type is required.</value>
+  </data>
+  <data name="Val_Statistical_Data_Type.Text" xml:space="preserve">
+    <value>Statistical Data Type is required.</value>
+  </data>
+  <data name="Hdg_Form_Title.InnerText" xml:space="preserve">
+    <value>Statistical Data List</value>
+  </data>
+  <data name="Lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Statistical_List.Empty" xml:space="preserve">
+    <value>No Statistical Data found.</value>
+  </data>
+</root>

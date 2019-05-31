@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<EIDSS>
+  <RECORD>
+    <FORRELEASE>true</FORRELEASE>
+    <SEARCHOPTION>Active Surveillance Session</SEARCHOPTION>
+    <SEARCHLABEL>         Session ID :</SEARCHLABEL>
+    <SEARCHSQL>GetActiveSurveillanceSession_Encrypted.sql</SEARCHSQL>
+    <SEARCHPARAM>@MonitoringSessionID</SEARCHPARAM>
+    <SEARCHFIELDS>Session Key=idfMonitoringSession|Session ID=strMonitoringSessionID|Session Status=SessionStatus|Country=Country|Region=Region|Ryan=Ryan|Settlement=Settlement|Session Entered By=SessionEnteredBy|Campaign ID=idfCampaign|Site Name=strSiteName|Session Create Date=datEnteredDate</SEARCHFIELDS>
+    <DELETESQL>DeleteActiveSurveillanceSession_Encrypted.sql</DELETESQL>
+    <DELETEPARAM>@idfMonitoringSession</DELETEPARAM>
+    <CONFIRMMESSAGE>Are you sure you want to delete session [{0}]?</CONFIRMMESSAGE>
+    <CONFIRMMESSAGEFIELD>Session ID</CONFIRMMESSAGEFIELD>
+  </RECORD>
+  <RECORD>
+    <FORRELEASE>true</FORRELEASE>
+    <SEARCHOPTION>Veterinarian Case</SEARCHOPTION>
+    <SEARCHLABEL>        Vet. Case ID :</SEARCHLABEL>
+    <SEARCHSQL>GetVetCase_Encrypted.sql</SEARCHSQL>
+    <SEARCHPARAM>@VetCaseID</SEARCHPARAM>
+    <SEARCHFIELDS>Vet Case=idfVetCase|Vet. Case ID=strCaseID|Session ID=strMonitoringSessionID|Case Type=CaseType|Case Classification=CaseClassification|National Name=strNationalName|Default Display Diagnosis=strDefaultDisplayDiagnosis|IDC10=strIDC10|Final Diagnosis Date=datFinalDiagnosisDate|Entered By=EnteredBy|Reported By=ReportedBy|Report Date=datReportDate|Investigated By=InvestigatedBy|Site Name=strSiteName|Test Conducted=TestConducted|Status=Rowstatus|Reported By Office ID=idfReportedByOffice|Investigated By Office ID=idfInvestigatedByOffice|Case Report Type ID=idfsCaseReportType|Parent Monitoring Session ID=idfParentMonitoringSession</SEARCHFIELDS>
+    <DELETESQL>DeleteVetCase_Encrypted.sql</DELETESQL>
+    <DELETEPARAM>@idfVetCase</DELETEPARAM>
+    <CONFIRMMESSAGE>Are you sure you want to delete Veterinarian case [{0}]?</CONFIRMMESSAGE>
+    <CONFIRMMESSAGEFIELD>Vet. Case ID</CONFIRMMESSAGEFIELD>
+  </RECORD>
+  <RECORD>
+    <FORRELEASE>true</FORRELEASE>
+    <SEARCHOPTION>Lab Sample</SEARCHOPTION>
+    <SEARCHLABEL>   Lab Sample ID :</SEARCHLABEL>
+    <SEARCHSQL>GetSample_Encrypted.sql</SEARCHSQL>
+    <SEARCHPARAM>@strBarCode</SEARCHPARAM>
+    <SEARCHFIELDS>Material ID=idfMaterial|Aliquot/Derivative Samples=Aliquot/Derivative Samples|Lab Sample ID=strBarcode|Case ID=strCaseID|Monitoring Session ID=strMonitoringSessionID|Sample Type=SampleType|Collected By=PersonCollectedBy</SEARCHFIELDS>
+    <DELETESQL>DeleteSample_Encrypted.sql</DELETESQL>
+    <DELETEPARAM>@idfMaterial</DELETEPARAM>
+    <CONFIRMMESSAGE>Deleting this sample will delete the following Aliquot/Derivative Samples [{0}]?</CONFIRMMESSAGE>
+    <CONFIRMMESSAGEFIELD>Aliquot/Derivative Samples</CONFIRMMESSAGEFIELD>
+  </RECORD>
+  <RECORD>
+    <FORRELEASE>true</FORRELEASE>
+    <SEARCHOPTION>Test Result</SEARCHOPTION>
+    <SEARCHLABEL>   Lab Sample ID :</SEARCHLABEL>
+    <SEARCHSQL>GetSampleTest_Encrypted.sql</SEARCHSQL>
+    <SEARCHPARAM>@strBarCode</SEARCHPARAM>
+    <SEARCHFIELDS>Test ID=idfTesting|Lab Sample ID=MaterialBarCode|Test Name=TestName|Test Category=TestCategory|Test Result=TestResult|Test Status=TestStatus|Diagnosis=Diagnosis</SEARCHFIELDS>
+    <DELETESQL>DeleteTestResult_Encrypted.sql</DELETESQL>
+    <DELETEPARAM>@idfTesting</DELETEPARAM>
+    <CONFIRMMESSAGE>Are you sure you want to delete test result for Lab Sample ID [{0}]?</CONFIRMMESSAGE>
+    <CONFIRMMESSAGEFIELD>Lab Sample ID</CONFIRMMESSAGEFIELD>
+  </RECORD>
+</EIDSS>

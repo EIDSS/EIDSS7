@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Lbl_Organization_Full_Name_ToolTip" xml:space="preserve">
+    <value>Please type the organization's full name.</value>
+  </data>
+  <data name="Lbl_Organization_Text" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Lbl_Organization_ToolTip" xml:space="preserve">
+    <value>Please type the organization's name.</value>
+  </data>
+  <data name="Lbl_Organization_Unique_Id_Text" xml:space="preserve">
+    <value>Unique Organization ID</value>
+  </data>
+  <data name="Lbl_Organization_Unique_Id_ToolTip" xml:space="preserve">
+    <value>Please type the organization's unique Id</value>
+  </data>
+  <data name="Lbl_Password_Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Lbl_Password_ToolTip" xml:space="preserve">
+    <value>Please type your password.</value>
+  </data>
+  <data name="Lbl_Phone_Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_Phone_ToolTip" xml:space="preserve">
+    <value>Please type the phone.</value>
+  </data>
+  <data name="Lbl_Position_Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Lbl_Position_ToolTip" xml:space="preserve">
+    <value>Please type the position.</value>
+  </data>
+  <data name="Lbl_Rayon_Text" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Lbl_Rayon_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Region_Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Lbl_Region_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Search_Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_Search_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Second_Name_ToolTip" xml:space="preserve">
+    <value>Please type the person's second name.</value>
+  </data>
+  <data name="Lbl_Date_of_Symptom_Onset_Text" xml:space="preserve">
+    <value>Date of Symptom Onset</value>
+  </data>
+  <data name="Lbl_Date_of_Symptom_Onset_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Yes_Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Lbl_Yes_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Abbreviation_Text" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="Lbl_Abbreviation_ToolTip" xml:space="preserve">
+    <value>Please type the Abbreviation.</value>
+  </data>
+  <data name="Lbl_Additional_Text" xml:space="preserve">
+    <value>Additional Test Requested/Sample Notes</value>
+  </data>
+  <data name="Lbl_Additional_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Citizenship_Text" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Lbl_Citizenship_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Collection_Date_Text" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Lbl_Collection_Date_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Current_Address_Text" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="Lbl_Current_Address_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Of_Birth_Text" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Lbl_Date_Of_Birth_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_of_Diagnosis_Text" xml:space="preserve">
+    <value>Date of Diagnosis</value>
+  </data>
+  <data name="Lbl_Date_of_Diagnosis_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Received_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Received_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Department_Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Lbl_Department_ToolTip" xml:space="preserve">
+    <value>Please type the department's name.</value>
+  </data>
+  <data name="Lbl_Destination_Lab_Text" xml:space="preserve">
+    <value>Destination Lab</value>
+  </data>
+  <data name="Lbl_Destination_Lab_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Elevation_Text" xml:space="preserve">
+    <value>Elevation (m)</value>
+  </data>
+  <data name="Lbl_Elevation_ToolTip" xml:space="preserve">
+    <value>Please enter the elevation of the settlement.</value>
+  </data>
+  <data name="Lbl_Family_Name_Text" xml:space="preserve">
+    <value>Family Name</value>
+  </data>
+  <data name="Lbl_Family_Name_ToolTip" xml:space="preserve">
+    <value>Please type the person's Family name.</value>
+  </data>
+  <data name="Lbl_Female_Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Lbl_Female_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_First_Name_Text" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Lbl_First_Name_ToolTip" xml:space="preserve">
+    <value>Please type the person's first name.</value>
+  </data>
+  <data name="Lbl_From_Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_From_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_House_Text" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="Lbl_House_ToolTip" xml:space="preserve">
+    <value>Please enter the house information.</value>
+  </data>
+  <data name="Lbl_Language_Text" xml:space="preserve">
+    <value>Select a language</value>
+  </data>
+  <data name="Lbl_Language_ToolTip" xml:space="preserve">
+    <value>Please choose from the list of languages:</value>
+  </data>
+  <data name="Lbl_Login_Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Lbl_Login_ToolTip" xml:space="preserve">
+    <value>Please type the login name.</value>
+  </data>
+  <data name="Lbl_Name_Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_Name_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_No_Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_No_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Organization_Full_Name_Text" xml:space="preserve">
+    <value>Organization Full Name</value>
+  </data>
+  <data name="Lbl_Second_Name_Text" xml:space="preserve">
+    <value>Second Name</value>
+  </data>
+  <data name="Lbl_To_Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_To_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Latitude_Text" xml:space="preserve">
+    <value>Latitude (±#.#####º):</value>
+  </data>
+  <data name="Lbl_Latitude_ToolTip" xml:space="preserve">
+    <value>Please enter the latitude coordinate</value>
+  </data>
+  <data name="Lbl_Longitude_Text" xml:space="preserve">
+    <value>Longitude (±#.#####º):</value>
+  </data>
+  <data name="Lbl_Longitude_ToolTip" xml:space="preserve">
+    <value>Please enter the longitude coordinate</value>
+  </data>
+  <data name="LblEmployerNameToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Employer_Name_Text" xml:space="preserve">
+    <value>Employer Name</value>
+  </data>
+  <data name="Lbl_Id_Type_Text" xml:space="preserve">
+    <value>Personal ID type</value>
+  </data>
+  <data name="Lbl_Id_Type_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Male_Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Lbl_Male_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Personal_Id_Instruction_Text" xml:space="preserve">
+    <value>Personal ID, Passport ID, or PIN Number, if known</value>
+  </data>
+  <data name="Lbl_Personal_Id_Instruction_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_Date_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Unknown_Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Lbl_Country_Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Lbl_Country_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Local_Sample_Text" xml:space="preserve">
+    <value>Local Sample ID</value>
+  </data>
+  <data name="Lbl_Local_Sample_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Sample_Type_Text" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Sample_Type_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Sent_Date_Text" xml:space="preserve">
+    <value>Sent Date</value>
+  </data>
+  <data name="Lbl_Sent_Date_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Postal_Code_Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="LblSearchID" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="LblSearchIDToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Postal_Code_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Settlement_Text" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Lbl_Settlement_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblSessionID" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="LblSessionIDToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Statistical_Data_Type_Text" xml:space="preserve">
+    <value>Statistical Data Type</value>
+  </data>
+  <data name="Lbl_Statistical_Data_Type_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Accession_In_Text" xml:space="preserve">
+    <value>Accession In</value>
+  </data>
+  <data name="Lbl_Accession_In_ToolTip" xml:space="preserve">
+    <value>Accession In</value>
+  </data>
+  <data name="Lbl_Group_Accession_Text" xml:space="preserve">
+    <value>Group Accession</value>
+  </data>
+  <data name="Lbl_Assign_Test_Text" xml:space="preserve">
+    <value>Assign Test</value>
+  </data>
+  <data name="Lbl_Accession" xml:space="preserve">
+    <value>Accession</value>
+  </data>
+  <data name="Lbl_Register_New_Sample_Text" xml:space="preserve">
+    <value>Register New Sample</value>
+  </data>
+  <data name="Lbl_Aliquots_Text" xml:space="preserve">
+    <value>Aliquots</value>
+  </data>
+  <data name="Lbl_Return_to_Dashboard_Text" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Lbl_Return_to_Dashboard_ToolTip" xml:space="preserve">
+    <value>Click to return to the home page dashboard.</value>
+  </data>
+  <data name="Lbl_Please_Wait_Text" xml:space="preserve">
+    <value>Please wait while your request is processed...</value>
+  </data>
+</root>

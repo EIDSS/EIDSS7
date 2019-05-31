@@ -1,0 +1,281 @@
+.small
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.font
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.header
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 16pt;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: red;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+/*.subheader
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: white;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tblheader
+{
+    FONT-SIZE: medium;
+    COLOR: red;
+    TEXT-ALIGN: center;
+    FONT-VARIANT: small-caps
+}
+/*A
+{
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: x-small;
+    TEXT-TRANSFORM: none;
+    COLOR: #000000;
+    FONT-STYLE: normal;
+    TEXT-DECORATION: underline
+}
+A:hover
+{
+    FONT-WEIGHT: bold;
+    COLOR: red;
+    text-style: italic
+}
+BODY
+{
+    BORDER-RIGHT: white thin inset;
+    BORDER-TOP: white thin inset;
+    FONT-WEIGHT: bolder;
+    FONT-SIZE: smaller;
+    FLOAT: none;
+    TEXT-TRANSFORM: capitalize;
+    BORDER-LEFT: white thin inset;
+    COLOR: black;
+    BORDER-BOTTOM: white thin inset;
+    FONT-STYLE: normal;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    POSITION: relative;
+    BACKGROUND-COLOR: silver;
+    FONT-VARIANT: small-caps;
+    TEXT-DECORATION: none
+}
+P
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+BLOCKQUOTE
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}*/
+/*UL
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+LI
+{
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TR
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}*/
+.reply
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 12pt;
+    COLOR: #000066;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tiny
+{
+    FONT-SIZE: 6pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.bgtable
+{
+    BACKGROUND-COLOR: #000066
+}
+.claimtable
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Arial, Helvetica, sans-serif;
+    BACKGROUND-COLOR: #ffffff
+}
+.btnColor
+{
+    BORDER-RIGHT: silver thin outset;
+    BORDER-TOP: silver thin outset;
+    FONT-WEIGHT: bold;
+    TEXT-TRANSFORM: none;
+    BORDER-LEFT: silver thin outset;
+    WIDTH: 150px;
+    CURSOR: pointer;
+    COLOR: white;
+    BORDER-BOTTOM: silver thin outset;
+    HEIGHT: 25px;
+    BACKGROUND-COLOR: #000066
+}
+.btnColorSml
+{
+    BORDER-RIGHT: silver outset;
+    BORDER-TOP: silver outset;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: silver outset;
+    WIDTH: 75px;
+    CURSOR: pointer;
+    COLOR: white;
+    BORDER-BOTTOM: silver outset;
+    HEIGHT: 25px;
+    BACKGROUND-COLOR: #000066
+}
+.bdtable
+{
+    BORDER-RIGHT: #000066 thin solid;
+    BORDER-TOP: #000066 thin solid;
+    BORDER-LEFT: #000066 thin solid;
+    BORDER-BOTTOM: #000066 thin solid
+}
+.hand
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 9pt;
+    CURSOR: pointer
+}
+.list
+{
+    BORDER-RIGHT: thin inset;
+    BORDER-TOP: thin inset;
+    OVERFLOW: auto;
+    BORDER-LEFT: thin inset;
+    WIDTH: 675px;
+    CURSOR: pointer;
+    BORDER-BOTTOM: thin inset;
+    HEIGHT: 200px
+}
+.list UL
+{
+    MARGIN-TOP: 0px;
+    MARGIN-BOTTOM: 0px;
+    MARGIN-LEFT: 2px;
+    LIST-STYLE-TYPE: none
+}
+.list UL LI
+{
+    MARGIN-TOP: 0px;
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 11px;
+    MARGIN-BOTTOM: 0px;
+    COLOR: #000000;
+    LINE-HEIGHT: 13px;
+    FONT-FAMILY: 'tahoma'
+}
+.list UL LI.selected
+{
+    BACKGROUND-IMAGE: none;
+    COLOR: white;
+    BACKGROUND-REPEAT: repeat;
+    BACKGROUND-COLOR: lightgrey
+}
+.btnColorTiny
+{
+    BORDER-RIGHT: silver outset;
+    BORDER-TOP: silver outset;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: silver outset;
+    WIDTH: 25px;
+    CURSOR: pointer;
+    COLOR: white;
+    BORDER-BOTTOM: silver outset;
+    HEIGHT: 25px;
+    BACKGROUND-COLOR: #000066
+}
+IMG
+{
+    CURSOR: pointer
+}
+.imgColor
+{
+    BORDER-RIGHT: silver outset;
+    BORDER-TOP: silver outset;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: silver outset;
+    COLOR: white;
+    BORDER-BOTTOM: silver outset;
+    BACKGROUND-COLOR: #000066
+}
+.selectRow
+{
+    CURSOR: pointer
+}
+.trHeader
+{
+    TEXT-TRANSFORM: capitalize;
+    COLOR: white;
+    BACKGROUND-COLOR: #676794
+}
+.hrClass
+{
+    BACKGROUND-COLOR: #336699
+}
+.inputProperCase
+{
+    TEXT-TRANSFORM: capitalize
+}
+.inputAllCaps
+{
+    TEXT-TRANSFORM: uppercase
+}
+.image
+{
+    BORDER-RIGHT: white 1pt solid;
+    BORDER-TOP: white 1pt solid;
+    BORDER-LEFT: white 1pt solid;
+    CURSOR: pointer;
+    BORDER-BOTTOM: white 1pt solid
+}
+.tdDisplay
+{
+    TEXT-TRANSFORM: capitalize;
+    COLOR: black;
+    BACKGROUND-COLOR: lightgrey
+}
+.label
+{
+    BORDER-RIGHT: lightgrey;
+    BORDER-TOP: lightgrey;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: x-small;
+    TEXT-TRANSFORM: capitalize;
+    BORDER-LEFT: lightgrey;
+    COLOR: black;
+    BORDER-BOTTOM: lightgrey;
+    BACKGROUND-COLOR: lightgrey
+}
+.tdHeader
+{
+    BORDER-RIGHT: white 1pt solid;
+    BORDER-TOP: white 1pt solid;
+    TEXT-TRANSFORM: capitalize;
+    BORDER-LEFT: white 1pt solid;
+    CURSOR: pointer;
+    COLOR: white;
+    BORDER-BOTTOM: white 1pt solid;
+    BACKGROUND-COLOR: #676794
+}

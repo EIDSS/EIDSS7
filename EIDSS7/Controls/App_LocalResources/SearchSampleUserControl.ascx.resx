@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Dis_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Farm_Owner.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lab_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Local_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Organization_Sent_To.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Organization_Transferred_To.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Person.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Report_Campaign_Session_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Report_Session_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Results_Received_From.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Surveillance_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Result.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Transfer_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Accession_Date_Range.InnerText" xml:space="preserve">
+    <value>Accession Date Range</value>
+  </data>
+  <data name="Lbl_Active" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="Lbl_Both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="Lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Farm_Owner.InnerText" xml:space="preserve">
+    <value>Farm Owner</value>
+  </data>
+  <data name="Lbl_From.InnerText" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_Human" xml:space="preserve">
+    <value>Human</value>
+  </data>
+  <data name="Lbl_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Lbl_Local_Field_Sample_ID.InnerText" xml:space="preserve">
+    <value>Local/Field Sample ID</value>
+  </data>
+  <data name="Lbl_Organization_Sent_To.InnerText" xml:space="preserve">
+    <value>Organization Sent To</value>
+  </data>
+  <data name="Lbl_Organization_Transferred_To.InnerText" xml:space="preserve">
+    <value>Organization Transferred To</value>
+  </data>
+  <data name="Lbl_Passive" xml:space="preserve">
+    <value>Passive</value>
+  </data>
+  <data name="Lbl_Person.InnerText" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Lbl_Report_Campaign_Session_ID.InnerText" xml:space="preserve">
+    <value>Report/Campaign/Session ID</value>
+  </data>
+  <data name="Lbl_Report_Session_Type.InnerText" xml:space="preserve">
+    <value>Report/Session Type</value>
+  </data>
+  <data name="Lbl_Results_Received_From.InnerText" xml:space="preserve">
+    <value>Results Received From</value>
+  </data>
+  <data name="Lbl_Sample_Status.InnerText" xml:space="preserve">
+    <value>Sample Status</value>
+  </data>
+  <data name="Lbl_Sample_Status_Date_Range.InnerText" xml:space="preserve">
+    <value>Sample Status Date Range</value>
+  </data>
+  <data name="Lbl_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Species.InnerText" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Lbl_Surveillance_Type.InnerText" xml:space="preserve">
+    <value>Surveillance Type</value>
+  </data>
+  <data name="Lbl_Test_Name.InnerText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Lbl_Test_Result.InnerText" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Lbl_Test_Result_Date_Range.InnerText" xml:space="preserve">
+    <value>Test Result Date Range</value>
+  </data>
+  <data name="Lbl_Test_Status.InnerText" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Lbl_Test_Status_Date_Range.InnerText" xml:space="preserve">
+    <value>Test Status Date Range</value>
+  </data>
+  <data name="Lbl_To.InnerText" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_Transfer_ID.InnerText" xml:space="preserve">
+    <value>Transfer ID</value>
+  </data>
+  <data name="Lbl_Vector" xml:space="preserve">
+    <value>Vector</value>
+  </data>
+  <data name="Lbl_Veterinary" xml:space="preserve">
+    <value>Veterinary</value>
+  </data>
+  <data name="Req_Accession_Date_From.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Accession_Date_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Farm_Owner.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Local_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Organization_Sent_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Organization_Transferred_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Person.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Report_Campaign_Session_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Report_Session_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Results_Received_From.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Status_Date_From.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Status_Date_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Surveillance_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Result.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Result_Date_From.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Result_Date_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Status_Date_From.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Status_Date_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Transfer_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Farm_Owner.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Farm_Owner.ErrorMessage" xml:space="preserve">
+    <value>Farm Owner is required</value>
+  </data>
+  <data name="Val_Farm_Owner.Text" xml:space="preserve">
+    <value>Farm Owner is required</value>
+  </data>
+  <data name="Val_Person.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Person.ErrorMessage" xml:space="preserve">
+    <value>Person is required</value>
+  </data>
+  <data name="Val_Person.Text" xml:space="preserve">
+    <value>Person is required</value>
+  </data>
+  <data name="Val_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+</root>

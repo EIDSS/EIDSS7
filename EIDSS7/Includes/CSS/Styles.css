@@ -1,0 +1,517 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman","Trebuchet MS", Georgia, Verdana, serif;
+    font-weight: 500;
+    font-size: 15px;
+    word-spacing: normal;
+    color: #335500;
+    background-color: white;
+    height:100%;
+}
+
+body {
+    min-width: 1024px; /* Prevent content from becoming unreachable in Gecko */
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 80%;
+    font-weight: 500;
+    background: #FFFFFF;
+}
+
+/* position:absolute for all browsers - the whole page scrolls */
+div#headerwrap {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 125px;
+}
+
+/* position:fixed for modern browsers - header and footer do not scroll */
+body > div#headerwrap {
+    position: fixed;
+}
+
+div#header {
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* set a left margin to compensate for IE/Win always making room for a scrollbar */
+div#middlewrap {
+    /* set left margin and bottom padding for IE5/Win */
+    padding: 125px 0 0 0;
+    margin-left: 0;
+    /* set left margin and bottom padding for others */
+    voice-family: "\"}\"";
+    voice-family: inherit;
+    margin-left: 1px;
+    padding-bottom: 50px;
+}
+
+/* set left margin for modern browsers */
+body > div#middlewrap {
+    margin-top: -12px;
+}
+
+div#middle {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#sidebar {
+    position: fixed;
+    width: 0px;
+    float: left;
+    background-color: #00b8e6;
+}
+
+div#topbar {
+    position: fixed;
+    padding: 0px 10px;
+    margin-left: 0px;
+    background-color: #00b8e6;
+}
+
+/* no positioning for IE5/Win - the whole page scrolls */
+div#footerwrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: lightblue;
+}
+
+body > div#footerwrap {
+    position: fixed;
+}
+
+div#footer {
+    height: 50px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div#header {
+    background: #FFFFFF;
+    color: black;
+    background-color: white;
+}
+
+div#footer {
+    background: #FFFFFF;
+    color: black;
+    background-color: #00b8e6;
+}
+
+div#content {
+    background-color: lightblue;
+    background: #FFFFFF;
+    color: black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding:25px 100px;*/
+    margin-left: 0px;
+    font-family: "Times New Roman","Trebuchet MS", Georgia, Verdana, serif;
+    font-weight: 500;
+    font-size: 15px;
+    word-spacing: normal;
+}
+
+.formheader {
+    font-family: Vijaya;
+    font-weight: bold;
+    font-size: 24pt;
+    color: darkblue;
+}
+
+#Heading {
+    background-color: #264d73;
+    height: 75px;
+    color: white;
+    font-family: Arial;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#TopMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00b8e6;
+}
+
+#TopMenu li {
+    float: left;
+}
+
+    #TopMenu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Arial;
+    }
+
+#TopMenu .active {
+    background-color: #4CAF50;
+}
+
+#TopMenu li a:hover:not(.active) {
+    background-color: #264d73;
+}
+
+INPUT[type="button"]:enabled, INPUT[type="button"]:active {
+    border: thin;
+    border-color: none;
+    border-radius: 15px;
+    height: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    background-color: #006699;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+
+INPUT[type="submit"]:enabled, INPUT[type="submit"]:active {
+    border: thin;
+    border-color: none;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    background-color: #006699;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+
+INPUT[type="button"]:enabled:hover {
+    cursor: pointer;
+    background-color: #8DC63F;
+}
+
+INPUT[type="submit"]:enabled:hover {
+    cursor: pointer;
+    background-color: #8DC63F;
+}
+
+INPUT[disabled="disabled"] {
+    border: thin;
+    border-color: none;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: Black;
+    background-color: #DCDCDC;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+
+/*Start Grid View Formatting*/
+
+/* ALTERNATE ROW COLOR STYLE FOR GRIDVIEW when ClientIDMode <> "Static" Or "Predictable"*/
+
+[id^=EIDSSBodyCPH_gv] tr:nth-child(even) {
+    background-color: #DCDCDC;
+}
+
+/* END ALTERNATE ROW COLOR STYLE FOR GRIDVIEW STYLE*/
+
+[id^=EIDSSBodyCPH_gv] td, th {
+    padding: 2px 5px 1px 5px;
+    border: solid 1px #006699;
+}
+
+/* ALTERNATE ROW COLOR STYLE FOR DATAGRID When ClientIDMode="Static"*/
+
+[id^=gv] tr:nth-child(even) {
+    background-color: #DCDCDC;
+}
+
+/* END ALTERNATE ROW COLOR STYLE FOR DATAGRID STYLE*/
+
+[id^=gv] td {
+    padding: 2px 5px 1px 5px;
+    border: solid 1px #006699;
+}
+
+/*End Grid View*/
+
+/* Data Grid formatting*/
+
+[id^=EIDSSBodyCPH_CounterControl1_dg] td, th {
+    padding: 2px 5px 1px 5px;
+    border: solid 1px #006699;
+}
+
+/* End of Data Grid formatting */
+
+/* ALTERNATE ROW COLOR STYLE FOR DATAGRID When ClientIDMode="Static"*/
+
+[id^=dg] tr:nth-child(even) {
+    background-color: #DCDCDC;
+}
+
+/* END ALTERNATE ROW COLOR STYLE FOR DATAGRID STYLE*/
+
+/* Data Grid formatting*/
+
+[id^=dg] td {
+    padding: 2px 5px 1px 5px;
+    border: solid 1px #006699;
+}
+
+/* Put space between checkbox */
+
+[id^=EIDSSBodyCPH_CounterControl1_chk] label {
+    margin-left: 10px;
+}
+
+/* End Put space between checkbox and text */
+
+/* Put space between radio button (list) */
+
+[id^=EIDSSBodyCPH_CounterControl1_rbl] label {
+    margin-left: 10px;
+}
+
+/* End Put space between radio button */
+
+[id^=EIDSSBodyCPH_CounterControl1_nolnk_] a:visited, a:visited:hover, a:visited:active, a:hover, a:active {
+    color: black;
+}
+
+[id^=EIDSSBodyCPH_CounterControl1_lnk] label {
+    margin-left: 10px;
+}
+
+/* table formatting*/
+[id^=EIDSSBodyCPH_canvas] {
+    border-right: #000066 thin solid;
+    border-top: #000066 thin solid;
+    border-left: #000066 thin solid;
+    border-bottom: #000066 thin solid;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 2px 0px 2px;
+    border-spacing: 0px;
+}
+
+    [id^=EIDSSBodyCPH_canvas] th {
+        line-height: 30px;
+        border: none;
+        background-color: cornflowerblue;
+    }
+
+[id^=EIDSSBodyCPH_tbl] {
+    border-right: #000066 thin solid;
+    border-top: #000066 thin solid;
+    border-left: #000066 thin solid;
+    border-bottom: #000066 thin solid;
+    border-radius: 15px;
+    padding: 0px 0px 0px 0px;
+}
+
+    [id^=EIDSSBodyCPH_tbl] th {
+        line-height: 30px;
+        text-align: center;
+        background-color: cornflowerblue;
+        border: none;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+
+.geenDot {
+    border: thin;
+    border-color: none;
+    border-radius: 15px;
+    height: auto;
+    text-align: center;
+    white-space: nowrap;
+    color: #FFFFFF;
+    background-color: green;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-top: .5em;
+    padding-right: 1em;
+    padding-bottom: .5em;
+}
+
+.publicSectionHeader {
+    background-color: #000080 !important;
+    color: #ffffff !important;
+}
+
+.publicSectionBorderColor {
+    border-color: #000080 !important;
+}
+
+.formSectionHeader {
+    background-color: #000080 !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    height: 8px;
+    text-align: center;
+}
+
+.formSectionBorderColor {
+    border-color: #000080 !important;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: bold;
+    min-width: 430px;
+    max-width: 430px;
+    line-height: 38px;
+    height: 38px;
+    color: #102541;
+}
+
+    .logo a,
+    .logo a:visited {
+        color: #102541;
+        text-decoration: none;
+    }
+
+.name {
+    font-size: 12px;
+}
+
+.infoTd {
+    width: 100%;
+}
+
+.infoPanel {
+    background: url('../Images/Upper_screen_line_02.png') no-repeat, url('../Images/Upper_screen_line_01.png') 106px 0 repeat-x;
+    line-height: 36px;
+    vertical-align: middle;
+    height: 38px;
+    text-align: right;
+    color: #d4dae3;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+    .infoPanel a,
+    .infoPanel a:visited {
+        color: #d4dae3;
+        text-decoration: none;
+    }
+
+.infoLoginPanel {
+    background: url('../Images/Upper_screen_line_01.png') 106px 0 repeat-x;
+    line-height: 36px;
+    vertical-align: middle;
+    height: 38px;
+    text-align: right;
+    color: #d4dae3;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+/* search box tab*/
+.searchbox {
+    position: fixed;
+    top: 185px;
+    left: 10px;
+    z-index: 1;
+}
+
+.sidebar {
+    display: none;
+    color: #191c1f;
+    background-color: #f0f0f9;
+    border-bottom-right-radius: 7px;
+    padding: 10px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.slidetab {
+    display: inline-block;
+    color: #191c1f;
+    background-color: #f0f0f9;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    padding: 10px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.navigationList ul {
+    list-style: none;
+    background-color: #f0f0f9;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-left: 0;
+}
+
+.navigationList li {
+    border: 1px solid black;
+    background-color: #f0f0f9;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.navigationList .active {
+    background-color: lightgreen;
+}
+
+.navigationList .completed {
+    list-style-image: url('../Images/glyphicons-207-ok.png');
+}
+
+.backpanel {
+    background-color: #f0f0f9;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+    .backpanel .heading {
+        padding: 10px 15px;
+        border-bottom: 1px solid transparent;
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+input[readonly] {
+    background-color: transparent;
+    border: 0;
+    font-size: 1em;
+}
+
+select[disabled] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; /* remove default arrow */
+    background: transparent;
+    border: 0;
+    font-size: 1em;
+    float: left;
+}
+

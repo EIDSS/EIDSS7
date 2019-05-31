@@ -1,0 +1,170 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EIDSSControlLibrary
+</name>
+</assembly>
+<members>
+<member name="T:EIDSSControlLibrary.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EIDSSControlLibrary.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EIDSSControlLibrary.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EIDSSControlLibrary.CalendarInput.Format">
+ <summary>
+ This property is used to define the calendar format (e.g. MM/DD/YYYY)
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.CalendarInput.ContainerCssClass">
+ <summary>
+ This is the class given to the outer container of the elements rendered by this class.
+ if no class is specified, the container will receive a default class of .datepicker
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.CalendarInput.defaultCssClass">
+ <summary>
+ This is the default css class used in the container if the Property ContainerCssClass is Empty or Null
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EIDSSControlLibrary.CalendarInput.Render(System.Web.UI.HtmlTextWriter)">
+ <summary>
+ This is the method that renders all the elements to the page.  This method renders a div, two spans and a textbox with appropriate CSS to 
+ paint a jQuery calendar on the UI
+ </summary>
+ <param name="writer"></param>
+</member>
+<member name="M:EIDSSControlLibrary.CalendarInput.GetContainerCssClass">
+ <summary>
+ this function determines if the ContainerCsssClass is empty and assigns the default value of .datepicker
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.GridAndColumns.idOfGrid">
+ <remarks/>
+</member>
+<member name="P:EIDSSControlLibrary.GridAndColumns.columnorder">
+ <remarks/>
+</member>
+<member name="P:EIDSSControlLibrary.GridAndUser.grid">
+ <remarks/>
+</member>
+<member name="P:EIDSSControlLibrary.GridAndUser.userId">
+ <remarks/>
+</member>
+<member name="P:EIDSSControlLibrary.GridView.IsModal">
+ <summary>
+ This Property flags this grid as a modal pop up
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.GridView.ListId">
+ <summary>
+ Read only property, gets wxpected value in query string key name: listId
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.GridView.key">
+ <summary>
+ key holds name of column used to return value to parent page
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.GridView.KeyNameUsedOnModal">
+ <summary>
+ Name of column that holds the id used to return value to parent page
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.GridView.CurrentColumnOrder">
+ <summary>
+ This gets or sets a coma separated list of the column headings in shown in order of appearance
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.OnInit(System.EventArgs)">
+ <summary>
+ Instantiates objects
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.OnRowDataBound(System.Web.UI.WebControls.GridViewRowEventArgs)">
+ <summary>
+ If Modal, this event will add a "select" link as the first column
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.OnPreRender(System.EventArgs)">
+ <summary>
+ If modal, this event will hide edit and delete columns and display the "select" link
+ It will also set the grid to render with thead and tbody tags
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.RenderContents(System.Web.UI.HtmlTextWriter)">
+ <summary>
+ Renders Grid to Page
+ </summary>
+ <param name="writer"></param>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.OnPagePreLoad(System.Object,System.EventArgs)">
+ <summary>
+ This Event will append web resources to the page as well as a script block
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.HideEditDeleteColumns">
+ <summary>
+ Hides edit and delete columns
+ </summary>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.ShowSelectColumn">
+ <summary>
+ Shows select link
+ </summary>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.BuildSelectScript(System.Data.DataRowView)">
+ <summary>
+ Builds script to be used by select link
+ </summary>
+ <param name="e"></param>
+ <returns></returns>
+</member>
+<member name="M:EIDSSControlLibrary.GridView.BuildDraggableScript">
+ <summary>
+ Builds the draggable script
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EIDSSControlLibrary.GridViewColumnOrder.user">
+ <remarks/>
+</member>
+<member name="M:EIDSSControlLibrary.NumericSpinner.OnLoad(System.EventArgs)">
+ <summary>
+ OnLoad we register jQuery Scripts and CSS files to parent page
+ </summary>
+ <param name="e"></param>
+</member>
+<member name="M:EIDSSControlLibrary.NumericSpinner.Render(System.Web.UI.HtmlTextWriter)">
+ <summary>
+ Renders HTML to page inserting Divs, buttons and Input
+ </summary>
+ <param name="writer"></param>
+</member>
+</members>
+</doc>

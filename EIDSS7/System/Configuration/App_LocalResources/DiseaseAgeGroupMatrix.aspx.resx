@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btn_OK.InnerText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_Submit.InnerText" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="gv.EmptyDataText" xml:space="preserve">
+    <value>No data available</value>
+  </data>
+  <data name="hdg_Disease_Age_Group_Matrix.InnerText" xml:space="preserve">
+    <value>Disease-Age Group Matrix</value>
+  </data>
+  <data name="lbl_Age_Group.InnerText" xml:space="preserve">
+    <value>Age Group</value>
+  </data>
+  <data name="lbl_Age_Group_Required.InnerText" xml:space="preserve">
+    <value>Age Group is mandatory. You must enter data in this field before saving the form. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Already_Exists.InnerText" xml:space="preserve">
+    <value> already exists. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Cancel.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel?</value>
+  </data>
+  <data name="lbl_Dash.InnerText" xml:space="preserve">
+    <value>-</value>
+  </data>
+  <data name="lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="lbl_Disease_Age_Group_Instructions.InnerText" xml:space="preserve">
+    <value>Please complete the form to create a disease-age group matrix.</value>
+  </data>
+  <data name="lbl_Question_Delete.InnerText" xml:space="preserve">
+    <value>Are you sure you want to delete this record?</value>
+  </data>
+  <data name="lbl_Disease_Required.InnerText" xml:space="preserve">
+    <value>Disease is mandatory. You must enter data in this field before saving the form. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Error_Submit.InnerText" xml:space="preserve">
+    <value>There was an error submitting changes.</value>
+  </data>
+  <data name="lbl_Error_Loading.InnerText" xml:space="preserve">
+    <value>There was an error loading the information.</value>
+  </data>
+  <data name="lbl_Error_Page_Index_Change.InnerText" xml:space="preserve">
+    <value>There was an error retrieving the next set of records.</value>
+  </data>
+  <data name="lbl_Error_Retrieving_Delete_Information.InnerText" xml:space="preserve">
+    <value>There was an error retrieving the delete information.</value>
+  </data>
+  <data name="lbl_Row.InnerText" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="lbl_Successful_Submit.InnerText" xml:space="preserve">
+    <value>Changes are submitted successfully.</value>
+  </data>
+  <data name="lbl_Accessory_Code_Required.InnerText" xml:space="preserve">
+    <value>Accessory Code is mandatory. You must enter data in this field before saving the form. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Age_Group_Instructions.InnerText" xml:space="preserve">
+    <value>Please complete the form to create a age group reference.</value>
+  </data>
+  <data name="lbl_Bad_Boundaries.InnerText" xml:space="preserve">
+    <value>The lower boundary must be less than the upper boundary. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Blank_Boundaries.InnerText" xml:space="preserve">
+    <value>A default boundaries values will be set to zero and one if one of these values is left blank.</value>
+  </data>
+  <data name="lbl_Blank_Order.InnerText" xml:space="preserve">
+    <value>A default value will be set to zero if left blank. The number will determine the order in which the reference appears.</value>
+  </data>
+  <data name="lbl_Disease_Instructions.InnerText" xml:space="preserve">
+    <value>Please complete the form to create a disease reference.</value>
+  </data>
+  <data name="lbl_English_Value_Required.InnerText" xml:space="preserve">
+    <value>English Value is mandatory. You must enter data in this field before saving the form. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_IDC_10.InnerText" xml:space="preserve">
+    <value>IDC-10</value>
+  </data>
+  <data name="lbl_Interval_Type.InnerText" xml:space="preserve">
+    <value>Interval Type</value>
+  </data>
+  <data name="lbl_Lower_Bound.InnerText" xml:space="preserve">
+    <value>Lower Bound</value>
+  </data>
+  <data name="lbl_Not_Possible.InnerText" xml:space="preserve">
+    <value>It is not possible to create 2 records with the same  Disease - Age Group value. The record with the Disease - Age Group =</value>
+  </data>
+  <data name="lbl_Not_Possible_Age_Group.InnerText" xml:space="preserve">
+    <value>It is not possible to create 2 records with the same Age Group value. The record with the Age Group</value>
+  </data>
+  <data name="lbl_Not_Possible_Disease.InnerText" xml:space="preserve">
+    <value>It is not possible to create 2 records with the same Disease value. The record with the Disease</value>
+  </data>
+  <data name="lbl_OIE_Code.InnerText" xml:space="preserve">
+    <value>OIE Code</value>
+  </data>
+  <data name="lbl_Order.InnerText" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="lbl_Syndrome_Surveillance.Text" xml:space="preserve">
+    <value>Syndrome Surveillance</value>
+  </data>
+  <data name="lbl_Translated_Value_Required.InnerText" xml:space="preserve">
+    <value>Translated Value is mandatory. You must enter data in this field before saving the form. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Upper_Bound.InnerText" xml:space="preserve">
+    <value>Upper Bound</value>
+  </data>
+  <data name="lbl_Zoonotic_Disease.Text" xml:space="preserve">
+    <value>Zoonotic Disease</value>
+  </data>
+  <data name="lbl_Accessory_Code.InnerText" xml:space="preserve">
+    <value>Accessory Code</value>
+  </data>
+  <data name="lbl_English_Value.InnerText" xml:space="preserve">
+    <value>English Value</value>
+  </data>
+  <data name="lbl_Interval_Type_Required.InnerText" xml:space="preserve">
+    <value>Interval Type is mandatory. You must enter data in this field before saving the form. Do you want to correct the value?</value>
+  </data>
+  <data name="lbl_Translated_Value.InnerText" xml:space="preserve">
+    <value>Translated Value</value>
+  </data>
+  <data name="lbl_Using_Type.InnerText" xml:space="preserve">
+    <value>Using Type</value>
+  </data>
+</root>

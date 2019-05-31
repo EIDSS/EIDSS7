@@ -1,0 +1,1491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Lbl_Organization_Full_Name_ToolTip" xml:space="preserve">
+    <value>Please type the organization's full name.</value>
+  </data>
+  <data name="Lbl_Organization_Text" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Lbl_Organization_ToolTip" xml:space="preserve">
+    <value>Please type the organization's name.</value>
+  </data>
+  <data name="Lbl_Organization_Unique_Id_Text" xml:space="preserve">
+    <value>Unique Organization ID</value>
+  </data>
+  <data name="Lbl_Organization_Unique_Id_ToolTip" xml:space="preserve">
+    <value>Please type the organization's unique Id</value>
+  </data>
+  <data name="Lbl_Password_Text" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Lbl_Password_ToolTip" xml:space="preserve">
+    <value>Please type your password.</value>
+  </data>
+  <data name="Lbl_Phone_Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_Phone_ToolTip" xml:space="preserve">
+    <value>Please type the phone.</value>
+  </data>
+  <data name="Lbl_Position_Text" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="Lbl_Position_ToolTip" xml:space="preserve">
+    <value>Please type the position.</value>
+  </data>
+  <data name="Lbl_Rayon_Text" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Lbl_Rayon_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Region_Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Lbl_Region_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Search_Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_Search_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Second_Name_ToolTip" xml:space="preserve">
+    <value>Please type the person's second name.</value>
+  </data>
+  <data name="Lbl_Date_of_Symptom_Onset_Text" xml:space="preserve">
+    <value>Date of Symptom Onset</value>
+  </data>
+  <data name="Lbl_Date_of_Symptom_Onset_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Yes_Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Lbl_Yes_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Abbreviation_Text" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="Lbl_Abbreviation_ToolTip" xml:space="preserve">
+    <value>Please type the Abbreviation.</value>
+  </data>
+  <data name="Lbl_Additional_Text" xml:space="preserve">
+    <value>Additional Test Requested/Sample Notes</value>
+  </data>
+  <data name="Lbl_Additional_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Citizenship_Text" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="Lbl_Citizenship_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Collection_Date_Text" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Lbl_Collection_Date_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Current_Address_Text" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="Lbl_Current_Address_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Of_Birth_Text" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="Lbl_Date_Of_Birth_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_of_Diagnosis_Text" xml:space="preserve">
+    <value>Date of Diagnosis</value>
+  </data>
+  <data name="Lbl_Date_of_Diagnosis_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Received_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Received_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Department_Text" xml:space="preserve">
+    <value>Department</value>
+  </data>
+  <data name="Lbl_Department_ToolTip" xml:space="preserve">
+    <value>Please type the department's name.</value>
+  </data>
+  <data name="Lbl_Destination_Lab_Text" xml:space="preserve">
+    <value>Destination Lab</value>
+  </data>
+  <data name="Lbl_Destination_Lab_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Elevation_Text" xml:space="preserve">
+    <value>Elevation (m)</value>
+  </data>
+  <data name="Lbl_Elevation_ToolTip" xml:space="preserve">
+    <value>Please enter the elevation of the settlement.</value>
+  </data>
+  <data name="Lbl_Family_Name_Text" xml:space="preserve">
+    <value>Family Name</value>
+  </data>
+  <data name="Lbl_Family_Name_ToolTip" xml:space="preserve">
+    <value>Please type the person's Family name.</value>
+  </data>
+  <data name="Lbl_Female_Text" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="Lbl_Female_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_First_Name_Text" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="Lbl_First_Name_ToolTip" xml:space="preserve">
+    <value>Please type the person's first name.</value>
+  </data>
+  <data name="Lbl_From_Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_From_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_House_Text" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="Lbl_House_ToolTip" xml:space="preserve">
+    <value>Please enter the house information.</value>
+  </data>
+  <data name="Lbl_Language_Text" xml:space="preserve">
+    <value>Select a language</value>
+  </data>
+  <data name="Lbl_Language_ToolTip" xml:space="preserve">
+    <value>Please choose from the list of languages:</value>
+  </data>
+  <data name="Lbl_Login_Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Lbl_Login_ToolTip" xml:space="preserve">
+    <value>Please type the login name.</value>
+  </data>
+  <data name="Lbl_Name_Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_Name_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_No_Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_No_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Organization_Full_Name_Text" xml:space="preserve">
+    <value>Organization Full Name</value>
+  </data>
+  <data name="Lbl_Second_Name_Text" xml:space="preserve">
+    <value>Second Name</value>
+  </data>
+  <data name="Lbl_To_Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_To_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Latitude_Text" xml:space="preserve">
+    <value>Latitude (±#.#####º):</value>
+  </data>
+  <data name="Lbl_Latitude_ToolTip" xml:space="preserve">
+    <value>Please enter the latitude coordinate</value>
+  </data>
+  <data name="Lbl_Longitude_Text" xml:space="preserve">
+    <value>Longitude (±#.#####º):</value>
+  </data>
+  <data name="Lbl_Longitude_ToolTip" xml:space="preserve">
+    <value>Please enter the longitude coordinate</value>
+  </data>
+  <data name="LblEmployerNameToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Employer_Name_Text" xml:space="preserve">
+    <value>Employer Name</value>
+  </data>
+  <data name="Lbl_Id_Type_Text" xml:space="preserve">
+    <value>Personal ID type</value>
+  </data>
+  <data name="Lbl_Id_Type_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Male_Text" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="Lbl_Male_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Personal_Id_Instruction_Text" xml:space="preserve">
+    <value>Personal ID, Passport ID, or PIN Number, if known</value>
+  </data>
+  <data name="Lbl_Personal_Id_Instruction_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Date_Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_Date_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Unknown_Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Lbl_Country_Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Lbl_Country_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Local_Sample_Text" xml:space="preserve">
+    <value>Local Sample ID</value>
+  </data>
+  <data name="Lbl_Local_Sample_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Sample_Type_Text" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Sample_Type_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Sent_Date_Text" xml:space="preserve">
+    <value>Sent Date</value>
+  </data>
+  <data name="Lbl_Sent_Date_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Postal_Code_Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="LblSearchID" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="LblSearchIDToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Postal_Code_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Settlement_Text" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Lbl_Settlement_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblSessionID" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Lbl_Detailed_Information_Text" xml:space="preserve">
+    <value>Detailed Information</value>
+  </data>
+  <data name="Lbl_Statistical_Data_Type_Text" xml:space="preserve">
+    <value>Statistical Data Type</value>
+  </data>
+  <data name="Lbl_Statistical_Data_Type_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Accession_In_Text" xml:space="preserve">
+    <value>Accession In</value>
+  </data>
+  <data name="Lbl_Accession_In_ToolTip" xml:space="preserve">
+    <value>Accession In</value>
+  </data>
+  <data name="Lbl_Group_Accession_Text" xml:space="preserve">
+    <value>Group Accession</value>
+  </data>
+  <data name="Lbl_Assign_Test_Text" xml:space="preserve">
+    <value>Assign Test</value>
+  </data>
+  <data name="Lbl_Accession_Text" xml:space="preserve">
+    <value>Accession</value>
+  </data>
+  <data name="Lbl_Register_New_Sample_Text" xml:space="preserve">
+    <value>Register New Sample</value>
+  </data>
+  <data name="Lbl_Aliquots_Text" xml:space="preserve">
+    <value>Aliquots</value>
+  </data>
+  <data name="Lbl_Return_to_Dashboard_Text" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Lbl_Return_to_Dashboard_ToolTip" xml:space="preserve">
+    <value>Click to return to the home page dashboard.</value>
+  </data>
+  <data name="Lbl_Please_Wait_Text" xml:space="preserve">
+    <value>Please wait while your request is processed...</value>
+  </data>
+  <data name="Lbl_Sample_ID_Text" xml:space="preserve">
+    <value>Sample ID</value>
+  </data>
+  <data name="Lbl_Laboratory_Text" xml:space="preserve">
+    <value>Laboratory</value>
+  </data>
+  <data name="Lbl_Search_Criteria_Text" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="Lbl_Search_Results_Text" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Lbl_No_Results_Found_Text" xml:space="preserve">
+    <value>No results were found.</value>
+  </data>
+  <data name="Lbl_Accession_In_Form_Text" xml:space="preserve">
+    <value>Accession In Form</value>
+  </data>
+  <data name="Lbl_Accession_In_Form_ToolTip" xml:space="preserve">
+    <value>Click to display the accession in paper form popup.</value>
+  </data>
+  <data name="Lbl_Approve_Deletion_Text" xml:space="preserve">
+    <value>Approve Deletion</value>
+  </data>
+  <data name="Lbl_Approve_Deletion_ToolTip" xml:space="preserve">
+    <value>Click to display the lab record deletion popup.</value>
+  </data>
+  <data name="Lbl_Approve_Destruction_Text" xml:space="preserve">
+    <value>Approve Destruction</value>
+  </data>
+  <data name="Lbl_Approve_Destruction_ToolTip" xml:space="preserve">
+    <value>Click to display the sample destruction popup.</value>
+  </data>
+  <data name="Lbl_Create_Aliquot_Text" xml:space="preserve">
+    <value>Create Aliquot</value>
+  </data>
+  <data name="Lbl_Create_Aliquot_ToolTip" xml:space="preserve">
+    <value>Click to display the aliquot popup.</value>
+  </data>
+  <data name="Lbl_Create_Derivative_Text" xml:space="preserve">
+    <value>Create Derivative</value>
+  </data>
+  <data name="Lbl_Create_Derivative_ToolTip" xml:space="preserve">
+    <value>Click to display the derivative popup.</value>
+  </data>
+  <data name="Lbl_Delete_Sample_Text" xml:space="preserve">
+    <value>Delete Sample</value>
+  </data>
+  <data name="Lbl_Delete_Sample_ToolTip" xml:space="preserve">
+    <value>Click to display the lab record deletion popup.</value>
+  </data>
+  <data name="Lbl_Delete_Test_Text" xml:space="preserve">
+    <value>Delete Test</value>
+  </data>
+  <data name="Lbl_Delete_Test_ToolTip" xml:space="preserve">
+    <value>Click to display the lab record deletion popup.</value>
+  </data>
+  <data name="Lbl_Destroy_By_Autoclave_Text" xml:space="preserve">
+    <value>Destroy By Autoclave</value>
+  </data>
+  <data name="Lbl_Destroy_By_Autoclave_ToolTip" xml:space="preserve">
+    <value>Click to display the sample destruction popup.</value>
+  </data>
+  <data name="Lbl_Destroy_By_Incineration_Text" xml:space="preserve">
+    <value>Destroy By Incineration</value>
+  </data>
+  <data name="Lbl_Destroy_By_Incineration_ToolTip" xml:space="preserve">
+    <value>Click to display the sample destruction popup.</value>
+  </data>
+  <data name="Lbl_Destruction_Report_Text" xml:space="preserve">
+    <value>Destruction Report</value>
+  </data>
+  <data name="Lbl_Destruction_Report_ToolTip" xml:space="preserve">
+    <value>Click to display the destruction paper report popup.</value>
+  </data>
+  <data name="Lbl_Lab_Record_Deletion_Text" xml:space="preserve">
+    <value>Lab Record Deletion</value>
+  </data>
+  <data name="Lbl_Lab_Record_Deletion_ToolTip" xml:space="preserve">
+    <value>Click to display the lab record deletion popup.</value>
+  </data>
+  <data name="Lbl_Paper_Forms_Text" xml:space="preserve">
+    <value>Paper Forms</value>
+  </data>
+  <data name="Lbl_Paper_Forms_ToolTip" xml:space="preserve">
+    <value>Click to display the paper forms popup.</value>
+  </data>
+  <data name="Lbl_Reject_Deletion_Text" xml:space="preserve">
+    <value>Reject Deletion</value>
+  </data>
+  <data name="Lbl_Reject_Deletion_ToolTip" xml:space="preserve">
+    <value>Click to display the lab record deletion popup.</value>
+  </data>
+  <data name="Lbl_Reject_Destruction_Text" xml:space="preserve">
+    <value>Reject Destruction</value>
+  </data>
+  <data name="Lbl_Reject_Destruction_ToolTip" xml:space="preserve">
+    <value>Click to display the sample destruction popup.</value>
+  </data>
+  <data name="Lbl_Sample_Destruction_Text" xml:space="preserve">
+    <value>Sample Destruction</value>
+  </data>
+  <data name="Lbl_Sample_Destruction_ToolTip" xml:space="preserve">
+    <value>Click to display the sample destruction popup.</value>
+  </data>
+  <data name="Lbl_Sample_Report_Text" xml:space="preserve">
+    <value>Sample Report</value>
+  </data>
+  <data name="Lbl_Sample_Report_ToolTip" xml:space="preserve">
+    <value>Click to display the sample paper report popup.</value>
+  </data>
+  <data name="Lbl_Set_Test_Results_Text" xml:space="preserve">
+    <value>Set Test Results</value>
+  </data>
+  <data name="Lbl_Set_Test_Results_ToolTip" xml:space="preserve">
+    <value>Click to display the set test results popup.</value>
+  </data>
+  <data name="Lbl_Test_Result_Report_Text" xml:space="preserve">
+    <value>Test Result Report</value>
+  </data>
+  <data name="Lbl_Test_Result_Report_ToolTip" xml:space="preserve">
+    <value>Click to display the test result paper report popup.</value>
+  </data>
+  <data name="Lbl_Transfer_Out_Text" xml:space="preserve">
+    <value>Transfer Out</value>
+  </data>
+  <data name="Lbl_Transfer_Out_ToolTip" xml:space="preserve">
+    <value>Click to display the transfer popup.</value>
+  </data>
+  <data name="Lbl_Transfer_Report_Text" xml:space="preserve">
+    <value>Transfer Report</value>
+  </data>
+  <data name="Lbl_Transfer_Report_ToolTip" xml:space="preserve">
+    <value>Click to display the transfer paper report popup.</value>
+  </data>
+  <data name="Lbl_Validate_Test_Result_Text" xml:space="preserve">
+    <value>Validate Test Result</value>
+  </data>
+  <data name="Lbl_Validate_Test_Result_ToolTip" xml:space="preserve">
+    <value>Click to display the validate test result popup.</value>
+  </data>
+  <data name="Lbl_Amend_Test_Result_Text" xml:space="preserve">
+    <value>Amend Test Result</value>
+  </data>
+  <data name="Lbl_Amend_Test_Result_ToolTip" xml:space="preserve">
+    <value>Click to display the amend test result popup.</value>
+  </data>
+  <data name="Lbl_Print_Barcode_Text" xml:space="preserve">
+    <value>Print Barcode</value>
+  </data>
+  <data name="Lbl_Print_Barcode_ToolTip" xml:space="preserve">
+    <value>Click to display the print barcode popup.</value>
+  </data>
+  <data name="Lbl_Restore_Sample_Text" xml:space="preserve">
+    <value>Restore Sample</value>
+  </data>
+  <data name="Lbl_Restore_Sample_ToolTip" xml:space="preserve">
+    <value>Click to display the restore sample popup.</value>
+  </data>
+  <data name="Lbl_Add_Group_Result_Text" xml:space="preserve">
+    <value>Add Group Result</value>
+  </data>
+  <data name="Lbl_Batch_ID_Text" xml:space="preserve">
+    <value>Batch ID</value>
+  </data>
+  <data name="Lbl_Positive_Control_Number_Text" xml:space="preserve">
+    <value>Positive Control Lot Number</value>
+  </data>
+  <data name="Lbl_Reagent_Lot_Number_Text" xml:space="preserve">
+    <value>Reagent Lot Number</value>
+  </data>
+  <data name="Lbl_Test_Name_Text" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Lbl_Advanced_Search_Text" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="Lbl_Add_Update_Person_Text" xml:space="preserve">
+    <value>Add/Update Person</value>
+  </data>
+  <data name="Lbl_Search_Person_Text" xml:space="preserve">
+    <value>Search Person</value>
+  </data>
+  <data name="Lbl_Transfer_Sample_Text" xml:space="preserve">
+    <value>Transfer Sample</value>
+  </data>
+  <data name="Lbl_Search_Organization_Text" xml:space="preserve">
+    <value>Search Organization</value>
+  </data>
+  <data name="Lbl_Number_of_Records_Text" xml:space="preserve">
+    <value>Number of records:</value>
+  </data>
+  <data name="Lbl_Search_Human_Disease_Report_Text" xml:space="preserve">
+    <value>Search Human Disease Report</value>
+  </data>
+  <data name="Lbl_Search_Human_Monitoring_Session_Text" xml:space="preserve">
+    <value>Search Human Monitoring Session</value>
+  </data>
+  <data name="Lbl_Search_Vector_Surveillance_Session_Text" xml:space="preserve">
+    <value>Search Vector Surveillance Session</value>
+  </data>
+  <data name="Lbl_Search_Veterinary_Disease_Report_Text" xml:space="preserve">
+    <value>Search Veterinary Disease Report</value>
+  </data>
+  <data name="Lbl_Search_Veterinary_Monitoring_Session_Text" xml:space="preserve">
+    <value>Search Veterinary Monitoring Session</value>
+  </data>
+  <data name="Lbl_Report_ID_Text" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="Lbl_Report_Status_Text" xml:space="preserve">
+    <value>Report Status</value>
+  </data>
+  <data name="Lbl_Case_Classification_Text" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="Lbl_Date_Entered_From_Text" xml:space="preserve">
+    <value>Date Entered From</value>
+  </data>
+  <data name="Lbl_Date_Entered_Range_Text" xml:space="preserve">
+    <value>Date Entered Range</value>
+  </data>
+  <data name="Lbl_Date_Entered_Text" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="Lbl_Date_Entered_To_Text" xml:space="preserve">
+    <value>Date Entered To</value>
+  </data>
+  <data name="Lbl_Disease_Text" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Entered_By_Name_Text" xml:space="preserve">
+    <value>Entered By Name</value>
+  </data>
+  <data name="Lbl_Entered_By_Organization_Text" xml:space="preserve">
+    <value>Entered By Organization</value>
+  </data>
+  <data name="Lbl_Hospitalization_Text" xml:space="preserve">
+    <value>Hospitalization</value>
+  </data>
+  <data name="Lbl_Last_Name_Text" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="Lbl_Legacy_ID_Text" xml:space="preserve">
+    <value>Legacy ID</value>
+  </data>
+  <data name="Lbl_Location_Text" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Lbl_Middle_Name_Text" xml:space="preserve">
+    <value>Middle Name</value>
+  </data>
+  <data name="Lbl_Person_ID_Text" xml:space="preserve">
+    <value>Person ID</value>
+  </data>
+  <data name="Lbl_Person_Name_Text" xml:space="preserve">
+    <value>Person Name</value>
+  </data>
+  <data name="Lbl_Report_Type_Text" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="Lbl_Dead_Animal_Quantity_Text" xml:space="preserve">
+    <value>Dead Animal Quantity</value>
+  </data>
+  <data name="Lbl_Farm_Address_Text" xml:space="preserve">
+    <value>Farm Address</value>
+  </data>
+  <data name="Lbl_Investigated_By_Text" xml:space="preserve">
+    <value>Investigated By</value>
+  </data>
+  <data name="Lbl_Investigation_Date_Text" xml:space="preserve">
+    <value>Investigation Date</value>
+  </data>
+  <data name="Lbl_Officer_Text" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="Lbl_Reported_By_Text" xml:space="preserve">
+    <value>Reported By</value>
+  </data>
+  <data name="Lbl_Report_Date_Text" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="Lbl_Session_End_Date_Text" xml:space="preserve">
+    <value>Session End Date</value>
+  </data>
+  <data name="Lbl_Session_ID_Text" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Lbl_Session_Start_Date_Text" xml:space="preserve">
+    <value>Session Start Date</value>
+  </data>
+  <data name="Lbl_Session_Status_Text" xml:space="preserve">
+    <value>Session Status</value>
+  </data>
+  <data name="Lbl_Sick_Animal_Quantity_Text" xml:space="preserve">
+    <value>Sick Animal Quantity</value>
+  </data>
+  <data name="Lbl_Site_Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Lbl_Species_Text" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Lbl_Species_Type_Text" xml:space="preserve">
+    <value>Species Type</value>
+  </data>
+  <data name="Lbl_Total_Animal_Quantity_Text" xml:space="preserve">
+    <value>Total Animal Quantity</value>
+  </data>
+  <data name="Lbl_Additional_Data_Fields_Text" xml:space="preserve">
+    <value>Additional Fields</value>
+  </data>
+  <data name="Lbl_Operators_Text" xml:space="preserve">
+    <value>Operators</value>
+  </data>
+  <data name="Lbl_Values_Text" xml:space="preserve">
+    <value>Values</value>
+  </data>
+  <data name="Lbl_Number_Of_Samples_Text" xml:space="preserve">
+    <value>Number of Samples</value>
+  </data>
+  <data name="Lbl_Patient_Farm_Owner_Text" xml:space="preserve">
+    <value>Patient/Farm Owner</value>
+  </data>
+  <data name="Lbl_Report_Session_ID_Text" xml:space="preserve">
+    <value>Report/Session ID</value>
+  </data>
+  <data name="Lbl_Report_Session_Type_Text" xml:space="preserve">
+    <value>Report/Session Type</value>
+  </data>
+  <data name="Lbl_Legal_Form_Text" xml:space="preserve">
+    <value>Legal Form</value>
+  </data>
+  <data name="Lbl_Main_Form_Of_Activity_Text" xml:space="preserve">
+    <value>Main Form of Activity</value>
+  </data>
+  <data name="Lbl_Organization_Address_Text" xml:space="preserve">
+    <value>Organization Address</value>
+  </data>
+  <data name="Lbl_Organization_ID_Text" xml:space="preserve">
+    <value>Organization ID</value>
+  </data>
+  <data name="Lbl_Organization_Name_Text" xml:space="preserve">
+    <value>Organization Name</value>
+  </data>
+  <data name="Lbl_Organization_Type_Text" xml:space="preserve">
+    <value>Organization Type</value>
+  </data>
+  <data name="Lbl_Ownership_Form_Text" xml:space="preserve">
+    <value>Ownership Form</value>
+  </data>
+  <data name="Lbl_Specialization_Text" xml:space="preserve">
+    <value>Specialization</value>
+  </data>
+  <data name="Lbl_Gender_Text" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="Lbl_Longitude_Latitude_Text" xml:space="preserve">
+    <value>Longitude/Latitude</value>
+  </data>
+  <data name="Lbl_Close_Date_From_Text" xml:space="preserve">
+    <value>Close Date From</value>
+  </data>
+  <data name="Lbl_Close_Date_Range_Text" xml:space="preserve">
+    <value>Close Date Range</value>
+  </data>
+  <data name="Lbl_Close_Date_Text" xml:space="preserve">
+    <value>Close Date</value>
+  </data>
+  <data name="Lbl_Close_Date_To_Text" xml:space="preserve">
+    <value>Close Date To</value>
+  </data>
+  <data name="Lbl_Start_Date_From_Text" xml:space="preserve">
+    <value>Start Date From</value>
+  </data>
+  <data name="Lbl_Start_Date_Range_Text" xml:space="preserve">
+    <value>Start Date Range</value>
+  </data>
+  <data name="Lbl_Start_Date_Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Lbl_Start_Date_To_Text" xml:space="preserve">
+    <value>Start Date To</value>
+  </data>
+  <data name="Lbl_Vector_Type_Text" xml:space="preserve">
+    <value>Vector Type</value>
+  </data>
+  <data name="Lbl_Field_Session_ID_Text" xml:space="preserve">
+    <value>Field Session ID</value>
+  </data>
+  <data name="Lbl_Sample_Test_Details_Text" xml:space="preserve">
+    <value>Sample/Test Details</value>
+  </data>
+  <data name="Lbl_Page_Text" xml:space="preserve">
+    <value>Page:</value>
+  </data>
+  <data name="Lbl_Comment_Text" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Lbl_Functional_Area_Text" xml:space="preserve">
+    <value>Functional Area</value>
+  </data>
+  <data name="Lbl_Lab_Sample_ID_Text" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Lbl_New_Lab_Sample_ID_Text" xml:space="preserve">
+    <value>New Lab Sample ID</value>
+  </data>
+  <data name="Lbl_Storage_Location_Text" xml:space="preserve">
+    <value>Storage Location</value>
+  </data>
+  <data name="Lbl_Reason_For_Deletion_Text" xml:space="preserve">
+    <value>Reason for Deletion</value>
+  </data>
+  <data name="Lbl_Or_Text" xml:space="preserve">
+    <value>- OR -</value>
+  </data>
+  <data name="Lbl_Address_Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_Campaign_ID_Text" xml:space="preserve">
+    <value>Campaign ID</value>
+  </data>
+  <data name="Lbl_Date_Of_Onset_Text" xml:space="preserve">
+    <value>Date of Onset</value>
+  </data>
+  <data name="Lbl_Personal_ID_Text" xml:space="preserve">
+    <value>Personal ID</value>
+  </data>
+  <data name="Lbl_Person_Entered_By_Name_Text" xml:space="preserve">
+    <value>Person Entered By Name</value>
+  </data>
+  <data name="Lbl_Group_Accession_In_Text" xml:space="preserve">
+    <value>Group Accession In</value>
+  </data>
+  <data name="Lbl_Case_Status_Text" xml:space="preserve">
+    <value>Case Status</value>
+  </data>
+  <data name="Lbl_Clinical_Diagnosis_Text" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="Lbl_Diagnosis_Text" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="Lbl_Farm_ID_Text" xml:space="preserve">
+    <value>Farm ID</value>
+  </data>
+  <data name="Lbl_Farm_Name_Text" xml:space="preserve">
+    <value>Farm Name</value>
+  </data>
+  <data name="Lbl_Outbreak_Case_ID_Text" xml:space="preserve">
+    <value>Outbreak Case ID</value>
+  </data>
+  <data name="Lbl_Outbreak_Type_Text" xml:space="preserve">
+    <value>Outbreak Type</value>
+  </data>
+  <data name="Lbl_Local_Field_Sample_ID_Text" xml:space="preserve">
+    <value>Local/Field Sample ID</value>
+  </data>
+  <data name="Lbl_Age_Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Lbl_Personal_ID_Type_Text" xml:space="preserve">
+    <value>Personal ID Type</value>
+  </data>
+  <data name="Lbl_Street_Address_Text" xml:space="preserve">
+    <value>Street Address</value>
+  </data>
+  <data name="Lbl_Aliqouts_Derivatives_Text" xml:space="preserve">
+    <value>Aliquots/Derivatives</value>
+  </data>
+  <data name="Lbl_Column_View_Preferences_Text" xml:space="preserve">
+    <value>Column View Preferences</value>
+  </data>
+  <data name="Lbl_Accession_Date_Text" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="Lbl_Accession_In_Comment_Text" xml:space="preserve">
+    <value>Accession In Comment</value>
+  </data>
+  <data name="Lbl_Animal_ID_Text" xml:space="preserve">
+    <value>Animal ID</value>
+  </data>
+  <data name="Lbl_Sample_Condition_Received_Text" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="Lbl_Sample_Status_Text" xml:space="preserve">
+    <value>Sample Status</value>
+  </data>
+  <data name="Lbl_Test_Disease_Text" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="Lbl_Date_Sent_Text" xml:space="preserve">
+    <value>Date Sent</value>
+  </data>
+  <data name="Lbl_Purpose_Of_Transfer_Text" xml:space="preserve">
+    <value>Purpose of Transfer</value>
+  </data>
+  <data name="Lbl_Sample_Transfer_ID_Text" xml:space="preserve">
+    <value>Sample Transfer ID</value>
+  </data>
+  <data name="Lbl_Sent_By_Text" xml:space="preserve">
+    <value>Sent By</value>
+  </data>
+  <data name="Lbl_Test_Requested_Text" xml:space="preserve">
+    <value>Test Requested</value>
+  </data>
+  <data name="Lbl_Transferred_From_Text" xml:space="preserve">
+    <value>Transferred From</value>
+  </data>
+  <data name="Lbl_Transferred_To_Text" xml:space="preserve">
+    <value>Transferred To</value>
+  </data>
+  <data name="Lbl_Bar_Code_Labels_Text" xml:space="preserve">
+    <value>Bar Codes Labels</value>
+  </data>
+  <data name="Lbl_Sent_To_Organization_Text" xml:space="preserve">
+    <value>Sent To Organization</value>
+  </data>
+  <data name="Lbl_Group_Accession_In_Select_Samples_Text" xml:space="preserve">
+    <value>Group Accession In: Select Samples</value>
+  </data>
+  <data name="Lbl_Barcode_Text" xml:space="preserve">
+    <value>Barcode</value>
+  </data>
+  <data name="Lbl_Box_Size_Text" xml:space="preserve">
+    <value>Box Size</value>
+  </data>
+  <data name="Lbl_Date_Of_Birth_Range_Text" xml:space="preserve">
+    <value>Date of Birth Range</value>
+  </data>
+  <data name="Lbl_Freezer_Attributes_Text" xml:space="preserve">
+    <value>Freezer Attributes</value>
+  </data>
+  <data name="Lbl_Notes_Text" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Lbl_Number_Of_Locations_Text" xml:space="preserve">
+    <value>Number of Locations</value>
+  </data>
+  <data name="Lbl_Subdivision_Attributes_Text" xml:space="preserve">
+    <value>Subdivision Attributes</value>
+  </data>
+  <data name="Lbl_Subdivision_Name_Text" xml:space="preserve">
+    <value>Subdivision Name</value>
+  </data>
+  <data name="Lbl_Subdivision_Type_Text" xml:space="preserve">
+    <value>Subdivision Type</value>
+  </data>
+  <data name="Lbl_Date_Last_Saved_Text" xml:space="preserve">
+    <value>Date Last Saved</value>
+  </data>
+  <data name="Lbl_Foreign_Address_Text" xml:space="preserve">
+    <value>Foreign Address</value>
+  </data>
+  <data name="Lbl_Building_Text" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="Lbl_Freezer_Name_Text" xml:space="preserve">
+    <value>Freezer Name</value>
+  </data>
+  <data name="Lbl_Room_Text" xml:space="preserve">
+    <value>Room</value>
+  </data>
+  <data name="Lbl_Storage_Type_Text" xml:space="preserve">
+    <value>Storage Type</value>
+  </data>
+  <data name="Lbl_Note_Text" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Lbl_Freezer_Details_Text" xml:space="preserve">
+    <value>Freezer Details</value>
+  </data>
+  <data name="Lbl_Box_Text" xml:space="preserve">
+    <value>Box</value>
+  </data>
+  <data name="Lbl_Freezer_Text" xml:space="preserve">
+    <value>Freezer</value>
+  </data>
+  <data name="Lbl_Rack_Text" xml:space="preserve">
+    <value>Rack</value>
+  </data>
+  <data name="Lbl_Shelf_Text" xml:space="preserve">
+    <value>Shelf</value>
+  </data>
+  <data name="Lbl_New_Box_Text" xml:space="preserve">
+    <value>[New Box]</value>
+  </data>
+  <data name="Lbl_New_Freezer_Text" xml:space="preserve">
+    <value>[New Freezer]</value>
+  </data>
+  <data name="Lbl_New_Rack_Text" xml:space="preserve">
+    <value>[New Rack]</value>
+  </data>
+  <data name="Lbl_New_Shelf_Text" xml:space="preserve">
+    <value>[New Shelf]</value>
+  </data>
+  <data name="Lbl_Copy_Placeholder_Text" xml:space="preserve">
+    <value>(Copy)</value>
+  </data>
+  <data name="Lbl_Base_Reference_Editor_Text" xml:space="preserve">
+    <value>Base Reference Editor</value>
+  </data>
+  <data name="Lbl_Continue_Save_Question_Text" xml:space="preserve">
+    <value>Do you want to continue saving this record?</value>
+  </data>
+  <data name="Lbl_Not_Applicable_Text" xml:space="preserve">
+    <value>Not Applicable</value>
+  </data>
+  <data name="Lbl_Filter_Test_Name_By_Disease_Text" xml:space="preserve">
+    <value>Filter Test Name by Disease</value>
+  </data>
+  <data name="Lbl_Test_Result_Text" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Lbl_Deleted_Text" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="Lbl_Destroyed_Text" xml:space="preserve">
+    <value>Destroyed</value>
+  </data>
+  <data name="Lbl_In_Progress_Text" xml:space="preserve">
+    <value>In Progress</value>
+  </data>
+  <data name="Lbl_In_Repository_Text" xml:space="preserve">
+    <value>In Repository</value>
+  </data>
+  <data name="Lbl_Marked_For_Deletion_Text" xml:space="preserve">
+    <value>Marked For Deletion</value>
+  </data>
+  <data name="Lbl_Marked_For_Destruction_Text" xml:space="preserve">
+    <value>Marked For Destruction</value>
+  </data>
+  <data name="Lbl_Preliminary_Text" xml:space="preserve">
+    <value>Preliminary</value>
+  </data>
+  <data name="Lbl_Transferred_Out_Text" xml:space="preserve">
+    <value>Transferred Out</value>
+  </data>
+  <data name="Lbl_Accepted_In_Good_Condition_Text" xml:space="preserve">
+    <value>Accepted in Good Condition</value>
+  </data>
+  <data name="Lbl_Final_Text" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="Lbl_Accession_Date_Time_Text" xml:space="preserve">
+    <value>Accession Date/Time</value>
+  </data>
+  <data name="Lbl_Sample_Field_Sample_ID_Text" xml:space="preserve">
+    <value>Local/Field Sample ID</value>
+  </data>
+  <data name="Lbl_Action_Requested_Text" xml:space="preserve">
+    <value>Action Requested</value>
+  </data>
+  <data name="Lbl_Point_Of_Contact_Text" xml:space="preserve">
+    <value>Point of Contact</value>
+  </data>
+  <data name="Lbl_Result_Date_Text" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Lbl_Test_Started_Date_Text" xml:space="preserve">
+    <value>Test Started Date</value>
+  </data>
+  <data name="Lbl_Test_Status_Text" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Lbl_Transfer_Date_Text" xml:space="preserve">
+    <value>Transfer Date</value>
+  </data>
+  <data name="Lbl_Test_Category_Text" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Lbl_Transfer_ID_Text" xml:space="preserve">
+    <value>Transfer ID</value>
+  </data>
+  <data name="Lbl_Sample_Details_Form_Text" xml:space="preserve">
+    <value>Sample Details Form</value>
+  </data>
+  <data name="Lbl_Test_Details_Form_Text" xml:space="preserve">
+    <value>Test Details Form</value>
+  </data>
+  <data name="Lbl_Transfer_Details_Form_Text" xml:space="preserve">
+    <value>Transfer Details Form</value>
+  </data>
+  <data name="Lbl_Loading_Text" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Lbl_Add_Update_Employee_Text" xml:space="preserve">
+    <value>Add/Update Employee</value>
+  </data>
+  <data name="Lbl_Search_Employee_Text" xml:space="preserve">
+    <value>Search Employee</value>
+  </data>
+  <data name="Lbl_Print_Transfer_Form_Text" xml:space="preserve">
+    <value>Print Transfer Form</value>
+  </data>
+  <data name="Lbl_Create_Batch_Text" xml:space="preserve">
+    <value>Create Batch</value>
+  </data>
+  <data name="Lbl_Multiple_Samples_To_Accession_Text" xml:space="preserve">
+    <value>Multiple samples were returned for the Local/Field Sample ID entered.  Please select the specific samples to accession.</value>
+  </data>
+  <data name="Lbl_Unaccessioned_Text" xml:space="preserve">
+    <value>Unaccessioned</value>
+  </data>
+  <data name="Lbl_Date_Result_Received_Text" xml:space="preserve">
+    <value>Date Result Received</value>
+  </data>
+  <data name="Lbl_External_Results_Text" xml:space="preserve">
+    <value>External Results</value>
+  </data>
+  <data name="Lbl_Results_Entered_By_Text" xml:space="preserve">
+    <value>Results Entered By</value>
+  </data>
+  <data name="Lbl_Results_Received_By_Text" xml:space="preserve">
+    <value>Results Received By</value>
+  </data>
+  <data name="Lbl_Tested_By_Text" xml:space="preserve">
+    <value>Tested By</value>
+  </data>
+  <data name="Lbl_Validated_By_Text" xml:space="preserve">
+    <value>Validated By</value>
+  </data>
+  <data name="Lbl_Add_Update_Organization_Text" xml:space="preserve">
+    <value>Add/Update Organization</value>
+  </data>
+  <data name="Lbl_Autoclave_Text" xml:space="preserve">
+    <value>Autoclave</value>
+  </data>
+  <data name="Lbl_Incineration_Text" xml:space="preserve">
+    <value>Incineration</value>
+  </data>
+  <data name="Lbl_Amended_Text" xml:space="preserve">
+    <value>Amended</value>
+  </data>
+  <data name="Lbl_Declined_Text" xml:space="preserve">
+    <value>Declined</value>
+  </data>
+  <data name="Lbl_Not_Started_Text" xml:space="preserve">
+    <value>Not Started</value>
+  </data>
+  <data name="Lbl_Actions_Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Lbl_Approvals_Text" xml:space="preserve">
+    <value>Approvals</value>
+  </data>
+  <data name="Lbl_Number_Of_Records_Heading_Text" xml:space="preserve">
+    <value>Number of Records</value>
+  </data>
+  <data name="Lbl_View_Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Lbl_Closed_Text" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Lbl_Open_Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Lbl_Sample_Deletion_Text" xml:space="preserve">
+    <value>Sample Deletion</value>
+  </data>
+  <data name="Lbl_Test_Deletion_Text" xml:space="preserve">
+    <value>Test Deletion</value>
+  </data>
+  <data name="Lbl_Validation_Text" xml:space="preserve">
+    <value>Validation</value>
+  </data>
+  <data name="lbl_Status_Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_Accessory_Code_Text" xml:space="preserve">
+    <value>Accessory Code</value>
+  </data>
+  <data name="Lbl_Show_Foreign_Organization_Text" xml:space="preserve">
+    <value>Show Foreign Organization</value>
+  </data>
+  <data name="Lbl_EIDSS_Success_Message_Text" xml:space="preserve">
+    <value>EIDSS Success Message</value>
+  </data>
+  <data name="Lbl_Batch_Results_Details_Text" xml:space="preserve">
+    <value>Batch Results/Details</value>
+  </data>
+  <data name="Lbl_Batch_Add_Sample_Select_Samples_Text" xml:space="preserve">
+    <value>Add Sample to Batch: Select Samples</value>
+  </data>
+  <data name="Lbl_Add_Sample_To_Batch_Text" xml:space="preserve">
+    <value>Add Sample to Batch</value>
+  </data>
+  <data name="Lbl_Accepted_In_Poor_Condition_Text" xml:space="preserve">
+    <value>Accepted in Poor Condition</value>
+  </data>
+  <data name="Lbl_Rejected_Text" xml:space="preserve">
+    <value>Rejected</value>
+  </data>
+  <data name="Lbl_Vector_Surveillance_Session_Text" xml:space="preserve">
+    <value>Vector Surveillance Session</value>
+  </data>
+  <data name="Lbl_Close_Text" xml:space="preserve">
+    <value>CLOSE</value>
+  </data>
+  <data name="Lbl_Close_ToolTip" xml:space="preserve">
+    <value>Collapse the navigation menu.</value>
+  </data>
+  <data name="Lbl_Search_Farm_Text" xml:space="preserve">
+    <value>Search Farm</value>
+  </data>
+  <data name="Lbl_ALL_Text" xml:space="preserve">
+    <value>ALL</value>
+  </data>
+  <data name="Lbl_Data_Entry_Date_Text" xml:space="preserve">
+    <value>Data Entry Date</value>
+  </data>
+  <data name="Lbl_Farm_Owner_ID_Text" xml:space="preserve">
+    <value>Farm Owner ID</value>
+  </data>
+  <data name="Lbl_Farm_Owner_Name_Text" xml:space="preserve">
+    <value>Farm Owner Name</value>
+  </data>
+  <data name="Lbl_Farm_Owner_Text" xml:space="preserve">
+    <value>Farm Owner</value>
+  </data>
+  <data name="Lbl_Farm_Type_Text" xml:space="preserve">
+    <value>Farm Type</value>
+  </data>
+  <data name="Lbl_Records_Found_Text" xml:space="preserve">
+    <value>records found of </value>
+  </data>
+  <data name="Lbl_Total_Records_Text" xml:space="preserve">
+    <value>total records.</value>
+  </data>
+  <data name="Lbl_Avian_Text" xml:space="preserve">
+    <value>Avian</value>
+  </data>
+  <data name="Lbl_Livestock_Text" xml:space="preserve">
+    <value>Livestock</value>
+  </data>
+  <data name="Lbl_Email_Text" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Lbl_Fax_Text" xml:space="preserve">
+    <value>Fax</value>
+  </data>
+  <data name="Lbl_Outbreak_ID_Text" xml:space="preserve">
+    <value>Outbreak ID</value>
+  </data>
+  <data name="Lbl_Farm_Flock_Species_Text" xml:space="preserve">
+    <value>Farm/Flock/Species</value>
+  </data>
+  <data name="Lbl_Farm_Herd_Species_Text" xml:space="preserve">
+    <value>Farm/Herd/Species</value>
+  </data>
+  <data name="Lbl_Total_Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_Herd_Text" xml:space="preserve">
+    <value>Herd</value>
+  </data>
+  <data name="Lbl_Flock_Text" xml:space="preserve">
+    <value>Flock</value>
+  </data>
+  <data name="Lbl_Farm_Text" xml:space="preserve">
+    <value>Farm</value>
+  </data>
+  <data name="Lbl_Record_Found_Text" xml:space="preserve">
+    <value>record found of </value>
+  </data>
+  <data name="Lbl_Animal_Text" xml:space="preserve">
+    <value>Animal</value>
+  </data>
+  <data name="Lbl_Delete_Success_Text" xml:space="preserve">
+    <value>The record was successfully deleted.</value>
+  </data>
+  <data name="Lbl_Related_To_Disease_Report_Text" xml:space="preserve">
+    <value>Related to Disease Report</value>
+  </data>
+  <data name="Lbl_Campaign_Administrator_Text" xml:space="preserve">
+    <value>Campaign Administrator</value>
+  </data>
+  <data name="Lbl_Campaign_End_Date_Text" xml:space="preserve">
+    <value>Campaign End Date</value>
+  </data>
+  <data name="Lbl_Campaign_Name_Text" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="Lbl_Campaign_Start_Date_Range_Text" xml:space="preserve">
+    <value>Campaign Start Date Range</value>
+  </data>
+  <data name="Lbl_Campaign_Start_Date_Text" xml:space="preserve">
+    <value>Campaign Start Date</value>
+  </data>
+  <data name="Lbl_Campaign_Status_Text" xml:space="preserve">
+    <value>Campaign Status</value>
+  </data>
+  <data name="Lbl_Campaign_Type_Text" xml:space="preserve">
+    <value>Campaign Type</value>
+  </data>
+  <data name="Lbl_Conclusion_Text" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="Lbl_Planned_Number_Text" xml:space="preserve">
+    <value>Planned Number</value>
+  </data>
+  <data name="Lbl_Comments_Descriptions_Text" xml:space="preserve">
+    <value>Comments/Descriptions</value>
+  </data>
+  <data name="Lbl_Quantity_Text" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="Lbl_Campaign_ID_Number_Text" xml:space="preserve">
+    <value>Campaign ID Number</value>
+  </data>
+  <data name="Lbl_Person_Text" xml:space="preserve">
+    <value>Person</value>
+  </data>
+  <data name="Lbl_Veterinary_Active_Surveillance_Campaign_Text" xml:space="preserve">
+    <value>Veterinary Active Surveillance Campaign</value>
+  </data>
+  <data name="Lbl_Action_Required_Text" xml:space="preserve">
+    <value>Action Required</value>
+  </data>
+  <data name="Lbl_Animals_Sampled_Text" xml:space="preserve">
+    <value>Animals Sampled</value>
+  </data>
+  <data name="Lbl_Date_Interpreted_Text" xml:space="preserve">
+    <value>Date Interpreted</value>
+  </data>
+  <data name="Lbl_Date_Validated_Text" xml:space="preserve">
+    <value>Date Validated</value>
+  </data>
+  <data name="Lbl_Entered_By_Text" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="Lbl_Interpreted_Comment_Text" xml:space="preserve">
+    <value>Interpreted Comment</value>
+  </data>
+  <data name="Lbl_Number_Text" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="Lbl_Positive_Number_Text" xml:space="preserve">
+    <value>Positive Number</value>
+  </data>
+  <data name="Lbl_Rule_In_Rule_Out_Text" xml:space="preserve">
+    <value>Rule In/Rule Out</value>
+  </data>
+  <data name="Lbl_Sex_Text" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Lbl_Validated_Comment_Text" xml:space="preserve">
+    <value>Validated Comment</value>
+  </data>
+  <data name="Lbl_Validated_Text" xml:space="preserve">
+    <value>Validated (Y/N)</value>
+  </data>
+  <data name="Lbl_Field_Sample_ID_Text" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Lbl_Functional_Lab_Text" xml:space="preserve">
+    <value>Functional Lab</value>
+  </data>
+  <data name="Lbl_Lab_Text" xml:space="preserve">
+    <value>Lab</value>
+  </data>
+  <data name="Lbl_Date_Last_Updated_Text" xml:space="preserve">
+    <value>Date Last Updated</value>
+  </data>
+  <data name="Lbl_Active_Surveillance_Session_Text" xml:space="preserve">
+    <value>Active Surveillance Session</value>
+  </data>
+  <data name="Lbl_Campaign_Information_Text" xml:space="preserve">
+    <value>Campaign Information</value>
+  </data>
+  <data name="Lbl_Session_Information_Text" xml:space="preserve">
+    <value>Session Information</value>
+  </data>
+  <data name="Lbl_Farm_Details_Text" xml:space="preserve">
+    <value>Farm Details</value>
+  </data>
+  <data name="Lbl_Total_Number_Of_Animals_Sampled_Text" xml:space="preserve">
+    <value>Total Number of Animals Sampled</value>
+  </data>
+  <data name="Lbl_Total_Number_Of_Samples_Text" xml:space="preserve">
+    <value>Total Number of Samples</value>
+  </data>
+  <data name="Lbl_Search_Veterinary_Campaign_Text" xml:space="preserve">
+    <value>Search Veterinary Campaign</value>
+  </data>
+  <data name="Lbl_Color_Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Lbl_Comments_Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Lbl_Herd_Flock_Species_Details_Text" xml:space="preserve">
+    <value>Herd/Flock-Species Details</value>
+  </data>
+  <data name="Lbl_Farm_List_Text" xml:space="preserve">
+    <value>Farm List</value>
+  </data>
+  <data name="Lbl_Add_Update_Farm_Text" xml:space="preserve">
+    <value>Add/Update Farm</value>
+  </data>
+  <data name="Lbl_Assigned_Date_Text" xml:space="preserve">
+    <value>Assigned Date</value>
+  </data>
+  <data name="Lbl_Field_Accession_ID_Text" xml:space="preserve">
+    <value>Field Accession ID</value>
+  </data>
+  <data name="Lbl_Initial_Report_Date_Text" xml:space="preserve">
+    <value>Initial Report Date</value>
+  </data>
+  <data name="Lbl_Investigation_Organization_Text" xml:space="preserve">
+    <value>Investigation Organization</value>
+  </data>
+  <data name="Lbl_Investigator_Name_Text" xml:space="preserve">
+    <value>Investigator Name</value>
+  </data>
+  <data name="Lbl_Filter_By_Disease_Text" xml:space="preserve">
+    <value>Filter by Disease</value>
+  </data>
+  <data name="Lbl_Filter_By_Test_Name_Text" xml:space="preserve">
+    <value>Filter by Test Name</value>
+  </data>
+  <data name="Lbl_Number_To_Copy_Text" xml:space="preserve">
+    <value>Number to Copy</value>
+  </data>
+  <data name="Lbl_New_Text" xml:space="preserve">
+    <value>new</value>
+  </data>
+  <data name="Lbl_Average_Age_Weeks_Text" xml:space="preserve">
+    <value>Average Age (weeks)</value>
+  </data>
+  <data name="Lbl_Dead_Text" xml:space="preserve">
+    <value>Dead</value>
+  </data>
+  <data name="Lbl_Note_Include_Breed_Text" xml:space="preserve">
+    <value>Note (include breed)</value>
+  </data>
+  <data name="Lbl_Sick_Text" xml:space="preserve">
+    <value>Sick</value>
+  </data>
+  <data name="Lbl_Start_Of_Signs_Text" xml:space="preserve">
+    <value>Start of Signs</value>
+  </data>
+</root>

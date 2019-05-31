@@ -1,0 +1,1 @@
+﻿<%@ Control Language="vb" AutoEventWireup="false" CodeBehind="LocationUserControl.ascx.vb" Inherits="EIDSS.LocationUserControl" %>

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_Add_Organization.Text" xml:space="preserve">
+    <value>Կազմակերպությունը ավելացրեք</value>
+  </data>
+  <data name="Btn_Clear.Text" xml:space="preserve">
+    <value>Մաքրել</value>
+  </data>
+  <data name="Btn_Delete.Text" xml:space="preserve">
+    <value>Ջնջել</value>
+  </data>
+  <data name="Btn_Edit.Text" xml:space="preserve">
+    <value>Խմբագրել</value>
+  </data>
+  <data name="Btn_Search.Text" xml:space="preserve">
+    <value>Որոնել</value>
+  </data>
+  <data name="Btn_Select.Text" xml:space="preserve">
+    <value>Ընտրեք</value>
+  </data>
+  <data name="Dis_Abbreviation.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Country.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Organization_Full_Name.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Organization_Unique_Id.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Rayon.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Region.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Settlement.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Show_Foreign_Organizations.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Dis_Specialization.Visible" xml:space="preserve">
+    <value>TRUE</value>
+  </data>
+  <data name="Grd_Abbreviation_Heading" xml:space="preserve">
+    <value>կրճատում</value>
+  </data>
+  <data name="Grd_Order_Header_Heading" xml:space="preserve">
+    <value>Պատվիրել</value>
+  </data>
+  <data name="Grd_Organization.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grd_Organization.PagerSettings-FirstPageText" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Grd_Organization.PagerSettings-LastPageText" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Grd_Organization.PagerSettings-Mode" xml:space="preserve">
+    <value>NumericFirstLast</value>
+  </data>
+  <data name="Grd_Organization.PagerSettings-PageButtonCount" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Grd_Organization_Address_Heading" xml:space="preserve">
+    <value>Կազմակերպության հասցեն</value>
+  </data>
+  <data name="Grd_Organization_Full_Name_Heading" xml:space="preserve">
+    <value>Կազմակերպության լրիվ անունը</value>
+  </data>
+  <data name="Grd_Unique_Organization_Heading" xml:space="preserve">
+    <value>Միակ Կազմակերպության ID- ն</value>
+  </data>
+  <data name="Hdg_Search_Title.InnerText" xml:space="preserve">
+    <value>Որոնել</value>
+  </data>
+  <data name="Lbl_Abbreviation.Text" xml:space="preserve">
+    <value>Կրճատում</value>
+  </data>
+  <data name="Lbl_Abbreviation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Country.Text" xml:space="preserve">
+    <value>երկիրը</value>
+  </data>
+  <data name="Lbl_Country.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Organization_Full_Name.Text" xml:space="preserve">
+    <value>Կազմակերպության լրիվ անվանումը</value>
+  </data>
+  <data name="Lbl_Organization_Full_Name.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Organization_Unique_Id.Text" xml:space="preserve">
+    <value>Միակ Կազմակերպության ID</value>
+  </data>
+  <data name="Lbl_Organization_Unique_Id.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Rayon.Text" xml:space="preserve">
+    <value>Տարածաշրջան</value>
+  </data>
+  <data name="Lbl_Rayon.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Region.Text" xml:space="preserve">
+    <value>Շրջան</value>
+  </data>
+  <data name="Lbl_Region.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Settlement.Text" xml:space="preserve">
+    <value>Բնակեցում</value>
+  </data>
+  <data name="Lbl_Settlement.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Show_Foreign_Organizations.Text" xml:space="preserve">
+    <value>Ցուցադրել Օտարերկրյա կազմակերպություններ</value>
+  </data>
+  <data name="Lbl_Show_Foreign_Organizations.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Show_Foreign_Organizations_Text" xml:space="preserve">
+    <value>Ցուցադրել Օտարերկրյա կազմակերպություններ</value>
+  </data>
+  <data name="Lbl_Show_Foreign_Organizations_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Specialization.Text" xml:space="preserve">
+    <value>Մասնագիտացում</value>
+  </data>
+  <data name="Lbl_Specialization.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Specialization_Text" xml:space="preserve">
+    <value>Մասնագիտացում</value>
+  </data>
+  <data name="Lbl_Specialization_ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Val_Abbreviation.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Abbreviation.ErrorMessage" xml:space="preserve">
+    <value>կրճատումը պահանջվում է</value>
+  </data>
+  <data name="Val_Abbreviation.Text" xml:space="preserve">
+    <value>կրճատումը պահանջվում է</value>
+  </data>
+  <data name="Val_Country.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Country.ErrorMessage" xml:space="preserve">
+    <value>Երկիրը պահանջվում է</value>
+  </data>
+  <data name="Val_Country.Text" xml:space="preserve">
+    <value>Երկիրը պահանջվում է</value>
+  </data>
+  <data name="Val_Organization Unique ID.ErrorMessage" xml:space="preserve">
+    <value>Կազմակերպության միակ ID- ն պահանջվում է</value>
+  </data>
+  <data name="Val_Organization Unique ID.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Val_Organization_Full_Name.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Organization_Full_Name.ErrorMessage" xml:space="preserve">
+    <value>Կազմակերպության լրիվ անունը պահանջվում է</value>
+  </data>
+  <data name="Val_Organization_Full_Name.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Val_Organization_Unique_Id.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Organization_Unique_Id.Text" xml:space="preserve">
+    <value>Կազմակերպությանը միակ ID- ն պահանջվում է</value>
+  </data>
+  <data name="Val_Rayon.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Rayon.ErrorMessage" xml:space="preserve">
+    <value>Տարածաշրջանը պահանջվում է</value>
+  </data>
+  <data name="Val_Rayon.Text" xml:space="preserve">
+    <value>Տարածաշրջանը պահանջվում է</value>
+  </data>
+  <data name="Val_Region.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Region.ErrorMessage" xml:space="preserve">
+    <value>Շրջանը պահանջվում է</value>
+  </data>
+  <data name="Val_Region.Text" xml:space="preserve">
+    <value>Շրջանը պահանջվում է</value>
+  </data>
+  <data name="Val_Settlement.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Settlement.ErrorMessage" xml:space="preserve">
+    <value>Բնակեցումը պահանջվում է</value>
+  </data>
+  <data name="Val_Settlement.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="Val_Specialization.Enabled" xml:space="preserve">
+    <value>FALSE</value>
+  </data>
+  <data name="Val_Specialization.ErrorMessage" xml:space="preserve">
+    <value>Մասնագիտացումը պահանջվում է</value>
+  </data>
+  <data name="Val_Specialization.Text" xml:space="preserve">
+    <value />
+  </data>
+</root>

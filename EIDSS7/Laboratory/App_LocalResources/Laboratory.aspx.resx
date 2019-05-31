@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Hdg_Aliquots_Derivatives.InnerText" xml:space="preserve">
+    <value>Aliquots/Derivatives</value>
+  </data>
+  <data name="Hdg_Assign_Test" xml:space="preserve">
+    <value>Assign Test</value>
+  </data>
+  <data name="Lbl_Samples.Text" xml:space="preserve">
+    <value>SAMPLES</value>
+  </data>
+  <data name="Lbl_Filter.InnerText" xml:space="preserve">
+    <value>Filter:</value>
+  </data>
+  <data name="Lbl_Print_Barcode_Question.Text" xml:space="preserve">
+    <value>  Print Barcode?</value>
+  </data>
+  <data name="Lbl_Testing.Text" xml:space="preserve">
+    <value>TESTING</value>
+  </data>
+  <data name="Lbl_Test_Complete.Text" xml:space="preserve">
+    <value>Test Complete</value>
+  </data>
+  <data name="Lbl_Test_Not_Assigned.Text" xml:space="preserve">
+    <value>Test Not Assigned</value>
+  </data>
+  <data name="Btn_Cancel_Transfer.Text" xml:space="preserve">
+    <value>Cancel Transfer</value>
+  </data>
+  <data name="Btn_Cancel_Transfer.ToolTip" xml:space="preserve">
+    <value>Cancel the transfer out</value>
+  </data>
+  <data name="Lbl_Transferred.Text" xml:space="preserve">
+    <value>TRANSFERRED</value>
+  </data>
+  <data name="Btn_Aliquot.Text" xml:space="preserve">
+    <value>Aliquot</value>
+  </data>
+  <data name="Err_Message_Comment_Required" xml:space="preserve">
+    <value>Comment is required when sample status is accepted in poor condition or rejected.</value>
+  </data>
+  <data name="Err_Sample_Not_Found" xml:space="preserve">
+    <value>The Local/Field Sample ID entered was not found.</value>
+  </data>
+  <data name="Hdg_Error_Alert.InnerText" xml:space="preserve">
+    <value>Error Alert</value>
+  </data>
+  <data name="Hdg_Group_Accession_In" xml:space="preserve">
+    <value>Group Accession In</value>
+  </data>
+  <data name="Hdg_Add_Update_Success_Message" xml:space="preserve">
+    <value>Successful Save</value>
+  </data>
+  <data name="Lbl_Message_Add_Update_Success" xml:space="preserve">
+    <value>The lab module transaction completed successfully.</value>
+  </data>
+  <data name="Err_Message_Comment_Length" xml:space="preserve">
+    <value>Comment must be at least six characters in length.</value>
+  </data>
+  <data name="Hdg_Print_Barcodes" xml:space="preserve">
+    <value>Barcode Labels</value>
+  </data>
+  <data name="Warning_Message_Alert" xml:space="preserve">
+    <value>EIDSS Warning Message</value>
+  </data>
+  <data name="Warning_Message_Search_Criteria_Required_Body_Text" xml:space="preserve">
+    <value>Please enter at least one search parameter.</value>
+  </data>
+  <data name="Warning_Message_Cannot_Save_Body_Text" xml:space="preserve">
+    <value>Oops, an error occurred processing the record.  If this continues, please contact support.</value>
+  </data>
+  <data name="Warning_Message_Cannot_Save_SubHeading" xml:space="preserve">
+    <value>Unable to Save</value>
+  </data>
+  <data name="Warning_Message_Unhandled_Exception_Body_Text" xml:space="preserve">
+    <value>An error occurred on this page. Please verify your information to resolve the issue.</value>
+  </data>
+  <data name="Warning_Message_Validator_Section_Body_Text" xml:space="preserve">
+    <value>The validation error could not be determined.  Please contact the website's administrator for further assistance.</value>
+  </data>
+  <data name="Warning_Message_Validator_Section_SubHeading" xml:space="preserve">
+    <value>Unable to Get Validator Section</value>
+  </data>
+  <data name="Hdg_Search_Human_Disease_Reports.InnerText" xml:space="preserve">
+    <value>Search Human Disease Reports</value>
+  </data>
+  <data name="Hdg_Search_Human_Sessions.InnerText" xml:space="preserve">
+    <value>Search Human Active Surveillance Sessions</value>
+  </data>
+  <data name="Hdg_Search_Vector_Sessions.InnerText" xml:space="preserve">
+    <value>Search Vector Active Surveillance Sessions</value>
+  </data>
+  <data name="Hdg_Search_Veterinary_Disease_Reports.InnerText" xml:space="preserve">
+    <value>Search Veterinary Disease Reports</value>
+  </data>
+  <data name="Hdg_Search_Veterinary_Sessions.InnerText" xml:space="preserve">
+    <value>Search Veterinary Active Surveillance Sessions</value>
+  </data>
+  <data name="Hdg_Sample_Test_Details" xml:space="preserve">
+    <value>Sample/Test Details</value>
+  </data>
+  <data name="Err_Edit_Sample" xml:space="preserve">
+    <value>An error occurred when editing the sample.  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Err_Group_Accession" xml:space="preserve">
+    <value>An error occurred when group accessioning in.  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Err_Register_New_Sample" xml:space="preserve">
+    <value>An error occurred when registering a new sample.  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Hdg_Search_Farm.InnerText" xml:space="preserve">
+    <value>Search Farm</value>
+  </data>
+  <data name="Hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Lbl_My_Favorites.Text" xml:space="preserve">
+    <value>MY FAVORITES</value>
+  </data>
+  <data name="Lbl_Approvals.Text" xml:space="preserve">
+    <value>APPROVALS</value>
+  </data>
+  <data name="Lbl_Batches.Text" xml:space="preserve">
+    <value>BATCHES</value>
+  </data>
+  <data name="Hdg_Add_Update_Organization.InnerText" xml:space="preserve">
+    <value>Add/Update Organization</value>
+  </data>
+  <data name="Hdg_Search_Organization.InnerText" xml:space="preserve">
+    <value>Search Organization</value>
+  </data>
+  <data name="Hdg_Transfer_Sample" xml:space="preserve">
+    <value>Transfer Sample</value>
+  </data>
+  <data name="Warning_Message_No_Samples_To_Accession_Body_Text" xml:space="preserve">
+    <value>No samples were selected to accession.  Please select at least one sample from the samples tab.</value>
+  </data>
+  <data name="Warning_Message_Sample_Must_Be_Accessioned_Assign_Test_Body_Text" xml:space="preserve">
+    <value>To assign a test, please select a sample(s) that is accessioned.</value>
+  </data>
+  <data name="Err_Message_Sample_Must_Be_Accessioned" xml:space="preserve">
+    <value>Sample must be accessioned to mark for destruction.</value>
+  </data>
+  <data name="Err_Message_Test_Must_Have_Preliminary_In_Progress_Test" xml:space="preserve">
+    <value>Test must be in preliminary or in progress status to be marked for deletion.</value>
+  </data>
+  <data name="Warning_Message_Sample_Deletion" xml:space="preserve">
+    <value>The following will be deleted from the Report and EIDSS.  Please enter a reason for deleting the sample.</value>
+  </data>
+  <data name="Warning_Message_No_Sample_Selected_For_Sample_Deletion_Body_Text" xml:space="preserve">
+    <value>No samples were selected for sample deletion.  Please select at least one sample from the samples tab.</value>
+  </data>
+  <data name="Warning_Message_No_Sample_Selected_For_Sample_Destruction_Body_Text" xml:space="preserve">
+    <value>No samples were selected for sample destruction.  Please select a sample from the samples tab.</value>
+  </data>
+  <data name="Warning_Message_No_Test_Selected_For_Test_Deletion_Body_Text" xml:space="preserve">
+    <value>No test was selected for test deletion.  Please select a test from the testing tab.</value>
+  </data>
+  <data name="Warning_Message_No_Samples_To_Print_Bar_Codes_Text" xml:space="preserve">
+    <value>To print bar codes, please select a sample(s) that has an EIDSS laboratory sample ID.</value>
+  </data>
+  <data name="Lbl_Register_New_Sample_Success_Text" xml:space="preserve">
+    <value>The new sample(s) has been registered. You may enter data for a new sample.</value>
+  </data>
+  <data name="Warning_Message_Report_Session_Not_Found_Body_Text" xml:space="preserve">
+    <value>The report/session ID you typed was not found.  Please check your entry and try again, or you may use the corresponding lookup.</value>
+  </data>
+  <data name="Err_Accession_Sample" xml:space="preserve">
+    <value>An error occurred when accessioning in.  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Warning_Message_Test_Must_Be_Selected_Body_Text" xml:space="preserve">
+    <value>To set a test result, please select a test from the testing tab.</value>
+  </data>
+  <data name="Val_Future_Result_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Result_Date.ErrorMessage" xml:space="preserve">
+    <value>Result Date must be earlier or equal to the current date</value>
+  </data>
+  <data name="Val_Future_Result_Date.Text" xml:space="preserve">
+    <value>Result Date must be earlier or equal to the current date</value>
+  </data>
+  <data name="Val_Future_Test_Started_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Test_Started_Date.ErrorMessage" xml:space="preserve">
+    <value>Test Started Date must be earlier or equal to the current date</value>
+  </data>
+  <data name="Val_Future_Test_Started_Date.Text" xml:space="preserve">
+    <value>Test Started Date must be earlier or equal to the current date</value>
+  </data>
+  <data name="Warning_Message_Print_Bar_Codes_Body_Text" xml:space="preserve">
+    <value>Do you want to print bar codes?</value>
+  </data>
+  <data name="Error_Message_Cannot_Assign_Test" xml:space="preserve">
+    <value>No tests were added to assign.  Please add at least one test and, if known, the test result.</value>
+  </data>
+  <data name="Err_Edit_Test" xml:space="preserve">
+    <value>An error occurred when editing the test.  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Err_Delete_Sample" xml:space="preserve">
+    <value>An error occurred when deleteting sample(s).  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Err_Message_Sample_Must_Be_Deleted" xml:space="preserve">
+    <value>Sample must be in deleted status to restore.</value>
+  </data>
+  <data name="Warning_Message_Sample_Must_Be_Accessioned_Transfer_Out_Body_Text" xml:space="preserve">
+    <value>To transfer out, please select a sample(s) that is accessioned.</value>
+  </data>
+  <data name="Notification_Message_Test_Result_Rejected_Part_1" xml:space="preserve">
+    <value>The </value>
+  </data>
+  <data name="Notification_Message_Test_Result_Rejected_Part_2" xml:space="preserve">
+    <value>completed on </value>
+  </data>
+  <data name="Notification_Message_Test_Result_Rejected_Part_3" xml:space="preserve">
+    <value>for </value>
+  </data>
+  <data name="Notification_Message_Test_Result_Rejected_Part_4" xml:space="preserve">
+    <value>could not be validated.</value>
+  </data>
+  <data name="Warning_Message_Transfer_Must_Be_Selected_Body_Text" xml:space="preserve">
+    <value>To edit a transfer, please select a transfer from the transferred tab.</value>
+  </data>
+  <data name="Lbl_Transferred_In_Sample_Deactivated_Note" xml:space="preserve">
+    <value>User change of transfer sent/transferred to organization to a non-EIDSS laboratory; sample system de-activated.</value>
+  </data>
+  <data name="Err_Save_Sample_Test" xml:space="preserve">
+    <value>An error occurred when saving the sample/test details.  Please review and correct the validation errors and try again.</value>
+  </data>
+  <data name="Lbl_Transfer_Cancelled_Text" xml:space="preserve">
+    <value>Transfer cancelled by transferred from organization.</value>
+  </data>
+  <data name="Warning_Message_Sample_Has_In_Progress_Test_Transfer_Out_Body_Text" xml:space="preserve">
+    <value>To transfer out, please select a sample(s) that has no tests that are in progress, or finalize all in progress tests for the sample.</value>
+  </data>
+  <data name="Err_Sample_Has_Test_In_Progress_Part_1_Text" xml:space="preserve">
+    <value>Sample </value>
+  </data>
+  <data name="Err_Sample_Has_Test_In_Progress_Part_2_Text" xml:space="preserve">
+    <value>cannot be transferred because it has at least one test in progress.</value>
+  </data>
+  <data name="Btn_Aliquot.ToolTip" xml:space="preserve">
+    <value>Create Aliquot/ Derivative</value>
+  </data>
+  <data name="Err_Message_Test_Must_Be_Final" xml:space="preserve">
+    <value>Test must have a result of final to amend.</value>
+  </data>
+  <data name="Warning_Message_Batch_Must_Be_Selected_Body_Text" xml:space="preserve">
+    <value>To edit a batch, please select a batch from the batches tab.</value>
+  </data>
+  <data name="Warning_Message_No_Batch_Test_Selected_To_Remove_Body_Text" xml:space="preserve">
+    <value>No sample was selected for removal.  Please select at least one sample from the batch.</value>
+  </data>
+  <data name="Warning_Message_No_Batch_Test_Selected_To_Close_Body_Text" xml:space="preserve">
+    <value>No batch was selected to close.  Please select at least one batch.</value>
+  </data>
+  <data name="Err_Message_Test_Must_Have_Result_Text" xml:space="preserve">
+    <value>All Test Results must be entered to close a batch.</value>
+  </data>
+  <data name="Warning_Message_Select_Sample_To_Aliquot_Derivative_Body_Text" xml:space="preserve">
+    <value>To create an aliquot or derivative, please select a sample from the samples tab.</value>
+  </data>
+  <data name="Err_Unable_To_Update_Value_Message_Text" xml:space="preserve">
+    <value>Unable to update the desired value.  Please contact the website's administrator for further assistance.</value>
+  </data>
+</root>

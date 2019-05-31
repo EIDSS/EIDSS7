@@ -1,0 +1,1947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Dis_Case_Classification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lab_Test_Test_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Farm_Details_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Field_Accession_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Assigned_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Initial_Report_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Investigation_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Investigated_ByPerson.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Reported_By_Person.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Outbreak_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Recent_Contact_Information.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Registered_Diseases.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Report_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Report_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Session_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Vehicle_Equipment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Hdg_Avian_Disease_Report.InnerText" xml:space="preserve">
+    <value>Avian Disease Report</value>
+  </data>
+  <data name="Hdg_Case_Log.InnerText" xml:space="preserve">
+    <value>Case Log</value>
+  </data>
+  <data name="Hdg_Disease_Report_Summary.InnerText" xml:space="preserve">
+    <value>Disease Report Summary</value>
+  </data>
+  <data name="Hdg_Farm_Details.InnerText" xml:space="preserve">
+    <value>Farm Details</value>
+  </data>
+  <data name="Hdg_Farm_Epidemiological_Info.InnerText" xml:space="preserve">
+    <value>Farm Epidemiological Info</value>
+  </data>
+  <data name="Hdg_Farm_Flock_Species.InnerText" xml:space="preserve">
+    <value>Farm/Flock/Species</value>
+  </data>
+  <data name="Hdg_Interpretation.InnerText" xml:space="preserve">
+    <value>Results Summary and Interpretation</value>
+  </data>
+  <data name="Hdg_Lab_Tests_Interpretation.InnerText" xml:space="preserve">
+    <value>Lab Tests</value>
+  </data>
+  <data name="Hdg_New_Disease_Report_Information.InnerText" xml:space="preserve">
+    <value>New Disease Report Information</value>
+  </data>
+  <data name="Hdg_Notification.InnerText" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Hdg_Penside_Tests.InnerText" xml:space="preserve">
+    <value>Penside Tests</value>
+  </data>
+  <data name="Hdg_Samples.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Hdg_Species_Investigation.InnerText" xml:space="preserve">
+    <value>Species Investigation</value>
+  </data>
+  <data name="Hdg_Vaccination_Information.InnerText" xml:space="preserve">
+    <value>Vaccination Info</value>
+  </data>
+  <data name="Lbl_Assigned_Date.InnerText" xml:space="preserve">
+    <value>Assigned Date</value>
+  </data>
+  <data name="Lbl_Case_Classification.InnerText" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="Lbl_Current_Address.InnerText" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="Lbl_Site.InnerText" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Lbl_Entered_Date.Text" xml:space="preserve">
+    <value>Entered Date</value>
+  </data>
+  <data name="Lbl_Details.InnerText" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Field_Accession_ID.InnerText" xml:space="preserve">
+    <value>Field Accession ID</value>
+  </data>
+  <data name="Lbl_Initial_Report_Date.InnerText" xml:space="preserve">
+    <value>Initial Report Date</value>
+  </data>
+  <data name="Lbl_Invesigation_Date.InnerText" xml:space="preserve">
+    <value>Investigation Date</value>
+  </data>
+  <data name="Lbl_Investigator_Name.InnerText" xml:space="preserve">
+    <value>Investigator Name</value>
+  </data>
+  <data name="Lbl_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_Officer.InnerText" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="Lbl_Outbreak_ID.InnerText" xml:space="preserve">
+    <value>Outbreak ID</value>
+  </data>
+  <data name="Lbl_Reported_By.InnerText" xml:space="preserve">
+    <value>Reported By</value>
+  </data>
+  <data name="Lbl_Report_ID.InnerText" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="Lbl_Report_Status.InnerText" xml:space="preserve">
+    <value>Report Status</value>
+  </data>
+  <data name="Lbl_Report_Type.InnerText" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="Lbl_Session_ID.InnerText" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Lbl_Specify_Species.InnerText" xml:space="preserve">
+    <value>Specify Species</value>
+  </data>
+  <data name="Lbl_To_Where.InnerText" xml:space="preserve">
+    <value>To Where?</value>
+  </data>
+  <data name="Lbl_Unknown.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Lbl_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Req_Case_Classification.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Farm_Details_Farm_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Field_Accession_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Assigned_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Initial_Report_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Investigation_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Investigated_By_Person.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Reported_By_Person.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Outbreak_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Report_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Report_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Session_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Tab_Case_Log.Text" xml:space="preserve">
+    <value>Case Log</value>
+  </data>
+  <data name="Tab_Farm_Details.Text" xml:space="preserve">
+    <value>Farm Details</value>
+  </data>
+  <data name="Tab_Farm_Epidemiological_Info.Text" xml:space="preserve">
+    <value>Farm Epidemiological Info</value>
+  </data>
+  <data name="Tab_Farm_Herd_Species.Text" xml:space="preserve">
+    <value>Farm/Flock/Species</value>
+  </data>
+  <data name="Tab_Lab_Tests_Interpretation.Text" xml:space="preserve">
+    <value>Lab Test/Interpretation</value>
+  </data>
+  <data name="Tab_Notification.Text" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Tab_Penside_Tests.Text" xml:space="preserve">
+    <value>Penside Tests</value>
+  </data>
+  <data name="Tab_Review.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Samples.Text" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Tab_Species_Clinical_Investigation.Text" xml:space="preserve">
+    <value>Species Epidemiological and Clinical Investigation</value>
+  </data>
+  <data name="Tab_Vaccination_Information.Text" xml:space="preserve">
+    <value>Vaccination Info</value>
+  </data>
+  <data name="Val_Case_Classification.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Case_Classification.ErrorMessage" xml:space="preserve">
+    <value>Case Classification is required</value>
+  </data>
+  <data name="Val_Case_Classification.Text" xml:space="preserve">
+    <value>Case Classification is required</value>
+  </data>
+  <data name="Val_Disease.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Disease.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Disease.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Farm_Details_Farm_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Farm_Details_Farm_ID.ErrorMessage" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Farm_Details_Farm_ID.Text" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Field_Accession_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Field_Accession_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Accession ID is required</value>
+  </data>
+  <data name="Val_Field_Accession_ID.Text" xml:space="preserve">
+    <value>Field Accession ID is required</value>
+  </data>
+  <data name="Val_Assigned_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Assigned_Date.ErrorMessage" xml:space="preserve">
+    <value>Assigned Date is required</value>
+  </data>
+  <data name="Val_Assigned_Date.Text" xml:space="preserve">
+    <value>Assigned Date is required</value>
+  </data>
+  <data name="Val_Initial_Report_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Initial_Report_Date.ErrorMessage" xml:space="preserve">
+    <value>Initial Report Date is required</value>
+  </data>
+  <data name="Val_Initial_Report_Date.Text" xml:space="preserve">
+    <value>Initial Report Date is required</value>
+  </data>
+  <data name="Val_Investigation_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Investigation_Date.ErrorMessage" xml:space="preserve">
+    <value>Investigation Date is required</value>
+  </data>
+  <data name="Val_Investigation_Date.Text" xml:space="preserve">
+    <value>Investigation Date is required</value>
+  </data>
+  <data name="Val_Investigated_By_Person.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Investigated_By_Person.ErrorMessage" xml:space="preserve">
+    <value>Investigation Name is required</value>
+  </data>
+  <data name="Val_Investigated_By_Person.Text" xml:space="preserve">
+    <value>Investigation Name is required</value>
+  </data>
+  <data name="Val_Reported_By_Person.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Reported_By_Person.ErrorMessage" xml:space="preserve">
+    <value>Reported By is required</value>
+  </data>
+  <data name="Val_Reported_By_Person.Text" xml:space="preserve">
+    <value>Reported By is required</value>
+  </data>
+  <data name="Val_Outbreak_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Outbreak_ID.ErrorMessage" xml:space="preserve">
+    <value>Outbreak ID is required</value>
+  </data>
+  <data name="Val_Outbreak_ID.Text" xml:space="preserve">
+    <value>Outbreak ID is required</value>
+  </data>
+  <data name="Val_Report_Status.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Report_Status.ErrorMessage" xml:space="preserve">
+    <value>Report Status is required</value>
+  </data>
+  <data name="Val_Report_Status.Text" xml:space="preserve">
+    <value>Report Status is required</value>
+  </data>
+  <data name="Val_Report_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Report_Type.ErrorMessage" xml:space="preserve">
+    <value>Report Type is required</value>
+  </data>
+  <data name="Val_Report_Type.Text" xml:space="preserve">
+    <value>Report Type is required</value>
+  </data>
+  <data name="Val_Session_ID.ErrorMessage" xml:space="preserve">
+    <value>Session ID is required</value>
+  </data>
+  <data name="Val_Session_ID.Text" xml:space="preserve">
+    <value>Session ID is required</value>
+  </data>
+  <data name="Lbl_Action_Required.Text" xml:space="preserve">
+    <value>Action Required</value>
+  </data>
+  <data name="Lbl_Closed.Text" xml:space="preserve">
+    <value>Closed</value>
+  </data>
+  <data name="Lbl_Comment.Text" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Lbl_Dead.InnerText" xml:space="preserve">
+    <value>Dead</value>
+  </data>
+  <data name="Lbl_Entered_By.Text" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="Lbl_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Lbl_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Lbl_No_Record.InnerText" xml:space="preserve">
+    <value>No Records are available</value>
+  </data>
+  <data name="Lbl_Open.Text" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Lbl_Results_Observations.InnerText" xml:space="preserve">
+    <value>Results/Observations</value>
+  </data>
+  <data name="Lbl_Result_Date.InnerText" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Lbl_Rule_In.Text" xml:space="preserve">
+    <value>Rule In</value>
+  </data>
+  <data name="Lbl_Rule_Out.Text" xml:space="preserve">
+    <value>Rule Out</value>
+  </data>
+  <data name="Lbl_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Sick.InnerText" xml:space="preserve">
+    <value>Sick</value>
+  </data>
+  <data name="Lbl_Species.Text" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Lbl_Start_of_Signs.InnerText" xml:space="preserve">
+    <value>Start of Signs</value>
+  </data>
+  <data name="Lbl_Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_Test_Category.Text" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Lbl_Test_Diagnosis.InnerText" xml:space="preserve">
+    <value>Test Diagnosis</value>
+  </data>
+  <data name="Lbl_Test_Status.Text" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Lbl_Total.InnerText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_Validated.Text" xml:space="preserve">
+    <value>Validated</value>
+  </data>
+  <data name="Lbl_Accession_Date.Text" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="Lbl_Addition_Test.InnerText" xml:space="preserve">
+    <value>Additional test requested and sample notes</value>
+  </data>
+  <data name="Lbl_Bird_Status.Text" xml:space="preserve">
+    <value>Bird Status</value>
+  </data>
+  <data name="Lbl_Collected_By_Institution.Text" xml:space="preserve">
+    <value>Collected by Institution</value>
+  </data>
+  <data name="Lbl_Collected_By_Officer.Text" xml:space="preserve">
+    <value>Collected by Officer</value>
+  </data>
+  <data name="Lbl_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Lbl_Condition_Received.Text" xml:space="preserve">
+    <value>Condition Received</value>
+  </data>
+  <data name="Lbl_Disease_Name.InnerText" xml:space="preserve">
+    <value>Disease Name</value>
+  </data>
+  <data name="Lbl_Laboratory_Test.InnerText" xml:space="preserve">
+    <value>Laboratory Test</value>
+  </data>
+  <data name="Lbl_Lot_Number.InnerText" xml:space="preserve">
+    <value>Lot #</value>
+  </data>
+  <data name="Lbl_Manufacturer.InnerText" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Lbl_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_Others.InnerText" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="Lbl_Route.InnerText" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="Lbl_Sent_To_Organization.Text" xml:space="preserve">
+    <value>Sent To Organization</value>
+  </data>
+  <data name="Lbl_Tests_Conducted.InnerText" xml:space="preserve">
+    <value>Tests Conducted</value>
+  </data>
+  <data name="Lbl_Type.InnerText" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_Unknown.InnerText" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Lbl_Vaccinated.Text" xml:space="preserve">
+    <value>Vaccinated</value>
+  </data>
+  <data name="Lbl_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Lbl_Disease_Report_Farm_ID.InnerText" xml:space="preserve">
+    <value>Farm ID</value>
+  </data>
+  <data name="Grd_Species_List_Average_Age_Heading.Text" xml:space="preserve">
+    <value>Average Age (Weeks)</value>
+  </data>
+  <data name="Grd_Species_List_Dead_Animal_Qty_Heading.Text" xml:space="preserve">
+    <value>Dead</value>
+  </data>
+  <data name="Grd_Species_List_Sick_Animal_Qty_Heading.Text" xml:space="preserve">
+    <value>Sick</value>
+  </data>
+  <data name="Grd_Species_List_Start_of_Signs_Heading.Text" xml:space="preserve">
+    <value>Start of Signs</value>
+  </data>
+  <data name="Grd_Species_List_Total_Animal_Qty_Heading.Text" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Grd_Species_List_Species_Type_Name_Heading.Text" xml:space="preserve">
+    <value>Farm/Flock/Species</value>
+  </data>
+  <data name="Dis_Species_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Species_Type.Text" xml:space="preserve">
+    <value>Species Type</value>
+  </data>
+  <data name="Req_Species_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Species_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Species_Type.ErrorMessage" xml:space="preserve">
+    <value>Species Type is required</value>
+  </data>
+  <data name="Val_Species_Type.Text" xml:space="preserve">
+    <value>Species Type is required</value>
+  </data>
+  <data name="Dis_Average_Age.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Dead_Animal_Qty.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sick_Animal_Qty.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Total_Animal_Qty.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Average_Age.Text" xml:space="preserve">
+    <value>Average Age (weeks)</value>
+  </data>
+  <data name="Lbl_Dead_Animal_Qty.Text" xml:space="preserve">
+    <value>Dead Animal Quantity</value>
+  </data>
+  <data name="Lbl_Sick_Animal_Qty.Text" xml:space="preserve">
+    <value>Sick Animal Quantity</value>
+  </data>
+  <data name="Lbl_Total_Animal_Qty.Text" xml:space="preserve">
+    <value>Total Animal Quantity</value>
+  </data>
+  <data name="Req_Average_Age.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Dead_Animal_Qty.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sick_Animal_Qty.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Total_Animal_Qty.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Average_Age.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Average_Age.ErrorMessage" xml:space="preserve">
+    <value>Average Age is required</value>
+  </data>
+  <data name="Val_Average_Age.Text" xml:space="preserve">
+    <value>Average Age is required</value>
+  </data>
+  <data name="Val_Dead_Animal_Qty.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Dead_Animal_Qty.ErrorMessage" xml:space="preserve">
+    <value>Dead Animal Quantity is required</value>
+  </data>
+  <data name="Val_Dead_Animal_Qty.Text" xml:space="preserve">
+    <value>Dead Animal Quantity is required</value>
+  </data>
+  <data name="Val_Sick_Animal_Qty.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sick_Animal_Qty.ErrorMessage" xml:space="preserve">
+    <value>Sick Animal Quantity is required</value>
+  </data>
+  <data name="Val_Sick_Animal_Qty.Text" xml:space="preserve">
+    <value>Sick Animal Quantity is required</value>
+  </data>
+  <data name="Val_Total_Animal_Qty.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Total_Animal_Qty.ErrorMessage" xml:space="preserve">
+    <value>Total Animal Quantity is required</value>
+  </data>
+  <data name="Val_Total_Animal_Qty.Text" xml:space="preserve">
+    <value>Total Animal Quantity is required</value>
+  </data>
+  <data name="Dis_Start_of_Signs_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Start_of_Signs_Date.Text" xml:space="preserve">
+    <value>Start of Signs Date</value>
+  </data>
+  <data name="Req_Start_of_Signs_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Start_of_Signs_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Start_of_Signs_Date.ErrorMessage" xml:space="preserve">
+    <value>Start of Signs Date is required</value>
+  </data>
+  <data name="Val_Start_of_Signs_Date.Text" xml:space="preserve">
+    <value>Start of Signs Date is required</value>
+  </data>
+  <data name="Dis_Herd.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Herd.Text" xml:space="preserve">
+    <value>Flock</value>
+  </data>
+  <data name="Req_Herd.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Herd.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Herd.ErrorMessage" xml:space="preserve">
+    <value>Flock is required</value>
+  </data>
+  <data name="Val_Herd.Text" xml:space="preserve">
+    <value>Flock is required</value>
+  </data>
+  <data name="Grd_Samples_List_Accession_Date_Heading" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="Grd_Samples_List_Bird_Status_Heading" xml:space="preserve">
+    <value>Bird Status</value>
+  </data>
+  <data name="Grd_Samples_List_Collection_Date_Heading" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Collected_By_Institution_Heading" xml:space="preserve">
+    <value>Collected By Institution</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Collected_By_Officer_Heading" xml:space="preserve">
+    <value>Collected By Officer</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Comment_Heading" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Sent_To_Organization_Heading" xml:space="preserve">
+    <value>Sent To Organization</value>
+  </data>
+  <data name="Grd_Samples_List_Sample_Condition_Received_Heading" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="Grd_Samples_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Samples_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Dis_Accession_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Bird_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Collected_By_Institution.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Collected_By_Officer.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Condition_Received.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sent_To_Organization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Accession_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Bird_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Collected_By_Institution.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Collected_By_Officer.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Vaccination_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Condition_Received.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Collection_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Sent_To_Organization.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Accession_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Accession_Date.ErrorMessage" xml:space="preserve">
+    <value>Accession Date is required</value>
+  </data>
+  <data name="Val_Accession_Date.Text" xml:space="preserve">
+    <value>Accession Date is required</value>
+  </data>
+  <data name="Val_Bird_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Bird_Status.ErrorMessage" xml:space="preserve">
+    <value>Bird Status is required</value>
+  </data>
+  <data name="Val_Bird_Status.Text" xml:space="preserve">
+    <value>Bird Status is required</value>
+  </data>
+  <data name="Val_Collected_By_Institution.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Collected_By_Institution.ErrorMessage" xml:space="preserve">
+    <value>Collected by Institution is required</value>
+  </data>
+  <data name="Val_Collected_By_Institution.Text" xml:space="preserve">
+    <value>Collected by Institution is required</value>
+  </data>
+  <data name="Val_Collected_By_Officer.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Collected_By_Officer.ErrorMessage" xml:space="preserve">
+    <value>Collected by Officer is required</value>
+  </data>
+  <data name="Val_Collected_By_Officer.Text" xml:space="preserve">
+    <value>Collected by Officer is required</value>
+  </data>
+  <data name="Val_Vaccination_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Comment.ErrorMessage" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Vaccination_Comment.Text" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Condition_Received.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Condition_Received.ErrorMessage" xml:space="preserve">
+    <value>Condition Received is required</value>
+  </data>
+  <data name="Val_Condition_Received.Text" xml:space="preserve">
+    <value>Condition Received is required</value>
+  </data>
+  <data name="Val_Collection_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Collection_Date.ErrorMessage" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Sample_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Samply Type is required</value>
+  </data>
+  <data name="Val_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Sent_To_Organization.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sent_To_Organization.ErrorMessage" xml:space="preserve">
+    <value>Sent to Organization is required</value>
+  </data>
+  <data name="Val_Sent_To_Organization.Text" xml:space="preserve">
+    <value>Sent to Organization is required</value>
+  </data>
+  <data name="Val_Species.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Dis_Penside_Test_Test_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Penside_Test_Test_Result.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Penside_Tests_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Penside_Tests_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Penside_Tests_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Penside_Tests_List_Test_Name_Heading" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Grd_Penside_Tests_List_Test_Result_Heading" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Lbl_Test_Name.Text" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Lbl_Test_Result.Text" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Req_Penside_Test_Test_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Penside_Test_Test_Result.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Penside_Test_Test_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Penside_Test_Test_Name.ErrorMessage" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Penside_Test_Test_Name.Text" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Penside_Test_Test_Result.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Penside_Test_Test_Result.ErrorMessage" xml:space="preserve">
+    <value>Test Result is required</value>
+  </data>
+  <data name="Val_Penside_Test_Test_Result.Text" xml:space="preserve">
+    <value>Test Result is required</value>
+  </data>
+  <data name="Grd_Samples_List_Vaccinations_Lot_Number_Heading" xml:space="preserve">
+    <value>Lot Number</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Comment_Heading" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Date_Heading" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Manufacturer_Heading" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Number_Vaccinated_Heading" xml:space="preserve">
+    <value>Vaccinated #</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Vaccination_Route_Heading" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="Grd_Vaccinations_List_Vaccination_Type_Heading" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Dis_Vaccination_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lot_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Manufacturer.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Number_Vaccinated.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Vaccination_Route.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Vaccination_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Vaccination_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Lot_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Manufacturer.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Number_Vaccinated.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Vaccination_Route.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Vaccination_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Vaccination_Date.ErrorMessage" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Vaccination_Date.Text" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Lot_Number.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lot_Number.ErrorMessage" xml:space="preserve">
+    <value>Lot Number is required</value>
+  </data>
+  <data name="Val_Lot_Number.Text" xml:space="preserve">
+    <value>Lot Number is required</value>
+  </data>
+  <data name="Val_Manufacturer.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Manufacturer.ErrorMessage" xml:space="preserve">
+    <value>Manufacturer is required</value>
+  </data>
+  <data name="Val_Manufacturer.Text" xml:space="preserve">
+    <value>Manufacturer is required</value>
+  </data>
+  <data name="Val_Number_Vaccinated.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Number_Vaccinated.ErrorMessage" xml:space="preserve">
+    <value>Number Vaccinated is required</value>
+  </data>
+  <data name="Val_Number_Vaccinated.Text" xml:space="preserve">
+    <value>Number Vaccinated is required</value>
+  </data>
+  <data name="Val_Vaccination_Route.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Route.ErrorMessage" xml:space="preserve">
+    <value>Vaccination Route is required</value>
+  </data>
+  <data name="Val_Vaccination_Route.Text" xml:space="preserve">
+    <value>Vaccination Route is required</value>
+  </data>
+  <data name="Val_Vaccination_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Type.ErrorMessage" xml:space="preserve">
+    <value>Vaccination Type is required</value>
+  </data>
+  <data name="Val_Vaccination_Type.Text" xml:space="preserve">
+    <value>Vaccination Type is required</value>
+  </data>
+  <data name="Grd_Interpretations_List_Date_Validated_Heading" xml:space="preserve">
+    <value>Date Validated</value>
+  </data>
+  <data name="Grd_Interpretations_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Interpretations_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Interpretations_List_Interpreted_Comment_Heading" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Grd_Interpretations_List_Lab_Sample_ID_Heading" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Grd_Interpretations_List_Rule_Out_Rule_In_Heading" xml:space="preserve">
+    <value>Rule Out/Rule In</value>
+  </data>
+  <data name="Grd_Interpretations_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Interpretations_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Interpretations_List_Test_Category_Heading" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Grd_Interpretations_List_Test_Name_Heading" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Grd_Interpretations_List_Validated_By_Heading" xml:space="preserve">
+    <value>Validated By</value>
+  </data>
+  <data name="Grd_Interpretations_List_Validated_Comment_Heading" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Grd_Interpretations_List_Validated_Heading" xml:space="preserve">
+    <value>Validated</value>
+  </data>
+  <data name="Dis_Date_Interpreted.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date_Validated.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Interpreted_Comment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Rule_Out_Rule_In.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Validated.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Validated_By.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Validated_Comment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Case_Log_List_Action_Required_Heading" xml:space="preserve">
+    <value>Action Required</value>
+  </data>
+  <data name="Grd_Case_Log_List_Comment_Heading" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Grd_Case_Log_List_Date_Heading" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Grd_Case_Log_List_Entered_By_Heading" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="Grd_Case_Log_List_Status_Heading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Lab_Sample_ID_Heading" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Result_Date_Heading" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Result_Observation_Heading" xml:space="preserve">
+    <value>Result/Observation</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Test_Category_Heading" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Test_Name_Heading" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Grd_Lab_Tests_List_Test_Status_Heading" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Lbl_Date_Interpreted.Text" xml:space="preserve">
+    <value>Date Interpreted</value>
+  </data>
+  <data name="Lbl_Date_Validated.Text" xml:space="preserve">
+    <value>Date Validated</value>
+  </data>
+  <data name="Lbl_Interpreted_Comment.Text" xml:space="preserve">
+    <value>Interpreted Comment</value>
+  </data>
+  <data name="Lbl_Rule_Out_Rule_In.Text" xml:space="preserve">
+    <value>Rule Out/Rule In</value>
+  </data>
+  <data name="Lbl_Validated_By.Text" xml:space="preserve">
+    <value>Validated By</value>
+  </data>
+  <data name="Lbl_Validated_Comment.Text" xml:space="preserve">
+    <value>Validated Comment</value>
+  </data>
+  <data name="Req_Date_Interpreted.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date_Validated.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Interpreted_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Rule_Out_Rule_In.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Validated.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Validated_By.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Validated_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_Interpreted.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_Interpreted.ErrorMessage" xml:space="preserve">
+    <value>Date Interpreted is required</value>
+  </data>
+  <data name="Val_Date_Interpreted.Text" xml:space="preserve">
+    <value>Date Interpreted is required</value>
+  </data>
+  <data name="Val_Date_Validated.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date_Validated.ErrorMessage" xml:space="preserve">
+    <value>Date Validated is required</value>
+  </data>
+  <data name="Val_Date_Validated.Text" xml:space="preserve">
+    <value>Date Validated is required</value>
+  </data>
+  <data name="Val_Interpreted_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Interpreted_Comment.ErrorMessage" xml:space="preserve">
+    <value>Intepreted Comment is required</value>
+  </data>
+  <data name="Val_Interpreted_Comment.Text" xml:space="preserve">
+    <value>Interpreted Comment is required</value>
+  </data>
+  <data name="Val_Rule_Out_Rule_In.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Rule_Out_Rule_In.ErrorMessage" xml:space="preserve">
+    <value>Rule Out/Rule In is required</value>
+  </data>
+  <data name="Val_Rule_Out_Rule_In.Text" xml:space="preserve">
+    <value>Rule Out/Rule In is required</value>
+  </data>
+  <data name="Val_Validated.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Validated.ErrorMessage" xml:space="preserve">
+    <value>Validated is required</value>
+  </data>
+  <data name="Val_Validated.Text" xml:space="preserve">
+    <value>Validated is required</value>
+  </data>
+  <data name="Val_Validated_By.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Validated_By.ErrorMessage" xml:space="preserve">
+    <value>Validated By is required</value>
+  </data>
+  <data name="Val_Validated_By.Text" xml:space="preserve">
+    <value>Validated By is required</value>
+  </data>
+  <data name="Val_Validated_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Validated_Comment.ErrorMessage" xml:space="preserve">
+    <value>Validated Comment is required</value>
+  </data>
+  <data name="Val_Validated_Comment.Text" xml:space="preserve">
+    <value>Validated Comment is required</value>
+  </data>
+  <data name="Lbl_Lab_Sample_ID.Text" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Lbl_Result_Date.Text" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Lbl_Result_Observation.Text" xml:space="preserve">
+    <value>Result/Observation</value>
+  </data>
+  <data name="Lbl_Date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_Disease.Text" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Lot_Number.Text" xml:space="preserve">
+    <value>Lot #</value>
+  </data>
+  <data name="Lbl_Manufacturer.Text" xml:space="preserve">
+    <value>Manufacturer</value>
+  </data>
+  <data name="Lbl_Number_Vaccinated.Text" xml:space="preserve">
+    <value>Number Vaccinated</value>
+  </data>
+  <data name="Lbl_Vaccination_Route.Text" xml:space="preserve">
+    <value>Route</value>
+  </data>
+  <data name="Lbl_Vaccination_Type.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Lbl_Filter_By_Disease.Text" xml:space="preserve">
+    <value>Filter by Disease?</value>
+  </data>
+  <data name="Hdg_Organization_Search_Title.InnerText" xml:space="preserve">
+    <value>Organization Search</value>
+  </data>
+  <data name="Lbl_Entered_Date.InnerText" xml:space="preserve">
+    <value>Entered Date</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Cancel_Disease_Report.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel all changes and leave this record?</value>
+  </data>
+  <data name="Hdg_Cancel_Disease_Report.InnerText" xml:space="preserve">
+    <value>Cancel Disease Report</value>
+  </data>
+  <data name="Req_Sample_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Lbl_Case_Log_Date.Text" xml:space="preserve">
+    <value>Case Log Date</value>
+  </data>
+  <data name="Dis_Vaccination_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Comment.ErrorMessage" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Sample_Comment.Text" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Session_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Grd_Aliquots_List_Field_Functional_Lab_Heading" xml:space="preserve">
+    <value>Functional Lab</value>
+  </data>
+  <data name="Grd_Aliquots_List_Lab_Heading" xml:space="preserve">
+    <value>Lab</value>
+  </data>
+  <data name="Grd_Aliquots_List_Lab_Sample_ID_Heading" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Grd_Aliquots_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Aliquots_List_Status_Heading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Dis_Penside_Test_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Penside_Test_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Penside_Test_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Penside_Test_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Penside_Test_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Penside_Test_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Penside_Test_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Penside_Test_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Penside_Test_Sample_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Penside_Test_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Penside_Test_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Penside_Test_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Penside_Test_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Penside_Test_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Penside_TYest_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Dis_Lab_Test_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lab_Test_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Lab_Test_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lab_Test_Test_Category.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Lab_Test_Test_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lab_Test_Test_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Lab_Test_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Lab_Test_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Test_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Test_Test_Category.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Test_Test_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Test_Test_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Lab_Test_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Lab_Test_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Lab_Test_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Lab_Test_Sample_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Lab_Test_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Lab_Test_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Lab_Test_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Name.ErrorMessage" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Name.Text" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Req_Lab_Test_Test_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Disease.ErrorMessage" xml:space="preserve">
+    <value>Test Disease is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Disease.Text" xml:space="preserve">
+    <value>Test Disease is required</value>
+  </data>
+  <data name="Dis_Vaccination_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Vaccination_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Disease.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Vaccination_Disease.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Dis_Vaccination_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Vaccination_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Vaccination_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Vaccination_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Lab_Test_Lab_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Lab_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Lab Sample ID is required</value>
+  </data>
+  <data name="Val_Lab_Test_Lab_Sample_ID.Text" xml:space="preserve">
+    <value>Lab Sample ID is required</value>
+  </data>
+  <data name="Val_Lab_Test_Result_Date.Text" xml:space="preserve">
+    <value>Result Date is required</value>
+  </data>
+  <data name="Val_Lab_Test_Result_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Lab_Test_Result_Date.ErrorMessage" xml:space="preserve">
+    <value>Result Date is required</value>
+  </data>
+  <data name="Val_Lab_Test_Result_Observation.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Lab_Test_Result_Observation.ErrorMessage" xml:space="preserve">
+    <value>Result/Observation is required</value>
+  </data>
+  <data name="Val_Lab_Test_Result_Observation.Text" xml:space="preserve">
+    <value>Result/Observation is required</value>
+  </data>
+  <data name="Dis_Lab_Test_Lab_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Test_Lab_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Entered_By.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Comment.ErrorMessage" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Comment.Text" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Entered_By.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Entered_By.ErrorMessage" xml:space="preserve">
+    <value>Entered By is required</value>
+  </data>
+  <data name="Val_Entered_By.Text" xml:space="preserve">
+    <value>Entered By is required</value>
+  </data>
+  <data name="Dis_Case_Log_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Case_Log_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Case_Log_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Case_Log_Date.ErrorMessage" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Case_Log_Date.Text" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Btn_Return_To_Disease_Report_Record.InnerText" xml:space="preserve">
+    <value>Return to Disease Report Record</value>
+  </data>
+  <data name="Btn_Return_To_Disease_Report_Record.Text" xml:space="preserve">
+    <value>Return to Disease Report Record</value>
+  </data>
+  <data name="Btn_Return_To_Disease_Report_Record.Title" xml:space="preserve">
+    <value>Returns to the record of the created disease report</value>
+  </data>
+  <data name="Hpl_Return_To_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Lbl_Success.InnerText" xml:space="preserve">
+    <value>Your transaction completed successfully!</value>
+  </data>
+  <data name="Val_Action_Required.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Action_Required.ErrorMessage" xml:space="preserve">
+    <value>Action is required</value>
+  </data>
+  <data name="Val_Action_Required.Text" xml:space="preserve">
+    <value>Action is required</value>
+  </data>
+  <data name="Btn_Create_Connected_Disease_Report.Text" xml:space="preserve">
+    <value>Create Connected Disease Report</value>
+  </data>
+  <data name="Req_Farm_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Grd_Interpretations_List_Test_Result_Heading" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Dis_Species_Comment" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Species_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Species_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Species_Comment.ErrorMessage" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Species_Comment.Text" xml:space="preserve">
+    <value>Comment is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Category.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Category.ErrorMessage" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Category.Text" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Status.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Status.ErrorMessage" xml:space="preserve">
+    <value>Test Status is required</value>
+  </data>
+  <data name="Val_Lab_Test_Test_Status.Text" xml:space="preserve">
+    <value>Test Status is required</value>
+  </data>
+  <data name="Hdg_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Notification_Message_No_Disease" xml:space="preserve">
+    <value>No disease selected for disease report.</value>
+  </data>
+  <data name="Hdg_Add_Update_Success_Message" xml:space="preserve">
+    <value>Successful Disease Report Save</value>
+  </data>
+  <data name="Lbl_Message_Add_Update_Success" xml:space="preserve">
+    <value>The disease report saved successfully.</value>
+  </data>
+  <data name="Lbl_Message_Delete_Success" xml:space="preserve">
+    <value>The disease report deleted successfully.</value>
+  </data>
+  <data name="Lbl_EIDSS_ID" xml:space="preserve">
+    <value>EIDSS ID: </value>
+  </data>
+  <data name="Hdg_Delete_Success_Message" xml:space="preserve">
+    <value>Successful Disease Report Delete</value>
+  </data>
+  <data name="Btn_Go_To_Case_Log_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Case Log tab.</value>
+  </data>
+  <data name="Btn_Go_To_Farm_Details_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Farm Details tab.</value>
+  </data>
+  <data name="Btn_Go_To_Farm_Epidemiological_Info_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Farm Epidemiological Info tab.</value>
+  </data>
+  <data name="Btn_Go_To_Farm_Flock_Species_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Farm/Flock/Species tab.</value>
+  </data>
+  <data name="Btn_Go_To_Lab_Tests_Interpretation_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Lab Test/Interpretation tab.</value>
+  </data>
+  <data name="Btn_Go_To_Necropsy_Examination_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Necropsy Examination tab.</value>
+  </data>
+  <data name="Btn_Go_To_Notification_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Notification tab.</value>
+  </data>
+  <data name="Btn_Go_To_Penside_Tests_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Penside Tests tab.</value>
+  </data>
+  <data name="Btn_Go_To_Samples_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Samples tab.</value>
+  </data>
+  <data name="Btn_Go_To_Species_Epidemiology_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Species Epidemiology tab.</value>
+  </data>
+  <data name="Btn_Go_To_Species_Investigation_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Species Investigation tab.</value>
+  </data>
+  <data name="Btn_Go_To_Vaccination_Information_Tab.Title" xml:space="preserve">
+    <value>Click here to go to the Vaccination Information tab.</value>
+  </data>
+  <data name="Tab_Case_Log.Tooltip" xml:space="preserve">
+    <value>Case Log</value>
+  </data>
+  <data name="Tab_Farm_Details.Tooltip" xml:space="preserve">
+    <value>Farm Details</value>
+  </data>
+  <data name="Tab_Farm_Epidemiological_Info.Tooltip" xml:space="preserve">
+    <value>Farm Epidemiological Info</value>
+  </data>
+  <data name="Tab_Farm_Herd_Species.Tooltip" xml:space="preserve">
+    <value>Farm/Flock/Species</value>
+  </data>
+  <data name="Tab_Lab_Tests_Interpretation.Tooltip" xml:space="preserve">
+    <value>Lab Test/Interpretation</value>
+  </data>
+  <data name="Tab_Notification.Tooltip" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Tab_Penside_Tests.Tooltip" xml:space="preserve">
+    <value>Penside Tests</value>
+  </data>
+  <data name="Tab_Review.Tooltip" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Samples.Tooltip" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Tab_Species_Clinical_Investigation.Tooltip" xml:space="preserve">
+    <value>Species Epidemiological and Clinical Investigation</value>
+  </data>
+  <data name="Tab_Vaccination_Information.Tooltip" xml:space="preserve">
+    <value>Vaccination Info</value>
+  </data>
+  <data name="Hdg_Select_Farm.InnerText" xml:space="preserve">
+    <value>Select Farm</value>
+  </data>
+  <data name="Hdg_Add_Update_Farm.InnerText" xml:space="preserve">
+    <value>Add/Update Farm</value>
+  </data>
+  <data name="Hdg_Search_Person.InnerText" xml:space="preserve">
+    <value>Search Person</value>
+  </data>
+  <data name="Dis_Legacy_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Legacy_ID.InnerText" xml:space="preserve">
+    <value>Legacy ID</value>
+  </data>
+  <data name="Dis_Diagnosis_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Investigated_By_Organization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Reported_By_Organization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Data_Entry.InnerText" xml:space="preserve">
+    <value>Data Entry</value>
+  </data>
+  <data name="Lbl_Date_Of_Diagnosis.InnerText" xml:space="preserve">
+    <value>Date of Diagnosis</value>
+  </data>
+  <data name="Lbl_Investigated.InnerText" xml:space="preserve">
+    <value>Investigated</value>
+  </data>
+  <data name="Lbl_Notification.InnerText" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="Lbl_Organization.InnerText" xml:space="preserve">
+    <value>Organization</value>
+  </data>
+  <data name="Req_Diagnosis_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Reported_By_Organization.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Diagnosis_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Diagnosis_Date.ErrorMessage" xml:space="preserve">
+    <value>Date of Diagnosis is required</value>
+  </data>
+  <data name="Val_Diagnosis_Date.Text" xml:space="preserve">
+    <value>Date of Diagnosis is required</value>
+  </data>
+  <data name="Val_Investigated_By_Organization.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Investigated_By_Organization.ErrorMessage" xml:space="preserve">
+    <value>Investigation Organization is required</value>
+  </data>
+  <data name="Val_Investigated_By_Organization.Text" xml:space="preserve">
+    <value>Investigation Organization is required</value>
+  </data>
+  <data name="Val_Reported_By_Organization.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Reported_By_Organization.ErrorMessage" xml:space="preserve">
+    <value>Organization is required</value>
+  </data>
+  <data name="Val_Reported_By_Organization.Text" xml:space="preserve">
+    <value>Organization is required</value>
+  </data>
+  <data name="Lbl_Investigation_Organization.InnerText" xml:space="preserve">
+    <value>Investigation Organization</value>
+  </data>
+  <data name="Req_Investigated_By_Organization.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Lbl_Farm_Epidemiological_Info.InnerText" xml:space="preserve">
+    <value>Farm Epidemiological Info</value>
+  </data>
+  <data name="Lbl_Farm_Epidemiological_Info.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Species_And_Clinical_Investigation.InnerText" xml:space="preserve">
+    <value>Species and Clinical Investigation</value>
+  </data>
+  <data name="Lbl_Species_And_Clinical_Investigation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Sample_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Sample_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Dis_Result_Observation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Result_Observation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Grd_Species_List_Flock_Heading" xml:space="preserve">
+    <value>Farm/Flock</value>
+  </data>
+  <data name="Lbl_Create_Success" xml:space="preserve">
+    <value>You successfully created a new disease report in the EIDSS System.  The EIDSS ID is </value>
+  </data>
+  <data name="Lbl_Update_Success" xml:space="preserve">
+    <value>You successfully updated the disease report in the EIDSS System.</value>
+  </data>
+  <data name="Val_Future_Assigned_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Assigned_Date.ErrorMessage" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Assigned_Date.Text" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Investigation_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Investigation_Date.ErrorMessage" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Investigation_Date.Text" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Report_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Report_Date.ErrorMessage" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Report_Date.Text" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Start_Of_Signs_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Start_Of_Signs_Date.ErrorMessage" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Start_Of_Signs_Date.Text" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Vaccination_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Vaccination_Date.ErrorMessage" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+  <data name="Val_Future_Vaccination_Date.Text" xml:space="preserve">
+    <value>Future dates are not allowed</value>
+  </data>
+</root>

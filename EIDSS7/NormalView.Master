@@ -1,0 +1,153 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="NormalView.master.vb" Inherits="EIDSS.NormalView" %>
+
+<%@ Import Namespace="System.Threading" %>
+<%@ Register Src="~/Controls/PageHeaderUserControl.ascx" TagPrefix="eidss" TagName="PageHeader" %>
+<%@ Register Src="~/Controls/PageFooterUserControl.ascx" TagPrefix="eidss" TagName="PageFooter" %>
+<!DOCTYPE html>
+<%
+    Dim lines As String()
+    lines = System.IO.File.ReadAllLines(Server.MapPath("~/App_Data/EIDSS.txt"))
+    Dim parts As String()
+    For Each line In lines
+        parts = line.Split("=")
+        If (parts.Length = 2) Then
+            Me.ViewState(parts(0).Trim()) = parts(1).Trim()
+        End If
+    Next
+%>
+<html>
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%: Page.Title %></title>
+    <script lang="javascript" type="text/javascript">
+        //Disable browser back button 
+        function _disableBackBtn() { window.history.forward(); }
+        _disableBackBtn();
+        window.onload = _disableBackBtn();
+        window.onpageshow = function (evt) { if (evt.persisted) _disableBackBtn(); }
+        window.onunload = function () { void (0); }
+        //End of diabling browser back button
+
+        //Disable Backspace from browser
+        function killBackSpace(e) {
+
+            e = e ? e : window.event;
+            var t = e.target ? e.target : e.srcElement ? e.srcElement : null;
+            if (t && t.tagName && (t.type && /(password)|(text)|(file)/.test(t.type.toLowerCase())) || t.tagName.toLowerCase() == 'textarea')
+                return true;
+
+            var k = e.keyCode ? e.keyCode : e.which ? e.which : null;
+            if (k == 8) {
+                if (e.preventDefault)
+                    e.preventDefault();
+
+                return false;
+            };
+            return true;
+        };
+
+        if (typeof document.addEventListener != 'undefined')
+            document.addEventListener('keydown', killBackSpace, false);
+        else if (typeof document.attachEvent != 'undefined')
+            document.attachEvent('onkeydown', killBackSpace);
+        else {
+            if (document.onkeydown != null) {
+                var oldOnkeydown = document.onkeydown;
+
+                document.onkeydown = function (e) {
+                    oldOnkeydown(e);
+                    killBackSpace(e);
+                };
+
+            }
+            else
+                document.onkeydown = killBackSpace;
+        }
+        //End Disable Backspace from browser
+
+        // Usage: AddOnloadFunction(function () { <function name>() });
+        // <function name> is the function defined in any js file that is loaded in page_load
+        // Mutiple functions can be called by calling AddOnLoadFunction mutiple times
+        function addLoadEvent(func) {
+            var oldonload = window.onload;
+            if (typeof window.onload != 'function') {
+                window.onload = func;
+            } else {
+                window.onload = function () {
+                    if (oldonload) {
+                        oldonload();
+                    }
+                    func();
+                }
+            }
+        }
+    </script>
+
+    <asp:ContentPlaceHolder ID="EIDSSHeadCPH" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frmMain" name="frmMain" runat="server" autocomplete="off" aria-autocomplete="none">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+            <Scripts>
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jquery-ui" />
+                <asp:ScriptReference Name="jquery-dragtable" />
+                <asp:ScriptReference Name="jquery-scannerdetection" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="moment-with-locales" />
+                <asp:ScriptReference Name="bootstrap-datetimepicker" />
+                <asp:ScriptReference Path="~/Includes/Scripts/eidss7scripts-1.0.0.js" />
+                <asp:ScriptReference Path="~/Includes/Scripts/jquery.easy-autocomplete.js" />
+                <asp:ScriptReference Path="~/Includes/Scripts/HumanCaseMatrixReport.js" />
+                <asp:ScriptReference Path="~/Includes/DataTables/datatables.min.js" />
+                <asp:ScriptReference Path="~/Includes/DataTables/DataTables/js/dataTables.bootstrap.js" />
+                <asp:ScriptReference Path="~/Includes/DataTables/dataTables.select.js" />
+                <asp:ScriptReference Path="~/Includes/DataTables/dataTables.rowReorder.js" />
+                <asp:ScriptReference Path="~/Includes/Scripts/jquery.gorilla-dropdown.js" />
+                <asp:ScriptReference Path="~/Includes/Scripts/ddslick.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <div class="page-wrap">
+            <eidss:PageHeader ID="ucPageHeader" runat="server" />
+            <!-- CONTENT (Body section for child forms) -->
+            <div class="container">
+                <asp:ContentPlaceHolder ID="EIDSSBodyCPH" runat="server"></asp:ContentPlaceHolder>
+            </div>
+            <!-- /CONTENT -->
+            <eidss:PageFooter ID="ucPageFooter" runat="server"></eidss:PageFooter>
+        </div>
+    </form>
+    <div class="loader" style="display: none"></div>
+</body>
+
+<script type="text/javascript">
+    Sys.Application.add_init(function () {
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+
+        prm.add_beginRequest(function (s, e) {
+            showLoading(s);
+        });
+
+        prm.add_endRequest(function (s, e) {
+            hideLoading();
+        });
+    });
+
+    function showLoading(s, e) {
+        var override = $("[name='" + s._postBackSettings.asyncTarget + "']").attr("overrideWait");
+
+        if (override != "true") {
+            $(".modal-backdrop.in").show();
+            $(".loader").show();
+            $(".loader").modal({ show: true, backdrop: 'static' });
+        }
+    }
+
+    function hideLoading() {
+        $(".modal-backdrop.in").hide();
+        $(".loader").hide();
+    }
+</script>
+</html>

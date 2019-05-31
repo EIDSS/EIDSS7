@@ -1,0 +1,22 @@
+﻿CREATE TYPE [dbo].[TestInterpretationTableType] AS TABLE (
+    [TestInterpretationID]          BIGINT         NOT NULL,
+    [DiseaseID]                     BIGINT         NULL,
+    [InterpretedStatusTypeID]       BIGINT         NULL,
+    [ValidatedByOrganizationID]     BIGINT         NULL,
+    [ValidatedByPersonID]           BIGINT         NULL,
+    [InterpretedByOrganizationID]   BIGINT         NULL,
+    [InterpretedByPersonID]         BIGINT         NULL,
+    [TestID]                        BIGINT         NOT NULL,
+    [ValidateStatusIndicator]       BIT            NULL,
+    [ReportSessionCreatedIndicator] BIT            NULL,
+    [ValidationComment]             NVARCHAR (200) NULL,
+    [InterpretationComment]         NVARCHAR (200) NULL,
+    [ValidationDate]                DATETIME       NULL,
+    [InterpretationDate]            DATETIME       NULL,
+    [RowStatus]                     INT            NOT NULL,
+    [ReadOnlyIndicator]             BIT            NOT NULL,
+    [MaintenanceFlag]               NVARCHAR (20)  NULL,
+    [SampleID]                      BIGINT         NULL,
+    [RecordAction]                  NCHAR (1)      NULL,
+    PRIMARY KEY CLUSTERED ([TestInterpretationID] ASC));
+

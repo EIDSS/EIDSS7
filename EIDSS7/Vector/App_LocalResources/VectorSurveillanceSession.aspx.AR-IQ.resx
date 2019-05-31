@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Edit_Search.Text" xml:space="preserve">
+    <value>Edit Search</value>
+  </data>
+  <data name="btn_NextSection.Value" xml:space="preserve">
+    <value>Save and Review</value>
+  </data>
+  <data name="btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Submit.Value" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="hdg_Collections.InnerText" xml:space="preserve">
+    <value>Collections</value>
+  </data>
+  <data name="hdg_List_of_Diseases.InnerText" xml:space="preserve">
+    <value>List of Diseases</value>
+  </data>
+  <data name="hdg_Location.InnerText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="hdg_Search.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="hdg_Search_Criteria.InnerText" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="hdg_Summary_Information.InnerText" xml:space="preserve">
+    <value>Summary Information</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session.InnerText" xml:space="preserve">
+    <value>Vector Surveillance Session</value>
+  </data>
+  <data name="hpl_Detailed_Collection.InnerText" xml:space="preserve">
+    <value>Detailed Connection</value>
+  </data>
+  <data name="hpl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="hpl_Summary_Collection.InnerText" xml:space="preserve">
+    <value>Summary Collection</value>
+  </data>
+  <data name="lbl_Close_Date.InnerText" xml:space="preserve">
+    <value>Close Date</value>
+  </data>
+  <data name="lbl_Collection_Date.InnerText" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="lbl_Collection_Efforts.InnerText" xml:space="preserve">
+    <value>Collection Efforts</value>
+  </data>
+  <data name="lbl_Data_Entry_Site.InnerText" xml:space="preserve">
+    <value>Data Entry Site</value>
+  </data>
+  <data name="lbl_Description.InnerText" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="lbl_Description_of_Location.InnerText" xml:space="preserve">
+    <value>Description of Location</value>
+  </data>
+  <data name="lbl_Diagnoses_Group.InnerText" xml:space="preserve">
+    <value>Diagnoses Group</value>
+  </data>
+  <data name="lbl_Different_Location_from_Session.InnerText" xml:space="preserve">
+    <value>Is this a different location from session?</value>
+  </data>
+  <data name="lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="lbl_End_Date.InnerText" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lbl_Exact.InnerText" xml:space="preserve">
+    <value>Exact</value>
+  </data>
+  <data name="lbl_Field_Session_ID.InnerText" xml:space="preserve">
+    <value>Field Session ID</value>
+  </data>
+  <data name="lbl_From.InnerText" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lbl_Identification_Date.InnerText" xml:space="preserve">
+    <value>Identifying Date</value>
+  </data>
+  <data name="lbl_Identified_by_Office.InnerText" xml:space="preserve">
+    <value>Identified by Office</value>
+  </data>
+  <data name="lbl_Identified_by_Person.InnerText" xml:space="preserve">
+    <value>Identified by Person</value>
+  </data>
+  <data name="lbl_Identified_Quantity.InnerText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="lbl_Identifying_Method.InnerText" xml:space="preserve">
+    <value>Identifying Method</value>
+  </data>
+  <data name="lbl_Latitude.InnerText" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="lbl_Location.InnerText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="lbl_Longitude.InnerText" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="lbl_Number_of_Positive_Pools_Vectors.InnerText" xml:space="preserve">
+    <value>Number of Positive Pools/Vectors</value>
+  </data>
+  <data name="lbl_Outbreak_ID.InnerText" xml:space="preserve">
+    <value>Outbreak ID</value>
+  </data>
+  <data name="lbl_Record_ID.InnerText" xml:space="preserve">
+    <value>Record ID</value>
+  </data>
+  <data name="lbl_Relative.InnerText" xml:space="preserve">
+    <value>Relative</value>
+  </data>
+  <data name="lbl_Session_ID.InnerText" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="lbl_Sex.InnerText" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="lbl_Species.InnerText" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="lbl_Start_Date.InnerText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbl_Start_Date.InnertText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbl_Status.InnerText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lbl_To.InnerText" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lbl_Vector_Type.InnerText" xml:space="preserve">
+    <value>Vector Type</value>
+  </data>
+  <data name="hdg_Collection_Data.InnerText" xml:space="preserve">
+    <value>Collection Data</value>
+  </data>
+  <data name="hdg_Vector_Data.InnerText" xml:space="preserve">
+    <value>Vector Data</value>
+  </data>
+  <data name="hdg_Vector_Specific_Data.InnerText" xml:space="preserve">
+    <value>Vector Specific Data</value>
+  </data>
+  <data name="hpl_Field_Tests.InnerText" xml:space="preserve">
+    <value>Field Tests</value>
+  </data>
+  <data name="hpl_General_Data.InnerText" xml:space="preserve">
+    <value>General Data</value>
+  </data>
+  <data name="hpl_Lab_Tests.InnerText" xml:space="preserve">
+    <value>Lab Tests</value>
+  </data>
+  <data name="hpl_Review_Collection.InnerText" xml:space="preserve">
+    <value>Review Collection</value>
+  </data>
+  <data name="hpl_Samples.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="hpl_Vector_Specific_Data.InnerText" xml:space="preserve">
+    <value>Vector Specific Data</value>
+  </data>
+  <data name="lbl_Basis_of_Record.InnerText" xml:space="preserve">
+    <value>Basis of Record</value>
+  </data>
+  <data name="lbl_Collected_by_Institution.InnerText" xml:space="preserve">
+    <value>Collected by Institution</value>
+  </data>
+  <data name="lbl_Collected_by_Person.InnerText" xml:space="preserve">
+    <value>Collected by Person</value>
+  </data>
+  <data name="lbl_Elevation.InnerText" xml:space="preserve">
+    <value>Elevation (m)</value>
+  </data>
+  <data name="lbl_Flea_Feeding_Status.InnerText" xml:space="preserve">
+    <value> Flea Feeding Status</value>
+  </data>
+  <data name="lbl_Flea_Life_Stage.InnerText" xml:space="preserve">
+    <value>Flea Life Stage</value>
+  </data>
+  <data name="lbl_GEO_Reference_Source.InnerText" xml:space="preserve">
+    <value>GEO Reference Source</value>
+  </data>
+  <data name="lbl_Mosquito_Feeding_Status.InnerText" xml:space="preserve">
+    <value>Mosquito Feeding Status</value>
+  </data>
+  <data name="lbl_Mosquito_Life_Stage.InnerText" xml:space="preserve">
+    <value>Mosquito Life Stage</value>
+  </data>
+  <data name="lbl_Sand_Fly_Feeding_Status.InnerText" xml:space="preserve">
+    <value>Sand Fly Feeding Status</value>
+  </data>
+  <data name="lbl_Sand_Fly_Life_Stage.InnerText" xml:space="preserve">
+    <value>Sand Fly Life Stage</value>
+  </data>
+  <data name="lbl_Surroundings.InnerText" xml:space="preserve">
+    <value>Surroundings</value>
+  </data>
+  <data name="lbl_Tick_Feeding_Status.InnerText" xml:space="preserve">
+    <value>Ticks Feeding Status</value>
+  </data>
+  <data name="lbl_Tick_Life_Stage.InnerText" xml:space="preserve">
+    <value>Ticks Life Stage</value>
+  </data>
+  <data name="lbl_Type_of_Address.InnerText" xml:space="preserve">
+    <value>Type of Address</value>
+  </data>
+  <data name="btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Clear.Value" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Ok.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="hdg_Collected_By.InnerText" xml:space="preserve">
+    <value>Collected by</value>
+  </data>
+  <data name="hdg_Condition_Received.InnerText" xml:space="preserve">
+    <value>Condition Received</value>
+  </data>
+  <data name="hdg_Field_Sample_ID.InnerText" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="hdg_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="hdg_Result_Date.InnerText" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="hdg_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="hdg_Sent_To.InnerText" xml:space="preserve">
+    <value>Sent To</value>
+  </data>
+  <data name="hdg_Test_Category.InnerText" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="hdg_Test_Name.InnerText" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="hdg_Test_Result.InnerText" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="hdg_Vector_Surveillance_Session_Search.InnerText" xml:space="preserve">
+    <value>Vector Surveillance Session Search</value>
+  </data>
+  <data name="lbl_Collection_Method.InnerText" xml:space="preserve">
+    <value>Collection Method</value>
+  </data>
+  <data name="lbl_Collection_Time.InnerText" xml:space="preserve">
+    <value>Collection Time</value>
+  </data>
+  <data name="lbl_Ectoparasites_Collected.InnerText" xml:space="preserve">
+    <value>Ectoparasites Collected</value>
+  </data>
+  <data name="lbl_Foreign.InnerText" xml:space="preserve">
+    <value>Foreign</value>
+  </data>
+  <data name="lbl_Quantity.InnerText" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="btn_Save_and_Review.Value" xml:space="preserve">
+    <value>Save and Review</value>
+  </data>
+  <data name="lbl_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lbl_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+</root>

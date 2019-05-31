@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Home"  description="">
+    <!--<siteMapNode title="Active Surveillance" description="localonly">
+      <siteMapNode url="~/ActiveSurveillance/ActiveSurveillanceCampaign.aspx" title="Active Surveillance Campaign"></siteMapNode>
+    </siteMapNode>-->
+    <siteMapNode title="Outbreaks" description="localonly">
+      <siteMapNode url="~/Outbreaks/Outbreak.aspx" title="Outbreak"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="Vector" description="localonly">
+      <siteMapNode url="~/Vector/VectorSurveillanceSession.aspx" title="Vector Surveillance Session"></siteMapNode>
+    </siteMapNode>
+      <siteMapNode title="Human Cases" description="localonly">
+        <siteMapNode url="~/Human/HumanDiseaseReport.aspx" title="Search Person Disease Report"></siteMapNode>
+        <!--<siteMapNode url="~/Global/Person.aspx" title="Search Person Disease Report"></siteMapNode>-->
+        <siteMapNode url="~/Human/HumanAggregate.aspx" title="Human Aggregate"></siteMapNode>        
+        <siteMapNode url="~/Human/BasicSyndromicSurveillance.aspx" title="Basic Syndromic Surveillance Form"></siteMapNode>
+        <siteMapNode url="~/Human/SearchDiseaseReports.aspx" title="Search Disease Reports"></siteMapNode>      
+        <siteMapNode url="~/HumanActiveSurveillance/ActiveSurveillanceCampaign.aspx" title="Human Active Surveillance Campaign"></siteMapNode>
+        <siteMapNode url="~/HumanActiveSurveillance/ActiveSurveillanceSession.aspx" title="Human Active Surveillance Session"></siteMapNode>
+      </siteMapNode>
+    <siteMapNode title="Laboratory" description="localonly" url="~/Laboratory/Laboratory.aspx">
+    </siteMapNode>
+      <siteMapNode title="Veterinary" description="localonly">
+        <siteMapNode url="~/Veterinary/AvianDiseaseReport.aspx" title="Avian Disease Report"></siteMapNode>
+        <siteMapNode url="~/Veterinary/ActiveSurveillanceCampaigns.aspx" title="Active Surveillance Campaigns"></siteMapNode>
+        <siteMapNode url="~/Veterinary/ActiveSurveillanceSessions.aspx" title="Active Surveillance Sessions"></siteMapNode>
+        <siteMapNode url="~/Veterinary/LivestockDiseaseReport.aspx" title="Livestock Disease Report"></siteMapNode>
+        <siteMapNode url="~/Veterinary/SearchVeterinaryDiseaseReport.aspx" title="Search Disease Reports"></siteMapNode>
+        <siteMapNode url="~/Veterinary/VeterinaryAggregateCase.aspx" title="Veterinary Aggregate"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode title="Administration">
+        <!--<siteMapNode url="~/System/Administration/FileUploadAdmin.aspx" title="Upload Tool"></siteMapNode>        
+        <siteMapNode url="~/System/DeleteTool.aspx" title="Delete Tool"></siteMapNode>-->
+        <siteMapNode url="~/System/Administration/EmployeeAdmin.aspx" title="Employees"></siteMapNode>
+        <siteMapNode url="~/System/Administration/OrganizationAdmin.aspx" title="Organizations"></siteMapNode>
+        <siteMapNode url="~/System/Administration/SettlementAdmin.aspx" title="Settlements"></siteMapNode>
+        <siteMapNode url="~/System/Administration/StatisticalDataAdmin.aspx" title="Statistical Data"></siteMapNode>
+          <siteMapNode url="~/System/Administration/ResourceEditor.aspx" title="Resource Editor"></siteMapNode>        
+      </siteMapNode>
+          <siteMapNode title ="Reference Editor" description="localonly">
+            <siteMapNode url="~/System/Administration/ReferenceEditor.aspx" title="Base Reference Editor"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Diagnosis" title="Clinical Diagnosis Editor" ></siteMapNode>
+            <siteMapNode url="~/System/Administration/ReferenceEditor.aspx?param=Measures" title="Measures Editor"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Sample Type" title="Sample Types"></siteMapNode>
+            <siteMapNode url="~/System/Administration/ReferenceEditor.aspx?param=Species Type" title="Vector Species Type Editor"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Species List" title="Species Types Editor"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Statistical Data Type" title="Generic Statistical Types Editor"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Report Diagnosis Group" title="Report Diagnosis Type"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Age Groups" title="Age Groups"></siteMapNode>
+            <siteMapNode url="~/System/Administration/FocusRefEditor.aspx?refcat=Case Classification" title="Case Classification"></siteMapNode>
+          </siteMapNode>
+    </siteMapNode>
+  </siteMap>
+
+
+
+  

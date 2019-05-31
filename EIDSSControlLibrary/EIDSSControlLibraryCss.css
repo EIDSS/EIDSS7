@@ -1,0 +1,237 @@
+﻿.eidsDropDownContainerDiv {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(169, 169, 169);
+    display: inline;
+}
+
+    .eidsDropDownContainerDiv select {
+        border-style: none;
+        border-width: unset;
+        border-color: transparent;
+    }
+
+    .eidsDropDownContainerDiv .addButton {
+        width: 17px;
+        height: 17px;
+        margin-left: 2px;
+    }
+
+    .eidsDropDownContainerDiv .searchButton {
+        width: 17px;
+        height: 17px;
+        margin-left: 2px;
+    }
+
+
+.eidssDialogWindow .hiddenDialog {
+    display: none;
+    visibility: hidden;
+}
+
+.eidssDialogWindow .shownDialog {
+    border: 1px black solid;
+    display: block;
+    visibility: visible;
+    height: 500px;
+    width: 100%;
+}
+
+
+
+/*****************************************************************************************************************************/
+/********************************************************  DRAG TABLE ********************************************************/
+/******************************************************  VERSION  1.0.3 ******************************************************/
+.dragtable-drag-handle {
+    cursor: move;
+}
+
+/*
+ * gets wrapped around placeholder table
+ */
+
+.dragtable-drag-wrapper {
+    position: absolute;
+    z-index: 1000;
+}
+    /*
+  * this gets applied to the table copy of the col that we are dragging 
+  */
+    .dragtable-drag-wrapper .dragtable-drag-col {
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+        cursor: move;
+    }
+
+/*
+	placeholder is just a name for the real table col
+*/
+.dragtable-col-placeholder {
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+    color: #EFEFEF;
+    background: #EFEFEF !important;
+    visibility: visible !important;
+}
+
+table .dragtable-col-placeholder:first-child {
+    border-top: 1px dotted black;
+}
+
+
+.dragtable-col-placeholder * {
+    opacity: 0.0;
+    visibility: hidden;
+}
+
+/*  placeholder for the spinner  classes */
+.spinner {
+}
+
+    .spinner input {
+        text-align: right;
+    }
+
+.input-group-btn-vertical {
+    position: relative;
+    white-space: nowrap;
+    width: 1%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+    .input-group-btn-vertical > .btn {
+        display: block;
+        float: none;
+        width: 100%;
+        max-width: 100%;
+        padding: 8px;
+        margin-left: -1px;
+        position: relative;
+        border-radius: 0;
+    }
+
+        .input-group-btn-vertical > .btn:first-child {
+            border-top-right-radius: 4px;
+        }
+
+        .input-group-btn-vertical > .btn:last-child {
+            margin-top: -2px;
+            border-bottom-right-radius: 4px;
+        }
+
+    .input-group-btn-vertical i {
+        position: absolute;
+        top: 0;
+        left: 2px;
+        font-size: 12px;
+        /*left: 4px;*/
+    }
+/*  Styles for the Side Bar control */
+/************************************************************** **************************************************************/
+/*********************************************************  SIDE BAR *********************************************************/
+/******************************************************  VERSION  1.0.3 ******************************************************/
+.menuContainer {
+    position: relative;
+    width: 230px;
+    background-color: white;
+    display: inline-grid;
+    border: solid #2d5b83 2px;
+    padding: 1px;
+}
+
+.collapsed {
+    width: 43px;
+    overflow: hidden;
+}
+
+.menuContainer ul {
+    margin-bottom: 0;
+}
+
+.menuButton {
+    min-height: 30px;
+    min-width: 30px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+    .menuButton:focus {
+        outline: none;
+    }
+
+.menubar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #888;
+    margin-top: 4px;
+}
+
+.passcheckmark {
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #269f36;
+    padding: 3px;
+    color: #269f36;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    z-index: 100;
+}
+
+.normalcheckmark {
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    padding: 3px;
+    color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    z-index: 100;
+}
+
+.failcheckmark {
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    border: solid 1px red;
+    padding: 3px;
+    color: red;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    z-index: 100;
+}
+
+.sideMenuToolTip {
+    position: absolute;
+    background-color: white;
+    z-index: 20;
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: auto;
+    visibility: hidden;
+    padding: 1px 2px;
+    white-space: nowrap;
+}
+
+.sectionContainer {
+    width: 79%;
+    margin: auto 10px auto auto;
+    float: left;
+}
+
+.expanded {
+    width: 95%;
+}

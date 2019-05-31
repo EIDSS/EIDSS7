@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Edit.Value" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btn_Search.Tooltip" xml:space="preserve">
+    <value>Click to Search</value>
+  </data>
+  <data name="hdf_Person_Record_Search" xml:space="preserve">
+    <value>Person Record Search</value>
+  </data>
+  <data name="hdg_Search_by_Person_Information.InnerText" xml:space="preserve">
+    <value>Search by Person Information</value>
+  </data>
+  <data name="hdg_Search_Parameters.InnerText" xml:space="preserve">
+    <value>Search Parameters</value>
+  </data>
+  <data name="hpl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="lbl_Citizenship.InnerText" xml:space="preserve">
+    <value>Citizenship</value>
+  </data>
+  <data name="lbl_DOB.InnerText" xml:space="preserve">
+    <value>Date of Birth</value>
+  </data>
+  <data name="lbl_EIDSS_ID.InnerText" xml:space="preserve">
+    <value>EIDSS ID</value>
+  </data>
+  <data name="Lbl_First_Name.InnerText" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+  <data name="lbl_Gender.InnerText" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="lbl_ID_Type.InnerText" xml:space="preserve">
+    <value>ID Type</value>
+  </data>
+  <data name="lbl_Last_Name.InnerText" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+  <data name="lbl_Middle_Init.InnerText" xml:space="preserve">
+    <value>Middle Init</value>
+  </data>
+  <data name="lbl_Personal_ID.InnerText" xml:space="preserve">
+    <value>Personal ID</value>
+  </data>
+  <data name="lbl_Suffix.InnerText" xml:space="preserve">
+    <value>Suffix</value>
+  </data>
+  <data name="btn_Add_Disease_Report.Title" xml:space="preserve">
+    <value>Click here to add Disease Report</value>
+  </data>
+  <data name="btn_Add_Disease_Report.InnerText" xml:space="preserve">
+    <value>Add Disease Report</value>
+  </data>
+  <data name="btn_Add_New_Person.Value" xml:space="preserve">
+    <value>Add New Person</value>
+  </data>
+  <data name="btn_Back.Value" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Continue.Value" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="btn_Create_New_Patient.Title" xml:space="preserve">
+    <value>Click here to create a new patient</value>
+  </data>
+  <data name="btn_Create_New_Patient.Value" xml:space="preserve">
+    <value>Create New Patient</value>
+  </data>
+  <data name="btn_New_Search.Title" xml:space="preserve">
+    <value>Click hear to start a new search</value>
+  </data>
+  <data name="btn_New_Search.Value" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="btn_Return_to_Person_Record.Title" xml:space="preserve">
+    <value>Returns to the profile of the created patient</value>
+  </data>
+  <data name="btn_Return_to_Person_Record.InnerText" xml:space="preserve">
+    <value>Return to Person Record</value>
+  </data>
+  <data name="btn_Return_to_Search.Value" xml:space="preserve">
+    <value>Return to Search</value>
+  </data>
+  <data name="hdg_New_Person_Record.InnerText" xml:space="preserve">
+    <value>New Person Record</value>
+  </data>
+  <data name="hdg_Past_Disease_Reports.InnerText" xml:space="preserve">
+    <value>Past Disease Reports</value>
+  </data>
+  <data name="hdg_Person_Information.InnerText" xml:space="preserve">
+    <value>Person Information</value>
+  </data>
+  <data name="lbl_Age.InnerText" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="lbl_Another_Address.InnerText" xml:space="preserve">
+    <value>Is there another address where this person can reside</value>
+  </data>
+  <data name="lbl_Apartment.InnertText" xml:space="preserve">
+    <value>Apartment</value>
+  </data>
+  <data name="lbl_Building.InnertText" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="lbl_Classification.InnerText" xml:space="preserve">
+    <value>Classification</value>
+  </data>
+  <data name="lbl_Country_Code_and_Number.InnerText" xml:space="preserve">
+    <value>Country Code and Number</value>
+  </data>
+  <data name="lbl_Currently_employed.InnerText" xml:space="preserve">
+    <value>Is this person currently employed?</value>
+  </data>
+  <data name="lbl_Currently_in_school.InnerText" xml:space="preserve">
+    <value>Is this person currently in school?</value>
+  </data>
+  <data name="lbl_Date_Created.InnertText" xml:space="preserve">
+    <value>Date Created</value>
+  </data>
+  <data name="lbl_Date_of_Diagnosis.InnerText" xml:space="preserve">
+    <value>Date of Diagnosis</value>
+  </data>
+  <data name="lbl_Date_of_Last_Appearence.InnerText" xml:space="preserve">
+    <value>Date of Last Appearence</value>
+  </data>
+  <data name="lbl_Date_Updated.InnerText" xml:space="preserve">
+    <value>Date Updated</value>
+  </data>
+  <data name="lbl_Employers_Phone_Number.InnerText" xml:space="preserve">
+    <value>Employer's Phone Number</value>
+  </data>
+  <data name="lbl_Employer_Name.InnerText" xml:space="preserve">
+    <value>Employer Name</value>
+  </data>
+  <data name="lbl_House.InnerText" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="lbl_Name.InnerText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="lbl_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lbl_Passport_Number.InnerText" xml:space="preserve">
+    <value>Passport Number</value>
+  </data>
+  <data name="lbl_Patients_Current_Address.InnerText" xml:space="preserve">
+    <value>Patient's Current Address</value>
+  </data>
+  <data name="lbl_Patients_Current_Phone.InnertText" xml:space="preserve">
+    <value>Patient's Current Phone</value>
+  </data>
+  <data name="lbl_Patients_Other_Address.InnerText" xml:space="preserve">
+    <value>Patient's Other Address</value>
+  </data>
+  <data name="lbl_Patients_Other_Phone.InnerText" xml:space="preserve">
+    <value>Patient's Other Phone</value>
+  </data>
+  <data name="lbl_Patient_ID.InnerText" xml:space="preserve">
+    <value>Patient ID</value>
+  </data>
+  <data name="lbl_Personal_ID_Number.InnerText" xml:space="preserve">
+    <value>Personal ID Number</value>
+  </data>
+  <data name="lbl_Personal_ID_Type.InnerText" xml:space="preserve">
+    <value>Personal ID Type</value>
+  </data>
+  <data name="lbl_Phone_Type.InnerText" xml:space="preserve">
+    <value>Phone Type</value>
+  </data>
+  <data name="lbl_Postal_Code.InnerText" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="lbl_Rayon.InnerText" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="lbl_Region.InnerText" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="lbl_Return_to_Search_Results.InnerText" xml:space="preserve">
+    <value>Return to Search Results</value>
+  </data>
+  <data name="lbl_Schools_Name.InnertText" xml:space="preserve">
+    <value>School's Name</value>
+  </data>
+  <data name="lbl_Status.InnerText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lbl_Street.InnerText" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="lbl_Town_Village.InnerText" xml:space="preserve">
+    <value>Town/Village</value>
+  </data>
+  <data name="lbl_Unknown.InnerText" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="lbl_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="tab_Person_Address.InnerText" xml:space="preserve">
+    <value>Person Address</value>
+  </data>
+  <data name="tab_Person_Information.InnerText" xml:space="preserve">
+    <value>Person Information</value>
+  </data>
+  <data name="tab_Person_Review.InnerText" xml:space="preserve">
+    <value>Person Review</value>
+  </data>
+  <data name="btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Clear.Title" xml:space="preserve">
+    <value>Click to restart the search</value>
+  </data>
+  <data name="btn_Clear.Value" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Continue.Title" xml:space="preserve">
+    <value>Click here to proceed to the next step</value>
+  </data>
+  <data name="btn_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btn_Edit.Title" xml:space="preserve">
+    <value>Click here to edit search</value>
+  </data>
+  <data name="hdg_EIDSS_ID.InnerText" xml:space="preserve">
+    <value> EIDSS ID #:</value>
+  </data>
+  <data name="hdg_Person_Employment.InnerText" xml:space="preserve">
+    <value>Person Employment</value>
+  </data>
+  <data name="hdg_Successful_Patient.InnerText" xml:space="preserve">
+    <value>You successfully created a new person in the EIDSS System.</value>
+  </data>
+  <data name="lbl_Another_Phone.InnerText" xml:space="preserve">
+    <value>Is there another phone number for the person?</value>
+  </data>
+  <data name="lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="lbl_Persons_Other_Phone.InnerText" xml:space="preserve">
+    <value>Person's Other Phone Number</value>
+  </data>
+  <data name="lbl_Persons_Phone_Number.InnerText" xml:space="preserve">
+    <value>Person's Phone Number</value>
+  </data>
+  <data name="lbl_Schools_Phone_Number.InnerText" xml:space="preserve">
+    <value>School's Phone Number</value>
+  </data>
+  <data name="btn_Add_Disease_Report.Value" xml:space="preserve">
+    <value>Add Disease Report</value>
+  </data>
+  <data name="btn_Add_New_Person.Title" xml:space="preserve">
+    <value>Click here to Add New Person</value>
+  </data>
+  <data name="btn_Add_New_Report.Title" xml:space="preserve">
+    <value>Click here to Add Disease Report</value>
+  </data>
+  <data name="btn_Add_New_Report.Value" xml:space="preserve">
+    <value>Add Disease Report</value>
+  </data>
+  <data name="btn_Return_to_Person_Record.Text" xml:space="preserve">
+    <value>Return to Person Record</value>
+  </data>
+  <data name="btn_Search.Title" xml:space="preserve">
+    <value>Click here to search</value>
+  </data>
+  <data name="btn_Search.Value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="hdg_Create_New_Patient.InnerText" xml:space="preserve">
+    <value>Create New Patient</value>
+  </data>
+  <data name="hdg_Person_Record_Review.InnerText" xml:space="preserve">
+    <value>Person Record Review</value>
+  </data>
+  <data name="hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="lbl_Schools_Name.InnerText" xml:space="preserve">
+    <value>School's Name</value>
+  </data>
+  <data name="lbl_Diagnosis.InnerText" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="btn_New_Search.Text" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+</root>

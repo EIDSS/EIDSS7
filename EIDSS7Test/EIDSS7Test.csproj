@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props')" />
+  <Import Project="..\packages\NUnit.3.10.1\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" />
+  <Import Project="..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props" Condition="Exists('..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BF936BFC-CE2D-4F80-9AF1-BDE2761AA0C2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EIDSS7Test</RootNamespace>
+    <AssemblyName>EIDSS7Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Integration\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\QA\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Beta\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|AnyCPU'">
+    <OutputPath>bin\Local\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CsvHelper, Version=12.0.0.0, Culture=neutral, PublicKeyToken=8c4959082be5c823, processorArchitecture=MSIL">
+      <HintPath>..\packages\CsvHelper.12.1.0\lib\net45\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.3.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.3.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.3.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.3.0\lib\net45\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="RelevantCodes.ExtentReports, Version=2.40.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExtentReports.2.40.1\lib\RelevantCodes.ExtentReports.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.ValueTuple, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="ThoughtWorks.Selenium.Core, Version=2.53.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.RC.2.53.1\lib\net40\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=2.53.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.2.53.1\lib\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=2.53.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.2.53.1\lib\net40\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administration\Employees\EmployeeDetailsPage.cs" />
+    <Compile Include="Administration\Employees\EmployeeListPage.cs" />
+    <Compile Include="Administration\Organizations\OrgDetailsPage.cs" />
+    <Compile Include="Administration\Organizations\OrgListPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\AgeGroupsEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\BaseReferenceEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\CaseClassificationEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\ClinicalDiagEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\DiseasesPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\GenericStatTypesEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\MeasuresEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\ReportDiseasesGroupsEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\ResourceEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\SampleTypesEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\SpeciesTypesEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\VectorSpeciesTypesEditorPage.cs" />
+    <Compile Include="Administration\ReferenceEditor\VectorTypesEditorPage.cs" />
+    <Compile Include="Administration\Settlements\SettlementDetailPage.cs" />
+    <Compile Include="Administration\Settlements\SettlementListPage.cs" />
+    <Compile Include="Administration\StatisticalData\StatisticalDataDetailsPage.cs" />
+    <Compile Include="Administration\StatisticalData\StatisticalDataListPage.cs" />
+    <Compile Include="Administration\SystemPreferences\SystemPreferencesPage.cs" />
+    <Compile Include="BaseScripts\TestBase.cs" />
+    <Compile Include="BasicSyndromicSurveillance\BasicSyndromicSurveillance.cs" />
+    <Compile Include="Common\CommonCtrls.cs" />
+    <Compile Include="Configurations\AgeGroupStatAgeGroupMatrixPage.cs" />
+    <Compile Include="Configurations\AggregrateSettingsPage.cs" />
+    <Compile Include="Configurations\CustomReportRowsPage.cs" />
+    <Compile Include="Configurations\DataArchiveSettingsPage.cs" />
+    <Compile Include="Configurations\DiseaseAgeGroupMatrixPage.cs" />
+    <Compile Include="Configurations\DiseaseGroupDiseaseMatrixPage.cs" />
+    <Compile Include="Configurations\DiseaseLabTestMatrixPage.cs" />
+    <Compile Include="Configurations\DiseasePensideTestMatrixPage.cs" />
+    <Compile Include="Configurations\DiseaseSampleTypeMatrixPage.cs" />
+    <Compile Include="Configurations\HumanAggrCaseMatrixPage.cs" />
+    <Compile Include="Configurations\MapCustomizationPage.cs" />
+    <Compile Include="Configurations\ParameterTypesEditorPage.cs" />
+    <Compile Include="Configurations\ReportDiagGroupDiagMatrixPage.cs" />
+    <Compile Include="Configurations\SampleTypeDerivTypeMatrixPage.cs" />
+    <Compile Include="Configurations\SpeciesAnimalAgeMatrixPage.cs" />
+    <Compile Include="Configurations\TestResultMatrixPage.cs" />
+    <Compile Include="Configurations\UniqueNumberingSchemaPage.cs" />
+    <Compile Include="Configurations\VectorTypeCollectMethodMatrixPage.cs" />
+    <Compile Include="Configurations\VectorTypeFieldTestMatrixPage.cs" />
+    <Compile Include="Configurations\VectorTypeSampleMatrixPage.cs" />
+    <Compile Include="Configurations\VetAggregateCaseMatrixPage.cs" />
+    <Compile Include="Configurations\VetDiagnosticInvestMatrixPage.cs" />
+    <Compile Include="Configurations\VetProphyMeasureMatrixPage.cs" />
+    <Compile Include="Configurations\VetSanitaryActionMatrixPage.cs" />
+    <Compile Include="Database\EIDSSParameterData.cs" />
+    <Compile Include="EIDSSSeleniumTests\EIDSS7SmokeTest.cs">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="EIDSSSeleniumTests\OutbreakTests.cs" />
+    <Compile Include="HumanCases\CreateNewPerson\CreateNewPersonPage.cs" />
+    <Compile Include="HumanCases\CreateNewPerson\SearchPersonPage.cs" />
+    <Compile Include="HumanCases\HumanActiveSurveillanceCampaign\CreateHumanActiveSurvCampaignPage.cs" />
+    <Compile Include="HumanCases\HumanActiveSurveillanceCampaign\SearchHumanActiveSurvCampaignPage.cs" />
+    <Compile Include="HumanCases\HumanActiveSurveillanceSession\CreateHumanActiveSurvSessionPage.cs" />
+    <Compile Include="HumanCases\HumanActiveSurveillanceSession\SearchHumanActiveSurvSessionPage.cs" />
+    <Compile Include="HumanCases\HumanAggregate\CreateHumanAggrCase.cs" />
+    <Compile Include="HumanCases\HumanAggregate\SearchHumanAggrCasePage.cs" />
+    <Compile Include="HumanCases\HumanDiseaseReports\CreateHumanDiseaseReportPage.cs" />
+    <Compile Include="HumanCases\HumanDiseaseReports\SearchHumanDiseaseReportsPage.cs" />
+    <Compile Include="HumanCases\ILIAggregate\CreateILIAggregatePage.cs" />
+    <Compile Include="HumanCases\ILIAggregate\SearchILIAggregatePage.cs" />
+    <Compile Include="HumanCases\SearchPersons\SearchPersonDiseaseReportPage.cs" />
+    <Compile Include="Laboratory\AccessionInSample.cs" />
+    <Compile Include="Laboratory\LaboratoryPage.cs" />
+    <Compile Include="Laboratory\LaboratorySection.cs" />
+    <Compile Include="Navigation\MainMenuNavigation.cs" />
+    <Compile Include="Outbreaks\CreateOutbreakPage.cs" />
+    <Compile Include="Outbreaks\OutbreakVetDiseaseRptPage.cs" />
+    <Compile Include="Outbreaks\SearchOutbreakPage.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\GetScreenShot.cs" />
+    <Compile Include="Reports\ReportingManager.cs" />
+    <Compile Include="Reports\ReportingTasks.cs" />
+    <Compile Include="Selenium\Browser.cs" />
+    <Compile Include="Selenium\CustomRemoteWebDriver.cs" />
+    <Compile Include="Selenium\Driver.cs" />
+    <Compile Include="Selenium\GetMethods.cs" />
+    <Compile Include="Selenium\LoginPage.cs" />
+    <Compile Include="Selenium\SetMethods.cs" />
+    <Compile Include="Util\CSVData.cs" />
+    <Compile Include="Util\CSVUtility.cs" />
+    <Compile Include="Vector\VectorSurvSession\CreateVectorSurvSessionPage.cs" />
+    <Compile Include="Vector\VectorSurvSession\SearchVectorSurvSessionPage.cs" />
+    <Compile Include="Veterinary\ActiveSurveillanceCampaigns\CreateVetActiveSurvCampPage.cs" />
+    <Compile Include="Veterinary\ActiveSurveillanceCampaigns\SearchVetActiveSurvCampPage.cs" />
+    <Compile Include="Veterinary\ActiveSurveillanceSessions\CreateActiveSurvSessionsPage.cs" />
+    <Compile Include="Veterinary\ActiveSurveillanceSessions\SearchVetActiveSurvSessionsPage.cs" />
+    <Compile Include="Veterinary\AvianDiseaseReport\CreateAvianDiseaseReportPage.cs" />
+    <Compile Include="Veterinary\AvianDiseaseReport\SearchAvianDiseaseReportPage.cs" />
+    <Compile Include="Veterinary\Farm\CreateNewFarmRecordPage.cs" />
+    <Compile Include="Veterinary\Farm\SearchFarmInformationPage.cs" />
+    <Compile Include="Veterinary\LivestockDiseaseReport\CreateLivestockDiseaseReportPage.cs" />
+    <Compile Include="Veterinary\LivestockDiseaseReport\SearchLivestockDiseaseReportPage.cs" />
+    <Compile Include="Veterinary\VeterinaryAggregate\CreateVetAggrDiseaseReportPage.cs" />
+    <Compile Include="Veterinary\VeterinaryAggregate\SearchVetAggrDiseaseReportPage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="HTMLReports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chromedriver.exe" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets'))" />
+    <Error Condition="!Exists('..\packages\NUnit.3.10.1\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.10.1\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\packages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+    <Error Condition="!Exists('..\packages\Selenium.WebDriver.MicrosoftWebDriver.10.0.17134\build\Selenium.WebDriver.MicrosoftWebDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Selenium.WebDriver.MicrosoftWebDriver.10.0.17134\build\Selenium.WebDriver.MicrosoftWebDriver.targets'))" />
+  </Target>
+  <Import Project="..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets" Condition="Exists('..\packages\MSTest.TestAdapter.1.1.18\build\net45\MSTest.TestAdapter.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.ChromeDriver.2.44.0\build\Selenium.WebDriver.ChromeDriver.targets')" />
+  <Import Project="..\packages\Selenium.WebDriver.MicrosoftWebDriver.10.0.17134\build\Selenium.WebDriver.MicrosoftWebDriver.targets" Condition="Exists('..\packages\Selenium.WebDriver.MicrosoftWebDriver.10.0.17134\build\Selenium.WebDriver.MicrosoftWebDriver.targets')" />
+</Project>

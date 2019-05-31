@@ -1,0 +1,3353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\OpenEIDSS\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\OpenEIDSS\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\OpenEIDSS\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\OpenEIDSS\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{39FEA4CD-8473-42A7-B909-27FB01DE1B2B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>EIDSS</RootNamespace>
+    <AssemblyName>EIDSS</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DefineConstants>
+    </DefineConstants>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=17.1.0.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <HintPath>..\packages\AjaxControlToolkit.17.1.0.0\lib\net40\AjaxControlToolkit.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Bogus, Version=15.0.3.0, Culture=neutral, PublicKeyToken=fa1bb3f3f218129a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bogus.15.0.3\lib\net40\Bogus.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CommonServiceLocator, Version=2.0.4.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=2.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\OpenEIDSS\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PdfSharp, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\OpenEIDSS\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfSharp.Charting, Version=1.50.5147.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\OpenEIDSS\packages\PDFsharp.1.50.5147\lib\net20\PdfSharp.Charting.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Unity.Abstractions, Version=3.3.1.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Configuration, Version=5.2.5.0, Culture=neutral, PublicKeyToken=6d32ff45e0ccc69f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.8.11.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Interception, Version=5.5.5.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Interception.Configuration, Version=5.1.7.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.Interception.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RegistrationByConvention, Version=2.1.9.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.RegistrationByConvention.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ServiceLocation, Version=2.1.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.8.11\lib\net45\Unity.ServiceLocation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\clsAgeGroup.vb" />
+    <Compile Include="App_Code\clsCaseClassification.vb" />
+    <Compile Include="App_Code\clsDiagnosisReference.vb" />
+    <Compile Include="App_Code\clsHumanDiseaseContact.vb" />
+    <Compile Include="App_Code\clsMeasureReference.vb" />
+    <Compile Include="App_Code\clsBaseReferenceType.vb" />
+    <Compile Include="App_Code\clsContact.vb" />
+    <Compile Include="App_Code\clsHumActiveSurvCampaign.vb" />
+    <Compile Include="App_Code\clsHumanActiveSurveillance.vb" />
+    <Compile Include="App_Code\clsHumanActiveSurveillanceSession.vb" />
+    <Compile Include="App_Code\clsHumanDiseaseSample.vb" />
+    <Compile Include="App_Code\clsHumanDiseaseTest.vb" />
+    <Compile Include="App_Code\clsMenu.vb" />
+    <Compile Include="App_Code\clsRefGuidStringList.vb" />
+    <Compile Include="App_Code\clsRefIntList.vb" />
+    <Compile Include="App_Code\clsReportDiagnosisGroup.vb" />
+    <Compile Include="App_Code\clsSampleTypeReference.vb" />
+    <Compile Include="App_Code\clsSpeciesTypeReference.vb" />
+    <Compile Include="App_Code\clsStatisticalTypeReference.vb" />
+    <Compile Include="App_Code\clsTest.vb" />
+    <Compile Include="App_Code\clsTestDisease.vb" />
+    <Compile Include="App_Code\clsVectorLabTest.vb" />
+    <Compile Include="App_Code\clsVectorSpeciesType.vb" />
+    <Compile Include="App_Code\clsVectorTypeReference.vb" />
+    <Content Include="App_Code\IOpenEidssEntity.vb" />
+    <Compile Include="App_Code\CrossCuttingModule.vb" />
+    <Compile Include="App_Code\clsHumanDiseaseVaccination.vb" />
+    <Compile Include="App_Code\clsHumanDiseaseAntiviralThearapy.vb" />
+    <Compile Include="App_Code\Field.vb" />
+    <Compile Include="App_Code\FreezerSubdivisionBoxAvailability.vb" />
+    <Compile Include="App_Code\TreeViewItem.vb" />
+    <Compile Include="App_GlobalResources\Buttons.EN-US.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.EN-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.EN-US.designer.vb">
+      <DependentUpon>Labels.EN-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.EN-US.designer.vb">
+      <DependentUpon>LanguageList.EN-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.EN-US.designer.vb">
+      <DependentUpon>OtherText.EN-US.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.EN-US.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.EN-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\WarningMessages.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WarningMessages.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\AdditionalTestDetailsUserControl.ascx.designer.vb">
+      <DependentUpon>AdditionalTestDetailsUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AdditionalTestDetailsUserControl.ascx.vb">
+      <DependentUpon>AdditionalTestDetailsUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateBatchUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateBatchUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateBatchUserControl.ascx.vb">
+      <DependentUpon>AddUpdateBatchUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateEmployeeUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateEmployeeUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateEmployeeUserControl.ascx.vb">
+      <DependentUpon>AddUpdateEmployeeUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateFarmUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateFarmUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateFarmUserControl.ascx.vb">
+      <DependentUpon>AddUpdateFarmUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\BaseReferenceUserControl.ascx.designer.vb">
+      <DependentUpon>BaseReferenceUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\BaseReferenceUserControl.ascx.vb">
+      <DependentUpon>BaseReferenceUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DiseaseEditorUserControl.ascx.designer.vb">
+      <DependentUpon>DiseaseEditorUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DiseaseEditorUserControl.ascx.vb">
+      <DependentUpon>DiseaseEditorUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FileUploaderControl.ascx.designer.vb">
+      <DependentUpon>FileUploaderControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FileUploaderControl.ascx.vb">
+      <DependentUpon>FileUploaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\HorizontalLocationUserControl.ascx.designer.vb">
+      <DependentUpon>HorizontalLocationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HorizontalLocationUserControl.ascx.vb">
+      <DependentUpon>HorizontalLocationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\MeasureReferenceEditorUserControl.ascx.designer.vb">
+      <DependentUpon>MeasureReferenceEditorUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MeasureReferenceEditorUserControl.ascx.vb">
+      <DependentUpon>MeasureReferenceEditorUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchVeterinaryCampaignUserControl.ascx.designer.vb">
+      <DependentUpon>SearchVeterinaryCampaignUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchVeterinaryCampaignUserControl.ascx.vb">
+      <DependentUpon>SearchVeterinaryCampaignUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SpeciesReferenceEditorUserControl.ascx.designer.vb">
+      <DependentUpon>SpeciesReferenceEditorUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SpeciesReferenceEditorUserControl.ascx.vb">
+      <DependentUpon>SpeciesReferenceEditorUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchEmployeeUserControl.ascx.designer.vb">
+      <DependentUpon>SearchEmployeeUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchEmployeeUserControl.ascx.vb">
+      <DependentUpon>SearchEmployeeUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchFreezerUserControl.ascx.designer.vb">
+      <DependentUpon>SearchFreezerUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchFreezerUserControl.ascx.vb">
+      <DependentUpon>SearchFreezerUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchPersonInformationUserControl.ascx.designer.vb">
+      <DependentUpon>SearchPersonInformationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchPersonInformationUserControl.ascx.vb">
+      <DependentUpon>SearchPersonInformationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\StorageSchemaUserControl.ascx.designer.vb">
+      <DependentUpon>StorageSchemaUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\StorageSchemaUserControl.ascx.vb">
+      <DependentUpon>StorageSchemaUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateOrganizationUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateOrganizationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateOrganizationUserControl.ascx.vb">
+      <DependentUpon>AddUpdateOrganizationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdatePersonUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdatePersonUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdatePersonUserControl.ascx.vb">
+      <DependentUpon>AddUpdatePersonUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateTestUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateTestUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateTestUserControl.ascx.vb">
+      <DependentUpon>AddUpdateTestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateVeterinarySessionUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateVeterinarySessionUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateVeterinarySessionUserControl.ascx.vb">
+      <DependentUpon>AddUpdateVeterinarySessionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AmendmentHistoryUserControl.ascx.designer.vb">
+      <DependentUpon>AmendmentHistoryUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AmendmentHistoryUserControl.ascx.vb">
+      <DependentUpon>AmendmentHistoryUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AmendTestResultUserControl.ascx.designer.vb">
+      <DependentUpon>AmendTestResultUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AmendTestResultUserControl.ascx.vb">
+      <DependentUpon>AmendTestResultUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FFHumanAggregateMatrix.ascx.designer.vb">
+      <DependentUpon>FFHumanAggregateMatrix.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FFHumanAggregateMatrix.ascx.vb">
+      <DependentUpon>FFHumanAggregateMatrix.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FlexFormLoadTemplate.ascx.designer.vb">
+      <DependentUpon>FlexFormLoadTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\FlexFormLoadTemplate.ascx.vb">
+      <DependentUpon>FlexFormLoadTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\GroupAccessionInUserControl.ascx.designer.vb">
+      <DependentUpon>GroupAccessionInUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GroupAccessionInUserControl.ascx.vb">
+      <DependentUpon>GroupAccessionInUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AliquotsDerivativesUserControl.ascx.designer.vb">
+      <DependentUpon>AliquotsDerivativesUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AliquotsDerivativesUserControl.ascx.vb">
+      <DependentUpon>AliquotsDerivativesUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AssignTestUserControl.ascx.designer.vb">
+      <DependentUpon>AssignTestUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AssignTestUserControl.ascx.vb">
+      <DependentUpon>AssignTestUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropDownAdd.ascx.designer.vb">
+      <DependentUpon>DropDownAdd.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropDownAdd.ascx.vb">
+      <DependentUpon>DropDownAdd.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\HumanDiseaseReportUserControl.ascx.designer.vb">
+      <DependentUpon>HumanDiseaseReportUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HumanDiseaseReportUserControl.ascx.vb">
+      <DependentUpon>HumanDiseaseReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LaboratoryColumnViewPreferencesUserControl.ascx.designer.vb">
+      <DependentUpon>LaboratoryColumnViewPreferencesUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LaboratoryColumnViewPreferencesUserControl.ascx.vb">
+      <DependentUpon>LaboratoryColumnViewPreferencesUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LaboratoryMenuUserControl.ascx.designer.vb">
+      <DependentUpon>LaboratoryMenuUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LaboratoryMenuUserControl.ascx.vb">
+      <DependentUpon>LaboratoryMenuUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LaboratorySearchUserControl.ascx.designer.vb">
+      <DependentUpon>LaboratorySearchUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LaboratorySearchUserControl.ascx.vb">
+      <DependentUpon>LaboratorySearchUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\AddUpdateSampleUserControl.ascx.designer.vb">
+      <DependentUpon>AddUpdateSampleUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\AddUpdateSampleUserControl.ascx.vb">
+      <DependentUpon>AddUpdateSampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\PageFooterUserControl.ascx.designer.vb">
+      <DependentUpon>PageFooterUserControl.ascx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\PageFooterUserControl.ascx.vb">
+      <DependentUpon>PageFooterUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\PrintBarCodeUserControl.ascx.designer.vb">
+      <DependentUpon>PrintBarCodeUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\PrintBarCodeUserControl.ascx.vb">
+      <DependentUpon>PrintBarCodeUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ReferenceUserControl.ascx.designer.vb">
+      <DependentUpon>ReferenceUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ReferenceUserControl.ascx.vb">
+      <DependentUpon>ReferenceUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\RegisterNewSampleUserControl.ascx.designer.vb">
+      <DependentUpon>RegisterNewSampleUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RegisterNewSampleUserControl.ascx.vb">
+      <DependentUpon>RegisterNewSampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchFarmUserControl.ascx.designer.vb">
+      <DependentUpon>SearchFarmUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchFarmUserControl.ascx.vb">
+      <DependentUpon>SearchFarmUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchHumanDiseaseReportUserControl.ascx.designer.vb">
+      <DependentUpon>SearchHumanDiseaseReportUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchHumanDiseaseReportUserControl.ascx.vb">
+      <DependentUpon>SearchHumanDiseaseReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchHumanSessionUserControl.ascx.designer.vb">
+      <DependentUpon>SearchHumanSessionUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchHumanSessionUserControl.ascx.vb">
+      <DependentUpon>SearchHumanSessionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchOrganizationUserControl.ascx.designer.vb">
+      <DependentUpon>SearchOrganizationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchOrganizationUserControl.ascx.vb">
+      <DependentUpon>SearchOrganizationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchPersonUserControl.ascx.designer.vb">
+      <DependentUpon>SearchPersonUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchPersonUserControl.ascx.vb">
+      <DependentUpon>SearchPersonUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchSampleUserControl.ascx.designer.vb">
+      <DependentUpon>SearchSampleUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchSampleUserControl.ascx.vb">
+      <DependentUpon>SearchSampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchVectorSessionUserControl.ascx.designer.vb">
+      <DependentUpon>SearchVectorSessionUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchVectorSessionUserControl.ascx.vb">
+      <DependentUpon>SearchVectorSessionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchVeterinaryDiseaseReportUserControl.ascx.designer.vb">
+      <DependentUpon>SearchVeterinaryDiseaseReportUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchVeterinaryDiseaseReportUserControl.ascx.vb">
+      <DependentUpon>SearchVeterinaryDiseaseReportUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\SearchVeterinarySessionUserControl.ascx.designer.vb">
+      <DependentUpon>SearchVeterinarySessionUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SearchVeterinarySessionUserControl.ascx.vb">
+      <DependentUpon>SearchVeterinarySessionUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\TransferSampleUserControl.ascx.designer.vb">
+      <DependentUpon>TransferSampleUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TransferSampleUserControl.ascx.vb">
+      <DependentUpon>TransferSampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\VeterinaryFFLoadTemplate.ascx.designer.vb">
+      <DependentUpon>VeterinaryFFLoadTemplate.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VeterinaryFFLoadTemplate.ascx.vb">
+      <DependentUpon>VeterinaryFFLoadTemplate.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HumanActiveSurveillance\ActiveSurveillanceCampaign.aspx.designer.vb">
+      <DependentUpon>ActiveSurveillanceCampaign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HumanActiveSurveillance\ActiveSurveillanceCampaign.aspx.vb">
+      <DependentUpon>ActiveSurveillanceCampaign.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Code\clsAggregate.vb" />
+    <Compile Include="App_Code\clsAnimal.vb" />
+    <Compile Include="App_Code\clsDisease.vb" />
+    <Compile Include="App_Code\clsFarm.vb" />
+    <Compile Include="App_Code\clsFeedingLifeStat.vb" />
+    <Compile Include="App_Code\clsDetailedCollection.vb" />
+    <Compile Include="App_Code\clsAdminOrganization.vb" />
+    <Compile Include="App_Code\clsHerd.vb" />
+    <Compile Include="App_Code\clsSampleDisease.vb" />
+    <Compile Include="App_Code\clsTestInterpretation.vb" />
+    <Compile Include="App_Code\clsOrgPerson.vb" />
+    <Compile Include="App_Code\clsPensideTest.vb" />
+    <Compile Include="App_Code\clsSample.vb" />
+    <Compile Include="App_Code\clsVaccination.vb" />
+    <Compile Include="App_Code\clsVectorSummaryCollection.vb" />
+    <Compile Include="App_Code\clsVectorDisease.vb" />
+    <Compile Include="App_Code\clsVectorFieldTest.vb" />
+    <Compile Include="App_Code\clsVectorSamples.vb" />
+    <Compile Include="App_Code\clsVectorCollection.vb" />
+    <Compile Include="App_Code\clsVASCampaign.vb" />
+    <Compile Include="App_Code\clsVeterinaryActiveSurveillanceMonitoringSession.vb" />
+    <Compile Include="App_Code\clsVeterinaryActiveSurveillanceCampaign.vb" />
+    <Compile Include="App_Code\clsVectoSurv.vb" />
+    <Compile Include="App_Code\clsPerson.vb" />
+    <Content Include="Controls\AdditionalTestDetailsUserControl.ascx" />
+    <Content Include="Controls\AddUpdateBatchUserControl.ascx" />
+    <Content Include="Controls\AddUpdateEmployeeUserControl.ascx" />
+    <Content Include="Controls\AddUpdateFarmUserControl.ascx" />
+    <Content Include="Controls\BaseReferenceUserControl.ascx" />
+    <Content Include="Controls\DiseaseEditorUserControl.ascx" />
+    <Content Include="Controls\FFHumanAggregateMatrix.ascx" />
+    <Content Include="Controls\FileUploaderControl.ascx" />
+    <Content Include="Controls\HorizontalLocationUserControl.ascx" />
+    <Content Include="Controls\MeasureReferenceEditorUserControl.ascx" />
+    <Content Include="Controls\SearchVeterinaryCampaignUserControl.ascx" />
+    <Content Include="Controls\SpeciesReferenceEditorUserControl.ascx" />
+    <Content Include="Controls\SearchEmployeeUserControl.ascx" />
+    <Content Include="Controls\SearchFreezerUserControl.ascx" />
+    <Content Include="Controls\SearchPersonInformationUserControl.ascx" />
+    <Content Include="Controls\StorageSchemaUserControl.ascx" />
+    <Content Include="Controls\AddUpdateOrganizationUserControl.ascx" />
+    <Content Include="Controls\AddUpdatePersonUserControl.ascx" />
+    <Content Include="Controls\AddUpdateTestUserControl.ascx" />
+    <Content Include="Controls\AddUpdateVeterinarySessionUserControl.ascx" />
+    <Content Include="Controls\AmendmentHistoryUserControl.ascx" />
+    <Content Include="Controls\AmendTestResultUserControl.ascx" />
+    <Content Include="Controls\App_LocalResources\AddUpdateTestUserControl.ascx.resx" />
+    <Content Include="Controls\FFHumanAggregateMatrix.ascx" />
+    <Content Include="Controls\FlexFormLoadTemplate.ascx" />
+    <Content Include="Controls\GroupAccessionInUserControl.ascx" />
+    <Content Include="Controls\AliquotsDerivativesUserControl.ascx" />
+    <Content Include="Controls\AssignTestUserControl.ascx" />
+    <Content Include="Controls\DropDownAdd.ascx" />
+    <Content Include="Controls\HumanDiseaseReportUserControl.ascx" />
+    <Content Include="Controls\LaboratoryColumnViewPreferencesUserControl.ascx" />
+    <Content Include="Controls\LaboratoryMenuUserControl.ascx" />
+    <Content Include="Controls\LaboratorySearchUserControl.ascx" />
+    <Content Include="Controls\AddUpdateSampleUserControl.ascx" />
+    <Content Include="Controls\PageFooterUserControl.ascx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Controls\PrintBarCodeUserControl.ascx" />
+    <Content Include="Controls\ReferenceUserControl.ascx" />
+    <Content Include="Controls\RegisterNewSampleUserControl.ascx" />
+    <Content Include="Controls\SearchFarmUserControl.ascx" />
+    <Content Include="Controls\SearchHumanDiseaseReportUserControl.ascx" />
+    <Content Include="Controls\SearchHumanSessionUserControl.ascx" />
+    <Content Include="Controls\SearchOrganizationUserControl.ascx" />
+    <Content Include="Controls\SearchPersonUserControl.ascx" />
+    <Content Include="Controls\SearchSampleUserControl.ascx" />
+    <Content Include="Controls\SearchVectorSessionUserControl.ascx" />
+    <Content Include="Controls\SearchVeterinaryDiseaseReportUserControl.ascx" />
+    <Content Include="Controls\SearchVeterinarySessionUserControl.ascx" />
+    <Content Include="Controls\TransferSampleUserControl.ascx" />
+    <Content Include="Controls\VeterinaryFFLoadTemplate.ascx" />
+    <Content Include="HumanActiveSurveillance\ActiveSurveillanceCampaign.aspx" />
+    <Content Include="App_Data\Coll.txt" />
+    <Content Include="App_Data\diseaseCases.txt" />
+    <Content Include="App_Data\Diseases.txt" />
+    <Content Include="App_Data\EIDSS.txt" />
+    <Content Include="App_Data\EIDSSPages.xml" />
+    <Content Include="App_Data\VASSearchCampaign.txt" />
+    <Content Include="App_Data\VASSearchSession.txt" />
+    <Content Include="App_Data\vecSurv.txt" />
+    <Content Include="BaseEidssPage.aspx" />
+    <Content Include="Controls\DropDownSearch.ascx" />
+    <Content Include="Global\Farm.aspx" />
+    <Content Include="Global\Person.aspx" />
+    <Content Include="HumanActiveSurveillance\ActiveSurveillanceSession.aspx" />
+    <Content Include="Human\BasicSyndromicSurveillance.aspx" />
+    <Content Include="Human\CaseInvestigation.aspx" />
+    <Content Include="Human\FinalCaseClassification.aspx" />
+    <Content Include="Human\HumanAggregate.aspx" />
+    <Content Include="Human\HumanAggregate1.aspx" />
+    <Content Include="Human\HumanAggSummary.aspx" />
+    <Content Include="Human\HumanDiseaseReport.aspx" />
+    <Content Include="Human\ILIAggregate.aspx" />
+    <Content Include="Human\Patient.aspx" />
+    <Content Include="Human\PersonSearch.aspx" />
+    <Content Include="Human\SearchDiseaseReports.aspx" />
+    <Content Include="Human\UrgentNotification.aspx" />
+    <Content Include="Human\UrgentNotificationDone.aspx" />
+    <Content Include="Includes\bootstrap-editable\css\bootstrap-editable.css" />
+    <Content Include="Includes\bootstrap-editable\img\clear.png" />
+    <Content Include="Includes\bootstrap-editable\img\loading.gif" />
+    <Content Include="Includes\bootstrap-editable\js\bootstrap-editable.js" />
+    <Content Include="Includes\bootstrap-editable\js\bootstrap-editable.min.js" />
+    <Content Include="Includes\CSS\bootstrap-datetimepicker.css" />
+    <Content Include="Includes\CSS\bootstrap-datetimepicker.min.css" />
+    <Content Include="Includes\CSS\bootstrap-multiselect.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\CSS\bootstrap-theme.css" />
+    <Content Include="Includes\CSS\bootstrap-theme.min.css" />
+    <Content Include="Controls\ContactUserControl.ascx" />
+    <Content Include="Controls\HumanCaseClassificationItem.ascx" />
+    <Content Include="Controls\HumanRiskFactorItem.ascx" />
+    <Content Include="Controls\LocationUserControl.ascx" />
+    <Content Include="Controls\NonDtraSampleUserControl.ascx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Controls\PageHeaderUserControl.ascx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Controls\SampleUserControl.ascx" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="Dashboard\css\bootstrap.css" />
+    <Content Include="Dashboard\employeeList.html" />
+    <Content Include="Dashboard\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Dashboard\form.html" />
+    <Content Include="Dashboard\images\1200X400.gif" />
+    <Content Include="Dashboard\images\140X140.gif" />
+    <Content Include="Dashboard\images\32X32.gif" />
+    <Content Include="Dashboard\images\35X35.gif" />
+    <Content Include="Dashboard\images\600X300.gif" />
+    <Content Include="Dashboard\images\header_logo.png" />
+    <Content Include="Dashboard\index.html" />
+    <Content Include="Dashboard\js\bootstrap.js" />
+    <Content Include="Dashboard\js\jquery-3.2.1.js" />
+    <Content Include="Dashboard\js\jquery-3.2.1.min.js" />
+    <Content Include="GeneralError.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Includes\CSS\bootstrap.css" />
+    <Content Include="Includes\CSS\bootstrap.min.css" />
+    <Content Include="Includes\CSS\EIDSS7FullViewModuleStyles-1.0.0.css" />
+    <Content Include="Includes\CSS\EIDSS7Styles-1.0.0.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\CSS\jquery.gorilla-dropdown.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\datatables.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\datatables.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\datatables.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\datatables.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\dataTables.rowReorder.js" />
+    <Content Include="Includes\DataTables\dataTables.select.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.bootstrap.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.bootstrap.min.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.bootstrap4.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.bootstrap4.min.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.foundation.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.foundation.min.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.jqueryui.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.jqueryui.min.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.semanticui.css" />
+    <Content Include="Includes\DataTables\DataTables\css\dataTables.semanticui.min.css" />
+    <Content Include="Includes\DataTables\DataTables\css\jquery.dataTables.css" />
+    <Content Include="Includes\DataTables\DataTables\css\jquery.dataTables.min.css" />
+    <Content Include="Includes\DataTables\DataTables\images\sort_asc.png" />
+    <Content Include="Includes\DataTables\DataTables\images\sort_asc_disabled.png" />
+    <Content Include="Includes\DataTables\DataTables\images\sort_both.png" />
+    <Content Include="Includes\DataTables\DataTables\images\sort_desc.png" />
+    <Content Include="Includes\DataTables\DataTables\images\sort_desc_disabled.png" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.bootstrap.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.bootstrap.min.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.bootstrap4.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.bootstrap4.min.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.foundation.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.foundation.min.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.jqueryui.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.jqueryui.min.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.semanticui.js" />
+    <Content Include="Includes\DataTables\DataTables\js\dataTables.semanticui.min.js" />
+    <Content Include="Includes\DataTables\DataTables\js\jquery.dataTables.js" />
+    <Content Include="Includes\DataTables\DataTables\js\jquery.dataTables.min.js" />
+    <Content Include="Includes\DataTables\rowReorder.bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\rowReorder.bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\select.bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\DataTables\select.dataTables.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Fonts\Code39Barcode.fog.svg" />
+    <Content Include="Includes\Fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Includes\Images\1200X400.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\140X140.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\32X32.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\35X35.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\600X300.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\accessionIn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\alert_green.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\allSamples.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\approvals.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\blueStar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\columnChooser.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\columnChooserMouseover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\commentBoxEmpty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\commentBoxNonEmpty.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\db_create.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\db_download.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\db_outbreak.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\db_search.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\db_settings.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\db_video.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\freezer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-edit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-bin.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-ok-neverActivated.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-ok-activated.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-ok.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-search.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-search1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-search2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\glyphicons-search3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\header_logo_sm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\labMenu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\myFavorites.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\myFavoritesNo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\outbreakDecision.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\pipe.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\red-invertered-X-sm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\redAsterisk.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\searchSamples.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\sidePanelArrowBlue.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\header_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\minus.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\plus.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\testing.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\trainingVideos.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\transferredSamples.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\transparent10by10.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\printIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\whiteStar.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\bootstrap-multiselect.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\bootstrap.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\bootstrap.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\ddslick.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\eidss7scripts-1.0.0.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\HumanCaseMatrixReport.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery-3.2.1.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery-3.2.1.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery-ui.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery.dragtable.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery.easy-autocomplete.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery.number.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery.scannerdetection.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\search.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\jquery.gorilla-dropdown.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Laboratory\Freezers.aspx" />
+    <Content Include="Laboratory\Laboratory.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Includes\Images\11_MainForm_background_image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\EIDSS.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\Upper_screen_line_01.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Images\Upper_screen_line_02.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\bootstrap-datetimepicker.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\bootstrap-datetimepicker.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\moment-with-locales.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\moment-with-locales.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\moment.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Includes\Scripts\moment.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Outbreaks\NoteFileDownload.aspx" />
+    <Content Include="Outbreaks\Outbreak.aspx" />
+    <Content Include="Scripts\CheckUserPermissionToDelete.sql" />
+    <Content Include="Scripts\DeleteActiveSurveillanceSession.sql" />
+    <Content Include="Scripts\DeleteSample.sql" />
+    <Content Include="Scripts\DeleteTestResult.sql" />
+    <Content Include="Scripts\DeleteVetCase.sql" />
+    <Content Include="Scripts\GetActiveSurveillanceSession.sql" />
+    <Content Include="Scripts\GetActiveSurveillanceSession_Encrypted.sql" />
+    <Content Include="Scripts\GetSample.sql" />
+    <Content Include="Scripts\GetSampleTest.sql" />
+    <Content Include="Scripts\GetVetCase.sql" />
+    <Content Include="Scripts\GetVetCase_Encrypted.sql" />
+    <Content Include="Security\ChangePassword.aspx" />
+    <Content Include="Security\SecurityPolicy.aspx" />
+    <Content Include="App_Data\EIDSSDeleteToolSettings.xml" />
+    <Content Include="System\Administration\AggregateSettings.aspx" />
+    <Content Include="System\Administration\DataArchiveSettings.aspx" />
+    <Content Include="System\Administration\Deduplication\HumanDiseaseReportDeduplication.aspx" />
+    <Content Include="System\Administration\Deduplication\PersonRecordDeduplication.aspx" />
+    <Content Include="System\Administration\DepartmentDetails.aspx" />
+    <Content Include="System\Administration\EmployeeAdmin.aspx" />
+    <Content Include="System\Administration\EmployeeDetails.aspx" />
+    <Content Include="System\Administration\ParameterEditor.aspx" />
+    <Content Include="System\Administration\ParameterTypeEditor.aspx" />
+    <Content Include="System\Administration\OrganizationAdmin.aspx" />
+    <Content Include="System\Administration\OrganizationDetails.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\AgeGroup.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\BaseReference.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\CaseClassification.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\Disease.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\Measures.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\ReportDiagnosisGroup.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\SampleType.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\SpeciesType.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\StatisticDataType.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\VectorSubType.aspx" />
+    <Content Include="System\Administration\ReferenceEditors\VectorType.aspx" />
+    <Content Include="System\Administration\ResourceEditor.aspx" />
+    <Content Include="System\Administration\SettlementAdmin.aspx" />
+    <Content Include="System\Administration\SettlementDetails.aspx" />
+    <Content Include="System\Administration\SiteAlertsSubscription.aspx" />
+    <Content Include="System\Administration\StatisticalDataAdmin.aspx" />
+    <Content Include="System\Administration\StatisticalDataDetails.aspx" />
+    <Content Include="System\Administration\TemplateEditor.aspx" />
+    <Content Include="System\Configuration\AgeGroupStatisticalAgeGroupMatrix.aspx" />
+    <Content Include="System\Configuration\CustomReportRows.aspx" />
+    <Content Include="System\Configuration\DiseaseAgeGroupMatrix.aspx" />
+    <Content Include="System\Configuration\DiseaseGroupDiseaseMatrix.aspx" />
+    <Content Include="System\Configuration\DiseaseLabTestMatrix.aspx" />
+    <Content Include="System\Configuration\DiseasePensideTestMatrix.aspx" />
+    <Content Include="System\Configuration\DiseaseSampleTypeMatrix.aspx" />
+    <Content Include="System\Configuration\HumanReportMatrix.aspx" />
+    <Content Include="System\Configuration\ReportDiseaseGroupDiseaseMatrix.aspx" />
+    <Content Include="System\Configuration\SampleTypeDerivativeMatrix.aspx" />
+    <Content Include="System\Configuration\SpeciesTypeAnimalAgeMatrix.aspx" />
+    <Content Include="System\Configuration\TestToTestResultMatrix.aspx" />
+    <Content Include="System\Configuration\VectorTypeCollectionMethodMatrix.aspx" />
+    <Content Include="System\Configuration\VectorTypeFieldTestMatrix.aspx" />
+    <Content Include="System\Configuration\VectorTypeSampleTypeMatrix.aspx" />
+    <Content Include="System\Configuration\VeterinaryAggregateReportMatrix.aspx" />
+    <Content Include="System\Configuration\VeterinaryProphylacticMeasureMatrix.aspx" />
+    <Content Include="System\Configuration\VeterinarySanitaryActionMatrix.aspx" />
+    <Content Include="System\Configuration\VetinaryDiagnosticInvestigationMatrix.aspx" />
+    <Content Include="System\DeleteTool.aspx" />
+    <Content Include="System\SystemPreferences.aspx" />
+    <Content Include="TemplateForNewForms.aspx" />
+    <Content Include="Vector\VectorSurveillanceSession.aspx" />
+    <Content Include="Veterinary\ActiveSurveillanceCampaign.aspx" />
+    <Content Include="Veterinary\ActiveSurveillanceSession.aspx" />
+    <Content Include="Veterinary\AvianDiseaseReport.aspx" />
+    <Content Include="Veterinary\VeterinaryAggregateAction.aspx" />
+    <Content Include="Veterinary\VeterinaryAggregateCase.aspx" />
+    <Content Include="Veterinary\LivestockDiseaseReport.aspx" />
+    <Content Include="FullView.Master" />
+    <Content Include="Includes\Fonts\Code39Barcode.fog.eot" />
+    <Content Include="Includes\Fonts\Code39Barcode.fog.ttf" />
+    <Content Include="Includes\Fonts\Code39Barcode.fog.woff" />
+    <Content Include="Includes\Fonts\Code39Barcode.fog.woff2" />
+    <None Include="My Project\PublishProfiles\Beta-AJ.pubxml" />
+    <None Include="My Project\PublishProfiles\Beta-AM.pubxml" />
+    <None Include="My Project\PublishProfiles\Beta-GG.pubxml" />
+    <None Include="My Project\PublishProfiles\Beta.pubxml" />
+    <None Include="My Project\PublishProfiles\Development IIS.pubxml" />
+    <None Include="My Project\PublishProfiles\Development.pubxml" />
+    <None Include="My Project\PublishProfiles\EIDSS7.pubxml" />
+    <None Include="My Project\PublishProfiles\Folder - Demo.pubxml" />
+    <None Include="My Project\PublishProfiles\Folder - Development.pubxml" />
+    <None Include="My Project\PublishProfiles\Folder - Integration.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Beta-AJ.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Beta-AM .pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Beta-GG.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Beta-TH.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Development.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Integration - AJ Migration.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - Integration.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-AJ-Migration.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-AJ.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-AM.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-GG.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-IQ.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-KZ.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-TH.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS - QA-UA.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS Development.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS Local.pubxml" />
+    <None Include="My Project\PublishProfiles\IIS-QA.pubxml" />
+    <None Include="My Project\PublishProfiles\Integration.pubxml" />
+    <None Include="My Project\PublishProfiles\Local.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-AJ-Migration.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-AJ.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-AM.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-GG.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-IQ.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-KZ.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-TH.pubxml" />
+    <None Include="My Project\PublishProfiles\QA-UA.pubxml" />
+    <None Include="My Project\PublishProfiles\QA.pubxml" />
+    <None Include="Web References\NG\EIDSSService.disco" />
+    <Content Include="Welcome.aspx" />
+    <Content Include="Includes\Fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Includes\Fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Includes\Fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Includes\Fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Includes\Images\Web_Login_Title.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Login.aspx" />
+    <Content Include="BlankView.Master" />
+    <Content Include="Dashboard\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Dashboard\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Dashboard\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Dashboard\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Includes\CSS\bootstrap-theme.css.map" />
+    <Content Include="NormalView.Master" />
+    <Content Include="PrintView.Master" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web.Beta-AJ.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Beta-AM.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Beta-GG.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Beta-TH.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Demo.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Integration-AJ-Migration.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Integration-GG-Migration.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.LamontEnv.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-AJ-Migration.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-AJ.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-AM.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-GG-Migration.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-GG.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-IQ.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-KZ.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-TH.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA-UA.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Test.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Code\clsAccessoryCodes.vb" />
+    <Compile Include="App_Code\clsCountry.vb" />
+    <Compile Include="App_Code\clsCommon.vb" />
+    <Compile Include="App_Code\clsDepartment.vb" />
+    <Compile Include="App_Code\clsEmployee.vb" />
+    <Compile Include="App_Code\clsErrorHandler.vb" />
+    <Compile Include="App_Code\clsEmployeeGroup.vb" />
+    <Compile Include="App_Code\clsObjectAccess.vb" />
+    <Compile Include="App_Code\clsOrganization.vb" />
+    <Compile Include="App_Code\clsBaseReference.vb" />
+    <Compile Include="App_Code\clsEntrySite.vb" />
+    <Compile Include="App_Code\clsVectorStatus.vb" />
+    <Compile Include="App_Code\clsSpecies.vb" />
+    <Compile Include="App_Code\clsRegion.vb" />
+    <Compile Include="App_Code\clsRayon.vb" />
+    <Compile Include="App_Code\clsPostalCode.vb" />
+    <Compile Include="App_Code\clsSecurity.vb" />
+    <Compile Include="App_Code\clsSettlement.vb" />
+    <Compile Include="App_Code\clsSettlementType.vb" />
+    <Compile Include="App_Code\clsStatisticalData.vb" />
+    <Compile Include="App_Code\clsStatisticType.vb" />
+    <Compile Include="App_Code\clsTownOrVillage.vb" />
+    <Compile Include="App_Code\clsVeterinaryDiseaseReport.vb" />
+    <Compile Include="App_Code\Constants.vb" />
+    <Compile Include="App_Code\Enums.vb" />
+    <Compile Include="App_Code\IEidssEntity.vb" />
+    <Compile Include="App_Code\modCommon.vb" />
+    <Compile Include="App_Code\ModExtensions.vb" />
+    <Compile Include="App_GlobalResources\Buttons.AR-IQ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.AR-IQ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.AZ-LATN-AZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.AZ-LATN-AZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.HY-AM.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.HY-AM.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.KA-GE.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.KA-GE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.RU-KZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.RU-KZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.RU-RU.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.RU-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.RU-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.RU-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.TH-TH.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.TH-TH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Buttons.UK-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Buttons.UK-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.AR-IQ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.AR-IQ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.AZ-LATN-AZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.AZ-LATN-AZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.HY-AM.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.HY-AM.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.KA-GE.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.KA-GE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.RU-KZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.RU-KZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.RU-RU.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.RU-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.RU-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.RU-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.TH-TH.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.TH-TH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Labels.UK-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Labels.UK-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.AR-IQ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.AR-IQ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.AZ-LATN-AZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.AZ-LATN-AZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.HY-AM.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.HY-AM.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.KA-GE.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.KA-GE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.RU-KZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.RU-KZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.RU-RU.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.RU-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.RU-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.RU-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.TH-TH.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.TH-TH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\LanguageList.UK-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LanguageList.UK-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.AR-IQ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.AR-IQ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.AZ-LATN-AZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.AZ-LATN-AZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.resx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.HY-AM.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.HY-AM.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.KA-GE.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.KA-GE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.RU-KZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.RU-KZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.RU-RU.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.RU-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.RU-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.RU-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.TH-TH.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.TH-TH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\OtherText.UK-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OtherText.UK-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.AR-IQ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.AR-IQ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.AZ-LATN-AZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.AZ-LATN-AZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.HY-AM.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.HY-AM.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.KA-GE.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.KA-GE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.RU-KZ.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.RU-KZ.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.RU-RU.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.RU-RU.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.RU-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.RU-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.TH-TH.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.TH-TH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_GlobalResources\Tabs.UK-UA.designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Tabs.UK-UA.resx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseEidssPage.aspx.designer.vb">
+      <DependentUpon>BaseEidssPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BaseEidssPage.aspx.vb">
+      <DependentUpon>BaseEidssPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\ContactUserControl.ascx.designer.vb">
+      <DependentUpon>ContactUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ContactUserControl.ascx.vb">
+      <DependentUpon>ContactUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\DropDownSearch.ascx.designer.vb">
+      <DependentUpon>DropDownSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\DropDownSearch.ascx.vb">
+      <DependentUpon>DropDownSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\HumanCaseClassificationItem.ascx.designer.vb">
+      <DependentUpon>HumanCaseClassificationItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HumanCaseClassificationItem.ascx.vb">
+      <DependentUpon>HumanCaseClassificationItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\HumanRiskFactorItem.ascx.designer.vb">
+      <DependentUpon>HumanRiskFactorItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HumanRiskFactorItem.ascx.vb">
+      <DependentUpon>HumanRiskFactorItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\LocationUserControl.ascx.designer.vb">
+      <DependentUpon>LocationUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LocationUserControl.ascx.vb">
+      <DependentUpon>LocationUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\NonDtraSampleUserControl.ascx.designer.vb">
+      <DependentUpon>NonDtraSampleUserControl.ascx</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\NonDtraSampleUserControl.ascx.vb">
+      <DependentUpon>NonDtraSampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\PageHeaderUserControl.ascx.designer.vb">
+      <DependentUpon>PageHeaderUserControl.ascx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\PageHeaderUserControl.ascx.vb">
+      <DependentUpon>PageHeaderUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="Controls\SampleUserControl.ascx.designer.vb">
+      <DependentUpon>SampleUserControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\SampleUserControl.ascx.vb">
+      <DependentUpon>SampleUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GeneralError.aspx.designer.vb">
+      <DependentUpon>GeneralError.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GeneralError.aspx.vb">
+      <DependentUpon>GeneralError.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Global\Farm.aspx.designer.vb">
+      <DependentUpon>Farm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global\Farm.aspx.vb">
+      <DependentUpon>Farm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global\Person.aspx.designer.vb">
+      <DependentUpon>Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global\Person.aspx.vb">
+      <DependentUpon>Person.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HumanActiveSurveillance\ActiveSurveillanceSession.aspx.designer.vb">
+      <DependentUpon>ActiveSurveillanceSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HumanActiveSurveillance\ActiveSurveillanceSession.aspx.vb">
+      <DependentUpon>ActiveSurveillanceSession.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Human\BasicSyndromicSurveillance.aspx.designer.vb">
+      <DependentUpon>BasicSyndromicSurveillance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\BasicSyndromicSurveillance.aspx.vb">
+      <DependentUpon>BasicSyndromicSurveillance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\CaseInvestigation.aspx.designer.vb">
+      <DependentUpon>CaseInvestigation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\CaseInvestigation.aspx.vb">
+      <DependentUpon>CaseInvestigation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\FinalCaseClassification.aspx.designer.vb">
+      <DependentUpon>FinalCaseClassification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\FinalCaseClassification.aspx.vb">
+      <DependentUpon>FinalCaseClassification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\HumanAggregate.aspx.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\HumanAggregate.aspx.designer.vb">
+      <DependentUpon>HumanAggregate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\HumanAggregate1.aspx.designer.vb">
+      <DependentUpon>HumanAggregate1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\HumanAggregate1.aspx.vb">
+      <DependentUpon>HumanAggregate1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\HumanAggSummary.aspx.designer.vb">
+      <DependentUpon>HumanAggSummary.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\HumanAggSummary.aspx.vb">
+      <DependentUpon>HumanAggSummary.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\HumanDiseaseReport.aspx.designer.vb">
+      <DependentUpon>HumanDiseaseReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\HumanDiseaseReport.aspx.vb">
+      <DependentUpon>HumanDiseaseReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\ILIAggregate.aspx.designer.vb">
+      <DependentUpon>ILIAggregate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\ILIAggregate.aspx.vb">
+      <DependentUpon>ILIAggregate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\Patient.aspx.designer.vb">
+      <DependentUpon>Patient.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\Patient.aspx.vb">
+      <DependentUpon>Patient.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\PersonSearch.aspx.designer.vb">
+      <DependentUpon>PersonSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\PersonSearch.aspx.vb">
+      <DependentUpon>PersonSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\SearchDiseaseReports.aspx.designer.vb">
+      <DependentUpon>SearchDiseaseReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\SearchDiseaseReports.aspx.vb">
+      <DependentUpon>SearchDiseaseReports.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Human\UrgentNotification.aspx.designer.vb">
+      <DependentUpon>UrgentNotification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\UrgentNotification.aspx.vb">
+      <DependentUpon>UrgentNotification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Human\UrgentNotificationDone.aspx.designer.vb">
+      <DependentUpon>UrgentNotificationDone.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Human\UrgentNotificationDone.aspx.vb">
+      <DependentUpon>UrgentNotificationDone.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FullView.Master.designer.vb">
+      <DependentUpon>FullView.Master</DependentUpon>
+    </Compile>
+    <Compile Include="FullView.Master.vb">
+      <DependentUpon>FullView.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Laboratory\Freezers.aspx.designer.vb">
+      <DependentUpon>Freezers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory\Freezers.aspx.vb">
+      <DependentUpon>Freezers.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Laboratory\Laboratory.aspx.designer.vb">
+      <DependentUpon>Laboratory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Laboratory\Laboratory.aspx.vb">
+      <DependentUpon>Laboratory.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Models\AggregateSettingModel.vb" />
+    <Compile Include="Models\IObjectAccessModelPost.vb" />
+    <Compile Include="Models\ObjectAccessModel.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NormalView.Master.designer.vb">
+      <DependentUpon>NormalView.Master</DependentUpon>
+    </Compile>
+    <Compile Include="NormalView.Master.vb">
+      <DependentUpon>NormalView.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Outbreaks\NoteFileDownload.aspx.designer.vb">
+      <DependentUpon>NoteFileDownload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Outbreaks\NoteFileDownload.aspx.vb">
+      <DependentUpon>NoteFileDownload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Outbreaks\Outbreak.aspx.designer.vb">
+      <DependentUpon>Outbreak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Outbreaks\Outbreak.aspx.vb">
+      <DependentUpon>Outbreak.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="PrintView.Master.designer.vb">
+      <DependentUpon>PrintView.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PrintView.Master.vb">
+      <DependentUpon>PrintView.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Security\SecurityPolicy.aspx.designer.vb">
+      <DependentUpon>SecurityPolicy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Security\SecurityPolicy.aspx.vb">
+      <DependentUpon>SecurityPolicy.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BlankView.Master.designer.vb">
+      <DependentUpon>BlankView.Master</DependentUpon>
+    </Compile>
+    <Compile Include="BlankView.Master.vb">
+      <DependentUpon>BlankView.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="System\Administration\AggregateSettings.aspx.designer.vb">
+      <DependentUpon>AggregateSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\AggregateSettings.aspx.vb">
+      <DependentUpon>AggregateSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\DataArchiveSettings.aspx.designer.vb">
+      <DependentUpon>DataArchiveSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\DataArchiveSettings.aspx.vb">
+      <DependentUpon>DataArchiveSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\Deduplication\HumanDiseaseReportDeduplication.aspx.designer.vb">
+      <DependentUpon>HumanDiseaseReportDeduplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\Deduplication\HumanDiseaseReportDeduplication.aspx.vb">
+      <DependentUpon>HumanDiseaseReportDeduplication.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\Deduplication\PersonRecordDeduplication.aspx.designer.vb">
+      <DependentUpon>PersonRecordDeduplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\Deduplication\PersonRecordDeduplication.aspx.vb">
+      <DependentUpon>PersonRecordDeduplication.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\DepartmentDetails.aspx.designer.vb">
+      <DependentUpon>DepartmentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\DepartmentDetails.aspx.vb">
+      <DependentUpon>DepartmentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\EmployeeAdmin.aspx.designer.vb">
+      <DependentUpon>EmployeeAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\EmployeeAdmin.aspx.vb">
+      <DependentUpon>EmployeeAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\EmployeeDetails.aspx.designer.vb">
+      <DependentUpon>EmployeeDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\EmployeeDetails.aspx.vb">
+      <DependentUpon>EmployeeDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ParameterEditor.aspx.designer.vb">
+      <DependentUpon>ParameterEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ParameterEditor.aspx.vb">
+      <DependentUpon>ParameterEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ParameterTypeEditor.aspx.designer.vb">
+      <DependentUpon>ParameterTypeEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ParameterTypeEditor.aspx.vb">
+      <DependentUpon>ParameterTypeEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\OrganizationAdmin.aspx.designer.vb">
+      <DependentUpon>OrganizationAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\OrganizationAdmin.aspx.vb">
+      <DependentUpon>OrganizationAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\OrganizationDetails.aspx.designer.vb">
+      <DependentUpon>OrganizationDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\OrganizationDetails.aspx.vb">
+      <DependentUpon>OrganizationDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\AgeGroup.aspx.designer.vb">
+      <DependentUpon>AgeGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\AgeGroup.aspx.vb">
+      <DependentUpon>AgeGroup.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\AgeGroup.aspx1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AgeGroup.aspx.resx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\BaseReference.aspx.designer.vb">
+      <DependentUpon>BaseReference.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\BaseReference.aspx.vb">
+      <DependentUpon>BaseReference.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\CaseClassification.aspx.designer.vb">
+      <DependentUpon>CaseClassification.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\CaseClassification.aspx.vb">
+      <DependentUpon>CaseClassification.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\Disease.aspx.designer.vb">
+      <DependentUpon>Disease.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\Disease.aspx.vb">
+      <DependentUpon>Disease.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\Measures.aspx.designer.vb">
+      <DependentUpon>Measures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\Measures.aspx.vb">
+      <DependentUpon>Measures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\ReportDiagnosisGroup.aspx.designer.vb">
+      <DependentUpon>ReportDiagnosisGroup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\ReportDiagnosisGroup.aspx.vb">
+      <DependentUpon>ReportDiagnosisGroup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\SampleType.aspx.designer.vb">
+      <DependentUpon>SampleType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\SampleType.aspx.vb">
+      <DependentUpon>SampleType.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\SpeciesType.aspx.designer.vb">
+      <DependentUpon>SpeciesType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\SpeciesType.aspx.vb">
+      <DependentUpon>SpeciesType.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\StatisticDataType.aspx.designer.vb">
+      <DependentUpon>StatisticDataType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\StatisticDataType.aspx.vb">
+      <DependentUpon>StatisticDataType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\VectorSubType.aspx.designer.vb">
+      <DependentUpon>VectorSubType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\VectorSubType.aspx.vb">
+      <DependentUpon>VectorSubType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\VectorType.aspx.designer.vb">
+      <DependentUpon>VectorType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ReferenceEditors\VectorType.aspx.vb">
+      <DependentUpon>VectorType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\ResourceEditor.aspx.designer.vb">
+      <DependentUpon>ResourceEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\ResourceEditor.aspx.vb">
+      <DependentUpon>ResourceEditor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\SettlementAdmin.aspx.designer.vb">
+      <DependentUpon>SettlementAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\SettlementAdmin.aspx.vb">
+      <DependentUpon>SettlementAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\SettlementDetails.aspx.designer.vb">
+      <DependentUpon>SettlementDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\SettlementDetails.aspx.vb">
+      <DependentUpon>SettlementDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\SiteAlertsSubscription.aspx.designer.vb">
+      <DependentUpon>SiteAlertsSubscription.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\SiteAlertsSubscription.aspx.vb">
+      <DependentUpon>SiteAlertsSubscription.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\StatisticalDataAdmin.aspx.designer.vb">
+      <DependentUpon>StatisticalDataAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\StatisticalDataAdmin.aspx.vb">
+      <DependentUpon>StatisticalDataAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\StatisticalDataDetails.aspx.designer.vb">
+      <DependentUpon>StatisticalDataDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\StatisticalDataDetails.aspx.vb">
+      <DependentUpon>StatisticalDataDetails.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Administration\TemplateEditor.aspx.designer.vb">
+      <DependentUpon>TemplateEditor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Administration\TemplateEditor.aspx.vb">
+      <DependentUpon>TemplateEditor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\AgeGroupStatisticalAgeGroupMatrix.aspx.designer.vb">
+      <DependentUpon>AgeGroupStatisticalAgeGroupMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\AgeGroupStatisticalAgeGroupMatrix.aspx.vb">
+      <DependentUpon>AgeGroupStatisticalAgeGroupMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\CustomReportRows.aspx.designer.vb">
+      <DependentUpon>CustomReportRows.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\CustomReportRows.aspx.vb">
+      <DependentUpon>CustomReportRows.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseAgeGroupMatrix.aspx.designer.vb">
+      <DependentUpon>DiseaseAgeGroupMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseAgeGroupMatrix.aspx.vb">
+      <DependentUpon>DiseaseAgeGroupMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseGroupDiseaseMatrix.aspx.designer.vb">
+      <DependentUpon>DiseaseGroupDiseaseMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseGroupDiseaseMatrix.aspx.vb">
+      <DependentUpon>DiseaseGroupDiseaseMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseLabTestMatrix.aspx.designer.vb">
+      <DependentUpon>DiseaseLabTestMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseLabTestMatrix.aspx.vb">
+      <DependentUpon>DiseaseLabTestMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\DiseasePensideTestMatrix.aspx.designer.vb">
+      <DependentUpon>DiseasePensideTestMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\DiseasePensideTestMatrix.aspx.vb">
+      <DependentUpon>DiseasePensideTestMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseSampleTypeMatrix.aspx.designer.vb">
+      <DependentUpon>DiseaseSampleTypeMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\DiseaseSampleTypeMatrix.aspx.vb">
+      <DependentUpon>DiseaseSampleTypeMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\HumanReportMatrix.aspx.designer.vb">
+      <DependentUpon>HumanReportMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\HumanReportMatrix.aspx.vb">
+      <DependentUpon>HumanReportMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\ReportDiseaseGroupDiseaseMatrix.aspx.designer.vb">
+      <DependentUpon>ReportDiseaseGroupDiseaseMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\ReportDiseaseGroupDiseaseMatrix.aspx.vb">
+      <DependentUpon>ReportDiseaseGroupDiseaseMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\SampleTypeDerivativeMatrix.aspx.designer.vb">
+      <DependentUpon>SampleTypeDerivativeMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\SampleTypeDerivativeMatrix.aspx.vb">
+      <DependentUpon>SampleTypeDerivativeMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\SpeciesTypeAnimalAgeMatrix.aspx.designer.vb">
+      <DependentUpon>SpeciesTypeAnimalAgeMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\SpeciesTypeAnimalAgeMatrix.aspx.vb">
+      <DependentUpon>SpeciesTypeAnimalAgeMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\TestToTestResultMatrix.aspx.designer.vb">
+      <DependentUpon>TestToTestResultMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\TestToTestResultMatrix.aspx.vb">
+      <DependentUpon>TestToTestResultMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VectorTypeCollectionMethodMatrix.aspx.designer.vb">
+      <DependentUpon>VectorTypeCollectionMethodMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VectorTypeCollectionMethodMatrix.aspx.vb">
+      <DependentUpon>VectorTypeCollectionMethodMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VectorTypeFieldTestMatrix.aspx.designer.vb">
+      <DependentUpon>VectorTypeFieldTestMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VectorTypeFieldTestMatrix.aspx.vb">
+      <DependentUpon>VectorTypeFieldTestMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VectorTypeSampleTypeMatrix.aspx.designer.vb">
+      <DependentUpon>VectorTypeSampleTypeMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VectorTypeSampleTypeMatrix.aspx.vb">
+      <DependentUpon>VectorTypeSampleTypeMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VeterinaryAggregateReportMatrix.aspx.designer.vb">
+      <DependentUpon>VeterinaryAggregateReportMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VeterinaryAggregateReportMatrix.aspx.vb">
+      <DependentUpon>VeterinaryAggregateReportMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VeterinaryProphylacticMeasureMatrix.aspx.designer.vb">
+      <DependentUpon>VeterinaryProphylacticMeasureMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VeterinaryProphylacticMeasureMatrix.aspx.vb">
+      <DependentUpon>VeterinaryProphylacticMeasureMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VeterinarySanitaryActionMatrix.aspx.designer.vb">
+      <DependentUpon>VeterinarySanitaryActionMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VeterinarySanitaryActionMatrix.aspx.vb">
+      <DependentUpon>VeterinarySanitaryActionMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\Configuration\VetinaryDiagnosticInvestigationMatrix.aspx.designer.vb">
+      <DependentUpon>VetinaryDiagnosticInvestigationMatrix.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\Configuration\VetinaryDiagnosticInvestigationMatrix.aspx.vb">
+      <DependentUpon>VetinaryDiagnosticInvestigationMatrix.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\DeleteTool.aspx.designer.vb">
+      <DependentUpon>DeleteTool.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\DeleteTool.aspx.vb">
+      <DependentUpon>DeleteTool.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="System\SystemPreferences.aspx.designer.vb">
+      <DependentUpon>SystemPreferences.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="System\SystemPreferences.aspx.vb">
+      <DependentUpon>SystemPreferences.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="TemplateForNewForms.aspx.designer.vb">
+      <DependentUpon>TemplateForNewForms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TemplateForNewForms.aspx.vb">
+      <DependentUpon>TemplateForNewForms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vector\VectorSurveillanceSession.aspx.designer.vb">
+      <DependentUpon>VectorSurveillanceSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vector\VectorSurveillanceSession.aspx.vb">
+      <DependentUpon>VectorSurveillanceSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Veterinary\ActiveSurveillanceCampaign.aspx.designer.vb">
+      <DependentUpon>ActiveSurveillanceCampaign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinary\ActiveSurveillanceCampaign.aspx.vb">
+      <DependentUpon>ActiveSurveillanceCampaign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Veterinary\ActiveSurveillanceSession.aspx.designer.vb">
+      <DependentUpon>ActiveSurveillanceSession.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinary\ActiveSurveillanceSession.aspx.vb">
+      <DependentUpon>ActiveSurveillanceSession.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Veterinary\AvianDiseaseReport.aspx.designer.vb">
+      <DependentUpon>AvianDiseaseReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinary\AvianDiseaseReport.aspx.vb">
+      <DependentUpon>AvianDiseaseReport.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Veterinary\VeterinaryAggregateAction.aspx.designer.vb">
+      <DependentUpon>VeterinaryAggregateAction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinary\VeterinaryAggregateAction.aspx.vb">
+      <DependentUpon>VeterinaryAggregateAction.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Veterinary\VeterinaryAggregateCase.aspx.designer.vb">
+      <DependentUpon>VeterinaryAggregateCase.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinary\VeterinaryAggregateCase.aspx.vb">
+      <DependentUpon>VeterinaryAggregateCase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Veterinary\LivestockDiseaseReport.aspx.designer.vb">
+      <DependentUpon>LivestockDiseaseReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Veterinary\LivestockDiseaseReport.aspx.vb">
+      <DependentUpon>LivestockDiseaseReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Web References\NG\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.designer.vb">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Welcome.aspx.vb">
+      <DependentUpon>Welcome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Labels.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\Buttons.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\Tabs.resx">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.designer.vb</LastGenOutput>
+    </Content>
+    <Content Include="Controls\App_LocalResources\LocationUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\SampleUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\ContactUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.resx" />
+    <Content Include="App_LocalResources\Dashboard.aspx.resx" />
+    <Content Include="App_GlobalResources\LanguageList.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_GlobalResources\OtherText.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.Designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_LocalResources\Login.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\DiseasePensideTestMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\VectorTypeCollectionMethodMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\DiseaseAgeGroupMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\TestToTestResultMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\DiseaseGroupDiseaseMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\CustomReportRows.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\ReportDiseaseGroupDiseaseMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\HumanReportMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\AgeGroupStatisticalAgeGroupMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\DiseaseLabTestMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\DiseaseSampleTypeMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\VectorTypeFieldTestMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\VectorTypeSampleTypeMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\SpeciesTypeAnimalAgeMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\SampleTypeDerivativeMatrix.aspx.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateAction.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Configuration\App_LocalResources\VeterinaryProphylacticMeasureMatrix.aspx.resx" />
+    <Content Include="System\Configuration\App_LocalResources\VeterinaryAggregateReportMatrix.aspx.resx" />
+    <None Include="App_GlobalResources\Buttons.AR-IQ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.AR-IQ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.AZ-LATN-AZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.AZ-LATN-AZ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.HY-AM.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.HY-AM.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.KA-GE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.KA-GE.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.RU-KZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.RU-KZ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.RU-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.RU-RU.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.RU-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.RU-UA.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.TH-TH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.TH-TH.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Buttons.UK-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.UK-UA.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Labels.AR-IQ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.AR-IQ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.AZ-LATN-AZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.AZ-LATN-AZ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.HY-AM.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.HY-AM.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.KA-GE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.KA-GE.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.RU-KZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.RU-KZ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.RU-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.RU-RU.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.RU-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.RU-UA.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.TH-TH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.TH-TH.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Labels.UK-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.UK-UA.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.AR-IQ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.AR-IQ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.AZ-LATN-AZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.AZ-LATN-AZ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.HY-AM.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.HY-AM.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.KA-GE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.KA-GE.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.RU-KZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.RU-KZ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.RU-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.RU-RU.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.RU-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.RU-UA.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.TH-TH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.TH-TH.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.UK-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.UK-UA.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.AR-IQ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.AR-IQ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.AZ-LATN-AZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.AZ-LATN-AZ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.HY-AM.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.HY-AM.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.KA-GE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.KA-GE.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.RU-KZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.RU-KZ.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.RU-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.RU-RU.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.RU-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.RU-UA.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.TH-TH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.TH-TH.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.UK-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.UK-UA.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Tabs.AR-IQ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.AR-IQ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.AZ-LATN-AZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.AZ-LATN-AZ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.HY-AM.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.HY-AM.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.KA-GE.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.KA-GE.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.RU-KZ.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.RU-KZ.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.RU-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.RU-RU.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.RU-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.RU-UA.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.TH-TH.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.TH-TH.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\Tabs.UK-UA.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.UK-UA.designer.vb</LastGenOutput>
+    </None>
+    <Content Include="HumanActiveSurveillance\App_LocalResources\ActiveSurveillanceCampaign.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="App_GlobalResources\Buttons.EN-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Buttons.EN-US.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Labels.EN-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Labels.EN-US.designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="App_GlobalResources\LanguageList.EN-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>LanguageList.EN-US.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\OtherText.EN-US.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>OtherText.EN-US.designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_GlobalResources\Tabs.EN-US.resx">
+      <SubType>Designer</SubType>
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Tabs.EN-US.designer.vb</LastGenOutput>
+    </None>
+    <Content Include="App_GlobalResources\WarningMessages.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>WarningMessages.Designer.vb</LastGenOutput>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="App_LocalResources\Dashboard.aspx.UK-UA.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="App_LocalResources\Login.aspx.UK-UA.resx" />
+    <Content Include="App_LocalResources\TemplateForNewForms.aspx.resx" />
+    <Content Include="Controls\App_LocalResources\AliquotsDerivativesUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AssignTestUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\GroupAccessionInUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AddUpdateFarmUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\AddUpdateVeterinarySessionUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AmendTestResultUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AdditionalTestDetailsUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AmendmentHistoryUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AddUpdateOrganizationUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AddUpdateBatchUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\BaseReferenceUserControl.ascx.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.AR-IQ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.HY-AM.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.KA-GE.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.RU-KZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.RU-RU.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.RU-UA.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.TH-TH.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\ContactUserControl.ascx.UK-UA.resx" />
+    <Content Include="Controls\App_LocalResources\DropDownSearch.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\DropDownAdd.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AddUpdatePersonUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\AddUpdateSampleUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\DiseaseEditorUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\HorizontalLocationUserControl.ascx.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.AR-IQ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.HY-AM.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.KA-GE.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.RU-KZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.RU-RU.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.RU-UA.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.TH-TH.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanCaseClassificationItem.ascx.UK-UA.resx" />
+    <Content Include="Controls\App_LocalResources\HumanDiseaseReportUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.AR-IQ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.HY-AM.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.KA-GE.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.RU-KZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.RU-RU.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.RU-UA.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.TH-TH.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\HumanRiskFactorItem.ascx.UK-UA.resx" />
+    <Content Include="Controls\App_LocalResources\LaboratoryMenuUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\LaboratorySearchUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\LaboratoryColumnViewPreferencesUserControl.ascx.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.AR-IQ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.AZ-LATN-AZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.HY-AM.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.KA-GE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.RU-KZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.RU-RU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.RU-UA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.TH-TH.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\App_LocalResources\LocationUserControl.ascx.UK-UA.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Controls\App_LocalResources\MeasureReferenceEditorUserControl.ascx.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.AR-IQ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.HY-AM.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.KA-GE.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.RU-KZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.RU-RU.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.RU-UA.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.TH-TH.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\NonDtraSampleUserControl.ascx.UK-UA.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.AR-IQ.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.AZ-LATN-AZ.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.HY-AM.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.KA-GE.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.RU-KZ.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.RU-RU.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.RU-UA.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.TH-TH.resx" />
+    <Content Include="Controls\App_LocalResources\PageHeader.ascx.UK-UA.resx" />
+    <Content Include="Controls\App_LocalResources\ReferenceUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\RegisterNewSampleUserControl.ascx.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.AR-IQ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.HY-AM.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.KA-GE.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.RU-KZ.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.RU-RU.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.RU-UA.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.TH-TH.resx" />
+    <EmbeddedResource Include="Controls\App_LocalResources\SampleUserControl.ascx.UK-UA.resx" />
+    <Content Include="Global\App_LocalResources\Person.aspx.resx" />
+    <Content Include="Security\App_LocalResources\ChangePassword.aspx.resx" />
+    <Content Include="Security\App_LocalResources\SecurityPolicy.aspx.resx" />
+    <Content Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Administration\App_LocalResources\SettlementDetails.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.resx" />
+    <Content Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.resx" />
+    <Content Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.resx" />
+    <Content Include="System\Administration\App_LocalResources\ResourceEditor.aspx.resx" />
+    <Content Include="System\App_LocalResources\DeleteTool.aspx.resx" />
+    <Content Include="System\App_LocalResources\SystemPreferences.aspx.resx" />
+    <Content Include="Outbreaks\App_LocalResources\Outbreak.aspx.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.AR-IQ.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.HY-AM.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.KA-GE.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.RU-KZ.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.RU-RU.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.RU-UA.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.TH-TH.resx" />
+    <Content Include="Human\App_LocalResources\BasicSyndromicSurveillance.aspx.UK-UA.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.AR-IQ.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.HY-AM.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.KA-GE.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.RU-KZ.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.RU-RU.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.RU-UA.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.TH-TH.resx" />
+    <Content Include="Human\App_LocalResources\CaseInvestigation.aspx.UK-UA.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.AR-IQ.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.HY-AM.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.KA-GE.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.RU-KZ.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.RU-RU.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.RU-UA.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.TH-TH.resx" />
+    <Content Include="Human\App_LocalResources\FinalCaseClassification.aspx.UK-UA.resx" />
+    <Content Include="Human\App_LocalResources\HumanAggregate.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Human\App_LocalResources\HumanDiseaseReport.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.AR-IQ.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.HY-AM.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.KA-GE.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.RU-KZ.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.RU-RU.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.RU-UA.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.TH-TH.resx" />
+    <Content Include="Human\App_LocalResources\PersonSearch.aspx.UK-UA.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.AR-IQ.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.HY-AM.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.KA-GE.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.RU-KZ.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.RU-RU.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.RU-UA.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.TH-TH.resx" />
+    <Content Include="Human\App_LocalResources\UrgentNotification.aspx.UK-UA.resx" />
+    <Content Include="Global\App_LocalResources\Farm.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Human\App_LocalResources\SearchDiseaseReports.aspx.resx" />
+    <Content Include="HumanActiveSurveillance\App_LocalResources\ActiveSurveillanceSession.aspx.resx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Laboratory\App_LocalResources\Laboratory.aspx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchPersonUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchVeterinaryDiseaseReportUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchHumanDiseaseReportUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\SearchHumanSessionUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchVectorSessionUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchVeterinarySessionUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchFarmUserControl.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Controls\App_LocalResources\SearchSampleUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\TransferSampleUserControl.ascx.resx" />
+    <Content Include="Laboratory\App_LocalResources\Freezers.aspx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchOrganizationUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchFreezerUserControl.ascx.resx" />
+    <Content Include="Human\App_LocalResources\ILIAggregate.aspx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchPersonInformationUserControl.ascx.resx" />
+    <Content Include="Human\App_LocalResources\HumanAggregate1.aspx.resx" />
+    <Content Include="Human\App_LocalResources\HumanAggSummary.aspx.resx" />
+    <Content Include="Human\App_LocalResources\HumanAggregateSummary.aspx.resx" />
+    <Content Include="Controls\App_LocalResources\SpeciesReferenceEditorUserControl.ascx.resx" />
+    <Content Include="Controls\App_LocalResources\SearchVeterinaryCampaignUserControl.ascx.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\ChangePassword.aspx.UK-UA.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.AR-IQ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="Security\App_LocalResources\SecurityPolicy.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.AZ-AZ.resx" />
+    <Content Include="System\Administration\App_LocalResources\ParameterTypeEditor.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\CaseClassification.aspx.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.AR-IQ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeAdmin.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.AZ-AZ.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.RU-KZ.resx" />
+    <Content Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\EmployeeDetails.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.AZ-AZ.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.AR-IQ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.AZ-LATN-AZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationAdmin.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.AZ-AZ.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\OrganizationDetails.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\ResourceEditor.aspx.AZ-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\ResourceEditor.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.AZ-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.AR-IQ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.AZ-LATN-AZ.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementAdmin.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\SettlementDetails.aspx.AZ-AZ.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\SettlementDetails.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.AZ-AZ.resx" />
+    <Content Include="System\Administration\App_LocalResources\SiteAlertsSubscription.aspx.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataAdmin.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.AZ-AZ.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\Administration\App_LocalResources\StatisticalDataDetails.aspx.UK-UA.resx" />
+    <Content Include="System\Administration\Deduplication\App_LocalResources\PersonRecordDeduplication.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="System\Administration\Deduplication\App_LocalResources\HumanDiseaseReportDeduplication.aspx.resx" />
+    <EmbeddedResource Include="System\Administration\ReferenceEditors\AgeGroup.aspx.resx">
+      <DependentUpon>AgeGroup.aspx.vb</DependentUpon>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AgeGroup.aspx1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\AgeGroup.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\SampleType.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\SpeciesType.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\VectorType.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\StatisticDataType.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\ReportDiagnosisGroup.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\VectorSubType.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\Measures.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\Disease.aspx.resx" />
+    <Content Include="System\Administration\ReferenceEditors\App_LocalResources\BaseReference.aspx.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\DeleteTool.aspx.UK-UA.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.AR-IQ.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.AZ-LATN-AZ.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.HY-AM.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.KA-GE.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.RU-KZ.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.RU-RU.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.RU-UA.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.TH-TH.resx" />
+    <EmbeddedResource Include="System\App_LocalResources\SystemPreferences.aspx.UK-UA.resx" />
+    <Content Include="Vector\App_LocalResources\VectorSurveillanceSession.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.RU-RU.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.AR-IQ.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.HY-AM.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.KA-GE.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.RU-KZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.RU-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.TH-TH.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceCampaign.aspx.UK-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.AR-IQ.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.HY-AM.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.KA-GE.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.RU-KZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.RU-RU.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.TH-TH.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.UK-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\ActiveSurveillanceSession.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.AR-IQ.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.HY-AM.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.KA-GE.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.RU-KZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.RU-RU.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.RU-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.TH-TH.resx" />
+    <Content Include="Veterinary\App_LocalResources\AvianDiseaseReport.aspx.UK-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.AR-IQ.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.HY-AM.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.KA-GE.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.RU-KZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.RU-RU.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.RU-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.TH-TH.resx" />
+    <Content Include="Veterinary\App_LocalResources\LivestockDiseaseReport.aspx.UK-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.AR-IQ.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.HY-AM.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.KA-GE.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.RU-KZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.RU-RU.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.RU-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.TH-TH.resx" />
+    <Content Include="Veterinary\App_LocalResources\SearchVeterinaryDiseaseReport.aspx.UK-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.AR-IQ.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.AZ-LATN-AZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.HY-AM.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.KA-GE.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.RU-KZ.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.RU-RU.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.RU-UA.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.TH-TH.resx" />
+    <Content Include="Veterinary\App_LocalResources\VeterinaryAggregateCase.aspx.UK-UA.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Web References\NG\EIDSSService.wsdl" />
+    <None Include="Web References\NG\EIDSSService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NG\EIDSSService0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NG\EIDSSService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NG\EIDSSService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NG\EIDSSService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NG\EIDSSService4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\NG\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Web References\NG\TupleOfDataSetArrayOfanyTypeKn1ruZ1_P.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </Content>
+    <None Include="Web.Beta.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Integration.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Local.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.QA.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="EIDSSLogging\" />
+    <Folder Include="Help\" />
+    <Folder Include="Settings\" />
+    <Folder Include="System\UserPreferences\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:4200/EIDSSService.svc">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\NG\</RelPath>
+      <UpdateFromURL>http://localhost:4200/EIDSSService.svc</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>EIDSS_NG_EIDSSService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EIDSSControlLibrary\EIDSSControlLibrary.vbproj">
+      <Project>{3d720144-5e4b-4042-b67b-d376a6f81d5b}</Project>
+      <Name>EIDSSControlLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenEIDSS\EIDSS.Client\EIDSS.Client.csproj">
+      <Project>{07504d13-aab9-47c4-983b-81391e2f44f7}</Project>
+      <Name>EIDSS.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenEIDSS\OpenEIDSS.Domain\OpenEIDSS.Domain.csproj">
+      <Project>{fb93e9fe-8e29-4b3e-9e83-bfece218a6ab}</Project>
+      <Name>OpenEIDSS.Domain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+    <DeployEncryptKey>Encryption password is used only if any deployment setting is marked as secure</DeployEncryptKey>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DefineDebug>true</DefineDebug>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-AJ|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-AM|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-GG|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-AJ|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-AM|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-GG|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration-AJ-Migration|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-AJ-Migration|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-GG-Migration|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration-GG-Migration|AnyCPU'">
+    <OutputPath>bin\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-IQ|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-KZ|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-TH|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-UA|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LamontEnv|AnyCPU'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-TH|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Demo|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>EIDSS.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61173</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61173</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+    <Error Condition="!Exists('..\OpenEIDSS\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\OpenEIDSS\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\OpenEIDSS\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\OpenEIDSS\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\OpenEIDSS\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\OpenEIDSS\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

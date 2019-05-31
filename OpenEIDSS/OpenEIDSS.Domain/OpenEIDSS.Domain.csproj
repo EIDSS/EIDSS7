@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB93E9FE-8E29-4B3E-9E83-BFECE218A6AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OpenEIDSS.Domain</RootNamespace>
+    <AssemblyName>OpenEIDSS.Domain</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|AnyCPU'">
+    <OutputPath>bin\Local\</OutputPath>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta|AnyCPU'">
+    <OutputPath>bin\Beta\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration|AnyCPU'">
+    <OutputPath>bin\Integration\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA|AnyCPU'">
+    <OutputPath>bin\QA\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Test|AnyCPU'">
+    <OutputPath>bin\Test\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-AJ|AnyCPU'">
+    <OutputPath>bin\Beta-AJ\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-AM|AnyCPU'">
+    <OutputPath>bin\Beta-AM\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Beta-GG|AnyCPU'">
+    <OutputPath>bin\Beta-GG\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-AJ|AnyCPU'">
+    <OutputPath>bin\QA-AJ\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-AM|AnyCPU'">
+    <OutputPath>bin\QA-AM\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-GG|AnyCPU'">
+    <OutputPath>bin\QA-GG\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Integration-AJ-Migration|AnyCPU' ">
+    <OutputPath>bin\Integration-AJ\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-AJ-Migration|AnyCPU'">
+    <OutputPath>bin\QA-AJ-Migration\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-GG-Migration|AnyCPU'">
+    <OutputPath>bin\QA-GG-Migration\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Integration-GG-Migration|AnyCPU'">
+    <OutputPath>bin\Integration-GG-Migration\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-IQ|AnyCPU'">
+    <OutputPath>bin\QA-IQ\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-KZ|AnyCPU'">
+    <OutputPath>bin\QA-KZ\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-TH|AnyCPU'">
+    <OutputPath>bin\QA-TH\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'QA-UA|AnyCPU'">
+    <OutputPath>bin\QA-UA\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'LamontEnv|AnyCPU'">
+    <OutputPath>bin\LamontEnv\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Demo|AnyCPU'">
+    <OutputPath>bin\Demo\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Parameter Contracts\CampaignMonitoringSessionParameters.cs" />
+    <Compile Include="Parameter Contracts\FarmParameters.cs" />
+    <Compile Include="Parameter Contracts\CampaignGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\CampaignSetParameters.cs" />
+    <Compile Include="Parameter Contracts\CampaignSpeciesToSampleTypeParameters.cs" />
+    <Compile Include="Parameter Contracts\AdminActivityFFFormsSetParams.cs" />
+    <Compile Include="Parameter Contracts\AggregateSettingsModel.cs" />
+    <Compile Include="Parameter Contracts\MonitoringSessionDiseaseParameters.cs.cs" />
+    <Compile Include="Parameter Contracts\OmmHumanVetContact.cs" />
+    <Compile Include="Parameter Contracts\OmmVetAnimalInvestigation.cs" />
+    <Compile Include="Parameter Contracts\OmmVetCaseMonitoring.cs" />
+    <Compile Include="Parameter Contracts\OmmVeterinaryDiseaseSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmVetHerds.cs" />
+    <Compile Include="Parameter Contracts\OmmVetLabTest.cs" />
+    <Compile Include="Parameter Contracts\OmmVetPensideTest.cs" />
+    <Compile Include="Parameter Contracts\OmmVetSample.cs" />
+    <Compile Include="Parameter Contracts\OmmVetSpecies.cs" />
+    <Compile Include="Parameter Contracts\PersonDedupeSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfActivityParametersSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFFLabelSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfSectionSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfSetActivityParameters.cs" />
+    <Compile Include="Parameter Contracts\AdminFfLineSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfParameterDesignOptionsSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfParameterFixedPresetValueSet.cs" />
+    <Compile Include="Parameter Contracts\AdminFfParametersSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfParameterTemplateSet.cs" />
+    <Compile Include="Parameter Contracts\AdminFFParameterTypesDeleteParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfParameterTypesSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfRuleConstantSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfRuleParameterForActionSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfRuleParameterForFunctionSetAsyncParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfRulesSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfSectionDesignOptionsSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfSectionTemplateRecursiveSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfSectionTemplateSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfTemplateDeterminantValuesSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminFfTemplateSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminReferenceAgeGroupSetParams.cs" />
+    <Compile Include="Attributes\OptionalAttribute.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="EIDSS.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EIDSS.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Parameter Contracts\AdminArchiveSettingsSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminCaseClassificationSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminEmployeeGetListParams.cs" />
+    <Compile Include="Parameter Contracts\AdminOrganizationSetParams.cs" />
+    <Compile Include="Parameter Contracts\AdminOrgGetListParams.cs" />
+    <Compile Include="Parameter Contracts\AdminSampleReferenceTypeSet.cs" />
+    <Compile Include="Parameter Contracts\AdminSetEmployeeParams.cs" />
+    <Compile Include="Parameter Contracts\AdminSetSettlementParams.cs" />
+    <Compile Include="Parameter Contracts\AdminSetStatParams.cs" />
+    <Compile Include="Parameter Contracts\AgeGroupSetParam.cs" />
+    <Compile Include="Parameter Contracts\AggCaseGetListParams.cs" />
+    <Compile Include="Parameter Contracts\AggCaseSetParams.cs" />
+    <Compile Include="Parameter Contracts\AggregateCaseVerionPostParams.cs" />
+    <Compile Include="Parameter Contracts\AggregateSettingsSetParam.cs" />
+    <Compile Include="Parameter Contracts\AdminBaseReferenceSetParams.cs" />
+    <Compile Include="Parameter Contracts\AnimalParameters.cs" />
+    <Compile Include="Parameter Contracts\BatchTestParameters.cs" />
+    <Compile Include="Parameter Contracts\ConfAgegroupstatisticalagegroupmatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfDiseaselabtestmatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfDiseasesampletypematrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfReportdiseasegroupdiseasematrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfSampleTypDerivativeSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfSpeciestypeanimalagematrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfTesttotestresultmatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfDiseaseagegroupmatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfDiseasePendisideSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfVectortypefieldtestmatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\ConfVectortypesampletypematrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\CustomReportSetParams.cs" />
+    <Compile Include="Parameter Contracts\DepartmentSetParam.cs" />
+    <Compile Include="Parameter Contracts\DepartmentSetParams.cs" />
+    <Compile Include="Parameter Contracts\DiseaseGroupDiseaseMatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\EditableJSObject.cs" />
+    <Compile Include="Parameter Contracts\FarmGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\FarmHerdSpeciesGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\FarmMasterSetParameters.cs" />
+    <Compile Include="Parameter Contracts\FreezerBoxLocationAvailabilityParameters.cs" />
+    <Compile Include="Parameter Contracts\FreezerSubdivisionParameters.cs" />
+    <Compile Include="Parameter Contracts\GblObservationSetParams.cs" />
+    <Compile Include="Parameter Contracts\HerdMasterParameters.cs" />
+    <Compile Include="Parameter Contracts\HerdParameters.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceCampaignSetParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceCampaignToSampleTypeParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceGetListParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceSessionGetListParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceSessionSetParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceSessionToActionParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceSessionToMaterialParams.cs" />
+    <Compile Include="Parameter Contracts\HumanActiveSurveillanceSessionToTestingParams.cs" />
+    <Compile Include="Parameter Contracts\HumanAggregateDetailsGetParams.cs" />
+    <Compile Include="Parameter Contracts\HumanCaseMtxReportPostParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseAdvanceSearchParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseAntViralTherapySetParmas.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseContactsSetParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseGetListParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseReportGetListParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseSetContactParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseSetParams.cs" />
+    <Compile Include="Parameter Contracts\HumanDiseaseVaccinationSetParams.cs" />
+    <Compile Include="Parameter Contracts\HumanGetListParams.cs" />
+    <Compile Include="Parameter Contracts\HumanSetParam.cs" />
+    <Compile Include="Parameter Contracts\ILIAggregateSetParams.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryApprovalGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryBatchGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryFreezerGetListParams.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryFreezerSetParams.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryAdvancedSearchParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratorySampleGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratorySearchParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratorySetParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryTestGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryTransferGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\MonitoringSessionActionParameters.cs" />
+    <Compile Include="Parameter Contracts\MonitoringSessionSpeciesToSampleTypeParameters.cs" />
+    <Compile Include="Parameter Contracts\MonitoringSessionSummaryParameters.cs" />
+    <Compile Include="Parameter Contracts\NotificationSetParameters.cs" />
+    <Compile Include="Parameter Contracts\ObjectAccessSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmCaseGetDetailParams.cs" />
+    <Compile Include="Parameter Contracts\OmmCaseGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OmmCaseSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmCaseSummaryGetDetailParams.cs" />
+    <Compile Include="Parameter Contracts\OmmContactGetDetailParams.cs" />
+    <Compile Include="Parameter Contracts\OmmContactGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OMMContactSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmHerdSpeciesGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OmmHerdSpeciesSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmNoteFileParams.cs" />
+    <Compile Include="Parameter Contracts\OmmSample.cs" />
+    <Compile Include="Parameter Contracts\OmmSessionGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OmmSessionGetDetailParams.cs" />
+    <Compile Include="Parameter Contracts\OMMSessionNoteGetDetailsParams.cs" />
+    <Compile Include="Parameter Contracts\OMMSessionNoteGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OMMSessionNoteSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmSessionParametersGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OMMSessionSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmVetAnimalInvestigationSetParams.cs" />
+    <Compile Include="Parameter Contracts\OmmVetClinicalInformation.cs" />
+    <Compile Include="Parameter Contracts\OmmVetVaccination.cs" />
+    <Compile Include="Parameter Contracts\OrganizationGetListParams.cs" />
+    <Compile Include="Parameter Contracts\OrganizationSetParam.cs" />
+    <Compile Include="Parameter Contracts\PensideTestParameters.cs" />
+    <Compile Include="Parameter Contracts\ReferenceDiagnosisSetParams.cs" />
+    <Compile Include="Parameter Contracts\ReferenceStatDataTypeSetParams.cs" />
+    <Compile Include="Parameter Contracts\ReferenceVectorSubTypeSetParams.cs" />
+    <Compile Include="Parameter Contracts\RefMeasureReferenceSetParams.cs" />
+    <Compile Include="Parameter Contracts\RefReporDiagnosisTypeSetParams.cs" />
+    <Compile Include="Parameter Contracts\RefSpeciesTypeReferenceSetParams.cs" />
+    <Compile Include="Parameter Contracts\RefVectorTypeSetParams.cs" />
+    <Compile Include="Parameter Contracts\LaboratorySampleParameters.cs" />
+    <Compile Include="Parameter Contracts\SecurityConfigSetParams.cs" />
+    <Compile Include="Parameter Contracts\SettlementGetListParams.cs" />
+    <Compile Include="Parameter Contracts\SpeciesMasterParameters.cs" />
+    <Compile Include="Parameter Contracts\SpeciesParameters.cs" />
+    <Compile Include="Parameter Contracts\TestAmendmentParameters.cs" />
+    <Compile Include="Parameter Contracts\TestInterpretationParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryTestParameters.cs" />
+    <Compile Include="Parameter Contracts\LaboratoryTransferParameters.cs" />
+    <Compile Include="Parameter Contracts\TestParameter.cs" />
+    <Compile Include="Parameter Contracts\VctsSessionsummarydiagnosisSetParams.cs" />
+    <Compile Include="Parameter Contracts\VctsSessionsummarySetParams.cs" />
+    <Compile Include="Parameter Contracts\VctsVectFieldtestSetParams.cs" />
+    <Compile Include="Parameter Contracts\VctsVectSamplesSetParams.cs" />
+    <Compile Include="Parameter Contracts\VctsVectSetParams.cs" />
+    <Compile Include="Parameter Contracts\VctsVectStructuredSetParams.cs" />
+    <Compile Include="Parameter Contracts\VectorSurveillanceSessionGetListParams.cs" />
+    <Compile Include="Parameter Contracts\VectorSurveillanceSessionSetParams.cs" />
+    <Compile Include="Parameter Contracts\VectorTyeCollectionMatrixSetParams.cs" />
+    <Compile Include="Parameter Contracts\VeterinaryDiseaseReportGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\VeterinaryDiseaseReportLogParameters.cs" />
+    <Compile Include="Parameter Contracts\VeterinaryDiseaseReportSetParameters.cs" />
+    <Compile Include="Parameter Contracts\MonitoringSessionGetListParameters.cs" />
+    <Compile Include="Parameter Contracts\MonitoringSessionSetParameters.cs" />
+    <Compile Include="Parameter Contracts\VeterinarySampleParameters.cs" />
+    <Compile Include="Parameter Contracts\VeterinaryVaccinationParameters.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Return Contracts\APIReturnResult.cs" />
+    <Compile Include="Return Contracts\CampaignSetResult.cs" />
+    <Compile Include="Return Contracts\DepartmentSetResult.cs" />
+    <Compile Include="Return Contracts\HumanActiveSurveillanceCampaignToSampleTypeResult.cs" />
+    <Compile Include="Return Contracts\HumanActiveSurveillanceSessionToActionResult.cs" />
+    <Compile Include="Return Contracts\HumanActiveSurveillanceSessionToMaterialResult.cs" />
+    <Compile Include="Return Contracts\HumanActiveSurveillanceSessionToTestingResult.cs" />
+    <Compile Include="Return Contracts\HumanActiveSurveillanceSesstionSetResult.cs" />
+    <Compile Include="Return Contracts\MonitoringSessionSetResult.cs" />
+    <Compile Include="Return Contracts\OMMCaseSetResult.cs" />
+    <Compile Include="Return Contracts\OMMSessionNoteSetResult.cs" />
+    <Compile Include="Return Contracts\OMMSessionSetResult.cs" />
+    <Compile Include="Return Contracts\OmmVetCaseGetDetailResult.cs" />
+    <Compile Include="Return Contracts\OrganizationSetResult.cs" />
+    <Compile Include="Return Contracts\SPReturnResultCode.cs" />
+    <Compile Include="Return Contracts\VeterinaryDiseaseReportSetResult.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="EF.Reverse.POCO.Core.ttinclude" />
+    <None Include="EF.Reverse.POCO.ttinclude" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EIDSS.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>EIDSS.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

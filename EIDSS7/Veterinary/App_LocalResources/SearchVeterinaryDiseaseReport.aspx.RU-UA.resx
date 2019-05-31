@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_Add_Avian_Veterinary_Disease_Report.InnerText" xml:space="preserve">
+    <value>Add Avian Disease Report</value>
+  </data>
+  <data name="Btn_Add_Avian_Veterinary_Disease_Report.Text" xml:space="preserve">
+    <value>Add Avian Disease Report</value>
+  </data>
+  <data name="Btn_Add_Avian_Veterinary_Disease_Report.Title" xml:space="preserve">
+    <value>Click to add an Avian Disease Report</value>
+  </data>
+  <data name="Btn_Add_Livestock_Veterinary_Disease_Report.InnerText" xml:space="preserve">
+    <value>Add Livestock Disease Report</value>
+  </data>
+  <data name="Btn_Add_Livestock_Veterinary_Disease_Report.Text" xml:space="preserve">
+    <value>Add Livestock Disease Report</value>
+  </data>
+  <data name="Btn_Add_Livestock_Veterinary_Disease_Report.Title" xml:space="preserve">
+    <value>Click to add a Livestock Disease Report</value>
+  </data>
+  <data name="Btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_Clear.Title" xml:space="preserve">
+    <value>Click to restart the search</value>
+  </data>
+  <data name="Btn_Clear.Value" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_Edit.InnerText" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Btn_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Btn_Edit.Title" xml:space="preserve">
+    <value>Click to edit</value>
+  </data>
+  <data name="Btn_New_Search.Text" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="Btn_New_Search.Title" xml:space="preserve">
+    <value>Click to start a new search</value>
+  </data>
+  <data name="Btn_New_Search.Value" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="Btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_Ok.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Btn_Return_To_Search_Results.Text" xml:space="preserve">
+    <value>Return to Search Results</value>
+  </data>
+  <data name="Btn_Return_To_Search_Results.Value" xml:space="preserve">
+    <value>Return to Search Results</value>
+  </data>
+  <data name="Btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_Search.Title" xml:space="preserve">
+    <value>Click here to search</value>
+  </data>
+  <data name="Btn_Search.Tooltip" xml:space="preserve">
+    <value>Click to Search</value>
+  </data>
+  <data name="Btn_Search.Value" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_View_Farm.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="Btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Dis_Search_Field_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Field_Farm_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_Farm_Owner_First_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_Farm_Owner_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_Farm_Owner_Last_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_Farm_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List-FirstPageText" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List-LastPageText" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List.Caption" xml:space="preserve">
+    <value>Veterinary Disease Report List</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List.EmptyDataText" xml:space="preserve">
+    <value>No data available</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List.PagerSettings-Mode" xml:space="preserve">
+    <value>NumericFirstLast</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List.PagerSettings-PageButtonCount" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Case_Classification_Heading" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Date_Entered_Heading" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Dead_Animal_Quantity_Heading" xml:space="preserve">
+    <value>Dead Animal Quantity</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_EIDSS_ID_Heading" xml:space="preserve">
+    <value>EIDSS ID</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Farm_Address_Heading" xml:space="preserve">
+    <value>Farm Address</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Investigated_By_Name_Heading" xml:space="preserve">
+    <value>Investigated By</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Investigation_Date_Heading" xml:space="preserve">
+    <value>Investigation Date</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Reported_By_Name_Heading" xml:space="preserve">
+    <value>Reported By</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Report_Date_Heading" xml:space="preserve">
+    <value>Report Date</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Report_ID_Heading" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Report_Status_Heading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Report_Type_Heading" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Sick_Animal_Quantity_Heading" xml:space="preserve">
+    <value>Sick Animal Quantity</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Veterinary_Disease_Report_List_Total_Animal_Quantity_Heading" xml:space="preserve">
+    <value>Total Animal Quantity</value>
+  </data>
+  <data name="Hdg_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Cancel Search</value>
+  </data>
+  <data name="Hdg_Search.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Hdg_Search_By_Disease_Report_Information.InnerText" xml:space="preserve">
+    <value>Search by Disease Report Information</value>
+  </data>
+  <data name="Hdg_Search_Farm_Records.InnerText" xml:space="preserve">
+    <value>Search Veterinary Disease Report Records</value>
+  </data>
+  <data name="Hdg_Search_Parameters.InnerText" xml:space="preserve">
+    <value>Search Parameters</value>
+  </data>
+  <data name="Hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Hdg_Veterinary_Disease_Reports.InnerText" xml:space="preserve">
+    <value>Veterinary Disease Reports</value>
+  </data>
+  <data name="Hdg_Veterinary_Disease_Report_Search.InnerText" xml:space="preserve">
+    <value>Veterinary Disease Report Search</value>
+  </data>
+  <data name="Hpl_Return_To_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Lbl_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel the search?</value>
+  </data>
+  <data name="Lbl_Case_Classification.InnerText" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="Lbl_Data_Entry_Date_From.InnerText" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_Data_Entry_Date_To.InnerText" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_Dead_Animal_Quantity.InnerText" xml:space="preserve">
+    <value>Dead Animal Quantity:</value>
+  </data>
+  <data name="Lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Disease_Report_ID.InnerText" xml:space="preserve">
+    <value>EIDSS ID</value>
+  </data>
+  <data name="Lbl_Farm_Review_Contact_Phone.InnerText" xml:space="preserve">
+    <value>Contact Phone:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Date_Updated.InnerText" xml:space="preserve">
+    <value>Date Updated:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Email.InnerText" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Farm_Address.InnerText" xml:space="preserve">
+    <value>Farm Address:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Farm_ID.InnerText" xml:space="preserve">
+    <value>Farm ID:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Farm_Name.InnerText" xml:space="preserve">
+    <value>Farm Name:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Farm_Owner_ID.InnerText" xml:space="preserve">
+    <value>Farm Owner ID:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Farm_Owner_Name.InnerText" xml:space="preserve">
+    <value>Farm Owner Name:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Farm_Type.InnerText" xml:space="preserve">
+    <value>Farm Type:</value>
+  </data>
+  <data name="Lbl_Farm_Review_Fax.InnerText" xml:space="preserve">
+    <value>Fax:</value>
+  </data>
+  <data name="Lbl_Investigated_By.InnerText" xml:space="preserve">
+    <value>Investigated By:</value>
+  </data>
+  <data name="Lbl_Investigation_Date.InnerText" xml:space="preserve">
+    <value>Investigation Date:</value>
+  </data>
+  <data name="Lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="Lbl_Reported_By_Name.InnerText" xml:space="preserve">
+    <value>Reported By:</value>
+  </data>
+  <data name="Lbl_Report_Date.InnerText" xml:space="preserve">
+    <value>Report Date:</value>
+  </data>
+  <data name="Lbl_Report_Status.InnerText" xml:space="preserve">
+    <value>Report Status</value>
+  </data>
+  <data name="Lbl_Report_Type.InnerText" xml:space="preserve">
+    <value>Report Type</value>
+  </data>
+  <data name="Lbl_Return_To_Search_Results.InnerText" xml:space="preserve">
+    <value>Return to Search Results</value>
+  </data>
+  <data name="Lbl_Search_Param_Farm_Owner_ID.InnerText" xml:space="preserve">
+    <value>Farm Owner ID:</value>
+  </data>
+  <data name="Lbl_Search_Param_Farm_Owner_Name.InnerText" xml:space="preserve">
+    <value>Farm Owner Name:</value>
+  </data>
+  <data name="Lbl_Search_Param_Farm_Type.InnerText" xml:space="preserve">
+    <value>Farm Type:</value>
+  </data>
+  <data name="Lbl_Search_Param_Rayon_Name.InnerText" xml:space="preserve">
+    <value>Rayon Name:</value>
+  </data>
+  <data name="Lbl_Search_Param_Region_Name.InnerText" xml:space="preserve">
+    <value>Region Name:</value>
+  </data>
+  <data name="Lbl_Search_Param_Settlement_Name.InnerText" xml:space="preserve">
+    <value>Settlement Name:</value>
+  </data>
+  <data name="Lbl_Sick_Animal_Quantity.InnerText" xml:space="preserve">
+    <value>Sick Animal Quantity:</value>
+  </data>
+  <data name="Lbl_Species.InnerText" xml:space="preserve">
+    <value>Species:</value>
+  </data>
+  <data name="Lbl_Species_Type.InnerText" xml:space="preserve">
+    <value>Species Type</value>
+  </data>
+  <data name="Lbl_Success.InnerText" xml:space="preserve">
+    <value>Your transaction completed successfully!</value>
+  </data>
+  <data name="Lbl_Total_Animal_Quantity.InnerText" xml:space="preserve">
+    <value>Total Animal Quantity:</value>
+  </data>
+  <data name="Page_Text_1" xml:space="preserve">
+    <value>Use the following fields to search for an existing disease report. Please fill in all known fields.</value>
+  </data>
+  <data name="Page_Text_2" xml:space="preserve">
+    <value>Please select a disease report below to view and edit record.</value>
+  </data>
+  <data name="Page_Text_3" xml:space="preserve">
+    <value>Please view the selected disease report record.</value>
+  </data>
+  <data name="Page_Text_4" xml:space="preserve">
+    <value>Indicates required information.</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Date_Entered_From.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Date_Entered_To.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Date_Entered_From.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Date_Entered_From.ErrorMessage" xml:space="preserve">
+    <value>From Entered Date is required</value>
+  </data>
+  <data name="Val_Date_Entered_From.Text" xml:space="preserve">
+    <value>From Entered Date is required</value>
+  </data>
+  <data name="Val_Date_Entered_To.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Date_Entered_To.ErrorMessage" xml:space="preserve">
+    <value>To Entered Date is required</value>
+  </data>
+  <data name="Val_Date_Entered_To.Text" xml:space="preserve">
+    <value>To Entered Date is required</value>
+  </data>
+  <data name="Val_Entered_Date_Compare.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Entered_Date_Compare.ErrorMessage" xml:space="preserve">
+    <value>From Date must be earlier than To Date</value>
+  </data>
+  <data name="Val_Entered_Date_Compare.Text" xml:space="preserve">
+    <value>From Date must be earlier than To Date</value>
+  </data>
+  <data name="Body_Text_Indicates_Required_Field" xml:space="preserve">
+    <value>Indicates Required Information</value>
+  </data>
+  <data name="Warning_Message_Alert" xml:space="preserve">
+    <value>EIDSS Warning Message</value>
+  </data>
+  <data name="Warning_Message_Unhandled_Exception_Body_Text" xml:space="preserve">
+    <value>An error occurred on this page. Please verify your information to resolve the issue.</value>
+  </data>
+  <data name="Warning_Message_Minimum_Search_Criteria_Required_Body_Text" xml:space="preserve">
+    <value>Please enter at a minimum the from and to data entry date search parameters.</value>
+  </data>
+</root>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Hdg_Departments.InnerText" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Lbl_Accessory_Code.Text" xml:space="preserve">
+    <value>Accessory Code</value>
+  </data>
+  <data name="Lbl_Accessory_Code.ToolTip" xml:space="preserve">
+    <value>Please select one or more accessory codes.</value>
+  </data>
+  <data name="Lbl_Foreign_Address_CheckBox.Text" xml:space="preserve">
+    <value>Foreign Address</value>
+  </data>
+  <data name="Lbl_Foreign_Address_CheckBox.ToolTip" xml:space="preserve">
+    <value>Please check if address is foreign.</value>
+  </data>
+  <data name="Lbl_Order.Text" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="Lbl_Order.ToolTip" xml:space="preserve">
+    <value>Please enter an order number.</value>
+  </data>
+  <data name="Hdg_Organization_Info.InnerText" xml:space="preserve">
+    <value>Organization Info</value>
+  </data>
+  <data name="Btn_Back.Value" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Continue.Value" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Btn_Save.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Btn_Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Dis_Abbreviation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Accessory_Code.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Departments.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Foreign_Address.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Order.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Organization_Full_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Organization_Unique_Id.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Phone.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Departments.PagerSettings-FirstPageText" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Grd_Departments.PagerSettings-LastPageText" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Grd_Departments.PagerSettings-Mode" xml:space="preserve">
+    <value>NumericFirstLast</value>
+  </data>
+  <data name="Grd_Departments.PagerSettings-PageButtonCount" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Hdg_Name_Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_Abbreviation.Text" xml:space="preserve">
+    <value>Abbreviation</value>
+  </data>
+  <data name="Lbl_Abbreviation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Organization_Full_Name.Text" xml:space="preserve">
+    <value>Organization Full Name</value>
+  </data>
+  <data name="Lbl_Organization_Full_Name.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Organization_Unique_Id.Text" xml:space="preserve">
+    <value>Organization Unique ID</value>
+  </data>
+  <data name="Lbl_Organization_Unique_Id.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Phone.Text" xml:space="preserve">
+    <value>Phone</value>
+  </data>
+  <data name="Lbl_Phone.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Tab_Departments.Text" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Tab_Organization_Info.Text" xml:space="preserve">
+    <value>Organization Info</value>
+  </data>
+  <data name="Tab_Review.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Val_Abbreviation.ErrorMessage" xml:space="preserve">
+    <value>Abbreviation is required.</value>
+  </data>
+  <data name="Val_Abbreviation.Text" xml:space="preserve">
+    <value>Abbreviation is required.</value>
+  </data>
+  <data name="Val_Accessory_Code.ErrorMessage" xml:space="preserve">
+    <value>Accessory Code is required.</value>
+  </data>
+  <data name="Val_Accessory_Code.Text" xml:space="preserve">
+    <value>Accessory Code is required.</value>
+  </data>
+  <data name="Val_Order.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Order.ErrorMessage" xml:space="preserve">
+    <value>Order is required.</value>
+  </data>
+  <data name="Val_Order.Text" xml:space="preserve">
+    <value>Order is required.</value>
+  </data>
+  <data name="Val_Organization_Full_Name.ErrorMessage" xml:space="preserve">
+    <value>Organization Full Name is required.</value>
+  </data>
+  <data name="Val_Organization_Full_Name.Text" xml:space="preserve">
+    <value>Organization Full Name is required.</value>
+  </data>
+  <data name="Val_Organization_Unique_Id.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Organization_Unique_Id.ErrorMessage" xml:space="preserve">
+    <value>Organization Unique ID is required.</value>
+  </data>
+  <data name="Val_Organization_Unique_Id.Text" xml:space="preserve">
+    <value>Organization Unique ID is required.</value>
+  </data>
+  <data name="Val_Phone.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Phone.ErrorMessage" xml:space="preserve">
+    <value>Phone is required.</value>
+  </data>
+  <data name="Val_Phone.Text" xml:space="preserve">
+    <value>Phone is required.</value>
+  </data>
+  <data name="Success_Message_text" xml:space="preserve">
+    <value>Organization details submitted succesfully!</value>
+  </data>
+  <data name="Tab_Departments.ToolTip" xml:space="preserve">
+    <value>Departments</value>
+  </data>
+  <data name="Tab_Organization_Info.ToolTip" xml:space="preserve">
+    <value>Organization Info</value>
+  </data>
+  <data name="Tab_Review.ToolTip" xml:space="preserve">
+    <value>Review/Save</value>
+  </data>
+  <data name="lbl_Address.Text" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Hdg_Form_Title.InnerText" xml:space="preserve">
+    <value>Organization Details</value>
+  </data>
+  <data name="Lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Order.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Organization_Unique_Id.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Phone.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+</root>

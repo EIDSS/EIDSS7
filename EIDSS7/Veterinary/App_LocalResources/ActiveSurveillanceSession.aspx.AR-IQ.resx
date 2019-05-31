@@ -1,0 +1,2316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Dis_Campaign_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Officer.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Date_Entered_From.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Date_Entered_To.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Panel_Additional_Data_Fields.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Panel_Session_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Panel_Session_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Panel_Session_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Session_End_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Session_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Session_Start_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Session_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Site.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Sessions.Caption" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="Grd_Sessions_List_Empty_Data" xml:space="preserve">
+    <value>No data available</value>
+  </data>
+  <data name="Grd_Sessions_List_Date_Entered_Heading" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="Grd_Sessions_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Sessions_End_Date.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Grd_Sessions_End_Date.ToolTip" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Grd_Sessions_Officer.Text" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="Grd_Sessions_Officer.ToolTip" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="Grd_Sessions_List_Rayon_Heading" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Grd_Sessions_List_Region_Heading" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Grd_Sessions_List_Session_ID_Heading" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Grd_Sessions_List_Status_Heading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grd_Sessions_Site.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Grd_Sessions_Site.ToolTip" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Grd_Sessions_Start_Date.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Grd_Sessions_Start_Date.ToolTip" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Grd_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Sample_Type.ToolTip" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Organization_SentTo.Text" xml:space="preserve">
+    <value>Organization Sent To</value>
+  </data>
+  <data name="Grd_Organization_SentTo.ToolTip" xml:space="preserve">
+    <value>Organization Sent To</value>
+  </data>
+  <data name="Grd_Sessions_Town.Text" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="Grd_Sessions_Town.ToolTip" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="Group_Name_Search_Panel_Date_Entered.InnerText" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="hdg_Add_Active_Surveillance_Session.InnerText" xml:space="preserve">
+    <value>Add Active Surveillance Sessions</value>
+  </data>
+  <data name="Hdg_Active_Surveillance_Session.InnerText" xml:space="preserve">
+    <value>Active Surveillance Sessions</value>
+  </data>
+  <data name="Hdg_Farm_Animal_Sample.InnerText" xml:space="preserve">
+    <value>Animal/Sample Information</value>
+  </data>
+  <data name="Hdg_Search_Active_Surveillance_Sessions.InnerText" xml:space="preserve">
+    <value>Active Surveillance Sessions</value>
+  </data>
+  <data name="Hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="Hdg_Search_Parameters.InnerHtml" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="Hdg_Search_Sub_Heading.InnerHtml" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Hdg_Session_Information.InnerText" xml:space="preserve">
+    <value>Session Information</value>
+  </data>
+  <data name="Lbl_Campaign_ID.Text" xml:space="preserve">
+    <value>Campaign ID</value>
+  </data>
+  <data name="Lbl_Campaign_ID.ToolTip" xml:space="preserve">
+    <value>Campaign ID</value>
+  </data>
+  <data name="Lbl_Campaign_Name.Text" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="Lbl_Campaign_Name.ToolTip" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="Lbl_Campaign_Type.Text" xml:space="preserve">
+    <value>Campaign Type</value>
+  </data>
+  <data name="Lbl_Campaign_Type.ToolTip" xml:space="preserve">
+    <value>Campaign Type</value>
+  </data>
+  <data name="Lbl_Date.Text" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_Date.ToolTip" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Lbl_Disease.Text" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Disease.ToolTip" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Officer.Text" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="Lbl_Officer.ToolTip" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="Lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="Lbl_Search_Date_Entered_From.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_Search_Date_Entered_From.ToolTip" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_Search_Date_Entered_To.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_Search_Date_Entered_To.ToolTip" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_Search_Panel_Additional_Data_Fields.Text" xml:space="preserve">
+    <value>Additional Data Fields</value>
+  </data>
+  <data name="Lbl_Search_Panel_Additional_Data_Fields.ToolTip" xml:space="preserve">
+    <value>Additional Data Fields</value>
+  </data>
+  <data name="Lbl_Search_Panel_Additional_Values.Text" xml:space="preserve">
+    <value>Additional Values</value>
+  </data>
+  <data name="Lbl_Search_Panel_Additional_Values.ToolTip" xml:space="preserve">
+    <value>Additional Values</value>
+  </data>
+  <data name="Lbl_Search_Panel_Session_Disease.Text" xml:space="preserve">
+    <value>Session Disease</value>
+  </data>
+  <data name="Lbl_Search_Panel_Session_Disease.ToolTip" xml:space="preserve">
+    <value>Session Disease</value>
+  </data>
+  <data name="Lbl_Search_Panel_Session_ID.Text" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Lbl_Search_Panel_Session_ID.ToolTip" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Lbl_Session_End_Date.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Lbl_Session_End_Date.ToolTip" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Lbl_Session_ID.Text" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Lbl_Session_ID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Session_Start_Date.Text" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Lbl_Session_Start_Date.ToolTip" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Lbl_Session_Status.Text" xml:space="preserve">
+    <value>Session Status</value>
+  </data>
+  <data name="Lbl_Session_Status.ToolTip" xml:space="preserve">
+    <value>Session Status</value>
+  </data>
+  <data name="Lbl_Site.Text" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Lbl_Site.ToolTip" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="Par_Search_Directions.InnerHtml" xml:space="preserve">
+    <value>Use the following fields to search for existing Sessions. Please fill in all known fields.</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Campaign_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Campaign_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Campaign_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Officer.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Date_Entered_From.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Date_Entered_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Panel_Additional_Data_Fields.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Panel_Additional_Values.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Panel_Session_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Panel_Session_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Search_Panel_Session_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Session_End_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Session_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Session_Start_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Session_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Site.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Campaign_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Campaign_ID.ErrorMessage" xml:space="preserve">
+    <value>Campaign ID is required</value>
+  </data>
+  <data name="Val_Campaign_ID.Text" xml:space="preserve">
+    <value>Campaign ID is required</value>
+  </data>
+  <data name="Val_Campaign_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Campaign_Name.ErrorMessage" xml:space="preserve">
+    <value>Campaign Name is required</value>
+  </data>
+  <data name="Val_Campaign_Name.Text" xml:space="preserve">
+    <value>Campaign Name is required</value>
+  </data>
+  <data name="Val_Campaign_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Campaign_Type.ErrorMessage" xml:space="preserve">
+    <value>Campaign Type is required</value>
+  </data>
+  <data name="Val_Campaign_Type.Text" xml:space="preserve">
+    <value>Campaign Type is required</value>
+  </data>
+  <data name="Val_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Date.ErrorMessage" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Date.Text" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Disease.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Disease.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Officer.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Officer.ErrorMessage" xml:space="preserve">
+    <value>Officer is required</value>
+  </data>
+  <data name="Val_Officer.Text" xml:space="preserve">
+    <value>Officer is required</value>
+  </data>
+  <data name="Val_Search_Date_Entered_From.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Date_Entered_From.ErrorMessage" xml:space="preserve">
+    <value>Date Entered From is required</value>
+  </data>
+  <data name="Val_Search_Date_Entered_From.Text" xml:space="preserve">
+    <value>Date Entered From is required</value>
+  </data>
+  <data name="Val_Search_Date_Entered_To.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Date_Entered_To.ErrorMessage" xml:space="preserve">
+    <value>Date Entered is required</value>
+  </data>
+  <data name="Val_Search_Date_Entered_To.Text" xml:space="preserve">
+    <value>Date Entered is required</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Data_Fields.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Data_Fields.ErrorMessage" xml:space="preserve">
+    <value>Additional Data Fields is required</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Data_Fields.Text" xml:space="preserve">
+    <value>Additional Data Fields is required</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Values.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Values.ErrorMessage" xml:space="preserve">
+    <value>Additional Values is required</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Values.Text" xml:space="preserve">
+    <value>Additional Values is required</value>
+  </data>
+  <data name="Val_Search_Panel_Session_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Panel_Session_Disease.ErrorMessage" xml:space="preserve">
+    <value>Session Disease is required</value>
+  </data>
+  <data name="Val_Search_Panel_Session_Disease.Text" xml:space="preserve">
+    <value>Session Disease is required</value>
+  </data>
+  <data name="Val_Search_Panel_Session_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Panel_Session_ID.ErrorMessage" xml:space="preserve">
+    <value>Session ID is required</value>
+  </data>
+  <data name="Val_Search_Panel_Session_ID.Text" xml:space="preserve">
+    <value>Session ID is required</value>
+  </data>
+  <data name="Val_Search_Panel_Session_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Panel_Session_Status.ErrorMessage" xml:space="preserve">
+    <value>Session Status is required</value>
+  </data>
+  <data name="Val_Search_Panel_Session_Status.Text" xml:space="preserve">
+    <value>Session Status is required</value>
+  </data>
+  <data name="Val_Session_End_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Session_End_Date.ErrorMessage" xml:space="preserve">
+    <value>Session End Date is required</value>
+  </data>
+  <data name="Val_Session_End_Date.Text" xml:space="preserve">
+    <value>Session End Date is required</value>
+  </data>
+  <data name="Val_Session_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Session_ID.ErrorMessage" xml:space="preserve">
+    <value>Session ID is required</value>
+  </data>
+  <data name="Val_Session_ID.Text" xml:space="preserve">
+    <value>Session ID is required</value>
+  </data>
+  <data name="Val_Session_Start_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Session_Start_Date.ErrorMessage" xml:space="preserve">
+    <value>Session Start Date is required</value>
+  </data>
+  <data name="Val_Session_Start_Date.Text" xml:space="preserve">
+    <value>Session Start Date is required</value>
+  </data>
+  <data name="Val_Session_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Session_Status.ErrorMessage" xml:space="preserve">
+    <value>Session Status is required</value>
+  </data>
+  <data name="Val_Session_Status.Text" xml:space="preserve">
+    <value>Session Status is required</value>
+  </data>
+  <data name="Val_Site.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Site.ErrorMessage" xml:space="preserve">
+    <value>Site is required</value>
+  </data>
+  <data name="Val_Site.Text" xml:space="preserve">
+    <value>Site is required</value>
+  </data>
+  <data name="Btn_Back.Value" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="Btn_Continue.Value" xml:space="preserve">
+    <value>Continue</value>
+  </data>
+  <data name="Btn_Return_To_Dashboard.Value" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Btn_Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Btn_Return_To_Session_Record.InnerText" xml:space="preserve">
+    <value>Return to Session Record</value>
+  </data>
+  <data name="Btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Btn_New_Search.Text" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="Btn_New_Session.Text" xml:space="preserve">
+    <value>New Session</value>
+  </data>
+  <data name="Btn_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Grd_Actions.Caption" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Grd_Actions.EmptyDataText" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Grd_Actions_Sort_Action_Comment_Header.Text" xml:space="preserve">
+    <value>Action Comment</value>
+  </data>
+  <data name="Grd_Actions_Sort_Action_Date_Header.Text" xml:space="preserve">
+    <value>Action Date</value>
+  </data>
+  <data name="Grd_Actions_Sort_Action_Header.Text" xml:space="preserve">
+    <value>Action Entries for this Session?</value>
+  </data>
+  <data name="Grd_Actions_Sort_Action_Required_Header.Text" xml:space="preserve">
+    <value>Action Required</value>
+  </data>
+  <data name="Grd_Actions_Sort_Action_Status_Header.Text" xml:space="preserve">
+    <value>Action Status</value>
+  </data>
+  <data name="Grd_Actions_Sort_Add_Action_Header.Text" xml:space="preserve">
+    <value>Add Action</value>
+  </data>
+  <data name="Grd_Actions_Sort_Entered_By_Header.Text" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grd_Aggregate_Info_List.EmptyDataText" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Grd_Aggregate_Info_Add_Header.Text" xml:space="preserve">
+    <value>Add Record</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Animals_Sampled_Heading" xml:space="preserve">
+    <value>Anmals Sampled</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Collection_Date_Heading" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Farm_ID_Heading" xml:space="preserve">
+    <value>Farm ID</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Number_Of_Samples_Heading" xml:space="preserve">
+    <value>Number of Samples</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Positive_Number_Heading" xml:space="preserve">
+    <value>Positive Number</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Sex_Heading" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Grd_Aggregate_Info_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Animal_Copy_All_Header.Text" xml:space="preserve">
+    <value>Copy All</value>
+  </data>
+  <data name="Grd_Animal_Total_Animals_Sampled_Header.Text" xml:space="preserve">
+    <value>Total Animals Sampled</value>
+  </data>
+  <data name="Grd_Animal_Total_Samples_Header.Text" xml:space="preserve">
+    <value>Total Samples</value>
+  </data>
+  <data name="Grd_Disease_Reports.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grd_Disease_Reports.EmptyDataText" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Grd_Disease_Reports_Address_Header.HeaderText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Grd_Disease_Reports_Case_Classification_Header.HeaderText" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="Grd_Disease_Reports_Disease_Header.HeaderText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Disease_Reports_Location_Header.HeaderText" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="Grd_Disease_Reports_Report_ID_Header.HeaderText" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Interpreted_Comments_Heading" xml:space="preserve">
+    <value>Comments (Rule In/Rule Out)</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Validated_Comments_Heading" xml:space="preserve">
+    <value>Comments (Validated)</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Date_Interpreted_Heading" xml:space="preserve">
+    <value>Date Interpreted</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Date_Validated_Heading" xml:space="preserve">
+    <value>Date Validated</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Interpreted_By_Heading" xml:space="preserve">
+    <value>Interpreted By</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Validated_Heading" xml:space="preserve">
+    <value>Validated (Y/N)</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Lab_Sample_ID_Heading" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Result_Report_Created_Header.Text" xml:space="preserve">
+    <value>Disease Report Created</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Rule_In_Rule_Out_Heading" xml:space="preserve">
+    <value>Rule In/Rule Out</value>
+  </data>
+  <data name="Grd_Result_Summary_List.Caption" xml:space="preserve">
+    <value>Result Summary</value>
+  </data>
+  <data name="Grd_Result_Summary_List.EmptyDataText" xml:space="preserve">
+    <value>No Results Found</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Animal_ID_Heading" xml:space="preserve">
+    <value>Animal ID</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Disease_Heading" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Farm_ID_Heading" xml:space="preserve">
+    <value>Farm ID</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Test_Category_Heading" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Test_Name_Heading" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Grd_Result_Summary_List_Validated_By_Heading" xml:space="preserve">
+    <value>Validated By</value>
+  </data>
+  <data name="Grd_Tests_List.Caption" xml:space="preserve">
+    <value>Tests</value>
+  </data>
+  <data name="Grd_Tests_List.EmptyDataText" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Grd_Tests_List_Animal_ID_Heading" xml:space="preserve">
+    <value>Animal ID</value>
+  </data>
+  <data name="Grd_Tests_List_Farm_ID_Heading" xml:space="preserve">
+    <value>Farm ID</value>
+  </data>
+  <data name="Grd_Tests_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Tests_List_Lab_Sample_ID_Heading" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Grd_Tests_List_Result_Date_Heading" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Grd_Tests_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Tests_List_Test_Category_Heading" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Grd_Tests_List_Test_Disease_Heading" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="Grd_Tests_List_Test_Name_Heading" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Grd_Tests_List_Test_Result_Heading" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Grd_Tests_List_Test_Status_Heading" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Hdg_Actions.InnerText" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Hdg_Aggregate_Info.InnerText" xml:space="preserve">
+    <value>Aggregate Info</value>
+  </data>
+  <data name="Hdg_Disease_Report.InnerText" xml:space="preserve">
+    <value>Disease Reports</value>
+  </data>
+  <data name="Hdg_Results_Summary.InnerText" xml:space="preserve">
+    <value>Results Summary</value>
+  </data>
+  <data name="hdg_Successful_New_Record.InnerText" xml:space="preserve">
+    <value>A New Campaign Record was Created</value>
+  </data>
+  <data name="Hdg_Test_Information.InnerText" xml:space="preserve">
+    <value>Test Information</value>
+  </data>
+  <data name="Hpl_Return_to_Dashboard.Value" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Tab_Actions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Tab_Actions.ToolTip" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Tab_Aggregate_Info.Text" xml:space="preserve">
+    <value>Aggregate Info</value>
+  </data>
+  <data name="Tab_Aggregate_Info.ToolTip" xml:space="preserve">
+    <value>Aggregate Info</value>
+  </data>
+  <data name="Tab_DiseaseReports.Text" xml:space="preserve">
+    <value>Disease Reports</value>
+  </data>
+  <data name="Tab_DiseaseReports.ToolTip" xml:space="preserve">
+    <value>Disease Reports</value>
+  </data>
+  <data name="Tab_Result_Summary.Text" xml:space="preserve">
+    <value>Result Summary</value>
+  </data>
+  <data name="Tab_Result_Summary.ToolTip" xml:space="preserve">
+    <value>Result Summary</value>
+  </data>
+  <data name="Tab_Review.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Review.ToolTip" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Session_Information.Text" xml:space="preserve">
+    <value>Session Information</value>
+  </data>
+  <data name="Tab_Session_Information.ToolTip" xml:space="preserve">
+    <value>Session Information</value>
+  </data>
+  <data name="Tab_Species_and_Samples.Text" xml:space="preserve">
+    <value>Species and Samples</value>
+  </data>
+  <data name="Tab_Species_and_Samples.ToolTip" xml:space="preserve">
+    <value>Species and Samples</value>
+  </data>
+  <data name="Tab_Test_Information.Text" xml:space="preserve">
+    <value>Test Information</value>
+  </data>
+  <data name="Tab_Test_Information.ToolTip" xml:space="preserve">
+    <value>Test Information</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Data_Operators.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Data_Operators.ErrorMessage" xml:space="preserve">
+    <value>Operator is required</value>
+  </data>
+  <data name="Val_Search_Panel_Additional_Data_Operators.Text" xml:space="preserve">
+    <value>Operator is required</value>
+  </data>
+  <data name="Req_Search_Panel_Additional_Data_Operators.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Grd_Species_And_Samples_List.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Grd_Species_And_Samples_List_Empty_Data" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Grd_Species_And_Samples_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Species_And_Samples_List_Species_Heading" xml:space="preserve">
+    <value>Species Type</value>
+  </data>
+  <data name="Hdg_Diseases_And_Species_List.InnerText" xml:space="preserve">
+    <value>Diseases and Species List</value>
+  </data>
+  <data name="Tab_Detailed_Animals_Samples.Text" xml:space="preserve">
+    <value>Detailed Animals and Samples</value>
+  </data>
+  <data name="Tab_Detailed_Animals_Samples.ToolTip" xml:space="preserve">
+    <value>Detailed Animals and Samples</value>
+  </data>
+  <data name="Btn_Close.InnerText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Btn_Close.Value" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Campaign_Administrator.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Campaign_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Campaign_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Campaign_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Campaign_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Data_Entry_Site.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_End_From_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_End_To_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Start_From_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Campaign_ID_Search_Start_To_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hdg_Campaign_ID_Search.InnerText" xml:space="preserve">
+    <value>Campaign ID Search</value>
+  </data>
+  <data name="lbl_Campaign_Administrator.Text" xml:space="preserve">
+    <value>Campaign Administrator</value>
+  </data>
+  <data name="lbl_Campaign_Disease.Text" xml:space="preserve">
+    <value>Campaign Disease</value>
+  </data>
+  <data name="lbl_Campaign_Status.Text" xml:space="preserve">
+    <value>Campaign Status</value>
+  </data>
+  <data name="Lbl_Data_Entry_Site.Text" xml:space="preserve">
+    <value>Data Entry Site</value>
+  </data>
+  <data name="Lbl_End_Date.Text" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Lbl_From.InnerText" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_Start_Date.InnerText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbl_To.InnerText" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Hdg_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Cancel Search</value>
+  </data>
+  <data name="lbl_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Do you want to cancel the search?</value>
+  </data>
+  <data name="Btn_Search.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Grd_Results_Select_Button.SelectText" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="Btn_Add_Farm.Text" xml:space="preserve">
+    <value>Add Farm</value>
+  </data>
+  <data name="Lbl_Date_Entered.Text" xml:space="preserve">
+    <value>Entered Date</value>
+  </data>
+  <data name="Lbl_Search_Panel_Session_Status.Text" xml:space="preserve">
+    <value>Session Status</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Animal_Age.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Animal_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Animal_Color.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Comment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Condition_Received.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Animal_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Sent_To_Organization.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Animal_Gender.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Total_Number_Animals_Sampled.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Detailed_Animals_And_Samples_Total_Number_Sampled.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Lab_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Hdg_Detailed_Animals_And_Samples.InnerText" xml:space="preserve">
+    <value>Detailed Animals and Samples</value>
+  </data>
+  <data name="Lbl_Animal_ID.Text" xml:space="preserve">
+    <value>Animal ID</value>
+  </data>
+  <data name="Lbl_Collection_Date.InnerText" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Lbl_Color.InnerText" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Lbl_Comments.Text" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Lbl_Sample_Condition_Received.Text" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="Lbl_Country.InnerText" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Lbl_Farm_ID.Text" xml:space="preserve">
+    <value>Farm ID</value>
+  </data>
+  <data name="Lbl_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Lbl_Name.InnerText" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_Rayon.InnerText" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Lbl_Region.InnerText" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Lbl_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Sent_To_Organization.Text" xml:space="preserve">
+    <value>Sent to Organization</value>
+  </data>
+  <data name="Lbl_Settlement.InnerText" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Lbl_Sex.Text" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Lbl_Species.Text" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Lbl_Lab_Sample_ID.Text" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Lbl_Total.InnerText" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Lbl_Total_Number_Animals_Sampled.Text" xml:space="preserve">
+    <value>Total Number of Animals Sampled</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Age.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Animal_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Collection_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Animal_Color.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Condition_Received.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Animal_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Sent_To_Organization.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Total Number Sampled.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Total_Number_Animals_Sampled.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Farm_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Lab_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Age.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Age.ErrorMessage" xml:space="preserve">
+    <value>Age is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Age.Text" xml:space="preserve">
+    <value>Age is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_ID.ErrorMessage" xml:space="preserve">
+    <value>Animal ID is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_ID.Text" xml:space="preserve">
+    <value>Animal ID is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Collection_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Collection_Date.ErrorMessage" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Color.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Color.ErrorMessage" xml:space="preserve">
+    <value>Color is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Color.Text" xml:space="preserve">
+    <value>Color is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Comment.ErrorMessage" xml:space="preserve">
+    <value>Comments is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Comment.Text" xml:space="preserve">
+    <value>Comments is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Condition_Received.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Condition_Received.ErrorMessage" xml:space="preserve">
+    <value>Condition Received is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Condition_Received.Text" xml:space="preserve">
+    <value>Condition Received is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Sample_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Sent_To_Organization.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Sent_To_Organization.ErrorMessage" xml:space="preserve">
+    <value>Sent to Organization is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Sent_To_Organization.Text" xml:space="preserve">
+    <value>Sent to Organization is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_Gender.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_Gender.ErrorMessage" xml:space="preserve">
+    <value>Name is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_Gender.Text" xml:space="preserve">
+    <value>Name is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Detailed_Animal_Samples_Total_Number_Sampled.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animal_Samples_Total_Number_Sampled.Text" xml:space="preserve">
+    <value>Total Number Sampled is required</value>
+  </data>
+  <data name="Val_Detailed_Animal_Samples_Total_Number_Animals_Sampled.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animal_Samples_Total_Number_Animals_Sampled.ErrorMessage" xml:space="preserve">
+    <value>Total Number of Animals Sampled is required</value>
+  </data>
+  <data name="Val_Detailed_Animal_Samples_Total_Number_Animals_Sampled.Text" xml:space="preserve">
+    <value>Total Number of Animals Sampled is required</value>
+  </data>
+  <data name="Val_Test_Farm_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Farm_ID.ErrorMessage" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Test_Farm_ID.Text" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Test_Lab_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Lab_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Lab Sample ID is required</value>
+  </data>
+  <data name="Val_Test_Lab_Sample_ID.Text" xml:space="preserve">
+    <value>Lab Sample ID is required</value>
+  </data>
+  <data name="Btn_New.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Btn_Add_Disease_Report.Text" xml:space="preserve">
+    <value>Add Disease Report</value>
+  </data>
+  <data name="Dis_Action_Comments.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Action_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Action_Entered_By.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Action_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Animals_Sampled.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Number_Of_Samples.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Positive_Animals.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Animal_Sex.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Aggregate_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Animal_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Date_Interpreted.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Interpreted_By.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Test_Category.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Test_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Animal_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Result_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Test_Category.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Test_Disease.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Test_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Test_Test_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_Action_Entries.InnerText" xml:space="preserve">
+    <value>Action entries for this Session?</value>
+  </data>
+  <data name="Lbl_Action_Required.Text" xml:space="preserve">
+    <value>Action Required</value>
+  </data>
+  <data name="Lbl_Address.InnerText" xml:space="preserve">
+    <value>Address</value>
+  </data>
+  <data name="Lbl_Animals_Sampled.Text" xml:space="preserve">
+    <value>Animals Sampled</value>
+  </data>
+  <data name="Lbl_Case_Classification.InnerText" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="Lbl_Date_Interpreted.Text" xml:space="preserve">
+    <value>Date Interpreted</value>
+  </data>
+  <data name="Lbl_Date_Validated.Text" xml:space="preserve">
+    <value>Date Validated</value>
+  </data>
+  <data name="Lbl_Disease_Report_ID.InnerText" xml:space="preserve">
+    <value>Disease Report ID</value>
+  </data>
+  <data name="Lbl_Entered_By.Text" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="Lbl_Interpreted_By.Text" xml:space="preserve">
+    <value>Interpreted By</value>
+  </data>
+  <data name="Lbl_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Lbl_Rule_In.Text" xml:space="preserve">
+    <value>Rule In</value>
+  </data>
+  <data name="Lbl_Rule_In_Rule_Out.Text" xml:space="preserve">
+    <value>Rule In/Rule Out</value>
+  </data>
+  <data name="Lbl_Rule_Out.Text" xml:space="preserve">
+    <value>Rule Out</value>
+  </data>
+  <data name="Lbl_Test_Category.Text" xml:space="preserve">
+    <value>Test Category</value>
+  </data>
+  <data name="Lbl_Test_Disease.Text" xml:space="preserve">
+    <value>Test Disease</value>
+  </data>
+  <data name="Lbl_Unknown.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="Lbl_Validated.Text" xml:space="preserve">
+    <value>Validated?</value>
+  </data>
+  <data name="Lbl_Validated_By.Text" xml:space="preserve">
+    <value>Validated By</value>
+  </data>
+  <data name="Lbl_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Req_Action_Comments.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Action_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Action_Entered_By.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Action_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Aggregate_Info_Animals_Sampled.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Collection_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Farm_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Number_of_Samples.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Positive_Animals.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Animal_Sex.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Aggregate_Info_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Animal_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Date_Interpreted.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Farm_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Interpreted_By.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Test_Category.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Test_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Animal_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Result_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Test_Category.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Test_Disease.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Test_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Test_Test_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Action_Comments.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Action_Comments.ErrorMessage" xml:space="preserve">
+    <value>Comments. is required</value>
+  </data>
+  <data name="Val_Action_Comments.Text" xml:space="preserve">
+    <value>Comments is required</value>
+  </data>
+  <data name="Val_Action_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Action_Date.ErrorMessage" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Action_Date.Text" xml:space="preserve">
+    <value>Date is required</value>
+  </data>
+  <data name="Val_Action_Entered_By.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Action_Entered_By.ErrorMessage" xml:space="preserve">
+    <value>Entered By is required</value>
+  </data>
+  <data name="Val_Action_Entered_By.Text" xml:space="preserve">
+    <value>Entered By is required</value>
+  </data>
+  <data name="Val_Action_Status.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Action_Status.ErrorMessage" xml:space="preserve">
+    <value>Status is required</value>
+  </data>
+  <data name="Val_Action_Status.Text" xml:space="preserve">
+    <value>Status is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Animals_Sampled.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Animals_Sampled.ErrorMessage" xml:space="preserve">
+    <value>Animals Sampled is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Animals_Sampled.Text" xml:space="preserve">
+    <value>Animals Sampled is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Collection_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Collection_Date.ErrorMessage" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Disease.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Disease.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Farm_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Farm_ID.ErrorMessage" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Farm_ID.Text" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Number_Of_Samples.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Number_Of_Samples.ErrorMessage" xml:space="preserve">
+    <value>Number of Samples is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Number_Of_Samples.Text" xml:space="preserve">
+    <value>Number of Samples is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Positive_Animals.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Positive_Animals.ErrorMessage" xml:space="preserve">
+    <value>Number Positive is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Positive_Animals.Text" xml:space="preserve">
+    <value>Number Positive is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Sample_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Animal_Sex.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Animal_Sex.ErrorMessage" xml:space="preserve">
+    <value>Sex is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Animal_Sex.Text" xml:space="preserve">
+    <value>Sex is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Aggregate_Info_Status.ErrorMessage" xml:space="preserve">
+    <value>Status is required</value>
+  </data>
+  <data name="Val_Aggregate_Info_Status.Text" xml:space="preserve">
+    <value>Status is required</value>
+  </data>
+  <data name="Val_Result_Summary_Farm_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Farm_ID.ErrorMessage" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Result_Summary_Farm_ID.Text" xml:space="preserve">
+    <value>Farm ID is required</value>
+  </data>
+  <data name="Val_Result_Summary_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Result_Summary_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="Val_Result_Summary_Animal_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Animal_ID.ErrorMessage" xml:space="preserve">
+    <value>Animal ID is required</value>
+  </data>
+  <data name="Val_Result_Summary_Animal_ID.Text" xml:space="preserve">
+    <value>Animal ID is required</value>
+  </data>
+  <data name="Val_Result_Summary_Date_Interpreted.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Date_Interpreted.ErrorMessage" xml:space="preserve">
+    <value>Date Interpreted is required</value>
+  </data>
+  <data name="Val_Result_Summary_Date_Interpreted.Text" xml:space="preserve">
+    <value>Date Interpreted is required</value>
+  </data>
+  <data name="Val_Result_Summary_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Disease.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Result_Summary_Disease.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="Val_Result_Summary_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Result_Summary_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Result_Summary_Interpreted_By.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Interpreted_By.ErrorMessage" xml:space="preserve">
+    <value>Interpreted By is required</value>
+  </data>
+  <data name="Val_Result_Summary_Interpreted_By.Text" xml:space="preserve">
+    <value>Interpreted By is required</value>
+  </data>
+  <data name="Val_Result_Summary_Sample_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Result_Summary_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Result_Summary_Test_Category.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Test_Category.ErrorMessage" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Result_Summary_Test_Category.Text" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Result_Summary_Test_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Test_Name.ErrorMessage" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Result_Summary_Test_Name.Text" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Test_Animal_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Animal_ID.ErrorMessage" xml:space="preserve">
+    <value>Animal ID is required</value>
+  </data>
+  <data name="Val_Test_Animal_ID.Text" xml:space="preserve">
+    <value>Animal ID is required</value>
+  </data>
+  <data name="Val_Test_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Test_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Field Sample ID is required</value>
+  </data>
+  <data name="Val_Test_Test_Result_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Test_Result_Date.ErrorMessage" xml:space="preserve">
+    <value>Test Result Date is required</value>
+  </data>
+  <data name="Val_Test_Test_Result_Date.Text" xml:space="preserve">
+    <value>Test Result Date is required</value>
+  </data>
+  <data name="Val_Test_Test_Category.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Test_Category.ErrorMessage" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Test_Test_Category.Text" xml:space="preserve">
+    <value>Test Category is required</value>
+  </data>
+  <data name="Val_Test_Test_Disease.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Test_Disease.ErrorMessage" xml:space="preserve">
+    <value>Test Disease is required</value>
+  </data>
+  <data name="Val_Test_Test_Disease.Text" xml:space="preserve">
+    <value>Test Disease is required</value>
+  </data>
+  <data name="Val_Test_Test_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Test_Name.ErrorMessage" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Test_Test_Name.Text" xml:space="preserve">
+    <value>Test Name is required</value>
+  </data>
+  <data name="Val_Test_Test_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Test_Status.ErrorMessage" xml:space="preserve">
+    <value>Test Status is required</value>
+  </data>
+  <data name="Val_Test_Test_Status.Text" xml:space="preserve">
+    <value>Test Status is required</value>
+  </data>
+  <data name="Btn_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Btn_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Herd_Flock_Details.InnerText" xml:space="preserve">
+    <value>Herd/Flock-Species Details</value>
+  </data>
+  <data name="Lbl_Number_Of_Samples.Text" xml:space="preserve">
+    <value>Number of Samples</value>
+  </data>
+  <data name="Lbl_Number_Positive.Text" xml:space="preserve">
+    <value>Number Positive</value>
+  </data>
+  <data name="Lbl_Session_Location.InnerText" xml:space="preserve">
+    <value>Session Location</value>
+  </data>
+  <data name="Lbl_Status.Text" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Lbl_Test_Name.Text" xml:space="preserve">
+    <value>Test Name</value>
+  </data>
+  <data name="Lbl_Result_Date.Text" xml:space="preserve">
+    <value>Result Date</value>
+  </data>
+  <data name="Lbl_Test_Status.Text" xml:space="preserve">
+    <value>Test Status</value>
+  </data>
+  <data name="Lbl_Total_Number_Sampled.Text" xml:space="preserve">
+    <value>Total Number Sampled</value>
+  </data>
+  <data name="Dis_Session_Sample.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Action_List_Action_Required_Heading" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Grd_Action_List_Comment_Heading" xml:space="preserve">
+    <value>Action Comment</value>
+  </data>
+  <data name="Grd_Action_List_Date_Heading" xml:space="preserve">
+    <value>Action Date</value>
+  </data>
+  <data name="Grd_Action_List_Entered_By_Heading" xml:space="preserve">
+    <value>Person Name</value>
+  </data>
+  <data name="Grd_Action_List_Status_Heading" xml:space="preserve">
+    <value>Action Status</value>
+  </data>
+  <data name="Val_Action_Action_Required.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Action_Action_Required.ErrorMessage" xml:space="preserve">
+    <value>Action Required is required</value>
+  </data>
+  <data name="Val_Action_Action_Required.Text" xml:space="preserve">
+    <value>Action Required is required</value>
+  </data>
+  <data name="Lbl_Test_Result.Text" xml:space="preserve">
+    <value>Test Result</value>
+  </data>
+  <data name="Dis_Aggregate_Info_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Btn_New_Test.Text" xml:space="preserve">
+    <value>New Test</value>
+  </data>
+  <data name="Val_Result_Summary_Date_Validated.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Date_Validated.ErrorMessage" xml:space="preserve">
+    <value>Date Validated is required</value>
+  </data>
+  <data name="Val_Result_Summary_Date_Validated.Text" xml:space="preserve">
+    <value>Date Validated is required</value>
+  </data>
+  <data name="Val_Result_Summary_Interpreted_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Interpreted_Comment.ErrorMessgae" xml:space="preserve">
+    <value>Interpreted Comment is required</value>
+  </data>
+  <data name="Val_Result_Summary_Interpreted_Comment.Text" xml:space="preserve">
+    <value>Interpreted Comment is required</value>
+  </data>
+  <data name="Val_Result_Summary_Rule_In_Rule_Out.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Rule_In_Rule_Out.ErrorMessage" xml:space="preserve">
+    <value>Rule In/Rule Out is required</value>
+  </data>
+  <data name="Val_Result_Summary_Rule_In_Rule_Out.Text" xml:space="preserve">
+    <value>Rule In/Rule Out is required</value>
+  </data>
+  <data name="Val_Result_Summary_Validated_By.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Validated_By.ErrorMessage" xml:space="preserve">
+    <value>Validated By is required</value>
+  </data>
+  <data name="Val_Result_Summary_Validated_By.Text" xml:space="preserve">
+    <value>Validated By is required</value>
+  </data>
+  <data name="Val_Result_Summary_Validated_Comment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Result_Summary_Validated_Comment.ErrorMessage" xml:space="preserve">
+    <value>Validated Comment is required</value>
+  </data>
+  <data name="Val_Result_Summary_Validated_Comment.Text" xml:space="preserve">
+    <value>Validated Comment is required</value>
+  </data>
+  <data name="Val_Test_Test_Result.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Test_Test_Result.ErrorMessage" xml:space="preserve">
+    <value>Test Result is required</value>
+  </data>
+  <data name="Val_Test_Test_Result.Text" xml:space="preserve">
+    <value>Test Result is required</value>
+  </data>
+  <data name="Body_Text_Indicates_Required_Field" xml:space="preserve">
+    <value>Indicates Required Information</value>
+  </data>
+  <data name="Grd_Aliquots_List_Field_Functional_Lab_Heading" xml:space="preserve">
+    <value>Functional Lab</value>
+  </data>
+  <data name="Grd_Aliquots_List_Lab_Heading" xml:space="preserve">
+    <value>Lab</value>
+  </data>
+  <data name="Grd_Aliquots_List_Lab_Sample_ID_Heading" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Grd_Aliquots_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Aliquots_List_Status_Heading" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grd_Samples_List_Accession_Date_Heading" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="Grd_Samples_List_Animal_Heading" xml:space="preserve">
+    <value>Animal ID</value>
+  </data>
+  <data name="Grd_Samples_List_Collection_Date_Heading" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Comment_Heading" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Sample_ID_Heading" xml:space="preserve">
+    <value>Field Sample ID</value>
+  </data>
+  <data name="Grd_Samples_List_Field_Sent_To_Organization_Heading" xml:space="preserve">
+    <value>Sent To Organization</value>
+  </data>
+  <data name="Grd_Samples_List_Sample_Condition_Received_Heading" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="Grd_Samples_List_Sample_Type_Heading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Grd_Samples_List_Species_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Dis_Species_And_Samples_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Species_And_Samples_Species_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Species_And_Samples_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Species_And_Samples_Species_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Btn_New_Species_And_Sample.Text" xml:space="preserve">
+    <value>New Species and Sample</value>
+  </data>
+  <data name="Hdg_Species_And_Samples.InnerText" xml:space="preserve">
+    <value>Species and Samples</value>
+  </data>
+  <data name="Val_Species_And_Samples_Sample_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Species_And_Samples_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Species_And_Samples_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Species_And_Samples_Species_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Species_And_Samples_Species_Type.ErrorMessage" xml:space="preserve">
+    <value>Species Type is required</value>
+  </data>
+  <data name="Val_Species_And_Samples_Species_Type.Text" xml:space="preserve">
+    <value>Species Type is required</value>
+  </data>
+  <data name="Btn_OK.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Lbl_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Species_Type.Text" xml:space="preserve">
+    <value>Species Type</value>
+  </data>
+  <data name="Btn_Delete_Selected_Samples.Text" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="Lbl_Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Grd_Species_List_Empty_Data" xml:space="preserve">
+    <value>No data available.</value>
+  </data>
+  <data name="Grd_Species_List_Species_Type_Name_Heading" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="Grd_Species_List_Total_Animal_Qty_Heading" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Hdg_Herd_Flock_Species.InnerText" xml:space="preserve">
+    <value>Farm-Herd/Flock-Species Details</value>
+  </data>
+  <data name="Btn_Copy_Sample.Text" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Btn_New_Sample.Text" xml:space="preserve">
+    <value>New Sample</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Animal_Gender.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Detailed_Animals_And_Samples_Farm_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Animal_Age.Text" xml:space="preserve">
+    <value>Age</value>
+  </data>
+  <data name="Lbl_Animal_Color.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="Lbl_Animal_Gender.Text" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="Lbl_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Btn_New_Action.Text" xml:space="preserve">
+    <value>New Action</value>
+  </data>
+  <data name="Btn_New_Aggregate_Info.Text" xml:space="preserve">
+    <value>New Aggregate Info</value>
+  </data>
+  <data name="Btn_Return_To_Session_Record.Text" xml:space="preserve">
+    <value>Return to Session Record</value>
+  </data>
+  <data name="Btn_Return_To_Session_Record.Title" xml:space="preserve">
+    <value>Returns to the record of the active surveillance monitoring session</value>
+  </data>
+  <data name="Dis_Test_Result_Observation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Hdg_Detailed_Animal_And_Sample.InnerText" xml:space="preserve">
+    <value>Detailed Animal and Sample</value>
+  </data>
+  <data name="Hdg_Session.InnerText" xml:space="preserve">
+    <value>Active Surveillance Session</value>
+  </data>
+  <data name="Lbl_Animal_Name.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="Lbl_Copy_Number.Text" xml:space="preserve">
+    <value>Number of Times to Copy</value>
+  </data>
+  <data name="Req_Test_Result_Observation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_Name.ErrorMessage" xml:space="preserve">
+    <value>Animal Name is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Animal_Name.Text" xml:space="preserve">
+    <value>Animal Name is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Farm_ID.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Farm_ID.ErrorMessage" xml:space="preserve">
+    <value>Farm is required</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Farm_ID.Text" xml:space="preserve">
+    <value>Farm is required</value>
+  </data>
+  <data name="Tab_Farm_Herd_Species.Text" xml:space="preserve">
+    <value>Farm-Herd/Flock-Species Details</value>
+  </data>
+  <data name="Tab_Farm_Herd_Species.ToolTip" xml:space="preserve">
+    <value>Farm-Herd/Flock-Species Details</value>
+  </data>
+  <data name="Dis_Result_Summary_Date_Validated.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Interpreted_Comment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Rule_Out_Rule_In.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Validated.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Validated_By.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Result_Summary_Validated_Comment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Interpreted_Comment.Text" xml:space="preserve">
+    <value>Interpreted Comment</value>
+  </data>
+  <data name="Lbl_Validated_Comment.Text" xml:space="preserve">
+    <value>Validated Comment</value>
+  </data>
+  <data name="Req_Aggregate_Info_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Date_Validated.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Interpreted_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Rule_Out_Rule_In.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Validated.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Validated_By.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Result_Summary_Validated_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Btn_New_Result_Summary.Text" xml:space="preserve">
+    <value>New Result Summary</value>
+  </data>
+  <data name="Val_Aggregate_Info_Collection_Date_Range.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Aggregate_Info_Collection_Date_Range.ErrorMessage" xml:space="preserve">
+    <value>Collection Date must be between Session Start and End Dates</value>
+  </data>
+  <data name="Val_Aggregate_Info_Collection_Date_Range.Text" xml:space="preserve">
+    <value>Collection Date must be between Session Start and End Dates</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Collection_Date_Range.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Collection_Date_Range.ErrorMessage" xml:space="preserve">
+    <value>Collection Date must be between Session Start and End Dates</value>
+  </data>
+  <data name="Val_Detailed_Animals_And_Samples_Collection_Date_Range.Text" xml:space="preserve">
+    <value>Collection Date must be between Session Start and End Dates</value>
+  </data>
+  <data name="Hdg_Delete.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Btn_Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Btn_Delete.ToolTip" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Success_Message" xml:space="preserve">
+    <value>EIDSS Success Message</value>
+  </data>
+  <data name="Success_Message_Delete" xml:space="preserve">
+    <value>The record has been successfully deleted.</value>
+  </data>
+  <data name="Success_Message_Saved" xml:space="preserve">
+    <value>The record bas been successfully saved.</value>
+  </data>
+  <data name="Warning_Message_Alert" xml:space="preserve">
+    <value>EIDSS Warning Message</value>
+  </data>
+  <data name="Warning_Message_Cancel_Confirm" xml:space="preserve">
+    <value>Are you sure you want to cancel this selection?</value>
+  </data>
+  <data name="Warning_Message_Duplicate_Record_Body_Text" xml:space="preserve">
+    <value>The selected species and sample combination already exists.</value>
+  </data>
+  <data name="Warning_Message_Duplicate_Record_Heading" xml:space="preserve">
+    <value>Duplicate Record Found</value>
+  </data>
+  <data name="Warning_Message_Duplicate_Record_SubHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Warning_Message_Has_Sessions_Body_Text" xml:space="preserve">
+    <value>A veterinary disease report record is associated with this selection.</value>
+  </data>
+  <data name="Warning_Message_Has_Sessions_Heading" xml:space="preserve">
+    <value>Cannot Delete Session</value>
+  </data>
+  <data name="Warning_Message_Has_Sessions_SubHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Message_Add_Update_Success" xml:space="preserve">
+    <value>The session saved successfully.</value>
+  </data>
+  <data name="Lbl_Message_Delete_Success" xml:space="preserve">
+    <value>The session deleted successfully.</value>
+  </data>
+  <data name="Btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Cancel.ToolTip" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Btn_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_No.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Btn_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Btn_Yes.Value" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Hdg_Cancel_Session.InnerText" xml:space="preserve">
+    <value>Cancel Session</value>
+  </data>
+  <data name="Lbl_Cancel_Session.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel all changes and leave this record?</value>
+  </data>
+  <data name="Hdg_Add_Update_Success_Message" xml:space="preserve">
+    <value>Successful Session Save</value>
+  </data>
+  <data name="Hdg_Delete_Success_Message" xml:space="preserve">
+    <value>Successful Session Delete</value>
+  </data>
+  <data name="Val_Session_End_Date_Range.Enable" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Session_End_Date_Range.ErrorMessage" xml:space="preserve">
+    <value>Session End Date must be greater than or equal to Session Start Date</value>
+  </data>
+  <data name="Val_Session_End_Date_Range.Text" xml:space="preserve">
+    <value>Session End Date must be greater than or equal to Session Start Date</value>
+  </data>
+  <data name="Warning_Message_Associated_Lab_Test_Records_Body_Text" xml:space="preserve">
+    <value>The sample record has associated test records. Please delete the test records first.</value>
+  </data>
+  <data name="Warning_Message_Associated_Lab_Test_Records_Heading" xml:space="preserve">
+    <value>Cannot Delete Sample</value>
+  </data>
+  <data name="Warning_Message_Unhandled_Exception_Body_Text" xml:space="preserve">
+    <value>An error occurred on this page. Please verify your information to resolve the issue.</value>
+  </data>
+  <data name="Warning_Message_Validator_Section_Body_Text" xml:space="preserve">
+    <value>The validation error could not be determined.  Please contact the website's administrator for further assistance.</value>
+  </data>
+  <data name="Warning_Message_Validator_Section_SubHeading" xml:space="preserve">
+    <value>Cannot Get Validator Section</value>
+  </data>
+  <data name="Lbl_EIDSS_ID" xml:space="preserve">
+    <value>EIDSS ID: </value>
+  </data>
+  <data name="Confirm_Delete_Message" xml:space="preserve">
+    <value>Are you sure that you want to delete this record?</value>
+  </data>
+  <data name="Confirm_Delete_Records_Message" xml:space="preserve">
+    <value>Are you sure you want to delete the selected records?</value>
+  </data>
+  <data name="Warning_Message_Associated_Interpretation_Records_Body_Text" xml:space="preserve">
+    <value>The test record has associated result summary records. Please delete the result summary records first.</value>
+  </data>
+  <data name="Warning_Message_Associated_Interpretation_Records_Heading" xml:space="preserve">
+    <value>Cannot Delete Test</value>
+  </data>
+  <data name="Btn_OK.InnerText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Btn_OK.Value" xml:space="preserve">
+    <value>OK</value>
+  </data>
+</root>

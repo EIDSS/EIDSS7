@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_Add_Avian_Veterinary_Disease_Report.InnerText" xml:space="preserve">
+    <value>Add Avian</value>
+  </data>
+  <data name="Btn_Add_Avian_Veterinary_Disease_Report.Text" xml:space="preserve">
+    <value>Add Avian</value>
+  </data>
+  <data name="Btn_Add_Avian_Veterinary_Disease_Report.Title" xml:space="preserve">
+    <value>Click to add an Avian Veterinary Disease Report</value>
+  </data>
+  <data name="Btn_Add_ILIAgg.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Btn_Add_ILIAgg.ToolTip" xml:space="preserve">
+    <value>Click here to create a new ILIAgg record.</value>
+  </data>
+  <data name="Btn_Add_Livestock_Veterinary_Disease_Report.Text" xml:space="preserve">
+    <value>Add Livestock</value>
+  </data>
+  <data name="Btn_Add_Livestock_Veterinary_Disease_Report.Title" xml:space="preserve">
+    <value>Click to add a Livestock Veterinary Disease Report</value>
+  </data>
+  <data name="Dis_Search_Field_ILIAgg_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Search_Field_ILIAgg_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_ILIAgg_Owner_First_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_ILIAgg_Owner_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_ILIAgg_Owner_Last_Name.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Dis_Search_Field_ILIAgg_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="dis_Search_weeksfrom_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_weeksto_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_ILIAgg_List.Caption" xml:space="preserve">
+    <value>ILIAgg List</value>
+  </data>
+  <data name="Grd_ILIAgg_List.PagerSettings-FirstPageText" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Grd_ILIAgg_List.PagerSettings-LastPageText" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Grd_ILIAgg_List.PagerSettings-Mode" xml:space="preserve">
+    <value>NumericFirstLast</value>
+  </data>
+  <data name="Grd_ILIAgg_List.PagerSettings-PageButtonCount" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Grd_ILIAgg_List_Address_Heading" xml:space="preserve">
+    <value>ILIAgg Address</value>
+  </data>
+  <data name="Grd_ILIAgg_List_Contact_Phone_Heading" xml:space="preserve">
+    <value>Contact Phone</value>
+  </data>
+  <data name="Grd_ILIAgg_List_ILIAgg_ID_Heading" xml:space="preserve">
+    <value>ILIAgg ID</value>
+  </data>
+  <data name="Grd_ILIAgg_List_ILIAgg_Name_Heading" xml:space="preserve">
+    <value>ILIAgg Name</value>
+  </data>
+  <data name="Grd_ILIAgg_List_ILIAgg_Owner_ID_Heading" xml:space="preserve">
+    <value>ILIAgg Owner ID</value>
+  </data>
+  <data name="Grd_ILIAgg_List_ILIAgg_Owner_Name_Heading" xml:space="preserve">
+    <value>ILIAgg Owner Name</value>
+  </data>
+  <data name="Grd_ILIAgg_List_ILIAgg_Type_Heading" xml:space="preserve">
+    <value>ILIAgg Type</value>
+  </data>
+  <data name="Hdg_Add_Update_Person.InnerText" xml:space="preserve">
+    <value>Add/Update Person</value>
+  </data>
+  <data name="Hdg_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Cancel Search</value>
+  </data>
+  <data name="Hdg_ILIAgg.InnerText" xml:space="preserve">
+    <value>ILI Aggregate</value>
+  </data>
+  <data name="Lbl_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel the search?</value>
+  </data>
+  <data name="Lbl_DataSite_Name.InnerText" xml:space="preserve">
+    <value>Data Entry Site</value>
+  </data>
+  <data name="Lbl_Hospital.InnerText" xml:space="preserve">
+    <value>Name of Hospital/Sentinel Station</value>
+  </data>
+  <data name="Lbl_ILIAggform_ID.InnerText" xml:space="preserve">
+    <value>Form ID</value>
+  </data>
+  <data name="Lbl_No_Results_Found" xml:space="preserve">
+    <value>No results were found.</value>
+  </data>
+  <data name="hdg_Search_Criteria.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="lbl_weeksfrom_Date.InnerText" xml:space="preserve">
+    <value>Weeks From</value>
+  </data>
+  <data name="lbl_weeksto_Date.InnerText" xml:space="preserve">
+    <value>Weeks To</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Delete_ILI.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Delete_ILIAggregate.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Next.Text" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btn_Print.Text" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="dis_Date_Entered_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Entered_by.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Entered_by_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Entered_by_Person.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_FormId.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_ILI_Week.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_ILI_Year.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Last_Save_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Notification_Sent_by_Person.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Site.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hdg_ILI_Aggregate_Case_Details.InnerText" xml:space="preserve">
+    <value>ILI Aggregate Detail Parameters</value>
+  </data>
+  <data name="lbl_0_to_4.InnerText" xml:space="preserve">
+    <value>0 - 4 </value>
+  </data>
+  <data name="lbl_11_to_15.InnerText" xml:space="preserve">
+    <value>11 - 15 </value>
+  </data>
+  <data name="lbl_15_to_29.InnerText" xml:space="preserve">
+    <value>15 - 29 </value>
+  </data>
+  <data name="lbl_30_to_64.InnerText" xml:space="preserve">
+    <value>30 - 64 </value>
+  </data>
+  <data name="lbl_5_to_14.InnerText" xml:space="preserve">
+    <value>5 - 14 </value>
+  </data>
+  <data name="lbl_65_to_Up.InnerText" xml:space="preserve">
+    <value>&gt;= 65 </value>
+  </data>
+  <data name="lbl_Date_Entered_Date.InnerText" xml:space="preserve">
+    <value>Date Entered</value>
+  </data>
+  <data name="lbl_Entered_by.InnerText" xml:space="preserve">
+    <value>Entered By</value>
+  </data>
+  <data name="lbl_FormId.InnerText" xml:space="preserve">
+    <value>Form ID</value>
+  </data>
+  <data name="lbl_HospitalName.InnerText" xml:space="preserve">
+    <value>Hospital/ Sentinal Station Name</value>
+  </data>
+  <data name="lbl_ILI_Week.InnerText" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="lbl_ILI_Year.InnerText" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="lbl_Last_Save_Date.InnerText" xml:space="preserve">
+    <value>Date Last Saved</value>
+  </data>
+  <data name="lbl_No_Record.InnerText" xml:space="preserve">
+    <value>No records are available</value>
+  </data>
+  <data name="lbl_Total_Samples.InnerText" xml:space="preserve">
+    <value>ILI Samples</value>
+  </data>
+  <data name="lbl_Site.InnerText" xml:space="preserve">
+    <value>Site</value>
+  </data>
+  <data name="lbl_TotalILI.InnerText" xml:space="preserve">
+    <value>Total ILI</value>
+  </data>
+  <data name="lbl_Total_Admiss.InnerText" xml:space="preserve">
+    <value>Total Admissions</value>
+  </data>
+  <data name="val_Last_Save_Date.Text" xml:space="preserve">
+    <value>Last Save Date is required</value>
+  </data>
+  <data name="btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btn_No.Value" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btn_NotSubmit.Text" xml:space="preserve">
+    <value>Cancel Submit</value>
+  </data>
+  <data name="btn_Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="lbl_Delete_Aggregate.InnerText" xml:space="preserve">
+    <value>Are you sure you want to delete the aggregate. You cannot undo the deletion?</value>
+  </data>
+  <data name="Lbl_Delete_FormID.inneText" xml:space="preserve">
+    <value>Deleted Form</value>
+  </data>
+  <data name="hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="lbl_Report_ID.InnerText" xml:space="preserve">
+    <value>Report ID</value>
+  </data>
+  <data name="Lbl_Cancel_Agg.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel aggregate report?</value>
+  </data>
+  <data name="Msg_Dates_Are_Invalid" xml:space="preserve">
+    <value>Invalid Dates: To Date can not be earlier than the From Date.</value>
+  </data>
+  <data name="btn_Cancel_Add.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Cancel_Search.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Lbl_Cancel_Add.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel ILI Aggregate create?</value>
+  </data>
+  <data name="Lbl_Cancel_Submit.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel ILI Aggregate?</value>
+  </data>
+  <data name="btn_NotSubmit.InnerText" xml:space="preserve">
+    <value>Cancel </value>
+  </data>
+  <data name="Btn_Return_ILIAgg_Record.Text" xml:space="preserve">
+    <value>Return to ILI Aggregate Record</value>
+  </data>
+  <data name="Lbl_Success.InnerText" xml:space="preserve">
+    <value>Successfully Completed!</value>
+  </data>
+  <data name="Hdg_Add_Update_Success_Message.Text" xml:space="preserve">
+    <value>Created  ILIAggregate  </value>
+  </data>
+  <data name="Hdg_Return_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="Warning_Message_Cannot_Save_SubHeading.Text" xml:space="preserve">
+    <value>Problem Occured Creating an ILIAggregate</value>
+  </data>
+  <data name="btn_Clear.InnerText" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="lbl_End_Date.InnerText" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lbl_Start_Date.InnerText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Msg_Edit.InnerText" xml:space="preserve">
+    <value>Edit an Aggregate</value>
+  </data>
+  <data name="btn_edit_ILIAggregate.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="btn_Add_ILIAggregateTotals.Tooltip" xml:space="preserve">
+    <value>Click here to Calculate Total ILI.</value>
+  </data>
+  <data name="btn_Edit_ILIAggregateTotals.Tooltip" xml:space="preserve">
+    <value>Click here to edit  ILIAggregate Year Details</value>
+  </data>
+  <data name="dis_ILI_Hospital.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hdg_ILI_Aggregate_Case_Details_Tbl.InnerText" xml:space="preserve">
+    <value> (1)Select "+" Add Total Years (2)Select Hospital Name</value>
+  </data>
+  <data name="lbl_Bad_Hospital.InnerText" xml:space="preserve">
+    <value>A ILI Aggregate must contain a hospital name and  valid number for ILI.</value>
+  </data>
+  <data name="lbl_Error_Adding_ILI.InnerText" xml:space="preserve">
+    <value>There was a problem adding the Hospital. Please contact an administrator and try again.</value>
+  </data>
+  <data name="lbl_Error_ILIAggregate_Delete.InnerText" xml:space="preserve">
+    <value>There was an error deleting the ILI Aggregate type.</value>
+  </data>
+  <data name="lbl_Error_ILIAggregate_Edit.InnerText" xml:space="preserve">
+    <value>There was an error in edit mode.</value>
+  </data>
+  <data name="lbl_Error_ILITable_Delete.InnerText" xml:space="preserve">
+    <value>There was an error deleting the ILI Details</value>
+  </data>
+  <data name="lbl_Positive_ILIAggDetails_Number.InnerText" xml:space="preserve">
+    <value>ILIAggregate details Age number must be positive.</value>
+  </data>
+  <data name="req_ILI_Hospital.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_ILI_Week.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_ILI_Year.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_ILI_Hospital.Text" xml:space="preserve">
+    <value>Hospital Name is required</value>
+  </data>
+  <data name="val_ILI_Week.Text" xml:space="preserve">
+    <value>Week is required</value>
+  </data>
+  <data name="val_ILI_Year.Text" xml:space="preserve">
+    <value>Year is required</value>
+  </data>
+  <data name="lbl_Name_Required.InnerText" xml:space="preserve">
+    <value>Form ID is Required</value>
+  </data>
+  <data name="lbl_Error_ILIAggregate_Defaults.InnerText" xml:space="preserve">
+    <value>There was an error in setting defaults.</value>
+  </data>
+  <data name="lbl_Error_ILIAgg_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel while edditting not successful</value>
+  </data>
+  <data name="lbl_Error_ILIAgg_Update.InnerText" xml:space="preserve">
+    <value>Update Not successful</value>
+  </data>
+  <data name="ILINum_Text.Font-Size" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ILINum_Text.Text" xml:space="preserve">
+    <value>Totals ILI</value>
+  </data>
+  <data name="Req_ILINum.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="lbl_DelCase.InnerText" xml:space="preserve">
+    <value>Delete CASE ID: </value>
+  </data>
+  <data name="ILINum_Text.InnerText" xml:space="preserve">
+    <value>Totals ILI</value>
+  </data>
+  <data name="lbl_Details.InnerText" xml:space="preserve">
+    <value> ILI Details </value>
+  </data>
+  <data name="Btn_Add_ILIAggNext.Text" xml:space="preserve">
+    <value>Add Next</value>
+  </data>
+  <data name="val_ILI_Total.Text" xml:space="preserve">
+    <value>Total Number is required</value>
+  </data>
+</root>

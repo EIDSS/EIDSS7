@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Dis_Box_Size.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Building.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Freezer_Barcode.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Freezer_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Freezer_Note.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Number_Of_Locations.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Room.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Storage_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Subdivision_Barcode.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Subdivision_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Subdivision_Note.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Subdivision_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Hdg_Freezer.InnerText" xml:space="preserve">
+    <value>Freezer</value>
+  </data>
+  <data name="Hdg_Freezer_List.InnerText" xml:space="preserve">
+    <value>Freezer List</value>
+  </data>
+  <data name="Hdg_Storage_Schema.InnerText" xml:space="preserve">
+    <value>Storage Schema</value>
+  </data>
+  <data name="Lbl_Create_Success" xml:space="preserve">
+    <value>You successfully created a new freezer in the EIDSS System.  The Freezer ID is </value>
+  </data>
+  <data name="Lbl_New_Freezer_Text" xml:space="preserve">
+    <value>[New Freezer]</value>
+  </data>
+  <data name="Lbl_Update_Success" xml:space="preserve">
+    <value>You successfully updated the freezer in the EIDSS System.</value>
+  </data>
+  <data name="Req_Box_Size.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Building.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Freezer_Barcode.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Freezer_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Freezer_Note.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Number_Of_Locations.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Room.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Storage_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Subdivision_Barcode.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Subdivision_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Req_Subdivision_Note.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Subdivision_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Box_Size.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Box_Size.ErrorMessage" xml:space="preserve">
+    <value>Box Size is required</value>
+  </data>
+  <data name="Val_Box_Size.Text" xml:space="preserve">
+    <value>Box Size is required</value>
+  </data>
+  <data name="Val_Building.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Building.ErrorMessage" xml:space="preserve">
+    <value>Building is required</value>
+  </data>
+  <data name="Val_Building.Text" xml:space="preserve">
+    <value>Building is required</value>
+  </data>
+  <data name="Val_Freezer_Barcode.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Freezer_Barcode.ErrorMessage" xml:space="preserve">
+    <value>Freezer Barcode is required</value>
+  </data>
+  <data name="Val_Freezer_Barcode.Text" xml:space="preserve">
+    <value>Freezer Barcode is required</value>
+  </data>
+  <data name="Val_Freezer_Name.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Freezer_Name.ErrorMessage" xml:space="preserve">
+    <value>Freezer Name is required</value>
+  </data>
+  <data name="Val_Freezer_Name.Text" xml:space="preserve">
+    <value>Freezer Name is required</value>
+  </data>
+  <data name="Val_Freezer_Note.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Freezer_Note.ErrorMessage" xml:space="preserve">
+    <value>Freezer Note is required</value>
+  </data>
+  <data name="Val_Freezer_Note.Text" xml:space="preserve">
+    <value>Freezer Note is required</value>
+  </data>
+  <data name="Val_Number_Of_Locations.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Number_Of_Locations.ErrorMessage" xml:space="preserve">
+    <value>Number of Locations is required</value>
+  </data>
+  <data name="Val_Number_Of_Locations.Text" xml:space="preserve">
+    <value>Number of Locations is required</value>
+  </data>
+  <data name="Val_Room.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Room.ErrorMessage" xml:space="preserve">
+    <value>Room is required</value>
+  </data>
+  <data name="Val_Room.Text" xml:space="preserve">
+    <value>Room is required</value>
+  </data>
+  <data name="Val_Storage_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Storage_Type.ErrorMessage" xml:space="preserve">
+    <value>Freezer Type is required</value>
+  </data>
+  <data name="Val_Storage_Type.Text" xml:space="preserve">
+    <value>Freezer Type is required</value>
+  </data>
+  <data name="Val_Subdivision_Barcode.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Subdivision_Barcode.ErrorMessage" xml:space="preserve">
+    <value>Subdivision Barcode is required</value>
+  </data>
+  <data name="Val_Subdivision_Barcode.Text" xml:space="preserve">
+    <value>Subdivision Barcode is required</value>
+  </data>
+  <data name="Val_Subdivision_Name.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Subdivision_Name.ErrorMessage" xml:space="preserve">
+    <value>Subdivision Name is required</value>
+  </data>
+  <data name="Val_Subdivision_Name.Text" xml:space="preserve">
+    <value>Subdivision Name is required</value>
+  </data>
+  <data name="Val_Subdivision_Note.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Subdivision_Note.ErrorMessage" xml:space="preserve">
+    <value>Subdivision Note is required</value>
+  </data>
+  <data name="Val_Subdivision_Note.Text" xml:space="preserve">
+    <value>Subdivision Note is required</value>
+  </data>
+  <data name="Val_Subdivision_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Subdivision_Type.ErrorMessage" xml:space="preserve">
+    <value>Subdivision Type is required</value>
+  </data>
+  <data name="Val_Subdivision_Type.Text" xml:space="preserve">
+    <value>Subdivision Type is required</value>
+  </data>
+  <data name="Warning_Message_Confirm_Delete_Text" xml:space="preserve">
+    <value>Once a freezer is deleted, neither the freezer nor its subdivisions can be further used or automatically restored. Do you want to delete this freezer?</value>
+  </data>
+  <data name="Warning_Message_Has_Samples_Body_Text" xml:space="preserve">
+    <value>Unable to delete this Freezer as it contains samples.</value>
+  </data>
+  <data name="Warning_Message_Unable_To_Delete_Subdivision_Text" xml:space="preserve">
+    <value>Unable to delete this subdivision as it contains at least one sub-level.</value>
+  </data>
+</root>

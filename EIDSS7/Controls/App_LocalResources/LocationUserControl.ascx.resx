@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btn_Copy_Coordinates.Text" xml:space="preserve">
+    <value>Get Coordinates</value>
+  </data>
+  <data name="Dis_Apartment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Building.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Building_House_Apt.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Coordinates.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Country.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Elevation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_House.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Latitude.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Location.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Longitude.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Map.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Phone.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Rayon.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Region.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Street.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Town_or_Village.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hdg_Map.InnerText" xml:space="preserve">
+    <value>Select Location</value>
+  </data>
+  <data name="Lbl_Apartment.Text" xml:space="preserve">
+    <value>Apartment/Unit</value>
+  </data>
+  <data name="Lbl_Apartment.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Building.Text" xml:space="preserve">
+    <value>Building</value>
+  </data>
+  <data name="Lbl_Building.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Building_House_Apt.Text" xml:space="preserve">
+    <value>Building/House/Apartment</value>
+  </data>
+  <data name="Lbl_Building_House_Apt.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Country.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Lbl_Country.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Elevation.Text" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="Lbl_Elevation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_GoogleMap.Text" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="Lbl_GoogleMap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_House.Text" xml:space="preserve">
+    <value>House</value>
+  </data>
+  <data name="Lbl_House.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Latitude.Text" xml:space="preserve">
+    <value>Latitude (#.#####o)</value>
+  </data>
+  <data name="Lbl_Latitude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Longitude.Text" xml:space="preserve">
+    <value>Longitude (#.#####o)</value>
+  </data>
+  <data name="Lbl_Longitude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Map.Text" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="Lbl_Map.ToolTip" xml:space="preserve">
+    <value>Capture Coordinates on a Mapping Utility</value>
+  </data>
+  <data name="Lbl_Postal_Code.Text" xml:space="preserve">
+    <value>Postal Code</value>
+  </data>
+  <data name="Lbl_Postal_Code.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Rayon.Text" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Lbl_Rayon.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Region.Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Lbl_Region.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Street.Text" xml:space="preserve">
+    <value>Street</value>
+  </data>
+  <data name="Lbl_Street.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Town_or_Village.Text" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Lbl_Town_or_Village.ToolTip" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Req_Apartment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Building.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Country.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Elevation.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_House.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Latitude.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Longitude.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Phone.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Postal_Code.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Rayon.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Region.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Street.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Town_or_Village.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Apartment.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Apartment.ErrorMessage" xml:space="preserve">
+    <value>Apartment is required.</value>
+  </data>
+  <data name="Val_Apartment.Text" xml:space="preserve">
+    <value>Apartment is required.</value>
+  </data>
+  <data name="Val_Building.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Building.ErrorMessage" xml:space="preserve">
+    <value>Building is required.</value>
+  </data>
+  <data name="Val_Building.Text" xml:space="preserve">
+    <value>Building is required.</value>
+  </data>
+  <data name="Val_Country.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Country.ErrorMessage" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="Val_Country.Text" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="Val_Elevation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Elevation.ErrorMessage" xml:space="preserve">
+    <value>Elevation is required.</value>
+  </data>
+  <data name="Val_Elevation.Text" xml:space="preserve">
+    <value>Elevation is required.</value>
+  </data>
+  <data name="Val_House.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_House.ErrorMessage" xml:space="preserve">
+    <value>House is required.</value>
+  </data>
+  <data name="Val_House.Text" xml:space="preserve">
+    <value>House is required.</value>
+  </data>
+  <data name="Val_Latitude.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Latitude.ErrorMessage" xml:space="preserve">
+    <value>Latitude is required.</value>
+  </data>
+  <data name="Val_Latitude.Text" xml:space="preserve">
+    <value>Latitude is required.</value>
+  </data>
+  <data name="Val_Longitude.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Longitude.ErrorMessage" xml:space="preserve">
+    <value>Longitude is required.</value>
+  </data>
+  <data name="Val_Longitude.Text" xml:space="preserve">
+    <value>Longitude is required.</value>
+  </data>
+  <data name="Val_Postal_Code.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Postal_Code.ErrorMessage" xml:space="preserve">
+    <value>Postal Code is required.</value>
+  </data>
+  <data name="Val_Postal_Code.Text" xml:space="preserve">
+    <value>Postal Code is required.</value>
+  </data>
+  <data name="Val_Rayon.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Rayon.ErrorMessage" xml:space="preserve">
+    <value>Rayon is required.</value>
+  </data>
+  <data name="Val_Rayon.Text" xml:space="preserve">
+    <value>Rayon is required.</value>
+  </data>
+  <data name="Val_Region.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Region.ErrorMessage" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="Val_Region.Text" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="Val_Street.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Street.ErrorMessage" xml:space="preserve">
+    <value>Street is required.</value>
+  </data>
+  <data name="Val_Street.Text" xml:space="preserve">
+    <value>Street is required.</value>
+  </data>
+  <data name="Val_Town_or_Village.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Town_or_Village.ErrorMessage" xml:space="preserve">
+    <value>Town or Village is required.</value>
+  </data>
+  <data name="Val_Town_or_Village.Text" xml:space="preserve">
+    <value>Town or Village is required.</value>
+  </data>
+  <data name="Dis_Postal_Code.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+</root>

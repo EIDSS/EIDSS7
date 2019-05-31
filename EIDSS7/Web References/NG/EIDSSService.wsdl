@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="EIDSSService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:4200/EIDSSService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:4200/EIDSSService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:4200/EIDSSService.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://localhost:4200/EIDSSService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+      <xsd:import schemaLocation="http://localhost:4200/EIDSSService.svc?xsd=xsd4" />
+      <xsd:import schemaLocation="http://localhost:4200/EIDSSService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/System" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IEIDSSService_getSPList_InputMessage">
+    <wsdl:part name="parameters" element="tns:getSPList" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_getSPList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getSPListResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_executeSP_InputMessage">
+    <wsdl:part name="parameters" element="tns:executeSP" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_executeSP_OutputMessage">
+    <wsdl:part name="parameters" element="tns:executeSPResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_LogIn_InputMessage">
+    <wsdl:part name="parameters" element="tns:LogIn" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_LogIn_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LogInResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_ChangePassword_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePassword" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_ChangePassword_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChangePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_GetDataWithStructuredParams_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataWithStructuredParams" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_GetDataWithStructuredParams_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataWithStructuredParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_EncryptData_InputMessage">
+    <wsdl:part name="parameters" element="tns:EncryptData" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_EncryptData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EncryptDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_InitialHash_InputMessage">
+    <wsdl:part name="parameters" element="tns:InitialHash" />
+  </wsdl:message>
+  <wsdl:message name="IEIDSSService_InitialHash_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitialHashResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IEIDSSService">
+    <wsdl:operation name="getSPList">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/getSPList" message="tns:IEIDSSService_getSPList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/getSPListResponse" message="tns:IEIDSSService_getSPList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="executeSP">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/executeSP" message="tns:IEIDSSService_executeSP_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/executeSPResponse" message="tns:IEIDSSService_executeSP_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LogIn">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/LogIn" message="tns:IEIDSSService_LogIn_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/LogInResponse" message="tns:IEIDSSService_LogIn_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/ChangePassword" message="tns:IEIDSSService_ChangePassword_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/ChangePasswordResponse" message="tns:IEIDSSService_ChangePassword_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/GetData" message="tns:IEIDSSService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/GetDataResponse" message="tns:IEIDSSService_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataWithStructuredParams">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/GetDataWithStructuredParams" message="tns:IEIDSSService_GetDataWithStructuredParams_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/GetDataWithStructuredParamsResponse" message="tns:IEIDSSService_GetDataWithStructuredParams_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EncryptData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/EncryptData" message="tns:IEIDSSService_EncryptData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/EncryptDataResponse" message="tns:IEIDSSService_EncryptData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InitialHash">
+      <wsdl:input wsaw:Action="http://tempuri.org/IEIDSSService/InitialHash" message="tns:IEIDSSService_InitialHash_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IEIDSSService/InitialHashResponse" message="tns:IEIDSSService_InitialHash_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IEIDSSService" type="tns:IEIDSSService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getSPList">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/getSPList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="executeSP">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/executeSP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LogIn">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/LogIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChangePassword">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/ChangePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataWithStructuredParams">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/GetDataWithStructuredParams" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EncryptData">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/EncryptData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InitialHash">
+      <soap:operation soapAction="http://tempuri.org/IEIDSSService/InitialHash" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EIDSSService">
+    <wsdl:port name="BasicHttpBinding_IEIDSSService" binding="tns:BasicHttpBinding_IEIDSSService">
+      <soap:address location="http://localhost:4200/EIDSSService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

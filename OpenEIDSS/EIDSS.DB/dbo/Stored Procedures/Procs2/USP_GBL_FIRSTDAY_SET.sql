@@ -1,0 +1,6 @@
+﻿
+
+CREATE            PROCEDURE [dbo].[USP_GBL_FIRSTDAY_SET] 
+AS
+
+SET DATEFIRST 1;

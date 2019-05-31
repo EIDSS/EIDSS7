@@ -1,0 +1,4 @@
+111,campaign name 1,campaign type 1, campaign status 1, disease 1,1/1/2011,2/2/2011, campaign admin 1, species 1, sample type 1
+222,campaign name 2,campaign type 2, campaign status 2, disease 2,1/1/2011,2/2/2011, campaign admin 2, species 2, sample type 2 
+333,campaign name ,campaign type 3, campaign status 3, disease 1,1/1/2011,2/2/2011, campaign admin 3, species 3, sample type 3
+444,campaign name 4,campaign type 4, campaign status 4, disease 1,1/1/2011,2/2/2011, campaign admin 4, species 4, sample type 4

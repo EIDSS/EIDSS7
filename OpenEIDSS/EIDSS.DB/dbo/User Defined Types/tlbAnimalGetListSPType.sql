@@ -1,0 +1,22 @@
+﻿CREATE TYPE [dbo].[tlbAnimalGetListSPType] AS TABLE (
+    [idfAnimal]               BIGINT         NOT NULL,
+    [idfsAnimalGender]        BIGINT         NULL,
+    [AnimalGenderTypeName]    NVARCHAR (200) NULL,
+    [idfsAnimalCondition]     BIGINT         NULL,
+    [AnimalConditionTypeName] NVARCHAR (200) NULL,
+    [idfsAnimalAge]           BIGINT         NULL,
+    [AnimalAgeTypeName]       NVARCHAR (200) NULL,
+    [idfSpecies]              BIGINT         NULL,
+    [SpeciesTypeName]         NVARCHAR (200) NULL,
+    [idfObservation]          BIGINT         NULL,
+    [strDescription]          NVARCHAR (200) NULL,
+    [strAnimalCode]           NVARCHAR (200) NULL,
+    [strName]                 NVARCHAR (200) NULL,
+    [strColor]                NVARCHAR (200) NULL,
+    [intRowStatus]            INT            NOT NULL,
+    [strMaintenanceFlag]      NVARCHAR (20)  NULL,
+    [idfHerd]                 BIGINT         NULL,
+    [strHerdCode]             NVARCHAR (200) NULL,
+    [RecordAction]            NCHAR (1)      NOT NULL,
+    PRIMARY KEY CLUSTERED ([idfAnimal] ASC));
+

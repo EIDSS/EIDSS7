@@ -1,0 +1,22 @@
+﻿CREATE TYPE [dbo].[FarmHerdSpeciesTableType] AS TABLE (
+    [RecordID]            BIGINT          NOT NULL,
+    [RecordType]          VARCHAR (10)    NOT NULL,
+    [FarmID]              BIGINT          NULL,
+    [FarmMasterID]        BIGINT          NULL,
+    [HerdID]              BIGINT          NULL,
+    [HerdMasterID]        BIGINT          NULL,
+    [SpeciesID]           BIGINT          NULL,
+    [SpeciesMasterID]     BIGINT          NULL,
+    [SpeciesTypeID]       BIGINT          NULL,
+    [FarmEIDSSID]         NVARCHAR (200)  NULL,
+    [HerdEIDSSID]         NVARCHAR (200)  NULL,
+    [StartOfSignsDate]    DATETIME        NULL,
+    [AverageAge]          NVARCHAR (200)  NULL,
+    [SickAnimalQuantity]  INT             NULL,
+    [TotalAnimalQuantity] INT             NULL,
+    [DeadAnimalQuantity]  INT             NULL,
+    [Note]                NVARCHAR (2000) NULL,
+    [RowStatus]           INT             NULL,
+    [RecordAction]        NCHAR (1)       NOT NULL,
+    PRIMARY KEY CLUSTERED ([RecordID] ASC));
+

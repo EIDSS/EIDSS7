@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CaseClassificationSectionHeading" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="GeneralInfoSectionHeading" xml:space="preserve">
+    <value>General Information</value>
+  </data>
+  <data name="ClinicalSectionHeading" xml:space="preserve">
+    <value>Clinical Information</value>
+  </data>
+  <data name="ContactsSectionHeading" xml:space="preserve">
+    <value>Contacts</value>
+  </data>
+  <data name="EpiLinksSectionHeading" xml:space="preserve">
+    <value>Epi Links</value>
+  </data>
+  <data name="LblCaseIdText" xml:space="preserve">
+    <value>Case ID</value>
+  </data>
+  <data name="LblCaseIdToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblDiagnosisDateText" xml:space="preserve">
+    <value>Date of Diagnosis</value>
+  </data>
+  <data name="LblDiagnosisDateToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblPassportIdText" xml:space="preserve">
+    <value>Passport ID (if known)</value>
+  </data>
+  <data name="LblPassportIdToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblPlaceText" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="LblPlaceToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblTentativeDiagnosisText" xml:space="preserve">
+    <value>TentativeDiagnosis</value>
+  </data>
+  <data name="LblTentativeDiagnosisToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PatientInfoSectionHeading" xml:space="preserve">
+    <value>Patient Information</value>
+  </data>
+  <data name="RiskFactorsSectionHeading" xml:space="preserve">
+    <value>Risk Factors</value>
+  </data>
+  <data name="SamplesSectionHeading" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="LblOrganizationSentText" xml:space="preserve">
+    <value>Organization that sent this notification</value>
+  </data>
+  <data name="LblOrganizationSentToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblOtherAddressText" xml:space="preserve">
+    <value>Other Address</value>
+  </data>
+  <data name="LblOtherAddressToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblOrganizationReceivedText" xml:space="preserve">
+    <value>Organization that received this notification</value>
+  </data>
+  <data name="LblOrganizationReceivedToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblDateRecievedText" xml:space="preserve">
+    <value>Date Received</value>
+  </data>
+  <data name="LblDateRecievedToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblIdentificationNumberText" xml:space="preserve">
+    <value>Local Identifier</value>
+  </data>
+  <data name="LblIdentificationNumberToolTip" xml:space="preserve">
+    <value>Enter the Hospital, Clinic, or Medical Care Facility identification number</value>
+  </data>
+  <data name="LblInvestigationStartDateText" xml:space="preserve">
+    <value>Start date of investigation</value>
+  </data>
+  <data name="LblInvestigationStartDateToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblOrganizationInvestigatingText" xml:space="preserve">
+    <value>Organization Conducting Investigation</value>
+  </data>
+  <data name="LblOrganizationInvestigatingToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DemographicsSectionHeading" xml:space="preserve">
+    <value>Patient Demographic Information</value>
+  </data>
+  <data name="LblEstimatedAgeText" xml:space="preserve">
+    <value>Approximate Age</value>
+  </data>
+  <data name="LblEstimatedAgeToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblFirstNameText" xml:space="preserve">
+    <value>First</value>
+  </data>
+  <data name="LblFirstNameToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblLastNameText" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="LblLastNameToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblMaleToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblTownText" xml:space="preserve">
+    <value>Town or Village</value>
+  </data>
+  <data name="LblTownToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblUnknownDobText" xml:space="preserve">
+    <value>Date of Birth Unknown</value>
+  </data>
+  <data name="LblUnknownDobToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LocalAddressText" xml:space="preserve">
+    <value>Current Address</value>
+  </data>
+  <data name="CaseClassificationText" xml:space="preserve">
+    <value>Case Classification</value>
+  </data>
+  <data name="LblCanStayText" xml:space="preserve">
+    <value>Is there another address where this person can stay?</value>
+  </data>
+  <data name="LblChkNoText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="LblChkUnknownText" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="LblChkYesText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="LblConfirmedText" xml:space="preserve">
+    <value>Confirmed</value>
+  </data>
+  <data name="LblDateOfExposureText" xml:space="preserve">
+    <value>Date of Exposure</value>
+  </data>
+  <data name="LblDateOfExposureToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblProbableText" xml:space="preserve">
+    <value>Probably</value>
+  </data>
+  <data name="LblSuspectedText" xml:space="preserve">
+    <value>Suspected</value>
+  </data>
+  <data name="LblWorkOrStudyText" xml:space="preserve">
+    <value>Does this patient work, study or attend pre-school?</value>
+  </data>
+  <data name="OtherAddressText" xml:space="preserve">
+    <value>Other Address</value>
+  </data>
+  <data name="WorkAddressText" xml:space="preserve">
+    <value>Work or School Address</value>
+  </data>
+  <data name="WorkOrSchoolText" xml:space="preserve">
+    <value>Patient Work or School Information</value>
+  </data>
+  <data name="LblChkNoToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblChkUnknownToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblChkYesToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblConfirmedToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblProbableToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblSuspectedToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PleaseNoteText" xml:space="preserve">
+    <value>&lt;strong&gt;Please Note,&lt;/strong&gt; this Case Investigation Form needs to completed in its entirety. If you lose connectivity, or close your browser window prior to submitting this form, all of the information that you entered will be lost.</value>
+  </data>
+  <data name="SelectMultipleText" xml:space="preserve">
+    <value>Select multiple by holding control and click</value>
+  </data>
+  <data name="SexText" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="ShowMoreDataText" xml:space="preserve">
+    <value>Show more data</value>
+  </data>
+  <data name="InitialCareText" xml:space="preserve">
+    <value>Initial Care, Hospitalization, and Treatment</value>
+  </data>
+  <data name="AntibacterialGridEmptyData" xml:space="preserve">
+    <value>No Medications to show</value>
+  </data>
+  <data name="AntibacterialGridHeading" xml:space="preserve">
+    <value>Antibacterial/Antiviral Medications</value>
+  </data>
+  <data name="AntibacterialText" xml:space="preserve">
+    <value>antibacterial/Antiviral therapy administered before sample?</value>
+  </data>
+  <data name="btnAddNewAntibacterial" xml:space="preserve">
+    <value>Add Medication</value>
+  </data>
+  <data name="ContactsGridEmptyData" xml:space="preserve">
+    <value>No Contacts to Show</value>
+  </data>
+  <data name="ContactsGridHeading" xml:space="preserve">
+    <value>Contact List</value>
+  </data>
+  <data name="DifferentHospitalText" xml:space="preserve">
+    <value>Has the patient been hospitalized when first sought care?</value>
+  </data>
+  <data name="DiffFacilityText" xml:space="preserve">
+    <value>Did the patient seek care at a different facility prior to current admission?</value>
+    <comment>`</comment>
+  </data>
+  <data name="LblAntibacterialGridDateHeading" xml:space="preserve">
+    <value>Date First Administered</value>
+  </data>
+  <data name="LblAntibacterialGridDoseHeading" xml:space="preserve">
+    <value>Dose</value>
+  </data>
+  <data name="LblAntibacterialGridNameHeading" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="LblCollectionDateHeading" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="LblDiagnosisOtherFacilityText" xml:space="preserve">
+    <value>Diagnosis from facility where patient first sought care</value>
+  </data>
+  <data name="LblDiagnosisOtherFacilityToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblFirstCareText" xml:space="preserve">
+    <value>Date patient first sought care</value>
+  </data>
+  <data name="LblFirstCareToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblOtherFacilityNameText" xml:space="preserve">
+    <value>Facillity where patient first sought care</value>
+  </data>
+  <data name="LblOtherFacilityNameToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblOtherHospitalText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblOtherHospitalToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblSampleIdHeading" xml:space="preserve">
+    <value>Local Sample ID</value>
+  </data>
+  <data name="LblSampleTypeHeading" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="LblSentDateHeading" xml:space="preserve">
+    <value>Sent Date</value>
+  </data>
+  <data name="SamplesGridEmptyData" xml:space="preserve">
+    <value>No Samples to show</value>
+  </data>
+  <data name="SamplesGridHeading" xml:space="preserve">
+    <value>Sample Details</value>
+  </data>
+  <data name="ShowLessData" xml:space="preserve">
+    <value>Show Less Data</value>
+  </data>
+  <data name="ShowMoreData" xml:space="preserve">
+    <value>Show More Data</value>
+  </data>
+  <data name="LblPersonLocationText" xml:space="preserve">
+    <value>Location of the person</value>
+  </data>
+  <data name="LblPersonLocationToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblPlaceOfContactText" xml:space="preserve">
+    <value>Specifiy place of contact</value>
+  </data>
+  <data name="LblPlaceOfContactToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblSymtpomOnsetText" xml:space="preserve">
+    <value>Date of symptom onset of the person</value>
+  </data>
+  <data name="LblSymtpomOnsetToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LgdAnyOthersText" xml:space="preserve">
+    <value>Are there any others you are aware of who may have a similar diagnosis?</value>
+  </data>
+  <data name="LgdHaveContactText" xml:space="preserve">
+    <value>Did patient have contacts with those persons during the past two weeks?</value>
+  </data>
+  <data name="SubheaderEpiLinksText" xml:space="preserve">
+    <value>The following are questions about other persons who may have a similar disease.</value>
+  </data>
+  <data name="LblCheckUnknownText" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="LblCheckUnknownToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="HeadingCaseClassificationSubheading" xml:space="preserve">
+    <value>For a suspect case classification, the patient must exhibit manifestations of at least five (5) of the following:</value>
+  </data>
+  <data name="LblAlertSuspect1" xml:space="preserve">
+    <value>Case Classification:</value>
+  </data>
+  <data name="LblAlertSuspect2" xml:space="preserve">
+    <value>Suspect</value>
+  </data>
+  <data name="LblAlertSuspect3" xml:space="preserve">
+    <value>Because this case has met all qualifications to be classified as </value>
+  </data>
+  <data name="LblAlertProbable1" xml:space="preserve">
+    <value>Case Classification:</value>
+  </data>
+  <data name="LblAlertProbable2" xml:space="preserve">
+    <value>Probable</value>
+  </data>
+  <data name="LblAlertProbable3" xml:space="preserve">
+    <value>This case has met all qualifications to be classified as:</value>
+  </data>
+  <data name="LblAlertProbable4" xml:space="preserve">
+    <value>: Probable.</value>
+  </data>
+  <data name="LblAlertSuspect4" xml:space="preserve">
+    <value>: Suspect, please answer the following questions below.</value>
+  </data>
+</root>

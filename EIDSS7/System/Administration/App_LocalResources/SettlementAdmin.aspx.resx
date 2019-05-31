@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Btn_Delete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Btn_Edit.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="Btn_New.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Dis_Country.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Default_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Elevation.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Latitude.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Longitude.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_National_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Rayon.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Region.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Settlements.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Settlement_Code.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Settlement_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Country_Heading" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Grd_Default_Name_Heading" xml:space="preserve">
+    <value>Default Name</value>
+  </data>
+  <data name="Grd_Elevation_Heading" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="Grd_Latitude_Heading" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Grd_Longitude_Heading" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="Grd_National_Name_Heading" xml:space="preserve">
+    <value>National Name</value>
+  </data>
+  <data name="Grd_Rayon_Heading" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Grd_Region_Heading" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Grd_Settlements.PagerSettings-FirstPageText" xml:space="preserve">
+    <value>&lt;&lt;</value>
+  </data>
+  <data name="Grd_Settlements.PagerSettings-LastPageText" xml:space="preserve">
+    <value>&gt;&gt;</value>
+  </data>
+  <data name="Grd_Settlements.PagerSettings-Mode" xml:space="preserve">
+    <value>NumericFirstLast</value>
+  </data>
+  <data name="Grd_Settlements.PagerSettings-PageButtonCount" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Grd_Settlement_Type_Heading" xml:space="preserve">
+    <value>Settlement Type</value>
+  </data>
+  <data name="Hdg_Search_Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="Lbl_Country.Text" xml:space="preserve">
+    <value>Country</value>
+  </data>
+  <data name="Lbl_Country.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Default_Name.Text" xml:space="preserve">
+    <value>Default Name</value>
+  </data>
+  <data name="Lbl_Default_Name.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Elevation.Text" xml:space="preserve">
+    <value>Elevation</value>
+  </data>
+  <data name="Lbl_From_Elevation.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_From_Elevation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_From_Latitude.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_From_Latitude.ToolTip" xml:space="preserve">
+    <value>Minimum Latitude</value>
+  </data>
+  <data name="Lbl_From_Longitude.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Lbl_From_Longitude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Latitude.Text" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <data name="Lbl_Latitude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Longitude.Text" xml:space="preserve">
+    <value>Longitude</value>
+  </data>
+  <data name="Lbl_Longitude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_National_Name.Text" xml:space="preserve">
+    <value>National Name</value>
+  </data>
+  <data name="Lbl_National_Name.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Rayon.Text" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Lbl_Rayon.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Region.Text" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Lbl_Region.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Settlement_Code.Text" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="Lbl_Settlement_Code.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_Settlement_Type.Text" xml:space="preserve">
+    <value>Settlement Type</value>
+  </data>
+  <data name="Lbl_Settlement_Type.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_To_Elevation.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_To_Elevation.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Lbl_To_Latitude.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_To_Latitude.ToolTip" xml:space="preserve">
+    <value>Maximum Latitude</value>
+  </data>
+  <data name="Lbl_To_Longitude.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="Lbl_To_Longitude.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Val_Country.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Country.ErrorMessage" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="Val_Country.Text" xml:space="preserve">
+    <value>Country is required.</value>
+  </data>
+  <data name="Val_Default_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Default_Name.ErrorMessage" xml:space="preserve">
+    <value>Default Name is required.</value>
+  </data>
+  <data name="Val_Default_Name.Text" xml:space="preserve">
+    <value>Default Name is required.</value>
+  </data>
+  <data name="Val_From_Elevation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_From_Elevation.ErrorMessage" xml:space="preserve">
+    <value>From Elevation is required.</value>
+  </data>
+  <data name="Val_From_Elevation.Text" xml:space="preserve">
+    <value>From Elevation is required.</value>
+  </data>
+  <data name="Val_From_Latitude.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_From_Latitude.ErrorMessage" xml:space="preserve">
+    <value>From Latitude is required.</value>
+  </data>
+  <data name="Val_From_Latitude.Text" xml:space="preserve">
+    <value>From Latitude is required.</value>
+  </data>
+  <data name="Val_From_Longitude.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_From_Longitude.ErrorMessage" xml:space="preserve">
+    <value>Form Longitude is required.</value>
+  </data>
+  <data name="Val_From_Longitude.Text" xml:space="preserve">
+    <value>From Longitude is required.</value>
+  </data>
+  <data name="Val_National_Name.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_National_Name.ErrorMessage" xml:space="preserve">
+    <value>National Name is required.</value>
+  </data>
+  <data name="Val_National_Name.Text" xml:space="preserve">
+    <value>National Name is required.</value>
+  </data>
+  <data name="Val_Rayon.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Rayon.ErrorMessage" xml:space="preserve">
+    <value>Rayon is required.</value>
+  </data>
+  <data name="Val_Rayon.Text" xml:space="preserve">
+    <value>Rayon is required.</value>
+  </data>
+  <data name="Val_Region.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Region.ErrorMessage" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="Val_Region.Text" xml:space="preserve">
+    <value>Region is required.</value>
+  </data>
+  <data name="Val_Settlement_Code.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Settlement_Code.ErrorMessage" xml:space="preserve">
+    <value>Settlement is required.</value>
+  </data>
+  <data name="Val_Settlement_Code.Text" xml:space="preserve">
+    <value>Settlement is required.</value>
+  </data>
+  <data name="Val_Settlement_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Settlement_Type.ErrorMessage" xml:space="preserve">
+    <value>Settlement Type is required.</value>
+  </data>
+  <data name="Val_Settlement_Type.Text" xml:space="preserve">
+    <value>Settlement Type is required.</value>
+  </data>
+  <data name="Val_To_Elevation.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_To_Elevation.ErrorMessage" xml:space="preserve">
+    <value>To Elevation is required.</value>
+  </data>
+  <data name="Val_To_Elevation.Text" xml:space="preserve">
+    <value>To Elevation is required.</value>
+  </data>
+  <data name="Val_To_Latitude.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_To_Latitude.ErrorMessage" xml:space="preserve">
+    <value>To Latitude is required</value>
+  </data>
+  <data name="Val_To_Latitude.Text" xml:space="preserve">
+    <value>To Latitude is required</value>
+  </data>
+  <data name="Val_To_Longitude.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_To_Longitude.ErrorMessage" xml:space="preserve">
+    <value>To Longitude is required.</value>
+  </data>
+  <data name="Val_To_Longitude.Text" xml:space="preserve">
+    <value>To Longitude is required.</value>
+  </data>
+  <data name="Hdg_Form_Title.InnerText" xml:space="preserve">
+    <value>Settlements List</value>
+  </data>
+  <data name="Lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="Pnl_Please_Wait.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Settlement_List.Empty" xml:space="preserve">
+    <value>No Settlement Data found.</value>
+  </data>
+</root>

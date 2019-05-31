@@ -1,0 +1,867 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnReport.Text" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="btn_Add_New_Session.Text" xml:space="preserve">
+    <value>Add Session</value>
+  </data>
+  <data name="btn_Add_Session.InnerText" xml:space="preserve">
+    <value>Add Session</value>
+  </data>
+  <data name="btn_Close.InnerText" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Grd_Rayon" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Grd_Region" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Grd_Session_ID" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Grd_TownVillage" xml:space="preserve">
+    <value>Town/Village</value>
+  </data>
+  <data name="hdg_Active_Surveillance_Campaign.InnerText" xml:space="preserve">
+    <value>Human Active Surveillance Campaign</value>
+  </data>
+  <data name="hdg_Campaign_Information.InnerText" xml:space="preserve">
+    <value>Campaign Information</value>
+  </data>
+  <data name="hdg_New_Session.InnerText" xml:space="preserve">
+    <value>New Session</value>
+  </data>
+  <data name="hdg_Samples.InnerText" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="lbl_Campaign_Administrator.InnerText" xml:space="preserve">
+    <value>Campaign Administrator</value>
+  </data>
+  <data name="lbl_Campaign_Date_Range.InnerText" xml:space="preserve">
+    <value>Campaign Date Range</value>
+  </data>
+  <data name="lbl_Campaign_Name.InnerText" xml:space="preserve">
+    <value>Campaign Name</value>
+  </data>
+  <data name="lbl_Campaign_Status.InnerText" xml:space="preserve">
+    <value>Campaign Status</value>
+  </data>
+  <data name="lbl_Campaign_Type.InnerText" xml:space="preserve">
+    <value>Campaign Type</value>
+  </data>
+  <data name="lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="lbl_Planned_Number.InnerText" xml:space="preserve">
+    <value>Planned Number</value>
+  </data>
+  <data name="lbl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="lbl_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="lbl_Session_End_Date.InnerText" xml:space="preserve">
+    <value>Session End Date</value>
+  </data>
+  <data name="lbl_Session_Start_Date.InnerText" xml:space="preserve">
+    <value>Session Start Date</value>
+  </data>
+  <data name="lbl_Session_Status.InnerText" xml:space="preserve">
+    <value>Session Status</value>
+  </data>
+  <data name="lbl_Species.InnerText" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="btn_Clear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btn_Create_Campaign.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Edit_Search.Text" xml:space="preserve">
+    <value>Edit Search</value>
+  </data>
+  <data name="btn_New_Search.Text" xml:space="preserve">
+    <value>New Search</value>
+  </data>
+  <data name="btn_Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="dis_Campaign_Administrator.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Campaign_End_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Campaign_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Campaign_Start_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Campaign_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Planned_Number.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Campaign_Administrator.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Campaign_End_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Campaign_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Campaign_Start_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Campaign_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Campaign_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Search_Or.InnerText" xml:space="preserve">
+    <value>- OR -</value>
+  </data>
+  <data name="dis_Species.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hdg_Search.InnerText" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="hdg_Search_Criteria.InnerText" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="hdg_Search_Results.InnerText" xml:space="preserve">
+    <value>Search Results</value>
+  </data>
+  <data name="hpl_Return_to_Dashboard.InnerText" xml:space="preserve">
+    <value>Return to Dashboard</value>
+  </data>
+  <data name="lbl_Campaign_ID.InnerText" xml:space="preserve">
+    <value>Campaign ID Number</value>
+  </data>
+  <data name="lbl_End_Date.InnerText" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="lbl_From.InnerText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbl_Start_Date.InnerText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="lbl_To.InnerText" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="req_Campaign_Administrator.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Campaign_End_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Campaign_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Campaign_Start_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Campaign_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Diagnosis.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Planned_Number.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Species.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Campaign_Administrator.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Campaign_Administrator.ErrorMessage" xml:space="preserve">
+    <value>Campaign Administrator is required</value>
+  </data>
+  <data name="val_Campaign_Administrator.Text" xml:space="preserve">
+    <value>Campaign Administrator is required</value>
+  </data>
+  <data name="val_Campaign_End_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Campaign_End_Date.ErrorMessage" xml:space="preserve">
+    <value>Campaign End Date is required</value>
+  </data>
+  <data name="val_Campaign_End_Date.Text" xml:space="preserve">
+    <value>Campaign End Date is required</value>
+  </data>
+  <data name="val_Campaign_Name.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Campaign_Name.ErrorMessage" xml:space="preserve">
+    <value>Campaign Name is required</value>
+  </data>
+  <data name="val_Campaign_Name.Text" xml:space="preserve">
+    <value>Campaign Name is required</value>
+  </data>
+  <data name="val_Campaign_Start_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Campaign_Start_Date.ErrorMessage" xml:space="preserve">
+    <value>Campaign Start Date is required</value>
+  </data>
+  <data name="val_Campaign_Start_Date.Text" xml:space="preserve">
+    <value>Campaign Start Date is required</value>
+  </data>
+  <data name="val_Campaign_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Campaign_Type.ErrorMessage" xml:space="preserve">
+    <value>Campaign Type is required</value>
+  </data>
+  <data name="val_Campaign_Type.Text" xml:space="preserve">
+    <value>Campaign Type is required</value>
+  </data>
+  <data name="val_Diagnosis.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Diagnosis.ErrorMessage" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="val_Diagnosis.Text" xml:space="preserve">
+    <value>Disease is required</value>
+  </data>
+  <data name="val_Planned_Number.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Planned_Number.ErrorMessage" xml:space="preserve">
+    <value>Planned Number is required</value>
+  </data>
+  <data name="val_Planned_Number.Text" xml:space="preserve">
+    <value>Planned Number is required</value>
+  </data>
+  <data name="val_Sample_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="val_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="val_Species.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Species.ErrorMessage" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="val_Species.Text" xml:space="preserve">
+    <value>Species is required</value>
+  </data>
+  <data name="dis_Campaign_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Campaign_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Campaign_Status.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Campaign_Status.ErrorMessage" xml:space="preserve">
+    <value>Campaign Status is required</value>
+  </data>
+  <data name="val_Campaign_Status.Text" xml:space="preserve">
+    <value>Campaign Status is required</value>
+  </data>
+  <data name="btn_Cancel.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="dis_Session_Campaign_Entered_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Campaign_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Campaign_Name.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Campaign_Officer.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Campaign_Site.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Campaign_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_End_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Session_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Start_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="dis_Session_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="hdg_Active_Surveillance_Session.InnerText" xml:space="preserve">
+    <value>Active Surveillance Session</value>
+  </data>
+  <data name="hdg_Session_Address.InnerText" xml:space="preserve">
+    <value>Session Address</value>
+  </data>
+  <data name="hdg_Session_Information.InnerText" xml:space="preserve">
+    <value>Session Information</value>
+  </data>
+  <data name="lbl_Entered_Date.InnerText" xml:space="preserve">
+    <value>Entered Date</value>
+  </data>
+  <data name="lbl_Officer.InnerText" xml:space="preserve">
+    <value>Officer</value>
+  </data>
+  <data name="lbl_Session_Session_ID_Number.InnerText" xml:space="preserve">
+    <value>Session ID Number</value>
+  </data>
+  <data name="req_luc_Session.IsDbRequiredCountry" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_luc_Session.IsDbRequiredRayon" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_luc_Session.IsDbRequiredRegion" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="req_Session_End_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Session_Start_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="req_Session_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Session_End_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Session_Start_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Session_Start_Date.ErrorMessage" xml:space="preserve">
+    <value>Start Date is required</value>
+  </data>
+  <data name="val_Session_Start_Date.Text" xml:space="preserve">
+    <value>Start Date is required</value>
+  </data>
+  <data name="val_Session_Status.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Session_Status.ErrorMessage" xml:space="preserve">
+    <value>Status is required</value>
+  </data>
+  <data name="val_Session_Status.Text" xml:space="preserve">
+    <value>Status is required</value>
+  </data>
+  <data name="btn_Previous.Value" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+  <data name="btn_Next.Value" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="btn_Delete_Campaign.InnerText" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_Delete_Campaign.Value" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="btn_New.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="btn_No.InnerText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btn_OK.InnerText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_OK.Value" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="btn_Return_to_Campaign_Record.InnerText" xml:space="preserve">
+    <value>Return to Campaign Record</value>
+  </data>
+  <data name="btn_Return_to_Search.InnerText" xml:space="preserve">
+    <value>Return to Search</value>
+  </data>
+  <data name="btn_Return_to_Search.Value" xml:space="preserve">
+    <value>Return to Search</value>
+  </data>
+  <data name="btn_Submit.Text" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btn_Yes.InnerText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="dis_Conclusion.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Grd_Sessions_List_End_Date.HeaderText" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+  <data name="Grd_Sessions_List_Rayon.HeaderText" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="Grd_Sessions_List_Region.HeaderText" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="Grd_Sessions_List_SessionID.HeaderText" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="Grd_Sessions_List_Start_Date.HeaderText" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+  <data name="Grd_Sessions_List_Status.HeaderText" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Grd_Sessions_List_Town.HeaderText" xml:space="preserve">
+    <value>Town</value>
+  </data>
+  <data name="hdg_Conclusions.InnerText" xml:space="preserve">
+    <value>Conclusions</value>
+  </data>
+  <data name="hdg_Sessions.InnerText" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="lbl_Bad_Date.InnerText" xml:space="preserve">
+    <value>The Start Date must be before or the same as the End Date.</value>
+  </data>
+  <data name="lbl_Bad_Sample.InnerText" xml:space="preserve">
+    <value>A sample must contain a sample type and planned number.</value>
+  </data>
+  <data name="lbl_Bad_Sample_Number.InnerText" xml:space="preserve">
+    <value>The planned number must be greater than 0.</value>
+  </data>
+  <data name="lbl_Cancel_Campaign.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel the changes made to this campaign? No Information will be saved.</value>
+  </data>
+  <data name="lbl_Conclusion.InnerText" xml:space="preserve">
+    <value>Conclusion</value>
+  </data>
+  <data name="lbl_Delete_Campaign.InnerText" xml:space="preserve">
+    <value>Are you sure you want to delete this campaign? Changes cannot be undone.</value>
+  </data>
+  <data name="lbl_Human_Active_Surveillance_Campaign_Created.InnerText" xml:space="preserve">
+    <value>Human Active Surveillance Campaign has been successfully created.</value>
+  </data>
+  <data name="lbl_Human_Active_Surveillance_Campaign_Updated.InnerText" xml:space="preserve">
+    <value>Human Active Surveillance Campaign has been successfully updated.</value>
+  </data>
+  <data name="lbl_No_Rows_Created.InnerText" xml:space="preserve">
+    <value>No campaign was created.</value>
+  </data>
+  <data name="lbl_No_Rows_Updated.InnerText" xml:space="preserve">
+    <value>There were no updates made to this campaign.</value>
+  </data>
+  <data name="lbl_Positive_Planned_Number.InnerText" xml:space="preserve">
+    <value>Planned number must be positive.</value>
+  </data>
+  <data name="lbl_Rayon.InnerText" xml:space="preserve">
+    <value>Rayon</value>
+  </data>
+  <data name="lbl_Region.InnerText" xml:space="preserve">
+    <value>Region</value>
+  </data>
+  <data name="lbl_Session_ID.InnerText" xml:space="preserve">
+    <value>Session ID</value>
+  </data>
+  <data name="lbl_Settlement_ID.InnerText" xml:space="preserve">
+    <value>Settlement</value>
+  </data>
+  <data name="lbl_Successful_Creation.InnerText" xml:space="preserve">
+    <value>You have successfully created a Human Active Surveillance Campaign : </value>
+  </data>
+  <data name="lbl_Successful_Delete.InnerText" xml:space="preserve">
+    <value>You have successfully deleted the Human Active Surveillance Campaign.</value>
+  </data>
+  <data name="lbl_Successful_Update.InnerText" xml:space="preserve">
+    <value>You have successfully updated Human Active Surveillance Campaign ID </value>
+  </data>
+  <data name="req_Conclusion.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Tab_Active_Surveillance_Campaign_Review.Text" xml:space="preserve">
+    <value>Review</value>
+  </data>
+  <data name="Tab_Campaign_Information.Text" xml:space="preserve">
+    <value>Campaign Information</value>
+  </data>
+  <data name="Tab_Conclusions.Text" xml:space="preserve">
+    <value>Conclusions</value>
+  </data>
+  <data name="Tab_Samples.Text" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Tab_Sessions.Text" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="val_Conclusion.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="val_Conclusion.ErrorMessage" xml:space="preserve">
+    <value>Conclusion is required</value>
+  </data>
+  <data name="val_Conclusion.Text" xml:space="preserve">
+    <value>Conclusion is required</value>
+  </data>
+  <data name="hdg_Actions.InnerText" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="lbl_Duplicate.InnerText" xml:space="preserve">
+    <value> already exists. Please select another sample type.</value>
+  </data>
+  <data name="lbl_No.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="lbl_Unknown.Text" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="lbl_Yes.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Tab_Actions.Text" xml:space="preserve">
+    <value>Actions</value>
+  </data>
+  <data name="Tab_Detailed_Information.Text" xml:space="preserve">
+    <value>Detailed Information</value>
+  </data>
+  <data name="Tab_Test_Details.Text" xml:space="preserve">
+    <value>Test Details</value>
+  </data>
+  <data name="lbl_One_Search_Criterion.InnerText" xml:space="preserve">
+    <value>Please enter at least one search parameter.</value>
+  </data>
+  <data name="lbl_Please_Wait.Text" xml:space="preserve">
+    <value>Please wait while we process your request...</value>
+  </data>
+  <data name="lbl_Error_Adding_Sample.InnerText" xml:space="preserve">
+    <value>There was a problem adding the sample. Please contact an administrator and try again.</value>
+  </data>
+  <data name="lbl_Error_Adding_Campaign.InnerText" xml:space="preserve">
+    <value>There was a problem creating the campaign.</value>
+  </data>
+  <data name="lbl_Error_Delete_Campaign.InnerText" xml:space="preserve">
+    <value>There was a problem deleting the campaign.</value>
+  </data>
+  <data name="lbl_Error_Return_to_Search.InnerText" xml:space="preserve">
+    <value>There was a problem returning to search.</value>
+  </data>
+  <data name="lbl_Error_SampleType_Cancel.InnerText" xml:space="preserve">
+    <value>There was an error reverting the sample type into regular mode.</value>
+  </data>
+  <data name="lbl_Error_SampleType_Delete.InnerText" xml:space="preserve">
+    <value>There was an error deleting the sample type.</value>
+  </data>
+  <data name="lbl_Error_SampleType_Edit.InnerText" xml:space="preserve">
+    <value>There was an error converting the sample type into edit mode.</value>
+  </data>
+  <data name="lbl_Error_SampleType_Update.InnerText" xml:space="preserve">
+    <value>There was an error saving the sample type.</value>
+  </data>
+  <data name="lbl_Error_Search.InnerText" xml:space="preserve">
+    <value>There was a problem retrieving search data.</value>
+  </data>
+  <data name="btn_Add.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Tab_Campaign_Information.Tooltip" xml:space="preserve">
+    <value>Campaign Information</value>
+  </data>
+  <data name="Tab_Conclusions.Tooltip" xml:space="preserve">
+    <value>Conclusions</value>
+  </data>
+  <data name="Tab_Detailed_Information.Tooltip" xml:space="preserve">
+    <value>Detailed Information</value>
+  </data>
+  <data name="Tab_Samples.Tooltip" xml:space="preserve">
+    <value>Samples</value>
+  </data>
+  <data name="Tab_Sessions.Tooltip" xml:space="preserve">
+    <value>Sessions</value>
+  </data>
+  <data name="Tab_Test_Details.Tooltip" xml:space="preserve">
+    <value>Test Details</value>
+  </data>
+  <data name="btn_Edit_Campaign.ToolTip" xml:space="preserve">
+    <value>Click here to edit campaign.</value>
+  </data>
+  <data name="lbl_Remove_Sample_Type.InnerText" xml:space="preserve">
+    <value>Are you sure you want to remove this sample type from the campaign?</value>
+  </data>
+  <data name="lbl_Remove_Session.InnerText" xml:space="preserve">
+    <value>Are you sure you want to remove this session from the campaign?</value>
+  </data>
+  <data name="btn_Add.Value" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="btn_Create_Sample_Types.Value" xml:space="preserve">
+    <value>Create Sample Types</value>
+  </data>
+  <data name="btn_Delete.Tooltip" xml:space="preserve">
+    <value>Click here to delete.</value>
+  </data>
+  <data name="btn_Edit.Tooltip" xml:space="preserve">
+    <value>Click here to edit.</value>
+  </data>
+  <data name="lbl_No_Search_Results.InnerText" xml:space="preserve">
+    <value>There are no search results.</value>
+  </data>
+  <data name="btn_Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Cancel.Value" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="lbl_Cancel_Sample_Type.InnerText" xml:space="preserve">
+    <value>Are you sure you want to cancel the changes made to sample type?</value>
+  </data>
+  <data name="btn_Cancel_Sample.Tooltip" xml:space="preserve">
+    <value>Click here to cancel changes made to the sample.</value>
+  </data>
+  <data name="btn_Delete_Sample.Tooltip" xml:space="preserve">
+    <value>Click here to delete sample.</value>
+  </data>
+  <data name="btn_Delete_Session.Tooltip" xml:space="preserve">
+    <value>Click here to delete session.</value>
+  </data>
+  <data name="btn_Edit_Sample.Tooltip" xml:space="preserve">
+    <value>Click here to edit sample.</value>
+  </data>
+  <data name="btn_Edit_Session.Tooltip" xml:space="preserve">
+    <value>Click here to edit session.</value>
+  </data>
+  <data name="btn_Update_Sample.Tooltip" xml:space="preserve">
+    <value>Click here to save changes made to the sample.</value>
+  </data>
+  <data name="hdg_Active_Surveillance_Campaign_Review.InnerText" xml:space="preserve">
+    <value>Human Active Surveillance Campaign Review</value>
+  </data>
+  <data name="lbl_Date_Entered_Range.InnerText" xml:space="preserve">
+    <value>Date Entered Range</value>
+  </data>
+  <data name="Page.Title" xml:space="preserve">
+    <value>EIDSS Human Active Surveillance Campaign</value>
+  </data>
+  <data name="btn_Delete_Campaign.Tooltip" xml:space="preserve">
+    <value>Click here to delete campaign.</value>
+  </data>
+  <data name="btn_Show_Additional_Fields.Text" xml:space="preserve">
+    <value>Click here to show/hide additional fields.</value>
+  </data>
+  <data name="btn_Show_Search_Criteria.Title" xml:space="preserve">
+    <value>Click here to show/hide search criteria.</value>
+  </data>
+  <data name="btn_Select_Campaign.Tooltip" xml:space="preserve">
+    <value>Click here to select campaign</value>
+  </data>
+  <data name="lbl_Sample_Types.InnerText" xml:space="preserve">
+    <value>Sample Type(s)</value>
+  </data>
+  <data name="btn_Add_Sample.Tooltip" xml:space="preserve">
+    <value>Click here to add sample.</value>
+  </data>
+  <data name="val_Campaign_Date_Range.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="val_Campaign_Date_Range.ErrorMessage" xml:space="preserve">
+    <value>Campaign Start Date must before Campaign End Date</value>
+  </data>
+  <data name="val_Campaign_Date_Range.Text" xml:space="preserve">
+    <value>Campaign Start Date must before Campaign End Date</value>
+  </data>
+  <data name="btn_Go_To_Campaign_Information.Title" xml:space="preserve">
+    <value>Click here to go the Campaign Information tab.</value>
+  </data>
+  <data name="btn_Go_To_Conclusion.Title" xml:space="preserve">
+    <value>Click here to go the Conclusion tab.</value>
+  </data>
+  <data name="btn_Go_To_Samples.Title" xml:space="preserve">
+    <value>Click here to go the Samples tab.</value>
+  </data>
+  <data name="btn_Go_To_Sessions.Title" xml:space="preserve">
+    <value>Click here to go the Sessions tab.</value>
+  </data>
+  <data name="lbl_Campaign_End_Date.InnerText" xml:space="preserve">
+    <value>Campaign End Date</value>
+  </data>
+  <data name="lbl_Campaign_Start_Date.InnerText" xml:space="preserve">
+    <value>Campaign Start Date</value>
+  </data>
+  <data name="btn_Return_to_Search_Results.InnerText" xml:space="preserve">
+    <value>Return to Search Results</value>
+  </data>
+  <data name="hdg_Active_Surveillance_Campaign_Overview.InnerText" xml:space="preserve">
+    <value>Human Active Surveillance Campaign Overview</value>
+  </data>
+  <data name="lbl_Start_Date_Range.InnerText" xml:space="preserve">
+    <value>Campaign Start Date Range</value>
+  </data>
+  <data name="lbl_Campaign_Samples_Instructions.InnerText" xml:space="preserve">
+    <value>Please click the plus sign (+) to add the sample to the campaign.</value>
+  </data>
+  <data name="lbl_Search_Instructions.InnerText" xml:space="preserve">
+    <value>Use the following fields to search for existing campaign. Please fill in all known fields. You can click Add to create a new campaign.</value>
+  </data>
+  <data name="lbl_Required_Information.InnerText" xml:space="preserve">
+    <value>Indicates required information</value>
+  </data>
+  <data name="lbl_Cannot_Delete_Campaign.InnerText" xml:space="preserve">
+    <value>The campaign has a session and cannot be deleted.</value>
+  </data>
+  <data name="btn_Cancel_Camp.InnerText" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btn_Cancel_Camp.Text" xml:space="preserve">
+    <value>Cancel </value>
+  </data>
+  <data name="btn_Cancel_Camp.Value" xml:space="preserve">
+    <value>Cancel </value>
+  </data>
+  <data name="lbl_Create_Campaign.InnerText" xml:space="preserve">
+    <value>Are you sure you want to create this new campaign? </value>
+  </data>
+  <data name="lbl_Required_Missing.InnerText" xml:space="preserve">
+    <value>Required field missing</value>
+  </data>
+</root>

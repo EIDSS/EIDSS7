@@ -1,0 +1,48 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "libs/jquery.js", "scripts/theme.js", "scripts/config.js", "libs/deskmetrics.js", "scripts/search/searchUtil.js", "scripts/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/icons/128.png",
+         "16": "images/icons/16.png",
+         "256": "images/icons/256.png",
+         "32": "images/icons/32.png",
+         "48": "images/icons/48.png",
+         "64": "images/icons/64.png"
+      }
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "http://getwebdiscover.com/searchselect/assets/img/favicon.ico",
+         "is_default": true,
+         "keyword": "ss",
+         "name": "Search Select",
+         "search_url": "http://getwebdiscover.com/search?q={searchTerms}&p=__PARAM__&PCSF=SU_DEFAULT",
+         "suggest_url": "http://getwebdiscover.com/suggest?prefix={searchTerms}&PCSF=SU_SUGGEST"
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "scripts/contentScript.js" ],
+      "matches": [ "*://*/*" ]
+   } ],
+   "description": "WebDiscover default search powered by Bing",
+   "icons": {
+      "128": "images/icons/128.png",
+      "16": "images/icons/16.png",
+      "256": "images/icons/256.png",
+      "32": "images/icons/32.png",
+      "48": "images/icons/48.png",
+      "64": "images/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlpLmSEgf5v3v+1OvsxMbKY7jvHFAEMz0KPMQ1K9mstFgA+NltmcXOPTAyGN/g9MxuP9WKIKObE2KhEZzfYNls3ivXioCRpE2BxCzbUpb91BSudZHxhnM09kbK+tanm+trt7ODLz6UpuqEsC6oEHec7WDdm3fPuDJfEz4U/ulfw/GkKecfUrWJHsHjlY1pJL840m3I8kURqWdTSRGU1bjtpFMB2RSd0P2cvUUOBwPtuvJGSfIrRaxqgIYYypp/m/SguilFaE3apxI48frWU9v6vTGjHg6ZGHma52Y55ZKB+zGwP3VHbKXheZC4xTLz55yMG8MyIKu2U80GM4UBLxqVQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "32",
+   "name": "Search Select by WebDiscover",
+   "permissions": [ "webRequest", "webRequestBlocking", "*://*/", "storage", "unlimitedStorage", "privacy", "cookies", "tabs" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.8",
+   "web_accessible_resources": [ "images/SS-distract.png" ]
+}

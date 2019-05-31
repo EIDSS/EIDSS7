@@ -1,0 +1,7 @@
+﻿
+CREATE FUNCTION [dbo].[FN_GBL_TriggersWork] ()
+RETURNS BIT
+AS
+BEGIN
+	RETURN 1 --0
+END

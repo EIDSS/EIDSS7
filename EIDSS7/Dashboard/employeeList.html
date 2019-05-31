@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EIDSS 7.0 : Employee List</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading"><h4>EMPLOYEE LIST</h4></div>
+                <div class="panel-body">
+                    <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#searchModal"><span class="glyphicon glyphicon-search text-right-20" aria-hidden="true"></span> Search</button>
+                    <button type="button" class="btn btn-info btn-sm"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add Employee</button>
+                </div>
+                <!-- Table -->
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>ID#</th>
+                                <th>Organization</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><input type="checkbox" aria-label=""></td>
+                                <td>John</td>
+                                <td>Smith</td>
+                                <td>2109875</td>
+                                <td>MoLHSA</td>
+                                <td class="text-right"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span><span class="glyphicon glyphicon-trash text-left-20" aria-hidden="true"></span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label=""></td>
+                                <td>John</td>
+                                <td>Smith</td>
+                                <td>2109875</td>
+                                <td>MoLHSA</td>
+                                <td class="text-right"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span><span class="glyphicon glyphicon-trash text-left-20" aria-hidden="true"></span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label=""></td>
+                                <td>John</td>
+                                <td>Smith</td>
+                                <td>2109875</td>
+                                <td>MoLHSA</td>
+                                <td class="text-right"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span><span class="glyphicon glyphicon-trash text-left-20" aria-hidden="true"></span></td>
+                            </tr>
+                            <tr>
+                                <td><input type="checkbox" aria-label=""></td>
+                                <td>John</td>
+                                <td>Smith</td>
+                                <td>2109875</td>
+                                <td>MoLHSA</td>
+                                <td class="text-right"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span><span class="glyphicon glyphicon-trash text-left-20" aria-hidden="true"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <!-- Modal -->
+                <div id="searchModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title">Employee Search</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option>Position</option>
+                                            <option>Manager</option>
+                                            <option>Veterinarian</option>
+                                            <option>Project Lead</option>
+                                            <option>Developer</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputUser2">Last Name</label>
+                                        <input type="email" class="form-control" id="InputUser" placeholder="Last Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputUser2">First Name</label>
+                                        <input type="email" class="form-control" id="InputUser" placeholder="First Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputUser2">Middle Name</label>
+                                        <input type="email" class="form-control" id="InputUser" placeholder="Middle Name">
+                                    </div>
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option>Organization</option>
+                                            <option>MoLHSA</option>
+                                            <option>CDC</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="InputUser2">Unique Organization ID</label>
+                                        <input type="email" class="form-control" id="InputUser" placeholder="Unique Organization ID">
+                                    </div>
+                                    <hr>
+                                    <div class="text-center">
+                                        <button type="submit" class="btn btn-default">Search</button>
+                                    </div>
+                                </form>            <!-- END SEARCH FORM -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- / FOOTER -->
+            <!-- jQuery -->
+            <script src="js/jquery-3.2.1.js"></script>
+            <!-- js -->
+            <script src="js/bootstrap.js"></script>
+</body>
+</html>

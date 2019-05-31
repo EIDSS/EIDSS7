@@ -1,0 +1,14 @@
+CompanyName = Northrop Grumman Corporation
+ShortName = NGC
+Address = 2980 Fairview Park Drive
+Address2 = 
+City = Falls Church
+State = VA
+Zip = 22042
+Country =  USA
+Phone = (703) 280-2900
+Fax = 
+Email = info@ngc.com
+website = http://www.northropgrumman.com
+Slogan = Electronic Integrated Disease Surveillance System
+HomeURL = Dashboard.aspx

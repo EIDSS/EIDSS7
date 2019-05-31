@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Dis_Accession_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Case_Session_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Collected_By_Institution.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Collected_By_Office.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Collection_Date.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Destruction_Method.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Functional_Area.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Lab_Sample_ID.VIsible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Local_Field_SampleID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Notes.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Organization_Sent_To.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Original_Sample_ID.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Patient_Species_Vector_Info.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Status.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Sample_Type.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Storage_Location.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Dis_Tests_Count.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Accession_Date.InnerText" xml:space="preserve">
+    <value>Accession Date</value>
+  </data>
+  <data name="Lbl_Sample_Status_Comment.InnerText" xml:space="preserve">
+    <value>Sample Status Comment</value>
+  </data>
+  <data name="Lbl_Additional_Test_Details.InnerText" xml:space="preserve">
+    <value>Additional Test Details</value>
+  </data>
+  <data name="Lbl_Amendment_History.InnerText" xml:space="preserve">
+    <value>Amendment History</value>
+  </data>
+  <data name="Lbl_Case_Session_Type.InnerText" xml:space="preserve">
+    <value>Case Session Type</value>
+  </data>
+  <data name="Lbl_Collected_By_Institution.InnerText" xml:space="preserve">
+    <value>Collected By Institution</value>
+  </data>
+  <data name="Lbl_Collected_By_Officer.InnerText" xml:space="preserve">
+    <value>Collected By Officer</value>
+  </data>
+  <data name="Lbl_Collection_Date.InnerText" xml:space="preserve">
+    <value>Collection Date</value>
+  </data>
+  <data name="Lbl_Destruction_Method.InnerText" xml:space="preserve">
+    <value>Destruction Method</value>
+  </data>
+  <data name="Lbl_Functional_Area.InnerText" xml:space="preserve">
+    <value>Functional Area</value>
+  </data>
+  <data name="Lbl_Lab_Sample_ID.InnerText" xml:space="preserve">
+    <value>Lab Sample ID</value>
+  </data>
+  <data name="Lbl_Local_Field_Sample_ID.InnerText" xml:space="preserve">
+    <value>Local/Field Sample ID</value>
+  </data>
+  <data name="Lbl_Note.InnerText" xml:space="preserve">
+    <value>Note</value>
+  </data>
+  <data name="Lbl_Organization_Sent_To.InnerText" xml:space="preserve">
+    <value>Organization Sent To</value>
+  </data>
+  <data name="Lbl_Original_Sample_ID.InnerText" xml:space="preserve">
+    <value>Original Sample ID</value>
+  </data>
+  <data name="Lbl_Patient_Species_Vector_Info.InnerText" xml:space="preserve">
+    <value>Patient/Species/Vector Info</value>
+  </data>
+  <data name="Lbl_Report_Session_ID.InnerText" xml:space="preserve">
+    <value>Report/Session ID</value>
+  </data>
+  <data name="Lbl_Sample_Condition_Received.InnerText" xml:space="preserve">
+    <value>Sample Condition Received</value>
+  </data>
+  <data name="Lbl_Sample_Details.InnerText" xml:space="preserve">
+    <value>Sample Details</value>
+  </data>
+  <data name="Lbl_Sample_Status.InnerText" xml:space="preserve">
+    <value>Sample Status</value>
+  </data>
+  <data name="Lbl_Sample_Type.InnerText" xml:space="preserve">
+    <value>Sample Type</value>
+  </data>
+  <data name="Lbl_Storage_Location.InnerText" xml:space="preserve">
+    <value>Storage Location</value>
+  </data>
+  <data name="Lbl_Tests_Count.InnerText" xml:space="preserve">
+    <value>Tests Count</value>
+  </data>
+  <data name="Lbl_Test_Details.InnerText" xml:space="preserve">
+    <value>Test Details</value>
+  </data>
+  <data name="Req_Accession_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Case_Session_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Collected_By_Institution.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Collected_By_Office.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Collection_Date.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Destruction_Method.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Functional_Area.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Lab_Sample_ID.VIsible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Local_Field_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Notes.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Organization_Sent_To.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Original_Sample_ID.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Patient_Species_Vector_Info.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Status.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Type.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Storage_Location.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Tests_Count.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Accession_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Accession_Date.ErrorMessage" xml:space="preserve">
+    <value>Accession Date is required</value>
+  </data>
+  <data name="Val_Accession_Date.Text" xml:space="preserve">
+    <value>Accession Date is required</value>
+  </data>
+  <data name="Val_Case_Session_Type.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Case_Session_Type.ErrorMessage" xml:space="preserve">
+    <value>Case/Session Type is required</value>
+  </data>
+  <data name="Val_Case_Session_Type.Text" xml:space="preserve">
+    <value>Case/Session Type is required</value>
+  </data>
+  <data name="Val_Collected_By_Institution.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Collected_By_Institution.ErrorMessage" xml:space="preserve">
+    <value>Collected By Insitution is required</value>
+  </data>
+  <data name="Val_Collected_By_Institution.Text" xml:space="preserve">
+    <value>Collected By Institution is required</value>
+  </data>
+  <data name="Val_Collected_By_Office.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Collected_By_Office.ErrorMessage" xml:space="preserve">
+    <value>Collected By Office is required</value>
+  </data>
+  <data name="Val_Collected_By_Office.Text" xml:space="preserve">
+    <value>Collected By Office is required</value>
+  </data>
+  <data name="Val_Collection_Date.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Collection_Date.ErrorMessage" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Collection_Date.Text" xml:space="preserve">
+    <value>Collection Date is required</value>
+  </data>
+  <data name="Val_Destruction_Method.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Destruction_Method.ErrorMessage" xml:space="preserve">
+    <value>Destruction Method is required</value>
+  </data>
+  <data name="Val_Destruction_Method.Text" xml:space="preserve">
+    <value>Destruction Method is required</value>
+  </data>
+  <data name="Val_Functional_Area.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Functional_Area.ErrorMessage" xml:space="preserve">
+    <value>Functional Area is required</value>
+  </data>
+  <data name="Val_Functional_Area.Text" xml:space="preserve">
+    <value>Functional Area is required</value>
+  </data>
+  <data name="Val_Lab_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Lab_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Lab Sample ID is required</value>
+  </data>
+  <data name="Val_Lab_Sample_ID.Text" xml:space="preserve">
+    <value>Lab Sample ID is required</value>
+  </data>
+  <data name="Val_Local_Field_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Local_Field_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Local/Field Sample ID is required</value>
+  </data>
+  <data name="Val_Local_Field_Sample_ID.Text" xml:space="preserve">
+    <value>Local/Field Sample ID is required</value>
+  </data>
+  <data name="Val_Notes.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Notes.ErrorMessage" xml:space="preserve">
+    <value>Notes is required</value>
+  </data>
+  <data name="Val_Notes.Text" xml:space="preserve">
+    <value>Notes is required</value>
+  </data>
+  <data name="Val_Organization_Sent_To.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Organization_Sent_To.ErrorMessage" xml:space="preserve">
+    <value>Organization Sent To is required</value>
+  </data>
+  <data name="Val_Organization_Sent_To.Text" xml:space="preserve">
+    <value>Organization Sent To is required</value>
+  </data>
+  <data name="Val_Original_Sample_ID.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Original_Sample_ID.ErrorMessage" xml:space="preserve">
+    <value>Original Sample ID is required</value>
+  </data>
+  <data name="Val_Original_Sample_ID.Text" xml:space="preserve">
+    <value>Original Sample ID is required</value>
+  </data>
+  <data name="Val_Sample_Type.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Sample_Type.ErrorMessage" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Sample_Type.Text" xml:space="preserve">
+    <value>Sample Type is required</value>
+  </data>
+  <data name="Val_Storage_Location.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Storage_Location.ErrorMessage" xml:space="preserve">
+    <value>Storage Location is required</value>
+  </data>
+  <data name="Val_Storage_Location.Text" xml:space="preserve">
+    <value>Storage Location is required</value>
+  </data>
+  <data name="Val_Tests_Count.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Tests_Count.Text" xml:space="preserve">
+    <value>Tests Count is required</value>
+  </data>
+  <data name="Val_Test_Count.ErrorMessage" xml:space="preserve">
+    <value>Tests Count is required</value>
+  </data>
+  <data name="Dis_Accession_In_Comment.Visible" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Disease.InnerText" xml:space="preserve">
+    <value>Disease</value>
+  </data>
+  <data name="Lbl_Number_Of_Samples.InnerText" xml:space="preserve">
+    <value>Number of Samples</value>
+  </data>
+  <data name="Lbl_Reason_For_Deletion.InnerText" xml:space="preserve">
+    <value>Reason for Deletion</value>
+  </data>
+  <data name="Lbl_Report_Session_Type.InnerText" xml:space="preserve">
+    <value>Report/Session Type</value>
+  </data>
+  <data name="Req_Accession_In_Comment.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Req_Sample_Condition_Received.Visible" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Future_Accession_Date.Enabled" xml:space="preserve">
+    <value>True</value>
+  </data>
+  <data name="Val_Future_Accession_Date.ErrorMessage" xml:space="preserve">
+    <value>Accession Date must be earlier or equal to the current date</value>
+  </data>
+  <data name="Val_Future_Accession_Date.Text" xml:space="preserve">
+    <value>Accession Date must be earlier or equal to the current date</value>
+  </data>
+  <data name="Val_Sample_Condition_Received.Enabled" xml:space="preserve">
+    <value>False</value>
+  </data>
+  <data name="Val_Sample_Condition_Received.ErrorMessage" xml:space="preserve">
+    <value>Condition Received is required</value>
+  </data>
+  <data name="Val_Sample_Condition_Received.Text" xml:space="preserve">
+    <value>Condition Received is required</value>
+  </data>
+</root>
