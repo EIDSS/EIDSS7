@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Summary**
+__Summary__
 A clear and concise description of the issue.
 
 **To Reproduce**
