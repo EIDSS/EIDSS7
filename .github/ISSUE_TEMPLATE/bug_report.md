@@ -1,13 +1,13 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
+title: "[BUG]"
 labels: ''
 assignees: ''
 
 ---
 
-__Summary__
+**Summary**
 A clear and concise description of the issue.
 
 **To Reproduce**
