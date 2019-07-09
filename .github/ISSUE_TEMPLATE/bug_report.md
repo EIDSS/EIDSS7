@@ -1,8 +1,8 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: "[BUG]"
-labels: ''
+title: ''
+labels: bug
 assignees: ''
 
 ---
@@ -12,9 +12,9 @@ A clear and concise description of the issue.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Log in as ‘…’
-2. Go to '...'
-2. Click on '....'
+1. Log in as 
+2. Go to 
+3. Click on 
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
