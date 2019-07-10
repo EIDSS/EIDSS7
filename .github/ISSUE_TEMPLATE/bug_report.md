@@ -26,7 +26,7 @@ If applicable, add screenshots to help explain your problem.
  - Build:
  - Script title (enter ad hoc if not script-based):
 
-**Issue severity**
+**Issue severity (Optional)**
 Severity (critical, major, minor, low):
 
 **Additional context**
