@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug
+labels: Build 81.0, bug
 assignees: ''
 
 ---
