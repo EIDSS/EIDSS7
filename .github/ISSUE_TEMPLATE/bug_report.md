@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug, Build 83.3
+labels: ''
 assignees: ''
 
 ---
@@ -23,7 +23,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Additional details:**
- - Build: 83.3
+ - Build:
  - Script title (enter ad hoc if not script-based):
 
 **Issue severity (Optional)**
