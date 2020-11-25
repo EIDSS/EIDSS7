@@ -2,7 +2,7 @@
 name: Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug, Build 98.0
+labels: Build 98.0, bug
 assignees: ''
 
 ---
