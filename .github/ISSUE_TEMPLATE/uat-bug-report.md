@@ -12,9 +12,11 @@ A clear and concise description of the issue.
 
 **Details**
 Country: 
-Scenario (or enter ad hoc if ad hoc): 
+Scenario (or enter ad hoc if ad hoc):
+If ad hoc, Category (Function, customization, localization, migration, integration): 
 Username: 
 Build: 
+Severity (optional):
 
 **To Reproduce**
 Steps to reproduce the behavior (if in scripted testing, can refer to script step):
