@@ -2,7 +2,7 @@
 name: GAT Bug report
 about: Create a report to help us improve
 title: ''
-labels: bug
+labels: 264.2, bug
 assignees: ''
 
 ---
@@ -13,7 +13,6 @@ A clear and concise description of the issue.
 **Details**
 Script ID (or enter ad hoc if ad hoc):
 Username: 
-Build: 
 Severity (optional):
 
 **To Reproduce**
