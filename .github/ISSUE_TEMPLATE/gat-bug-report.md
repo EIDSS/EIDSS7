@@ -2,7 +2,7 @@
 name: GAT Bug report
 about: Create a report to help us improve
 title: ''
-labels: 265.9, bug
+labels: 266.3, bug
 assignees: ''
 
 ---
