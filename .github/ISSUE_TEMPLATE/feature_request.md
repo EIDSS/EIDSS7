@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea or change request for EIDSS 7
 title: "[EUR]"
-labels: bug, enhancement
+labels: 269.6, bug, enhancement
 assignees: jkkannan
 
 ---
