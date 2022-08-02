@@ -11,6 +11,7 @@ assignees: ''
 A clear and concise description of the issue.
 
 **Details**
+Environment: (GAT or External): 
 Script ID (or enter ad hoc if ad hoc):
 Username: 
 Severity (optional):
