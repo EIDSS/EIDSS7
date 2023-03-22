@@ -11,9 +11,9 @@ assignees: jkkannan
 A clear and concise description of the issue.
 
 **Details**
-Country: 
+Country: Georgia
 Scenario (or enter ad hoc if ad hoc):
-If ad hoc, Category (Function, customization, localization, migration, integration): 
+If ad hoc, Category (Function, customization, localization, migration, integration) (optional): 
 Username: 
 Build: 
 Severity (optional):
