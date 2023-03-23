@@ -12,8 +12,8 @@ A clear and concise description of the issue.
 
 **Details**
 Country: Georgia
-Scenario (or enter ad hoc if ad hoc):
-If ad hoc, Category (Function, customization, localization, migration, integration) (optional): 
+Scenario ID (or enter ad hoc if ad hoc):
+If ad hoc, Category (Function, customization, , migration, integration) (optional): 
 Username: 
 Build: 
 Severity (optional):
