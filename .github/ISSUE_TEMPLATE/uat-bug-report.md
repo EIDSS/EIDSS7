@@ -16,7 +16,7 @@ Scenario ID (or enter ad hoc if ad hoc):
 If ad hoc, Category (Function, customization, , migration, integration) (optional): 
 Username: 
 Build: 
-Severity (optional):
+Severity (MANDATORY): 
 
 **To Reproduce**
 Steps to reproduce the behavior (if in scripted testing, can refer to script step):
