@@ -1,0 +1,79 @@
+name: Bug report for UAT Resumption Plan
+description: Report a bug that you have found in EIDSS
+body:
+- type: input
+  id: country
+  attributes:
+    label: Country
+    value: "Georgia"
+  validations:
+    required: false
+- type: input
+  id: username
+  attributes:
+    label: Username
+  validations:
+    required: false
+- type: input
+  id: build
+  attributes:
+    label: Build number
+  validations:
+    required: false
+- type: dropdown
+  id: Language
+  attributes:
+    label: Language
+    options:
+      - Georgian
+      - English
+  validations:
+     required: false
+- type: dropdown
+  id: Severity
+  attributes:
+    label: Severity (MANDATORY)
+    options:
+      - 4 - Low
+      - 3 - Medium
+      - 2 - High
+      - 1 - Critical
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: |
+      Low - The defect is not related to the functionality of the system but affects the convenience of system usage. 
+      Medium - The defect points out to the incorrect work of some functionality of the system, and is mostly related to the cases when function is working but working incorrectly. 
+      High - The defect blocks the execution of the functionality partially, but there is an alternative way to use it or a workaround.  
+      Critical - The defect blocks the execution of the functionality   and there is no workaround to deal with the issue. Data loss can be considered as a critical defect too.
+- type: dropdown
+  id: Module
+  attributes:
+    label: Module
+    options:
+      - Human
+      - Veterinary
+      - Laboratory
+      - Outbreak 
+      - Vector
+      - Admin
+      - Translations
+      - Custom Reporting
+      - Paper Forms   
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Description of the steps to reproduce
+    description:
+      How do you get this bug? Please walk us through it step by step. Please also add screenshots, this will help us to better understand where the issue appears. 
+     
+      Tip! You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    value:
+      1. Go to
+      2. Click on
+      3.
+      ...
+  validations:
+    required: false
