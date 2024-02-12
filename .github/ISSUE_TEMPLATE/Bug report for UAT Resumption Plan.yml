@@ -1,5 +1,6 @@
 name: Bug report for UAT Resumption Plan
 description: Report a bug that you have found in EIDSS
+assignees: herashchenkoa
 body:
 - type: input
   id: country
